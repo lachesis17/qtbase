@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QRasterWindow",
+            "object": true,
+            "qualifiedClassName": "QRasterWindow",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPaintDeviceWindow"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qrasterwindow.h",
+    "outputRevision": 68
+}

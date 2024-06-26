@@ -1,0 +1,68 @@
+{
+    "classes": [
+        {
+            "className": "QBooleanComboBox",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "value",
+                    "read": "value",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": true,
+                    "write": "setValue"
+                }
+            ],
+            "qualifiedClassName": "QBooleanComboBox",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QComboBox"
+                }
+            ]
+        },
+        {
+            "className": "QUIntSpinBox",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "value",
+                    "notify": "uintValueChanged",
+                    "read": "uintValue",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "uint",
+                    "user": true,
+                    "write": "setUIntValue"
+                }
+            ],
+            "qualifiedClassName": "QUIntSpinBox",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "uintValueChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QSpinBox"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qitemeditorfactory.cpp",
+    "outputRevision": 68
+}

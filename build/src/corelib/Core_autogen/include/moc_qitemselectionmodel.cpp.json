@@ -1,0 +1,407 @@
+{
+    "classes": [
+        {
+            "className": "QItemSelectionModel",
+            "enums": [
+                {
+                    "alias": "SelectionFlag",
+                    "isClass": false,
+                    "isFlag": true,
+                    "name": "SelectionFlags",
+                    "values": [
+                        "NoUpdate",
+                        "Clear",
+                        "Select",
+                        "Deselect",
+                        "Toggle",
+                        "Current",
+                        "Rows",
+                        "Columns",
+                        "SelectCurrent",
+                        "ToggleCurrent",
+                        "ClearAndSelect"
+                    ]
+                }
+            ],
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "isSelected",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        },
+                        {
+                            "name": "parent",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "isRowSelected",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        }
+                    ],
+                    "isCloned": true,
+                    "name": "isRowSelected",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "column",
+                            "type": "int"
+                        },
+                        {
+                            "name": "parent",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "isColumnSelected",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "column",
+                            "type": "int"
+                        }
+                    ],
+                    "isCloned": true,
+                    "name": "isColumnSelected",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        },
+                        {
+                            "name": "parent",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "rowIntersectsSelection",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        }
+                    ],
+                    "isCloned": true,
+                    "name": "rowIntersectsSelection",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "column",
+                            "type": "int"
+                        },
+                        {
+                            "name": "parent",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "columnIntersectsSelection",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "column",
+                            "type": "int"
+                        }
+                    ],
+                    "isCloned": true,
+                    "name": "columnIntersectsSelection",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "column",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "selectedRows",
+                    "returnType": "QModelIndexList"
+                },
+                {
+                    "access": "public",
+                    "isCloned": true,
+                    "name": "selectedRows",
+                    "returnType": "QModelIndexList"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "selectedColumns",
+                    "returnType": "QModelIndexList"
+                },
+                {
+                    "access": "public",
+                    "isCloned": true,
+                    "name": "selectedColumns",
+                    "returnType": "QModelIndexList"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "bindable": "bindableModel",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "model",
+                    "notify": "modelChanged",
+                    "read": "model",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QAbstractItemModel*",
+                    "user": false,
+                    "write": "setModel"
+                },
+                {
+                    "constant": false,
+                    "designable": false,
+                    "final": false,
+                    "index": 1,
+                    "name": "hasSelection",
+                    "notify": "selectionChanged",
+                    "read": "hasSelection",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": false,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": false,
+                    "final": false,
+                    "index": 2,
+                    "name": "currentIndex",
+                    "notify": "currentChanged",
+                    "read": "currentIndex",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": false,
+                    "type": "QModelIndex",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": false,
+                    "final": false,
+                    "index": 3,
+                    "name": "selection",
+                    "notify": "selectionChanged",
+                    "read": "selection",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": false,
+                    "type": "QItemSelection",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": false,
+                    "final": false,
+                    "index": 4,
+                    "name": "selectedIndexes",
+                    "notify": "selectionChanged",
+                    "read": "selectedIndexes",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": false,
+                    "type": "QModelIndexList",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "QItemSelectionModel",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "selected",
+                            "type": "QItemSelection"
+                        },
+                        {
+                            "name": "deselected",
+                            "type": "QItemSelection"
+                        }
+                    ],
+                    "name": "selectionChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "current",
+                            "type": "QModelIndex"
+                        },
+                        {
+                            "name": "previous",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "currentChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "current",
+                            "type": "QModelIndex"
+                        },
+                        {
+                            "name": "previous",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "currentRowChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "current",
+                            "type": "QModelIndex"
+                        },
+                        {
+                            "name": "previous",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "currentColumnChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "model",
+                            "type": "QAbstractItemModel*"
+                        }
+                    ],
+                    "name": "modelChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        },
+                        {
+                            "name": "command",
+                            "type": "QItemSelectionModel::SelectionFlags"
+                        }
+                    ],
+                    "name": "setCurrentIndex",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        },
+                        {
+                            "name": "command",
+                            "type": "QItemSelectionModel::SelectionFlags"
+                        }
+                    ],
+                    "name": "select",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "selection",
+                            "type": "QItemSelection"
+                        },
+                        {
+                            "name": "command",
+                            "type": "QItemSelectionModel::SelectionFlags"
+                        }
+                    ],
+                    "name": "select",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "clear",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "reset",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "clearSelection",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "clearCurrentIndex",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qitemselectionmodel.h",
+    "outputRevision": 68
+}

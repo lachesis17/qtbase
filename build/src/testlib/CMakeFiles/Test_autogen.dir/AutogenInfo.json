@@ -1,0 +1,482 @@
+{
+	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
+	"BUILD_DIR" : "C:/Qt/qtbase-6.8/build/src/testlib/Test_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Qt/qtbase-6.8/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Qt/qtbase-6.8/build/src/testlib",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Qt/qtbase-6.8/src/testlib",
+	"CMAKE_EXECUTABLE" : "C:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"C:/Qt/qtbase-6.8/src/testlib/CMakeLists.txt",
+		"C:/Qt/qtbase-6.8/src/testlib/selfcover.cmake",
+		"C:/Qt/qtbase-6.8/cmake/modulecppexports.h.in",
+		"C:/Qt/qtbase-6.8/src/testlib/configure.cmake",
+		"C:/Qt/qtbase-6.8/cmake/QtModuleConfig.cmake.in",
+		"C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in",
+		"C:/Qt/qtbase-6.8/cmake/QtCMakePackageVersionFile.cmake.in",
+		"C:/Qt/qtbase-6.8/cmake/QtVersionlessTargets.cmake.in",
+		"C:/Qt/qtbase-6.8/cmake/QtVersionlessAliasTargets.cmake.in",
+		"C:/Qt/qtbase-6.8/cmake/ModuleDescription.json.in",
+		"C:/Qt/qtbase-6.8/cmake/QtFileConfigure.txt.in",
+		"C:/Qt/qtbase-6.8/cmake/QtFileConfigure.txt.in",
+		"C:/Qt/qtbase-6.8/cmake/QtFileConfigure.txt.in"
+	],
+	"CMAKE_SOURCE_DIR" : "C:/Qt/qtbase-6.8",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "C:/Qt/qtbase-6.8/build/src/testlib/Test_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "Test_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"C:/Qt/qtbase-6.8/build/include/QtTest/qttestexports.h",
+			"Mu",
+			"EI6ZPFCLOK/moc_qttestexports.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/3rdparty/cycle_p.h",
+			"Mu",
+			"WWFCTI4UCT/moc_cycle_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qabstractitemmodeltester.h",
+			"Mu",
+			"EWIEGA46WW/moc_qabstractitemmodeltester.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qabstracttestlogger_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qabstracttestlogger_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qbenchmark.h",
+			"Mu",
+			"EWIEGA46WW/moc_qbenchmark.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qbenchmark_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qbenchmark_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qbenchmarkevent_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qbenchmarkevent_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qbenchmarkmeasurement_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qbenchmarkmeasurement_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qbenchmarkmetric.h",
+			"Mu",
+			"EWIEGA46WW/moc_qbenchmarkmetric.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qbenchmarkmetric_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qbenchmarkmetric_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qbenchmarkperfevents_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qbenchmarkperfevents_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qbenchmarktimemeasurers_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qbenchmarktimemeasurers_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qcomparisontesthelper_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qcomparisontesthelper_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qcsvbenchmarklogger_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qcsvbenchmarklogger_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qemulationdetector_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qemulationdetector_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qjunittestlogger_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qjunittestlogger_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qplaintestlogger_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qplaintestlogger_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qpropertytesthelper_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qpropertytesthelper_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qsignaldumper_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qsignaldumper_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qsignalspy.h",
+			"Mu",
+			"EWIEGA46WW/moc_qsignalspy.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qtaptestlogger_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtaptestlogger_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qteamcitylogger_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qteamcitylogger_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qtest.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtest.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qtest_gui.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtest_gui.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qtest_network.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtest_network.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qtest_widgets.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtest_widgets.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qtestaccessible.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtestaccessible.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qtestassert.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtestassert.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qtestblacklist_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtestblacklist_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qtestcase.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtestcase.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qtestcase_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtestcase_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qtestcoreelement_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtestcoreelement_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qtestcrashhandler_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtestcrashhandler_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qtestdata.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtestdata.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qtestelement_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtestelement_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qtestelementattribute_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtestelementattribute_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qtestevent.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtestevent.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qtesteventloop.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtesteventloop.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qtesthelpers_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtesthelpers_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qtestjunitstreamer_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtestjunitstreamer_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qtestkeyboard.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtestkeyboard.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qtestlog_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtestlog_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qtestmouse.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtestmouse.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qtestresult_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtestresult_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qtestspontaneevent.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtestspontaneevent.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qtestsystem.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtestsystem.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qtesttable_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtesttable_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qtesttostring.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtesttostring.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qtesttouch.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtesttouch.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qtestwheel.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtestwheel.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qttestglobal.h",
+			"Mu",
+			"EWIEGA46WW/moc_qttestglobal.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qxmltestlogger_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qxmltestlogger_p.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "C:/Qt/qtbase-6.8/build/src/testlib/Test_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Qt/qtbase-6.8/build/src/testlib/Test_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"MINGW_HAS_SECURE_API=1",
+		"NOMINMAX",
+		"QT_ASCII_CAST_WARNINGS",
+		"QT_BUILDING_QT",
+		"QT_BUILD_TESTLIB_LIB",
+		"QT_CORE_LIB",
+		"QT_DEPRECATED_WARNINGS",
+		"QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH",
+		"QT_LEAN_HEADERS=1",
+		"QT_MOC_COMPAT",
+		"QT_NO_CAST_FROM_ASCII",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_CONTEXTLESS_CONNECT",
+		"QT_NO_DATASTREAM",
+		"QT_NO_DEBUG",
+		"QT_NO_FOREACH",
+		"QT_NO_JAVA_STYLE_ITERATORS",
+		"QT_NO_MESSAGELOGCONTEXT",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_QASCONST",
+		"QT_NO_QEXCHANGE",
+		"QT_USE_NODISCARD_FILE_OPEN",
+		"QT_USE_QSTRINGBUILDER",
+		"UNICODE",
+		"WIN32",
+		"WIN64",
+		"WINVER=0x0A00",
+		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
+		"_GLIBCXX_ASSERTIONS",
+		"_UNICODE",
+		"_USE_MATH_DEFINES",
+		"_WIN32_WINNT=0x0A00",
+		"_WIN64"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"C:/Qt/qtbase-6.8/build/include",
+		"C:/Qt/qtbase-6.8/build/include/QtTest",
+		"C:/Qt/qtbase-6.8/src/testlib",
+		"C:/Qt/qtbase-6.8/build/src/testlib",
+		"C:/Qt/qtbase-6.8/build/include/QtTest/6.8.0",
+		"C:/Qt/qtbase-6.8/build/include/QtTest/6.8.0/QtTest",
+		"C:/Qt/qtbase-6.8/build/include/QtCore",
+		"C:/Qt/qtbase-6.8/mkspecs/win32-g++",
+		"C:/Qt/qtbase-6.8/build/src/corelib",
+		"C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0",
+		"C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0/QtCore",
+		"C:/msys64/mingw64/include/c++/13.2.0",
+		"C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32",
+		"C:/msys64/mingw64/include/c++/13.2.0/backward",
+		"C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include",
+		"C:/msys64/mingw64/include",
+		"C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_ENUM_NS",
+		"Q_GADGET_EXPORT"
+	],
+	"MOC_OPTIONS" : [ "--output-json" ],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"C:/msys64/mingw64/bin/g++.exe",
+		"-std=c++17",
+		"-dM",
+		"-E",
+		"-c",
+		"C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "C:/Qt/qtbase-6.8/build/src/testlib/Test_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"C:/Qt/qtbase-6.8/build/src/testlib/qttestlib-config.h",
+		"C:/Qt/qtbase-6.8/build/src/testlib/qttestlib-config_p.h"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "C:/Qt/qtbase-6.8/build/src/testlib/CMakeFiles/Test_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "C:/Qt/qtbase-6.8/build/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 8,
+	"SETTINGS_FILE" : "C:/Qt/qtbase-6.8/build/src/testlib/CMakeFiles/Test_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"C:/Qt/qtbase-6.8/src/testlib/qabstractitemmodeltester.cpp",
+			"Mu",
+			null
+		],
+		[ "C:/Qt/qtbase-6.8/src/testlib/qabstracttestlogger.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/testlib/qasciikey.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/testlib/qbenchmark.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/testlib/qbenchmarkevent.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/testlib/qbenchmarkmeasurement.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/testlib/qbenchmarkmetric.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/testlib/qbenchmarkperfevents.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/testlib/qcomparisontesthelper.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/testlib/qcsvbenchmarklogger.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/testlib/qjunittestlogger.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/testlib/qplaintestlogger.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/testlib/qsignaldumper.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/testlib/qsignalspy.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/testlib/qtaptestlogger.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/testlib/qteamcitylogger.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/testlib/qtestblacklist.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/testlib/qtestcase.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/testlib/qtestcrashhandler.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/testlib/qtestdata.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/testlib/qtestelement.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/testlib/qtestelementattribute.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/testlib/qtestjunitstreamer.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/testlib/qtestlog.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/testlib/qtestmouse.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/testlib/qtestresult.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/testlib/qtesttable.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/testlib/qxmltestlogger.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/testlib/removed_api.cpp", "Mu", null ]
+	],
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

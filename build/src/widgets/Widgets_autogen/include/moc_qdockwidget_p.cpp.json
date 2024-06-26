@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QDockWidgetLayout",
+            "object": true,
+            "qualifiedClassName": "QDockWidgetLayout",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QLayout"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdockwidget_p.h",
+    "outputRevision": 68
+}

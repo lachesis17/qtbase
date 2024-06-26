@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QNetworkInformationDummyBackend",
+            "object": true,
+            "qualifiedClassName": "QNetworkInformationDummyBackend",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QNetworkInformationBackend"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qnetworkinformation.cpp",
+    "outputRevision": 68
+}

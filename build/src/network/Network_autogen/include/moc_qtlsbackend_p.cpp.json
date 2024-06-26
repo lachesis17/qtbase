@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QTlsBackend",
+            "object": true,
+            "qualifiedClassName": "QTlsBackend",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtlsbackend_p.h",
+    "outputRevision": 68
+}

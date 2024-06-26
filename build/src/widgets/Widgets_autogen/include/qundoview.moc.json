@@ -1,0 +1,57 @@
+{
+    "classes": [
+        {
+            "className": "QUndoModel",
+            "object": true,
+            "qualifiedClassName": "QUndoModel",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "stack",
+                            "type": "QUndoStack*"
+                        }
+                    ],
+                    "name": "setStack",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "stackChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "obj",
+                            "type": "QObject*"
+                        }
+                    ],
+                    "name": "stackDestroyed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "setStackCurrentIndex",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractItemModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qundoview.cpp",
+    "outputRevision": 68
+}

@@ -1,0 +1,29 @@
+{
+    "classes": [
+        {
+            "className": "QNetworkAccessCache",
+            "object": true,
+            "qualifiedClassName": "QNetworkAccessCache",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QNetworkAccessCache::CacheableObject*"
+                        }
+                    ],
+                    "name": "entryReady",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qnetworkaccesscache_p.h",
+    "outputRevision": 68
+}

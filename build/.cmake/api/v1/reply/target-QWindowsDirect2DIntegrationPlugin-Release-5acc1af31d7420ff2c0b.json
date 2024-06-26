@@ -1,0 +1,2515 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "plugins/platforms/libqdirect2d.a"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_qt_internal_add_library",
+			"qt6_add_plugin",
+			"qt_internal_add_plugin",
+			"install",
+			"qt_install",
+			"target_link_libraries",
+			"qt_internal_extend_target",
+			"add_dependencies",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"qt_internal_add_linker_version_script",
+			"add_compile_options",
+			"include",
+			"qt_internal_set_compiler_warning_flags",
+			"qt_internal_setup_build_and_global_variables",
+			"qt_build_internals_set_up_private_api",
+			"qt_build_repo_begin",
+			"target_compile_options",
+			"qt_internal_set_exceptions_flags",
+			"target_compile_definitions",
+			"qt_internal_add_repo_local_defines",
+			"target_include_directories",
+			"set_property",
+			"qt_update_precompiled_header",
+			"qt_update_precompiled_header_with_library",
+			"target_sources",
+			"__qt_propagate_generated_resource",
+			"_qt_internal_process_resource",
+			"qt_internal_add_resource",
+			"_qt_internal_expose_deferred_files_to_ide",
+			"qt6_finalize_target",
+			"qt6_extract_metatypes",
+			"qt_generate_prl_file",
+			"qt_finalize_plugin"
+		],
+		"files" : 
+		[
+			"src/corelib/Qt6CoreMacros.cmake",
+			"cmake/QtPluginHelpers.cmake",
+			"src/plugins/platforms/direct2d/CMakeLists.txt",
+			"cmake/QtInstallHelpers.cmake",
+			"cmake/QtTargetHelpers.cmake",
+			"cmake/QtSyncQtHelpers.cmake",
+			"cmake/QtModuleHelpers.cmake",
+			"cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"src/corelib/CMakeLists.txt",
+			"src/gui/CMakeLists.txt",
+			"cmake/QtFlagHandlingHelpers.cmake",
+			"cmake/QtCompilerFlags.cmake",
+			"cmake/QtBuildHelpers.cmake",
+			"cmake/QtBuild.cmake",
+			"cmake/QtSetup.cmake",
+			"cmake/QtBuildRepoHelpers.cmake",
+			"CMakeLists.txt",
+			"cmake/QtPrecompiledHeadersHelpers.cmake",
+			"cmake/QtResourceHelpers.cmake",
+			"src/corelib/Qt6CoreMacros.cmake:2617:EVAL",
+			"cmake/QtPrlHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 94,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2526,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2736,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 390,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 5
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 286,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 180,
+				"parent" : 7
+			},
+			{
+				"file" : 8
+			},
+			{
+				"file" : 8,
+				"line" : -1,
+				"parent" : 9
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 10
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1000,
+				"parent" : 11
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 12
+			},
+			{
+				"file" : 9
+			},
+			{
+				"file" : 9,
+				"line" : -1,
+				"parent" : 14
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 15
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1000,
+				"parent" : 16
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 17
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 415,
+				"parent" : 1
+			},
+			{
+				"command" : 8,
+				"file" : 10,
+				"line" : 136,
+				"parent" : 19
+			},
+			{
+				"file" : 16
+			},
+			{
+				"command" : 17,
+				"file" : 16,
+				"line" : 143,
+				"parent" : 21
+			},
+			{
+				"command" : 16,
+				"file" : 15,
+				"line" : 180,
+				"parent" : 22
+			},
+			{
+				"command" : 13,
+				"file" : 15,
+				"line" : 22,
+				"parent" : 23
+			},
+			{
+				"file" : 14,
+				"parent" : 24
+			},
+			{
+				"command" : 13,
+				"file" : 14,
+				"line" : 6,
+				"parent" : 25
+			},
+			{
+				"file" : 13,
+				"parent" : 26
+			},
+			{
+				"command" : 15,
+				"file" : 13,
+				"line" : 4,
+				"parent" : 27
+			},
+			{
+				"command" : 14,
+				"file" : 12,
+				"line" : 451,
+				"parent" : 28
+			},
+			{
+				"command" : 13,
+				"file" : 12,
+				"line" : 79,
+				"parent" : 29
+			},
+			{
+				"file" : 11,
+				"parent" : 30
+			},
+			{
+				"command" : 12,
+				"file" : 11,
+				"line" : 39,
+				"parent" : 31
+			},
+			{
+				"command" : 19,
+				"file" : 1,
+				"line" : 322,
+				"parent" : 1
+			},
+			{
+				"command" : 18,
+				"file" : 10,
+				"line" : 288,
+				"parent" : 33
+			},
+			{
+				"command" : 20,
+				"file" : 0,
+				"line" : 2593,
+				"parent" : 2
+			},
+			{
+				"command" : 21,
+				"file" : 1,
+				"line" : 320,
+				"parent" : 1
+			},
+			{
+				"command" : 20,
+				"file" : 4,
+				"line" : 1529,
+				"parent" : 36
+			},
+			{
+				"command" : 20,
+				"file" : 4,
+				"line" : 177,
+				"parent" : 7
+			},
+			{
+				"command" : 20,
+				"file" : 10,
+				"line" : 287,
+				"parent" : 33
+			},
+			{
+				"command" : 20,
+				"file" : 0,
+				"line" : 2531,
+				"parent" : 2
+			},
+			{
+				"command" : 22,
+				"file" : 4,
+				"line" : 172,
+				"parent" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 0
+			},
+			{
+				"command" : 22,
+				"file" : 4,
+				"line" : 172,
+				"parent" : 42
+			},
+			{
+				"command" : 25,
+				"file" : 4,
+				"line" : 118,
+				"parent" : 7
+			},
+			{
+				"command" : 24,
+				"file" : 17,
+				"line" : 15,
+				"parent" : 44
+			},
+			{
+				"command" : 23,
+				"file" : 17,
+				"line" : 6,
+				"parent" : 45
+			},
+			{
+				"command" : 25,
+				"file" : 4,
+				"line" : 118,
+				"parent" : 7
+			},
+			{
+				"command" : 24,
+				"file" : 17,
+				"line" : 15,
+				"parent" : 47
+			},
+			{
+				"command" : 23,
+				"file" : 17,
+				"line" : 6,
+				"parent" : 48
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 7
+			},
+			{
+				"command" : 29,
+				"file" : 2,
+				"line" : 92,
+				"parent" : 0
+			},
+			{
+				"command" : 28,
+				"file" : 18,
+				"line" : 30,
+				"parent" : 51
+			},
+			{
+				"command" : 27,
+				"file" : 0,
+				"line" : 2465,
+				"parent" : 52
+			},
+			{
+				"command" : 26,
+				"file" : 0,
+				"line" : 2079,
+				"parent" : 53
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 114,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 55
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 120,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 57
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 130,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 59
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 135,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 61
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 42
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 147,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 64
+			},
+			{
+				"command" : 29,
+				"file" : 2,
+				"line" : 178,
+				"parent" : 0
+			},
+			{
+				"command" : 28,
+				"file" : 18,
+				"line" : 30,
+				"parent" : 66
+			},
+			{
+				"command" : 27,
+				"file" : 0,
+				"line" : 2465,
+				"parent" : 67
+			},
+			{
+				"command" : 26,
+				"file" : 0,
+				"line" : 2079,
+				"parent" : 68
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 188,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 70
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 31,
+				"file" : 19,
+				"line" : 1,
+				"parent" : 72
+			},
+			{
+				"command" : 30,
+				"file" : 0,
+				"line" : 823,
+				"parent" : 73
+			},
+			{
+				"command" : 26,
+				"file" : 0,
+				"line" : 2192,
+				"parent" : 74
+			},
+			{
+				"command" : 32,
+				"file" : 0,
+				"line" : 853,
+				"parent" : 73
+			},
+			{
+				"command" : 26,
+				"file" : 0,
+				"line" : 1490,
+				"parent" : 76
+			},
+			{
+				"command" : 34,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 72
+			},
+			{
+				"command" : 33,
+				"file" : 1,
+				"line" : 468,
+				"parent" : 78
+			},
+			{
+				"command" : 26,
+				"file" : 20,
+				"line" : 205,
+				"parent" : 79
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport"
+				},
+				{
+					"backtrace" : 32,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 32,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 34,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wa,-mbig-obj"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-ftrivial-auto-var-init=pattern"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fstack-clash-protection"
+				},
+				{
+					"fragment" : "-Winvalid-pch -x c++-header -include C:/Qt/qtbase-6.8/build/src/plugins/platforms/direct2d/CMakeFiles/QWindowsDirect2DIntegrationPlugin.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "MINGW_HAS_SECURE_API=1"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_CAST_FROM_ASCII"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 39,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_QASCONST"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_PLUGIN"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_STATICPLUGIN"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "WINVER=0x0A00"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_WIN32_WINNT=0x0A00"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "C:/Qt/qtbase-6.8/build/src/plugins/platforms/direct2d/QWindowsDirect2DIntegrationPlugin_autogen/include"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "C:/Qt/qtbase-6.8/src/plugins/platforms/direct2d"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "C:/Qt/qtbase-6.8/build/src/plugins/platforms/direct2d"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "C:/Qt/qtbase-6.8/build/include"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "C:/Qt/qtbase-6.8/src/plugins/platforms/direct2d/../windows"
+				},
+				{
+					"backtrace" : 43,
+					"path" : "C:/Qt/qtbase-6.8/src/3rdparty/wintab"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0/QtCore"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/src/gui"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui/6.8.0"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui/6.8.0/QtGui"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					8
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 46,
+					"header" : "C:/Qt/qtbase-6.8/build/include/QtCore/QtCore"
+				},
+				{
+					"backtrace" : 49,
+					"header" : "C:/Qt/qtbase-6.8/build/include/QtGui/QtGui"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport"
+				},
+				{
+					"backtrace" : 32,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 32,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 34,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wa,-mbig-obj"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-ftrivial-auto-var-init=pattern"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fstack-clash-protection"
+				},
+				{
+					"fragment" : "-Winvalid-pch -include C:/Qt/qtbase-6.8/build/src/plugins/platforms/direct2d/CMakeFiles/QWindowsDirect2DIntegrationPlugin.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "MINGW_HAS_SECURE_API=1"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_CAST_FROM_ASCII"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 39,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_QASCONST"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_PLUGIN"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_STATICPLUGIN"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "WINVER=0x0A00"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_WIN32_WINNT=0x0A00"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "C:/Qt/qtbase-6.8/build/src/plugins/platforms/direct2d/QWindowsDirect2DIntegrationPlugin_autogen/include"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "C:/Qt/qtbase-6.8/src/plugins/platforms/direct2d"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "C:/Qt/qtbase-6.8/build/src/plugins/platforms/direct2d"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "C:/Qt/qtbase-6.8/build/include"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "C:/Qt/qtbase-6.8/src/plugins/platforms/direct2d/../windows"
+				},
+				{
+					"backtrace" : 43,
+					"path" : "C:/Qt/qtbase-6.8/src/3rdparty/wintab"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0/QtCore"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/src/gui"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui/6.8.0"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui/6.8.0/QtGui"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					8
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 46,
+					"header" : "C:/Qt/qtbase-6.8/build/include/QtCore/QtCore"
+				},
+				{
+					"backtrace" : 49,
+					"header" : "C:/Qt/qtbase-6.8/build/include/QtGui/QtGui"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				5,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				23,
+				25,
+				27,
+				29,
+				31,
+				33,
+				37,
+				39,
+				41,
+				44,
+				46,
+				48,
+				50,
+				52,
+				55,
+				57,
+				59,
+				61,
+				63,
+				65,
+				66,
+				69,
+				72,
+				74,
+				76,
+				78,
+				80,
+				83,
+				85,
+				87,
+				89,
+				91,
+				93,
+				95,
+				97,
+				99,
+				101,
+				103,
+				105,
+				107,
+				109,
+				111,
+				113,
+				115,
+				117,
+				119,
+				121
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport"
+				},
+				{
+					"backtrace" : 32,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 32,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 34,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wa,-mbig-obj"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-ftrivial-auto-var-init=pattern"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fstack-clash-protection"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "MINGW_HAS_SECURE_API=1"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_CAST_FROM_ASCII"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 39,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_QASCONST"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_PLUGIN"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_STATICPLUGIN"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "WINVER=0x0A00"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_WIN32_WINNT=0x0A00"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "C:/Qt/qtbase-6.8/build/src/plugins/platforms/direct2d/QWindowsDirect2DIntegrationPlugin_autogen/include"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "C:/Qt/qtbase-6.8/src/plugins/platforms/direct2d"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "C:/Qt/qtbase-6.8/build/src/plugins/platforms/direct2d"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "C:/Qt/qtbase-6.8/build/include"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "C:/Qt/qtbase-6.8/src/plugins/platforms/direct2d/../windows"
+				},
+				{
+					"backtrace" : 43,
+					"path" : "C:/Qt/qtbase-6.8/src/3rdparty/wintab"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0/QtCore"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/src/gui"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui/6.8.0"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui/6.8.0/QtGui"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					8
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 46,
+					"header" : "C:/Qt/qtbase-6.8/build/include/QtCore/QtCore"
+				},
+				{
+					"backtrace" : 49,
+					"header" : "C:/Qt/qtbase-6.8/build/include/QtGui/QtGui"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				35,
+				68,
+				82
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		},
+		{
+			"id" : "rcc::@43976444945f368aca17"
+		},
+		{
+			"id" : "cmake_automoc_parser::@9df279ca5a40d551589d"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "ZlibPrivate::@fab9159b69e9a33b7bcd"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "BundledPcre2::@662af84d20aaf7d84676"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "BundledZLIB::@fab9159b69e9a33b7bcd"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "Core::@e8138540d8b2daa0b357"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "BundledLibpng::@f0d8789028037e8800e8"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "Core_sync_headers::@e8138540d8b2daa0b357"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "BundledHarfbuzz::@0b15749e035ccedaa8cf"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "BundledFreetype::@17c7c8edb7eca99300c5"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "Gui::@7675e61a69a6135e3026"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "Gui_sync_headers::@7675e61a69a6135e3026"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "Gui_resources_2::@7675e61a69a6135e3026"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "Gui_resources_1::@7675e61a69a6135e3026"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "QWindowsDirect2DIntegrationPlugin_version_script::@c7c26e17e5629e502a58"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QWindowsDirect2DIntegrationPlugin_autogen::@c7c26e17e5629e502a58"
+		},
+		{
+			"id" : "QWindowsDirect2DIntegrationPlugin_autogen_timestamp_deps::@c7c26e17e5629e502a58"
+		}
+	],
+	"id" : "QWindowsDirect2DIntegrationPlugin::@c7c26e17e5629e502a58",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 6,
+				"path" : "plugins/platforms"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Qt/Qt-6.8.0"
+		}
+	},
+	"name" : "QWindowsDirect2DIntegrationPlugin",
+	"nameOnDisk" : "libqdirect2d.a",
+	"paths" : 
+	{
+		"build" : "src/plugins/platforms/direct2d",
+		"source" : "src/plugins/platforms/direct2d"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				5,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				23,
+				25,
+				27,
+				29,
+				31,
+				33,
+				35,
+				37,
+				39,
+				41,
+				44,
+				46,
+				48,
+				50,
+				52,
+				55,
+				57,
+				59,
+				61,
+				63,
+				65,
+				66,
+				68,
+				69,
+				72,
+				74,
+				76,
+				78,
+				80,
+				82,
+				83,
+				85,
+				87,
+				89,
+				91,
+				93,
+				95,
+				97,
+				99,
+				101,
+				103,
+				105,
+				107,
+				109,
+				111,
+				113,
+				115,
+				117,
+				119,
+				121
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34,
+				36,
+				38,
+				40,
+				42,
+				43,
+				45,
+				47,
+				49,
+				51,
+				53,
+				54,
+				56,
+				58,
+				60,
+				62,
+				64,
+				67,
+				70,
+				71,
+				73,
+				75,
+				77,
+				79,
+				81,
+				84,
+				86,
+				88,
+				90,
+				92,
+				94,
+				96,
+				98,
+				100,
+				102,
+				104,
+				106,
+				108,
+				110,
+				112,
+				114,
+				116,
+				118,
+				120,
+				122
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				123,
+				124,
+				125,
+				147,
+				148,
+				149
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				150
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				151,
+				152,
+				153,
+				154,
+				155,
+				156
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"path" : "build/src/plugins/platforms/direct2d/CMakeFiles/QWindowsDirect2DIntegrationPlugin.dir/cmake_pch.hxx.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/platforms/direct2d/QWindowsDirect2DIntegrationPlugin_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/windows/qtwindowsglobal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/qwin10helpers.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/windows/qwin10helpers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/qwindowsapplication.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/windows/qwindowsapplication.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/qwindowscontext.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/windows/qwindowscontext.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/qwindowscursor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/windows/qwindowscursor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/qwindowsdialoghelpers.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/windows/qwindowsdialoghelpers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/qwindowsdropdataobject.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/windows/qwindowsdropdataobject.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/qwindowsiconengine.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/windows/qwindowsiconengine.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/qwindowsinputcontext.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/windows/qwindowsinputcontext.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/qwindowsintegration.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/windows/qwindowsintegration.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/qwindowsinternalmimedata.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/windows/qwindowsinternalmimedata.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/qwindowskeymapper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/windows/qwindowskeymapper.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/qwindowsmenu.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/windows/qwindowsmenu.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/qwindowsmimeregistry.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/windows/qwindowsmimeregistry.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/qwindowsnativeinterface.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/windows/qwindowsnativeinterface.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/qwindowsole.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/windows/qwindowsole.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/qwindowsopengltester.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/windows/qwindowsopengltester.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 2,
+			"path" : "src/plugins/platforms/windows/qwindowspointerhandler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/windows/qwindowspointerhandler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/qwindowsscreen.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/windows/qwindowsscreen.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/qwindowsservices.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/windows/qwindowsservices.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/qwindowstheme.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/windows/qwindowstheme.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/windows/qwindowsthreadpoolrunner.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/qwindowswindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/windows/qwindowswindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/direct2d/qwindowsdirect2dbackingstore.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/direct2d/qwindowsdirect2dbackingstore.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/direct2d/qwindowsdirect2dbitmap.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/direct2d/qwindowsdirect2dbitmap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/direct2d/qwindowsdirect2dcontext.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/direct2d/qwindowsdirect2dcontext.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/direct2d/qwindowsdirect2ddevicecontext.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/direct2d/qwindowsdirect2ddevicecontext.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/direct2d/qwindowsdirect2dhelpers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/direct2d/qwindowsdirect2dintegration.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/direct2d/qwindowsdirect2dintegration.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/direct2d/qwindowsdirect2dnativeinterface.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/direct2d/qwindowsdirect2dnativeinterface.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/direct2d/qwindowsdirect2dpaintdevice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/direct2d/qwindowsdirect2dpaintdevice.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/direct2d/qwindowsdirect2dpaintengine.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/direct2d/qwindowsdirect2dpaintengine.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/direct2d/qwindowsdirect2dplatformpixmap.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/direct2d/qwindowsdirect2dplatformpixmap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/direct2d/qwindowsdirect2dplatformplugin.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/direct2d/qwindowsdirect2dwindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"path" : "src/plugins/platforms/direct2d/qwindowsdirect2dwindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 54,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/platforms/direct2d/.qt/rcc/qrc_openglblacklists.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 56,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/qwindowsglcontext.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 56,
+			"path" : "src/plugins/platforms/windows/qwindowsglcontext.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 56,
+			"path" : "src/plugins/platforms/windows/qwindowsopenglcontext.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 58,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/qwindowssystemtrayicon.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 58,
+			"path" : "src/plugins/platforms/windows/qwindowssystemtrayicon.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 60,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/qwindowsclipboard.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 60,
+			"path" : "src/plugins/platforms/windows/qwindowsclipboard.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 62,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/qwindowsdrag.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 62,
+			"path" : "src/plugins/platforms/windows/qwindowsdrag.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 63,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/qwindowstabletsupport.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 63,
+			"path" : "src/plugins/platforms/windows/qwindowstabletsupport.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 65,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/qwindowssessionmanager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 65,
+			"path" : "src/plugins/platforms/windows/qwindowssessionmanager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 69,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/platforms/direct2d/.qt/rcc/qrc_cursors.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiautomation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiautomation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiaaccessibility.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiaaccessibility.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiabaseprovider.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiabaseprovider.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiaexpandcollapseprovider.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiaexpandcollapseprovider.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiagriditemprovider.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiagriditemprovider.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiagridprovider.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiagridprovider.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiainvokeprovider.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiainvokeprovider.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiamainprovider.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiamainprovider.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiaprovidercache.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiaprovidercache.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiarangevalueprovider.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiarangevalueprovider.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiaselectionitemprovider.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiaselectionitemprovider.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiaselectionprovider.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiaselectionprovider.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiatableitemprovider.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiatableitemprovider.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiatableprovider.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiatableprovider.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiatextprovider.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiatextprovider.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiatextrangeprovider.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiatextrangeprovider.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiatoggleprovider.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiatoggleprovider.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiautils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiautils.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiavalueprovider.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiavalueprovider.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiawindowprovider.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/plugins/platforms/windows/uiautomation/qwindowsuiawindowprovider.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 75,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/platforms/direct2d/.qt/rcc/openglblacklists.qrc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 75,
+			"path" : "src/plugins/platforms/windows/openglblacklists/default.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 75,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/platforms/direct2d/.qt/rcc/cursors.qrc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 75,
+			"path" : "src/plugins/platforms/windows/images/closedhandcursor_32.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 75,
+			"path" : "src/plugins/platforms/windows/images/closedhandcursor_48.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 75,
+			"path" : "src/plugins/platforms/windows/images/closedhandcursor_64.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 75,
+			"path" : "src/plugins/platforms/windows/images/dragcopycursor_32.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 75,
+			"path" : "src/plugins/platforms/windows/images/dragcopycursor_48.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 75,
+			"path" : "src/plugins/platforms/windows/images/dragcopycursor_64.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 75,
+			"path" : "src/plugins/platforms/windows/images/draglinkcursor_32.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 75,
+			"path" : "src/plugins/platforms/windows/images/draglinkcursor_48.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 75,
+			"path" : "src/plugins/platforms/windows/images/draglinkcursor_64.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 75,
+			"path" : "src/plugins/platforms/windows/images/dragmovecursor_32.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 75,
+			"path" : "src/plugins/platforms/windows/images/dragmovecursor_48.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 75,
+			"path" : "src/plugins/platforms/windows/images/dragmovecursor_64.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 75,
+			"path" : "src/plugins/platforms/windows/images/openhandcursor_32.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 75,
+			"path" : "src/plugins/platforms/windows/images/openhandcursor_48.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 75,
+			"path" : "src/plugins/platforms/windows/images/openhandcursor_64.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 75,
+			"path" : "src/plugins/platforms/windows/images/splithcursor_32.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 75,
+			"path" : "src/plugins/platforms/windows/images/splithcursor_48.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 75,
+			"path" : "src/plugins/platforms/windows/images/splithcursor_64.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 75,
+			"path" : "src/plugins/platforms/windows/images/splitvcursor_32.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 75,
+			"path" : "src/plugins/platforms/windows/images/splitvcursor_48.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 75,
+			"path" : "src/plugins/platforms/windows/images/splitvcursor_64.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 77,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/platforms/direct2d/meta_types/qt6qwindowsdirect2dintegrationplugin_release_metatypes.json.gen",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 80,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/platforms/direct2d/preliminary_prl_for_QWindowsDirect2DIntegrationPlugin_step2_Release.prl",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/platforms/direct2d/QWindowsDirect2DIntegrationPlugin_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"path" : "build/src/plugins/platforms/direct2d/CMakeFiles/QWindowsDirect2DIntegrationPlugin.dir/cmake_pch.hxx",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/platforms/direct2d/.qt/rcc/qrc_openglblacklists.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/platforms/direct2d/.qt/rcc/qrc_cursors.cpp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/platforms/direct2d/meta_types/qt6qwindowsdirect2dintegrationplugin_release_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/platforms/direct2d/preliminary_prl_for_QWindowsDirect2DIntegrationPlugin_step2_Release.prl.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/platforms/direct2d/QWindowsDirect2DIntegrationPlugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/platforms/direct2d/meta_types/QWindowsDirect2DIntegrationPlugin_json_file_list.txt.rule",
+			"sourceGroupIndex" : 5
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

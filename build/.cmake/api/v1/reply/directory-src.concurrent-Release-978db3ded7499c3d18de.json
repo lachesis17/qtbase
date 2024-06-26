@@ -1,0 +1,407 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt6_extract_metatypes",
+			"qt_internal_add_module",
+			"qt_install",
+			"qt_internal_export_modern_cmake_config_targets_file",
+			"qt_describe_module",
+			"qt_internal_add_docs",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"qt_internal_install_module_headers",
+			"qt_generate_module_pri_file"
+		],
+		"files" : 
+		[
+			"src/corelib/Qt6CoreMacros.cmake",
+			"cmake/QtModuleHelpers.cmake",
+			"src/concurrent/CMakeLists.txt",
+			"cmake/QtInstallHelpers.cmake",
+			"cmake/QtTargetHelpers.cmake",
+			"cmake/QtDocsHelpers.cmake",
+			"cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"cmake/QtSyncQtHelpers.cmake",
+			"cmake/QtPriHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 766,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1531,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 793,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 809,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 829,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 840,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1124,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 918,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1253,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 230,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 243,
+				"parent" : 16
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 19
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 806,
+				"parent" : 20
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1081,
+				"parent" : 21
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 22
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 19
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 242,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 26
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 1003,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1318,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 29
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 1013,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 559,
+				"parent" : 31
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 32
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "./metatypes",
+			"paths" : 
+			[
+				"build/src/concurrent/meta_types/qt6concurrent_release_metatypes.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6Concurrent",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6Concurrent/Qt6ConcurrentConfig.cmake",
+				"build/lib/cmake/Qt6Concurrent/Qt6ConcurrentConfigVersion.cmake",
+				"build/lib/cmake/Qt6Concurrent/Qt6ConcurrentConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libQt6Concurrent.a"
+			],
+			"targetId" : "Concurrent::@e039ee0229fd7540ae63",
+			"targetIndex" : 14,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Concurrent",
+			"exportName" : "Qt6ConcurrentTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Concurrent::@e039ee0229fd7540ae63",
+					"index" : 14
+				},
+				{
+					"id" : "ConcurrentPrivate::@e039ee0229fd7540ae63",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"src/concurrent/CMakeFiles/Export/bade3f6fd9bf9bb0f7601ee42ed4bfdb/Qt6ConcurrentTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6Concurrent",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6Concurrent/Qt6ConcurrentVersionlessAliasTargets.cmake",
+				"build/lib/cmake/Qt6Concurrent/Qt6ConcurrentVersionlessTargets.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "modules",
+			"paths" : 
+			[
+				"build/modules/Concurrent.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "_install_html_docs_Concurrent",
+			"destination" : "doc/qtconcurrent",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				{
+					"from" : "build/doc/qtconcurrent",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "_install_qch_docs_Concurrent",
+			"destination" : "doc",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"build/doc/qtconcurrent.qch"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Concurrent",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6Concurrent/Qt6ConcurrentAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "include/QtConcurrent",
+			"paths" : 
+			[
+				{
+					"from" : "build/include/QtConcurrent/.syncqt_staging",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "include/QtConcurrent",
+			"paths" : 
+			[
+				"build/include/QtConcurrent/qtconcurrentexports.h",
+				"src/concurrent/qtaskbuilder.h",
+				"src/concurrent/qtconcurrent_global.h",
+				"src/concurrent/qtconcurrentcompilertest.h",
+				"src/concurrent/qtconcurrentfilter.h",
+				"src/concurrent/qtconcurrentfilterkernel.h",
+				"src/concurrent/qtconcurrentfunctionwrappers.h",
+				"src/concurrent/qtconcurrentiteratekernel.h",
+				"src/concurrent/qtconcurrentmap.h",
+				"src/concurrent/qtconcurrentmapkernel.h",
+				"src/concurrent/qtconcurrentmedian.h",
+				"src/concurrent/qtconcurrentreducekernel.h",
+				"src/concurrent/qtconcurrentrun.h",
+				"src/concurrent/qtconcurrentrunbase.h",
+				"src/concurrent/qtconcurrentstoredfunctioncall.h",
+				"src/concurrent/qtconcurrenttask.h",
+				"src/concurrent/qtconcurrentthreadengine.h",
+				"build/include/QtConcurrent/QtConcurrentDepends"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"build/mkspecs/modules/qt_lib_concurrent.pri",
+				"build/mkspecs/modules/qt_lib_concurrent_private.pri"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/concurrent",
+		"source" : "src/concurrent"
+	}
+}

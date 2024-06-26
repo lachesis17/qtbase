@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QPlainTextEditControl",
+            "object": true,
+            "qualifiedClassName": "QPlainTextEditControl",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidgetTextControl"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qplaintextedit_p.h",
+    "outputRevision": 68
+}

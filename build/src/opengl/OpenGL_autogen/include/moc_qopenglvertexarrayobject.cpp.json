@@ -1,0 +1,24 @@
+{
+    "classes": [
+        {
+            "className": "QOpenGLVertexArrayObject",
+            "object": true,
+            "qualifiedClassName": "QOpenGLVertexArrayObject",
+            "slots": [
+                {
+                    "access": "private",
+                    "name": "_q_contextAboutToBeDestroyed",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qopenglvertexarrayobject.h",
+    "outputRevision": 68
+}

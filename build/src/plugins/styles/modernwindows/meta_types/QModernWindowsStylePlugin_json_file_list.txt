@@ -1,0 +1,4 @@
+C:/Qt/qtbase-6.8/build/src/plugins/styles/modernwindows/QModernWindowsStylePlugin_autogen/include/../EWIEGA46WW/moc_qwindows11style_p.cpp.json
+C:/Qt/qtbase-6.8/build/src/plugins/styles/modernwindows/QModernWindowsStylePlugin_autogen/include/../EWIEGA46WW/moc_qwindowsvistaanimation_p.cpp.json
+C:/Qt/qtbase-6.8/build/src/plugins/styles/modernwindows/QModernWindowsStylePlugin_autogen/include/../EWIEGA46WW/moc_qwindowsvistastyle_p.cpp.json
+C:/Qt/qtbase-6.8/build/src/plugins/styles/modernwindows/QModernWindowsStylePlugin_autogen/include/main.moc.json

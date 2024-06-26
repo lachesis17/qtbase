@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QStringListModel",
+            "object": true,
+            "qualifiedClassName": "QStringListModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qstringlistmodel.h",
+    "outputRevision": 68
+}

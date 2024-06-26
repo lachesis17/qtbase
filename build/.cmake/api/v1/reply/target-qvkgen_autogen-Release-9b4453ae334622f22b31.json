@@ -1,0 +1,74 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/tools/qvkgen/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		},
+		{
+			"id" : "qvkgen_autogen_timestamp_deps::@47c008c9f3a7efdbf746"
+		}
+	],
+	"id" : "qvkgen_autogen::@47c008c9f3a7efdbf746",
+	"isGeneratorProvided" : true,
+	"name" : "qvkgen_autogen",
+	"paths" : 
+	{
+		"build" : "src/tools/qvkgen",
+		"source" : "src/tools/qvkgen"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/tools/qvkgen/CMakeFiles/qvkgen_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/tools/qvkgen/CMakeFiles/qvkgen_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/tools/qvkgen/qvkgen_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

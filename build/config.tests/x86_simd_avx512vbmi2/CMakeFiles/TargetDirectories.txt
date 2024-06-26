@@ -1,0 +1,3 @@
+C:/Qt/qtbase-6.8/build/config.tests/x86_simd_avx512vbmi2/CMakeFiles/SimdTestavx512vbmi2.dir
+C:/Qt/qtbase-6.8/build/config.tests/x86_simd_avx512vbmi2/CMakeFiles/edit_cache.dir
+C:/Qt/qtbase-6.8/build/config.tests/x86_simd_avx512vbmi2/CMakeFiles/rebuild_cache.dir

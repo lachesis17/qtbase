@@ -1,0 +1,107 @@
+{
+    "classes": [
+        {
+            "className": "QStackedLayout",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "StackingMode",
+                    "values": [
+                        "StackOne",
+                        "StackAll"
+                    ]
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "currentIndex",
+                    "notify": "currentChanged",
+                    "read": "currentIndex",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setCurrentIndex"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "stackingMode",
+                    "read": "stackingMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "StackingMode",
+                    "user": false,
+                    "write": "setStackingMode"
+                }
+            ],
+            "qualifiedClassName": "QStackedLayout",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "widgetRemoved",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "currentChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "setCurrentIndex",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "w",
+                            "type": "QWidget*"
+                        }
+                    ],
+                    "name": "setCurrentWidget",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QLayout"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qstackedlayout.h",
+    "outputRevision": 68
+}

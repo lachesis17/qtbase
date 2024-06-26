@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QNetworkReplyDataImpl",
+            "object": true,
+            "qualifiedClassName": "QNetworkReplyDataImpl",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QNetworkReply"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qnetworkreplydataimpl_p.h",
+    "outputRevision": 68
+}

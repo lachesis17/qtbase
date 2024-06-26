@@ -1,0 +1,34 @@
+{
+    "classes": [
+        {
+            "className": "QPdfWriter",
+            "enums": [
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "ColorModel",
+                    "values": [
+                        "RGB",
+                        "Grayscale",
+                        "CMYK",
+                        "Auto"
+                    ]
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "QPdfWriter",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                },
+                {
+                    "access": "public",
+                    "name": "QPagedPaintDevice"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qpdfwriter.h",
+    "outputRevision": 68
+}

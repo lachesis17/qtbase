@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QFocusFrame",
+            "object": true,
+            "qualifiedClassName": "QFocusFrame",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qfocusframe.h",
+    "outputRevision": 68
+}

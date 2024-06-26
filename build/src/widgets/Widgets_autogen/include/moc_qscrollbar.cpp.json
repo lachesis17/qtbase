@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QScrollBar",
+            "object": true,
+            "qualifiedClassName": "QScrollBar",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractSlider"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qscrollbar.h",
+    "outputRevision": 68
+}

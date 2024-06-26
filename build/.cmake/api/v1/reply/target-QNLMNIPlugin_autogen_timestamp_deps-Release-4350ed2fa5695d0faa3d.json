@@ -1,0 +1,42 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/plugins/networkinformation/networklistmanager/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Network_sync_headers::@311edf953348ef8fadde"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QNLMNIPlugin_version_script::@f58ed192ffd43d9d8a4b"
+		}
+	],
+	"id" : "QNLMNIPlugin_autogen_timestamp_deps::@f58ed192ffd43d9d8a4b",
+	"isGeneratorProvided" : true,
+	"name" : "QNLMNIPlugin_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "src/plugins/networkinformation/networklistmanager",
+		"source" : "src/plugins/networkinformation/networklistmanager"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

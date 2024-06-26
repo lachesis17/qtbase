@@ -1,0 +1,92 @@
+[
+    {
+        "classes": [
+            {
+                "className": "QWindows11Style",
+                "object": true,
+                "qualifiedClassName": "QWindows11Style",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QWindowsVistaStyle"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qwindows11style_p.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "QWindowsVistaAnimation",
+                "object": true,
+                "qualifiedClassName": "QWindowsVistaAnimation",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QBlendStyleAnimation"
+                    }
+                ]
+            },
+            {
+                "className": "QWindowsVistaTransition",
+                "object": true,
+                "qualifiedClassName": "QWindowsVistaTransition",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QWindowsVistaAnimation"
+                    }
+                ]
+            },
+            {
+                "className": "QWindowsVistaPulse",
+                "object": true,
+                "qualifiedClassName": "QWindowsVistaPulse",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QWindowsVistaAnimation"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qwindowsvistaanimation_p.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "QWindowsVistaStyle",
+                "object": true,
+                "qualifiedClassName": "QWindowsVistaStyle",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QWindowsStyle"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qwindowsvistastyle_p.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "QModernWindowsStylePlugin",
+                "object": true,
+                "qualifiedClassName": "QModernWindowsStylePlugin",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QStylePlugin"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "main.cpp",
+        "outputRevision": 68
+    }
+]

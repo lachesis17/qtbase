@@ -1,0 +1,57 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_add_docs",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"cmake/QtDocsHelpers.cmake",
+			"src/opengl/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 123,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 206,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "generate_docs_OpenGL::@557a2e62dd030bddd73f"
+		}
+	],
+	"id" : "html_docs_OpenGL::@557a2e62dd030bddd73f",
+	"name" : "html_docs_OpenGL",
+	"paths" : 
+	{
+		"build" : "src/opengl",
+		"source" : "src/opengl"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

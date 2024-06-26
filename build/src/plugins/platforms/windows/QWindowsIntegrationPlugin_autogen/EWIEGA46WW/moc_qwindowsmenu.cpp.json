@@ -1,0 +1,50 @@
+{
+    "classes": [
+        {
+            "className": "QWindowsMenuItem",
+            "object": true,
+            "qualifiedClassName": "QWindowsMenuItem",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPlatformMenuItem"
+                }
+            ]
+        },
+        {
+            "className": "QWindowsMenu",
+            "object": true,
+            "qualifiedClassName": "QWindowsMenu",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPlatformMenu"
+                }
+            ]
+        },
+        {
+            "className": "QWindowsPopupMenu",
+            "object": true,
+            "qualifiedClassName": "QWindowsPopupMenu",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWindowsMenu"
+                }
+            ]
+        },
+        {
+            "className": "QWindowsMenuBar",
+            "object": true,
+            "qualifiedClassName": "QWindowsMenuBar",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPlatformMenuBar"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwindowsmenu.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,34 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/tools/qvkgen/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		}
+	],
+	"id" : "qvkgen_autogen_timestamp_deps::@47c008c9f3a7efdbf746",
+	"isGeneratorProvided" : true,
+	"name" : "qvkgen_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "src/tools/qvkgen",
+		"source" : "src/tools/qvkgen"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

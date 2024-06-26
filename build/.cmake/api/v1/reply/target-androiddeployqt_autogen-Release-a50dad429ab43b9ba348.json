@@ -1,0 +1,74 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/tools/androiddeployqt/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		},
+		{
+			"id" : "androiddeployqt_autogen_timestamp_deps::@3c5344cf5dd68dba46a4"
+		}
+	],
+	"id" : "androiddeployqt_autogen::@3c5344cf5dd68dba46a4",
+	"isGeneratorProvided" : true,
+	"name" : "androiddeployqt_autogen",
+	"paths" : 
+	{
+		"build" : "src/tools/androiddeployqt",
+		"source" : "src/tools/androiddeployqt"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/tools/androiddeployqt/CMakeFiles/androiddeployqt_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/tools/androiddeployqt/CMakeFiles/androiddeployqt_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/tools/androiddeployqt/androiddeployqt_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

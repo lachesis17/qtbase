@@ -1,0 +1,171 @@
+{
+    "classes": [
+        {
+            "className": "QFutureWatcherBase",
+            "object": true,
+            "qualifiedClassName": "QFutureWatcherBase",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "started",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "finished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "canceled",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "paused",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "suspending",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "suspended",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "resumed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "resultIndex",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "resultReadyAt",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "beginIndex",
+                            "type": "int"
+                        },
+                        {
+                            "name": "endIndex",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "resultsReadyAt",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "minimum",
+                            "type": "int"
+                        },
+                        {
+                            "name": "maximum",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "progressRangeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "progressValue",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "progressValueChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "progressText",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "progressTextChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "name": "cancel",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "suspend",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "setSuspended",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "suspend",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "resume",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "toggleSuspended",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "paused",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "setPaused",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "pause",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "togglePaused",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qfuturewatcher.h",
+    "outputRevision": 68
+}

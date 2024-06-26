@@ -1,0 +1,74 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/plugins/networkinformation/networklistmanager/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		},
+		{
+			"id" : "QNLMNIPlugin_autogen_timestamp_deps::@f58ed192ffd43d9d8a4b"
+		}
+	],
+	"id" : "QNLMNIPlugin_autogen::@f58ed192ffd43d9d8a4b",
+	"isGeneratorProvided" : true,
+	"name" : "QNLMNIPlugin_autogen",
+	"paths" : 
+	{
+		"build" : "src/plugins/networkinformation/networklistmanager",
+		"source" : "src/plugins/networkinformation/networklistmanager"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/networkinformation/networklistmanager/CMakeFiles/QNLMNIPlugin_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/networkinformation/networklistmanager/CMakeFiles/QNLMNIPlugin_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/networkinformation/networklistmanager/autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

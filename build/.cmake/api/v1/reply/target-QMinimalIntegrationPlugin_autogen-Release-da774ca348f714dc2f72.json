@@ -1,0 +1,74 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/plugins/platforms/minimal/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		},
+		{
+			"id" : "QMinimalIntegrationPlugin_autogen_timestamp_deps::@a6fb5d20e6cdb1db36a1"
+		}
+	],
+	"id" : "QMinimalIntegrationPlugin_autogen::@a6fb5d20e6cdb1db36a1",
+	"isGeneratorProvided" : true,
+	"name" : "QMinimalIntegrationPlugin_autogen",
+	"paths" : 
+	{
+		"build" : "src/plugins/platforms/minimal",
+		"source" : "src/plugins/platforms/minimal"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/platforms/minimal/CMakeFiles/QMinimalIntegrationPlugin_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/platforms/minimal/CMakeFiles/QMinimalIntegrationPlugin_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/platforms/minimal/QMinimalIntegrationPlugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

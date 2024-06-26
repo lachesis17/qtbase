@@ -1,0 +1,214 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt_install",
+			"qt_internal_add_plugin",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_generate_plugin_pri_file",
+			"qt_finalize_plugin"
+		],
+		"files" : 
+		[
+			"cmake/QtInstallHelpers.cmake",
+			"cmake/QtPluginHelpers.cmake",
+			"src/plugins/imageformats/ico/CMakeLists.txt",
+			"cmake/QtTargetHelpers.cmake",
+			"cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"cmake/QtPriHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 379,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 390,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 399,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 806,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1081,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 475,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 662,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 15
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6Gui",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake",
+				"build/lib/cmake/Qt6Gui/Qt6QICOPluginConfigVersion.cmake",
+				"build/lib/cmake/Qt6Gui/Qt6QICOPluginConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "plugins/imageformats",
+			"paths" : 
+			[
+				"plugins/imageformats/libqico.a"
+			],
+			"targetId" : "QICOPlugin::@5b6564d291c671947203",
+			"targetIndex" : 118,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "plugins/imageformats",
+			"paths" : 
+			[
+				{
+					"from" : "src/plugins/imageformats/ico/CMakeFiles/QICOPlugin_init.dir/.//QICOPlugin_init.cpp.obj",
+					"to" : "objects-Release/QICOPlugin_init/QICOPlugin_init.cpp.obj"
+				}
+			],
+			"targetId" : "QICOPlugin_init::@5b6564d291c671947203",
+			"targetIndex" : 121,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Gui",
+			"exportName" : "Qt6QICOPluginTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "QICOPlugin::@5b6564d291c671947203",
+					"index" : 118
+				},
+				{
+					"id" : "QICOPlugin_init::@5b6564d291c671947203",
+					"index" : 121
+				}
+			],
+			"paths" : 
+			[
+				"src/plugins/imageformats/ico/CMakeFiles/Export/186cdab8ebd5e47f6ef8450c9fc81ba1/Qt6QICOPluginTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Gui",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"build/mkspecs/modules/qt_plugin_qico.pri"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/plugins/imageformats/ico",
+		"source" : "src/plugins/imageformats/ico"
+	}
+}

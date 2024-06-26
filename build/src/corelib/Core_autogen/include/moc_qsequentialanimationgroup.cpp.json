@@ -1,0 +1,54 @@
+{
+    "classes": [
+        {
+            "className": "QSequentialAnimationGroup",
+            "object": true,
+            "properties": [
+                {
+                    "bindable": "bindableCurrentAnimation",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "currentAnimation",
+                    "notify": "currentAnimationChanged",
+                    "read": "currentAnimation",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QAbstractAnimation*",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "QSequentialAnimationGroup",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "current",
+                            "type": "QAbstractAnimation*"
+                        }
+                    ],
+                    "name": "currentAnimationChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "name": "_q_uncontrolledAnimationFinished",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAnimationGroup"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qsequentialanimationgroup.h",
+    "outputRevision": 68
+}

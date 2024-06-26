@@ -1,0 +1,127 @@
+{
+    "classes": [
+        {
+            "className": "QToolButton",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ToolButtonPopupMode",
+                    "values": [
+                        "DelayedPopup",
+                        "MenuButtonPopup",
+                        "InstantPopup"
+                    ]
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "popupMode",
+                    "read": "popupMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "ToolButtonPopupMode",
+                    "user": false,
+                    "write": "setPopupMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "toolButtonStyle",
+                    "read": "toolButtonStyle",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::ToolButtonStyle",
+                    "user": false,
+                    "write": "setToolButtonStyle"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "autoRaise",
+                    "read": "autoRaise",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setAutoRaise"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "arrowType",
+                    "read": "arrowType",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::ArrowType",
+                    "user": false,
+                    "write": "setArrowType"
+                }
+            ],
+            "qualifiedClassName": "QToolButton",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QAction*"
+                        }
+                    ],
+                    "name": "triggered",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "name": "showMenu",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "style",
+                            "type": "Qt::ToolButtonStyle"
+                        }
+                    ],
+                    "name": "setToolButtonStyle",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QAction*"
+                        }
+                    ],
+                    "name": "setDefaultAction",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractButton"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtoolbutton.h",
+    "outputRevision": 68
+}

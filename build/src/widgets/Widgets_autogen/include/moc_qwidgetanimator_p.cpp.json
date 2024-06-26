@@ -1,0 +1,24 @@
+{
+    "classes": [
+        {
+            "className": "QWidgetAnimator",
+            "object": true,
+            "qualifiedClassName": "QWidgetAnimator",
+            "slots": [
+                {
+                    "access": "private",
+                    "name": "animationFinished",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwidgetanimator_p.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,75 @@
+{
+    "classes": [
+        {
+            "className": "QCalendarPopup",
+            "object": true,
+            "qualifiedClassName": "QCalendarPopup",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "date",
+                            "type": "QDate"
+                        }
+                    ],
+                    "name": "activated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newDate",
+                            "type": "QDate"
+                        }
+                    ],
+                    "name": "newDateSelected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "oldDate",
+                            "type": "QDate"
+                        }
+                    ],
+                    "name": "hidingCalendar",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "resetButton",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "date",
+                            "type": "QDate"
+                        }
+                    ],
+                    "name": "dateSelected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "dateSelectionChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdatetimeedit_p.h",
+    "outputRevision": 68
+}

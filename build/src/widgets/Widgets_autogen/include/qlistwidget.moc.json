@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QListWidgetMimeData",
+            "object": true,
+            "qualifiedClassName": "QListWidgetMimeData",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QMimeData"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qlistwidget.cpp",
+    "outputRevision": 68
+}

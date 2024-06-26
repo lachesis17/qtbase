@@ -1,0 +1,128 @@
+{
+    "classes": [
+        {
+            "className": "QNetworkAccessBackend",
+            "enums": [
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "TargetType",
+                    "values": [
+                        "Networked",
+                        "Local"
+                    ]
+                },
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "SecurityFeature",
+                    "values": [
+                        "None",
+                        "TLS"
+                    ]
+                },
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "IOFeature",
+                    "values": [
+                        "None",
+                        "ZeroCopy",
+                        "NeedResetableUpload",
+                        "SupportsSynchronousMode"
+                    ]
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "QNetworkAccessBackend",
+            "slots": [
+                {
+                    "access": "public",
+                    "name": "readyRead",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "name": "finished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "code",
+                            "type": "QNetworkReply::NetworkError"
+                        },
+                        {
+                            "name": "errorString",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "error",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "proxy",
+                            "type": "QNetworkProxy"
+                        },
+                        {
+                            "name": "auth",
+                            "type": "QAuthenticator*"
+                        }
+                    ],
+                    "name": "proxyAuthenticationRequired",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "auth",
+                            "type": "QAuthenticator*"
+                        }
+                    ],
+                    "name": "authenticationRequired",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "name": "metaDataChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "destination",
+                            "type": "QUrl"
+                        }
+                    ],
+                    "name": "redirectionRequested",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "QNetworkAccessBackendFactory",
+            "object": true,
+            "qualifiedClassName": "QNetworkAccessBackendFactory",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qnetworkaccessbackend_p.h",
+    "outputRevision": 68
+}

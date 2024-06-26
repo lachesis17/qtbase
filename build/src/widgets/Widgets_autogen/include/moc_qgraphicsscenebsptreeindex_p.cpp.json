@@ -1,0 +1,56 @@
+{
+    "classes": [
+        {
+            "className": "QGraphicsSceneBspTreeIndex",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "bspTreeDepth",
+                    "read": "bspTreeDepth",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setBspTreeDepth"
+                }
+            ],
+            "qualifiedClassName": "QGraphicsSceneBspTreeIndex",
+            "slots": [
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "rect",
+                            "type": "QRectF"
+                        }
+                    ],
+                    "name": "updateSceneRect",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_updateSortCache",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_updateIndex",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QGraphicsSceneIndex"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qgraphicsscenebsptreeindex_p.h",
+    "outputRevision": 68
+}

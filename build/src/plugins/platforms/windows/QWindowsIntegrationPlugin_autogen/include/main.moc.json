@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QWindowsIntegrationPlugin",
+            "object": true,
+            "qualifiedClassName": "QWindowsIntegrationPlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPlatformIntegrationPlugin"
+                }
+            ]
+        }
+    ],
+    "inputFile": "main.cpp",
+    "outputRevision": 68
+}

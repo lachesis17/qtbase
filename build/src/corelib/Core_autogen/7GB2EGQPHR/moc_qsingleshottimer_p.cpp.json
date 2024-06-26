@@ -1,0 +1,24 @@
+{
+    "classes": [
+        {
+            "className": "QSingleShotTimer",
+            "object": true,
+            "qualifiedClassName": "QSingleShotTimer",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "timeout",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qsingleshottimer_p.h",
+    "outputRevision": 68
+}

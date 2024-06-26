@@ -1,0 +1,75 @@
+{
+    "classes": [
+        {
+            "className": "QPlatformSystemTrayIcon",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ActivationReason",
+                    "values": [
+                        "Unknown",
+                        "Context",
+                        "DoubleClick",
+                        "Trigger",
+                        "MiddleClick"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "MessageIcon",
+                    "values": [
+                        "NoIcon",
+                        "Information",
+                        "Warning",
+                        "Critical"
+                    ]
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "QPlatformSystemTrayIcon",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "reason",
+                            "type": "QPlatformSystemTrayIcon::ActivationReason"
+                        }
+                    ],
+                    "name": "activated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "globalPos",
+                            "type": "QPoint"
+                        },
+                        {
+                            "name": "screen",
+                            "type": "const QPlatformScreen*"
+                        }
+                    ],
+                    "name": "contextMenuRequested",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "messageClicked",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qplatformsystemtrayicon.h",
+    "outputRevision": 68
+}

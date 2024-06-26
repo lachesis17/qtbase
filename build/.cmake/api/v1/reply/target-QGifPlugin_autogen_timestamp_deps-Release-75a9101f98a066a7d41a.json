@@ -1,0 +1,46 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/plugins/imageformats/gif/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Gui::@7675e61a69a6135e3026"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Gui_sync_headers::@7675e61a69a6135e3026"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QGifPlugin_version_script::@db481f4670a9b0759ac4"
+		}
+	],
+	"id" : "QGifPlugin_autogen_timestamp_deps::@db481f4670a9b0759ac4",
+	"isGeneratorProvided" : true,
+	"name" : "QGifPlugin_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "src/plugins/imageformats/gif",
+		"source" : "src/plugins/imageformats/gif"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

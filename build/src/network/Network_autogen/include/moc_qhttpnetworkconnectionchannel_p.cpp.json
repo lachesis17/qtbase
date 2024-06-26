@@ -1,0 +1,139 @@
+{
+    "classes": [
+        {
+            "className": "QHttpNetworkConnectionChannel",
+            "object": true,
+            "qualifiedClassName": "QHttpNetworkConnectionChannel",
+            "slots": [
+                {
+                    "access": "protected",
+                    "name": "_q_receiveReply",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "bytes",
+                            "type": "qint64"
+                        }
+                    ],
+                    "name": "_q_bytesWritten",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "name": "_q_readyRead",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "name": "_q_disconnected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "socket",
+                            "type": "QAbstractSocket*"
+                        }
+                    ],
+                    "name": "_q_connected_abstract_socket",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "socket",
+                            "type": "QLocalSocket*"
+                        }
+                    ],
+                    "name": "_q_connected_local_socket",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "name": "_q_connected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "type": "QAbstractSocket::SocketError"
+                        }
+                    ],
+                    "name": "_q_error",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "proxy",
+                            "type": "QNetworkProxy"
+                        },
+                        {
+                            "name": "auth",
+                            "type": "QAuthenticator*"
+                        }
+                    ],
+                    "name": "_q_proxyAuthenticationRequired",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "name": "_q_uploadDataReadyRead",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "name": "_q_encrypted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "errors",
+                            "type": "QList<QSslError>"
+                        }
+                    ],
+                    "name": "_q_sslErrors",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "type": "QSslPreSharedKeyAuthenticator*"
+                        }
+                    ],
+                    "name": "_q_preSharedKeyAuthenticationRequired",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "bytes",
+                            "type": "qint64"
+                        }
+                    ],
+                    "name": "_q_encryptedBytesWritten",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qhttpnetworkconnectionchannel_p.h",
+    "outputRevision": 68
+}

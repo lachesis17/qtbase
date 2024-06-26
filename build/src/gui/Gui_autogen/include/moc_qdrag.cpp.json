@@ -1,0 +1,41 @@
+{
+    "classes": [
+        {
+            "className": "QDrag",
+            "object": true,
+            "qualifiedClassName": "QDrag",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "action",
+                            "type": "Qt::DropAction"
+                        }
+                    ],
+                    "name": "actionChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newTarget",
+                            "type": "QObject*"
+                        }
+                    ],
+                    "name": "targetChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdrag.h",
+    "outputRevision": 68
+}

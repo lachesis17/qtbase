@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QFileSelector",
+            "object": true,
+            "qualifiedClassName": "QFileSelector",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qfileselector.h",
+    "outputRevision": 68
+}

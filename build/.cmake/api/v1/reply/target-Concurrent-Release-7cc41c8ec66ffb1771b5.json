@@ -1,0 +1,1153 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libQt6Concurrent.a"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_qt_internal_add_library",
+			"qt_internal_add_module",
+			"install",
+			"qt_install",
+			"target_link_libraries",
+			"qt_internal_extend_target",
+			"add_dependencies",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"qt_internal_add_linker_version_script",
+			"qt_generate_module_pri_file",
+			"add_compile_options",
+			"include",
+			"qt_internal_set_compiler_warning_flags",
+			"qt_internal_setup_build_and_global_variables",
+			"qt_build_internals_set_up_private_api",
+			"qt_build_repo_begin",
+			"target_compile_options",
+			"qt_internal_set_exceptions_flags",
+			"target_compile_definitions",
+			"qt_internal_add_repo_local_defines",
+			"target_include_directories",
+			"set_property",
+			"qt_update_precompiled_header",
+			"target_sources",
+			"qt_internal_generate_cpp_global_exports",
+			"qt6_extract_metatypes",
+			"qt_generate_prl_file"
+		],
+		"files" : 
+		[
+			"src/corelib/Qt6CoreMacros.cmake",
+			"cmake/QtModuleHelpers.cmake",
+			"src/concurrent/CMakeLists.txt",
+			"cmake/QtInstallHelpers.cmake",
+			"cmake/QtTargetHelpers.cmake",
+			"cmake/QtSyncQtHelpers.cmake",
+			"cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"src/corelib/CMakeLists.txt",
+			"cmake/QtFlagHandlingHelpers.cmake",
+			"cmake/QtPriHelpers.cmake",
+			"cmake/QtCompilerFlags.cmake",
+			"cmake/QtBuildHelpers.cmake",
+			"cmake/QtBuild.cmake",
+			"cmake/QtSetup.cmake",
+			"cmake/QtBuildRepoHelpers.cmake",
+			"CMakeLists.txt",
+			"cmake/QtPrecompiledHeadersHelpers.cmake",
+			"cmake/QtPrlHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 180,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2736,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 809,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 610,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 180,
+				"parent" : 6
+			},
+			{
+				"file" : 7
+			},
+			{
+				"file" : 7,
+				"line" : -1,
+				"parent" : 8
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 11
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 13
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 14
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 41,
+				"parent" : 15
+			},
+			{
+				"command" : 7,
+				"file" : 8,
+				"line" : 136,
+				"parent" : 16
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 251,
+				"parent" : 15
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 1013,
+				"parent" : 14
+			},
+			{
+				"command" : 7,
+				"file" : 9,
+				"line" : 556,
+				"parent" : 19
+			},
+			{
+				"file" : 15
+			},
+			{
+				"command" : 17,
+				"file" : 15,
+				"line" : 143,
+				"parent" : 21
+			},
+			{
+				"command" : 16,
+				"file" : 14,
+				"line" : 180,
+				"parent" : 22
+			},
+			{
+				"command" : 13,
+				"file" : 14,
+				"line" : 22,
+				"parent" : 23
+			},
+			{
+				"file" : 13,
+				"parent" : 24
+			},
+			{
+				"command" : 13,
+				"file" : 13,
+				"line" : 6,
+				"parent" : 25
+			},
+			{
+				"file" : 12,
+				"parent" : 26
+			},
+			{
+				"command" : 15,
+				"file" : 12,
+				"line" : 4,
+				"parent" : 27
+			},
+			{
+				"command" : 14,
+				"file" : 11,
+				"line" : 451,
+				"parent" : 28
+			},
+			{
+				"command" : 13,
+				"file" : 11,
+				"line" : 79,
+				"parent" : 29
+			},
+			{
+				"file" : 10,
+				"parent" : 30
+			},
+			{
+				"command" : 12,
+				"file" : 10,
+				"line" : 39,
+				"parent" : 31
+			},
+			{
+				"command" : 19,
+				"file" : 1,
+				"line" : 655,
+				"parent" : 1
+			},
+			{
+				"command" : 18,
+				"file" : 8,
+				"line" : 288,
+				"parent" : 33
+			},
+			{
+				"command" : 20,
+				"file" : 4,
+				"line" : 177,
+				"parent" : 6
+			},
+			{
+				"command" : 21,
+				"file" : 1,
+				"line" : 598,
+				"parent" : 1
+			},
+			{
+				"command" : 20,
+				"file" : 4,
+				"line" : 1529,
+				"parent" : 36
+			},
+			{
+				"command" : 22,
+				"file" : 4,
+				"line" : 172,
+				"parent" : 6
+			},
+			{
+				"command" : 24,
+				"file" : 4,
+				"line" : 272,
+				"parent" : 6
+			},
+			{
+				"command" : 23,
+				"file" : 16,
+				"line" : 6,
+				"parent" : 39
+			},
+			{
+				"command" : 26,
+				"file" : 1,
+				"line" : 438,
+				"parent" : 1
+			},
+			{
+				"command" : 25,
+				"file" : 1,
+				"line" : 1281,
+				"parent" : 41
+			},
+			{
+				"command" : 25,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 6
+			},
+			{
+				"command" : 27,
+				"file" : 1,
+				"line" : 766,
+				"parent" : 1
+			},
+			{
+				"command" : 25,
+				"file" : 0,
+				"line" : 1490,
+				"parent" : 44
+			},
+			{
+				"command" : 28,
+				"file" : 1,
+				"line" : 1012,
+				"parent" : 14
+			},
+			{
+				"command" : 25,
+				"file" : 17,
+				"line" : 205,
+				"parent" : 46
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport"
+				},
+				{
+					"backtrace" : 32,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 32,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 34,
+					"fragment" : "-fexceptions"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wa,-mbig-obj"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ftrivial-auto-var-init=pattern"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fstack-clash-protection"
+				},
+				{
+					"fragment" : "-Winvalid-pch -x c++-header -include C:/Qt/qtbase-6.8/build/src/concurrent/CMakeFiles/Concurrent.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "MINGW_HAS_SECURE_API=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_BUILD_CONCURRENT_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_QASCONST"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_NO_USING_NAMESPACE"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_USE_NODISCARD_FILE_OPEN"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WINVER=0x0A00"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_WIN32_WINNT=0x0A00"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "C:/Qt/qtbase-6.8/build/src/concurrent/Concurrent_autogen/include"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "C:/Qt/qtbase-6.8/build/include"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtConcurrent"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "C:/Qt/qtbase-6.8/src/concurrent"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "C:/Qt/qtbase-6.8/build/src/concurrent"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0/QtCore"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					7
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 40,
+					"header" : "../corelib/global/qt_pch.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport"
+				},
+				{
+					"backtrace" : 32,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 32,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 34,
+					"fragment" : "-fexceptions"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wa,-mbig-obj"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ftrivial-auto-var-init=pattern"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fstack-clash-protection"
+				},
+				{
+					"fragment" : "-Winvalid-pch -include C:/Qt/qtbase-6.8/build/src/concurrent/CMakeFiles/Concurrent.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "MINGW_HAS_SECURE_API=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_BUILD_CONCURRENT_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_QASCONST"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_NO_USING_NAMESPACE"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_USE_NODISCARD_FILE_OPEN"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WINVER=0x0A00"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_WIN32_WINNT=0x0A00"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "C:/Qt/qtbase-6.8/build/src/concurrent/Concurrent_autogen/include"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "C:/Qt/qtbase-6.8/build/include"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtConcurrent"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "C:/Qt/qtbase-6.8/src/concurrent"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "C:/Qt/qtbase-6.8/build/src/concurrent"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0/QtCore"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					7
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 40,
+					"header" : "../corelib/global/qt_pch.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1,
+				6,
+				10,
+				12,
+				17,
+				22
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		},
+		{
+			"id" : "cmake_automoc_parser::@9df279ca5a40d551589d"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "ZlibPrivate::@fab9159b69e9a33b7bcd"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "BundledPcre2::@662af84d20aaf7d84676"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "BundledZLIB::@fab9159b69e9a33b7bcd"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Core::@e8138540d8b2daa0b357"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "Core_sync_headers::@e8138540d8b2daa0b357"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "Concurrent_version_script::@e039ee0229fd7540ae63"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "Concurrent_sync_headers::@e039ee0229fd7540ae63"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "Concurrent_lib_pri::@e039ee0229fd7540ae63"
+		},
+		{
+			"id" : "Concurrent_autogen_timestamp_deps::@e039ee0229fd7540ae63"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Concurrent_autogen::@e039ee0229fd7540ae63"
+		}
+	],
+	"id" : "Concurrent::@e039ee0229fd7540ae63",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Qt/Qt-6.8.0"
+		}
+	},
+	"name" : "Concurrent",
+	"nameOnDisk" : "libQt6Concurrent.a",
+	"paths" : 
+	{
+		"build" : "src/concurrent",
+		"source" : "src/concurrent"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				6,
+				10,
+				12,
+				17,
+				22
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				4,
+				5,
+				7,
+				8,
+				9,
+				11,
+				13,
+				14,
+				15,
+				16,
+				18,
+				19,
+				20,
+				21,
+				23
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				24,
+				25,
+				26
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				27
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				28,
+				29,
+				30,
+				31
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"path" : "build/src/concurrent/CMakeFiles/Concurrent.dir/cmake_pch.hxx.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/src/concurrent/Concurrent_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 42,
+			"isGenerated" : true,
+			"path" : "build/include/QtConcurrent/qtconcurrentexports.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 43,
+			"path" : "src/concurrent/qtaskbuilder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 43,
+			"path" : "src/concurrent/qtconcurrent_global.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 43,
+			"path" : "src/concurrent/qtconcurrentcompilertest.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 43,
+			"compileGroupIndex" : 1,
+			"path" : "src/concurrent/qtconcurrentfilter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 43,
+			"path" : "src/concurrent/qtconcurrentfilter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 43,
+			"path" : "src/concurrent/qtconcurrentfilterkernel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 43,
+			"path" : "src/concurrent/qtconcurrentfunctionwrappers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 43,
+			"compileGroupIndex" : 1,
+			"path" : "src/concurrent/qtconcurrentiteratekernel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 43,
+			"path" : "src/concurrent/qtconcurrentiteratekernel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 43,
+			"compileGroupIndex" : 1,
+			"path" : "src/concurrent/qtconcurrentmap.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 43,
+			"path" : "src/concurrent/qtconcurrentmap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 43,
+			"path" : "src/concurrent/qtconcurrentmapkernel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 43,
+			"path" : "src/concurrent/qtconcurrentmedian.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 43,
+			"path" : "src/concurrent/qtconcurrentreducekernel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 43,
+			"compileGroupIndex" : 1,
+			"path" : "src/concurrent/qtconcurrentrun.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 43,
+			"path" : "src/concurrent/qtconcurrentrun.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 43,
+			"path" : "src/concurrent/qtconcurrentrunbase.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 43,
+			"path" : "src/concurrent/qtconcurrentstoredfunctioncall.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 43,
+			"path" : "src/concurrent/qtconcurrenttask.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 43,
+			"compileGroupIndex" : 1,
+			"path" : "src/concurrent/qtconcurrentthreadengine.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 43,
+			"path" : "src/concurrent/qtconcurrentthreadengine.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 45,
+			"isGenerated" : true,
+			"path" : "build/src/concurrent/meta_types/qt6concurrent_release_metatypes.json.gen",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 47,
+			"isGenerated" : true,
+			"path" : "build/src/concurrent/preliminary_prl_for_Concurrent_step2_Release.prl",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/concurrent/Concurrent_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"path" : "build/src/concurrent/CMakeFiles/Concurrent.dir/cmake_pch.hxx",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/concurrent/meta_types/qt6concurrent_release_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/concurrent/preliminary_prl_for_Concurrent_step2_Release.prl.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/concurrent/Concurrent_autogen/timestamp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/concurrent/meta_types/Concurrent_json_file_list.txt.rule",
+			"sourceGroupIndex" : 4
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

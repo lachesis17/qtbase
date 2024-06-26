@@ -1,0 +1,7 @@
+# ninja log v6
+2	37	7411255906080405	CMakeFiles/no_extern_access_main.dir/other.cpp.obj	5cb579e0ca1fa979
+1	38	7411255906060398	CMakeFiles/no_extern_access_lib.dir/lib.cpp.obj	5d6227915c3c12d5
+38	96	7411255906978584	libno_extern_access_lib.dll.a	ba9f78cf148c3623
+4	43	7411255906090427	CMakeFiles/no_extern_access_main.dir/main.cpp.obj	65b646032a461bd9
+38	96	7411255906978584	libno_extern_access_lib.dll	ba9f78cf148c3623
+96	149	7411255907008597	no_extern_access_main.exe	77ef7ed01ca60cee

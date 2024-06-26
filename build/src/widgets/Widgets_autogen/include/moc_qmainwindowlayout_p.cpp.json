@@ -1,0 +1,66 @@
+{
+    "classes": [
+        {
+            "className": "QDockWidgetGroupWindow",
+            "object": true,
+            "qualifiedClassName": "QDockWidgetGroupWindow",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "resized",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        },
+        {
+            "className": "QMainWindowLayout",
+            "object": true,
+            "qualifiedClassName": "QMainWindowLayout",
+            "slots": [
+                {
+                    "access": "private",
+                    "name": "updateGapIndicator",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "tabChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "from",
+                            "type": "int"
+                        },
+                        {
+                            "name": "to",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "tabMoved",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QLayout"
+                },
+                {
+                    "access": "public",
+                    "name": "QMainWindowLayoutSeparatorHelper<QMainWindowLayout>"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qmainwindowlayout_p.h",
+    "outputRevision": 68
+}

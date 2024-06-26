@@ -1,0 +1,29 @@
+{
+    "classes": [
+        {
+            "className": "QFontListView",
+            "object": true,
+            "qualifiedClassName": "QFontListView",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "int"
+                        }
+                    ],
+                    "name": "highlighted",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QListView"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qfontdialog.cpp",
+    "outputRevision": 68
+}

@@ -1,0 +1,42 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/plugins/tls/schannel/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Network_sync_headers::@311edf953348ef8fadde"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QSchannelBackendPlugin_version_script::@12b9be290db92c69e3d5"
+		}
+	],
+	"id" : "QSchannelBackendPlugin_autogen_timestamp_deps::@12b9be290db92c69e3d5",
+	"isGeneratorProvided" : true,
+	"name" : "QSchannelBackendPlugin_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "src/plugins/tls/schannel",
+		"source" : "src/plugins/tls/schannel"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

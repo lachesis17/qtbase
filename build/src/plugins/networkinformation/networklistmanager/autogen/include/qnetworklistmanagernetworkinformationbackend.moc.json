@@ -1,0 +1,36 @@
+{
+    "classes": [
+        {
+            "className": "QNetworkListManagerNetworkInformationBackend",
+            "object": true,
+            "qualifiedClassName": "QNetworkListManagerNetworkInformationBackend",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QNetworkInformationBackend"
+                }
+            ]
+        },
+        {
+            "className": "QNetworkListManagerNetworkInformationBackendFactory",
+            "interfaces": [
+                [
+                    {
+                        "className": "QNetworkInformationBackendFactory",
+                        "id": "\"org.qt-project.Qt.NetworkInformationBackendFactory\""
+                    }
+                ]
+            ],
+            "object": true,
+            "qualifiedClassName": "QNetworkListManagerNetworkInformationBackendFactory",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QNetworkInformationBackendFactory"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qnetworklistmanagernetworkinformationbackend.cpp",
+    "outputRevision": 68
+}

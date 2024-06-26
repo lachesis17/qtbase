@@ -1,0 +1,312 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt_install",
+			"qt_internal_add_plugin",
+			"qt_internal_add_resource",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_generate_plugin_pri_file",
+			"qt_finalize_plugin"
+		],
+		"files" : 
+		[
+			"cmake/QtInstallHelpers.cmake",
+			"cmake/QtPluginHelpers.cmake",
+			"src/plugins/platforms/windows/CMakeLists.txt",
+			"cmake/QtResourceHelpers.cmake",
+			"cmake/QtTargetHelpers.cmake",
+			"cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"cmake/QtPriHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 379,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 390,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 399,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 79,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 39,
+				"parent" : 8
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 169,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 39,
+				"parent" : 11
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 12
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 14
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 806,
+				"parent" : 15
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 1081,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 17
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 475,
+				"parent" : 19
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 662,
+				"parent" : 20
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 21
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6Gui",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginConfig.cmake",
+				"build/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginConfigVersion.cmake",
+				"build/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "plugins/platforms",
+			"paths" : 
+			[
+				"plugins/platforms/libqwindows.a"
+			],
+			"targetId" : "QWindowsIntegrationPlugin::@5f31441e043f26c22ebb",
+			"targetIndex" : 180,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "plugins/platforms",
+			"paths" : 
+			[
+				{
+					"from" : "src/plugins/platforms/windows/CMakeFiles/QWindowsIntegrationPlugin_init.dir/.//QWindowsIntegrationPlugin_init.cpp.obj",
+					"to" : "objects-Release/QWindowsIntegrationPlugin_init/QWindowsIntegrationPlugin_init.cpp.obj"
+				}
+			],
+			"targetId" : "QWindowsIntegrationPlugin_init::@5f31441e043f26c22ebb",
+			"targetIndex" : 183,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Gui",
+			"exportName" : "Qt6QWindowsIntegrationPluginTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "QWindowsIntegrationPlugin::@5f31441e043f26c22ebb",
+					"index" : 180
+				},
+				{
+					"id" : "QWindowsIntegrationPlugin_init::@5f31441e043f26c22ebb",
+					"index" : 183
+				},
+				{
+					"id" : "QWindowsIntegrationPlugin_resources_1::@5f31441e043f26c22ebb",
+					"index" : 184
+				},
+				{
+					"id" : "QWindowsIntegrationPlugin_resources_2::@5f31441e043f26c22ebb",
+					"index" : 185
+				}
+			],
+			"paths" : 
+			[
+				"src/plugins/platforms/windows/CMakeFiles/Export/186cdab8ebd5e47f6ef8450c9fc81ba1/Qt6QWindowsIntegrationPluginTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				{
+					"from" : "src/plugins/platforms/windows/CMakeFiles/QWindowsIntegrationPlugin_resources_1.dir/.//.qt/rcc/qrc_openglblacklists_init.cpp.obj",
+					"to" : "objects-Release/QWindowsIntegrationPlugin_resources_1/.qt/rcc/qrc_openglblacklists_init.cpp.obj"
+				}
+			],
+			"targetId" : "QWindowsIntegrationPlugin_resources_1::@5f31441e043f26c22ebb",
+			"targetIndex" : 184,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "QWindowsIntegrationPlugin_resources_1::@5f31441e043f26c22ebb",
+				"index" : 184
+			},
+			"destination" : "lib",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				{
+					"from" : "src/plugins/platforms/windows/CMakeFiles/QWindowsIntegrationPlugin_resources_2.dir/.//.qt/rcc/qrc_cursors_init.cpp.obj",
+					"to" : "objects-Release/QWindowsIntegrationPlugin_resources_2/.qt/rcc/qrc_cursors_init.cpp.obj"
+				}
+			],
+			"targetId" : "QWindowsIntegrationPlugin_resources_2::@5f31441e043f26c22ebb",
+			"targetIndex" : 185,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "QWindowsIntegrationPlugin_resources_2::@5f31441e043f26c22ebb",
+				"index" : 185
+			},
+			"destination" : "lib",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Gui",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"build/mkspecs/modules/qt_plugin_qwindows.pri"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/plugins/platforms/windows",
+		"source" : "src/plugins/platforms/windows"
+	}
+}

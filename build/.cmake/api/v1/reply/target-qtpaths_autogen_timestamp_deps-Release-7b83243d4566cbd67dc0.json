@@ -1,0 +1,42 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/tools/qtpaths/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Core::@e8138540d8b2daa0b357"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QtLibraryInfo::@63f2f4db298c7a29a9ac"
+		}
+	],
+	"id" : "qtpaths_autogen_timestamp_deps::@146dfbd4f1bec7ecfe48",
+	"isGeneratorProvided" : true,
+	"name" : "qtpaths_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "src/tools/qtpaths",
+		"source" : "src/tools/qtpaths"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

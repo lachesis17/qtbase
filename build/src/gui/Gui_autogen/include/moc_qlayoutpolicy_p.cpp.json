@@ -1,0 +1,25 @@
+{
+    "classes": [
+        {
+            "className": "QLayoutPolicy",
+            "enums": [
+                {
+                    "alias": "PolicyFlag",
+                    "isClass": false,
+                    "isFlag": true,
+                    "name": "Policy",
+                    "values": [
+                        "GrowFlag",
+                        "ExpandFlag",
+                        "ShrinkFlag",
+                        "IgnoreFlag"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "qualifiedClassName": "QLayoutPolicy"
+        }
+    ],
+    "inputFile": "qlayoutpolicy_p.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,21 @@
+{
+    "classes": [
+        {
+            "className": "QWindowsUiaMainProvider",
+            "object": true,
+            "qualifiedClassName": "QWindowsUiaMainProvider",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWindowsUiaBaseProvider"
+                },
+                {
+                    "access": "public",
+                    "name": "QComObject<IRawElementProviderSimple,IRawElementProviderFragment,IRawElementProviderFragmentRoot>"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwindowsuiamainprovider.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,151 @@
+{
+    "classes": [
+        {
+            "className": "QSslServer",
+            "object": true,
+            "qualifiedClassName": "QSslServer",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "socket",
+                            "type": "QSslSocket*"
+                        },
+                        {
+                            "name": "errors",
+                            "type": "QList<QSslError>"
+                        }
+                    ],
+                    "name": "sslErrors",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "socket",
+                            "type": "QSslSocket*"
+                        },
+                        {
+                            "name": "error",
+                            "type": "QSslError"
+                        }
+                    ],
+                    "name": "peerVerifyError",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "socket",
+                            "type": "QSslSocket*"
+                        },
+                        {
+                            "name": "error",
+                            "type": "QAbstractSocket::SocketError"
+                        }
+                    ],
+                    "name": "errorOccurred",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "socket",
+                            "type": "QSslSocket*"
+                        },
+                        {
+                            "name": "authenticator",
+                            "type": "QSslPreSharedKeyAuthenticator*"
+                        }
+                    ],
+                    "name": "preSharedKeyAuthenticationRequired",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "socket",
+                            "type": "QSslSocket*"
+                        },
+                        {
+                            "name": "level",
+                            "type": "QSsl::AlertLevel"
+                        },
+                        {
+                            "name": "type",
+                            "type": "QSsl::AlertType"
+                        },
+                        {
+                            "name": "description",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "alertSent",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "socket",
+                            "type": "QSslSocket*"
+                        },
+                        {
+                            "name": "level",
+                            "type": "QSsl::AlertLevel"
+                        },
+                        {
+                            "name": "type",
+                            "type": "QSsl::AlertType"
+                        },
+                        {
+                            "name": "description",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "alertReceived",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "socket",
+                            "type": "QSslSocket*"
+                        },
+                        {
+                            "name": "error",
+                            "type": "QSslError"
+                        }
+                    ],
+                    "name": "handshakeInterruptedOnError",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "socket",
+                            "type": "QSslSocket*"
+                        }
+                    ],
+                    "name": "startedEncryptionHandshake",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QTcpServer"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qsslserver.h",
+    "outputRevision": 68
+}

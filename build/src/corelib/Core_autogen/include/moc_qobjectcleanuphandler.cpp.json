@@ -1,0 +1,29 @@
+{
+    "classes": [
+        {
+            "className": "QObjectCleanupHandler",
+            "object": true,
+            "qualifiedClassName": "QObjectCleanupHandler",
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QObject*"
+                        }
+                    ],
+                    "name": "objectDestroyed",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qobjectcleanuphandler.h",
+    "outputRevision": 68
+}

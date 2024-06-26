@@ -1,0 +1,291 @@
+{
+	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
+	"BUILD_DIR" : "C:/Qt/qtbase-6.8/build/src/sql/Sql_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Qt/qtbase-6.8/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Qt/qtbase-6.8/build/src/sql",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Qt/qtbase-6.8/src/sql",
+	"CMAKE_EXECUTABLE" : "C:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"C:/Qt/qtbase-6.8/src/sql/CMakeLists.txt",
+		"C:/Qt/qtbase-6.8/cmake/modulecppexports.h.in",
+		"C:/Qt/qtbase-6.8/src/sql/configure.cmake",
+		"C:/Qt/qtbase-6.8/cmake/QtModuleConfig.cmake.in",
+		"C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in",
+		"C:/Qt/qtbase-6.8/cmake/QtCMakePackageVersionFile.cmake.in",
+		"C:/Qt/qtbase-6.8/cmake/QtVersionlessTargets.cmake.in",
+		"C:/Qt/qtbase-6.8/cmake/QtVersionlessAliasTargets.cmake.in",
+		"C:/Qt/qtbase-6.8/cmake/ModuleDescription.json.in",
+		"C:/Qt/qtbase-6.8/cmake/QtFileConfigure.txt.in",
+		"C:/Qt/qtbase-6.8/cmake/QtFileConfigure.txt.in",
+		"C:/Qt/qtbase-6.8/cmake/QtFileConfigure.txt.in"
+	],
+	"CMAKE_SOURCE_DIR" : "C:/Qt/qtbase-6.8",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "C:/Qt/qtbase-6.8/build/src/sql/Sql_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "Sql_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"C:/Qt/qtbase-6.8/build/include/QtSql/qtsqlexports.h",
+			"Mu",
+			"SUBULDFPUK/moc_qtsqlexports.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/sql/kernel/qsqlcachedresult_p.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qsqlcachedresult_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/sql/kernel/qsqldatabase.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qsqldatabase.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/sql/kernel/qsqldriver.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qsqldriver.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/sql/kernel/qsqldriver_p.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qsqldriver_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/sql/kernel/qsqldriverplugin.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qsqldriverplugin.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/sql/kernel/qsqlerror.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qsqlerror.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/sql/kernel/qsqlfield.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qsqlfield.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/sql/kernel/qsqlindex.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qsqlindex.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/sql/kernel/qsqlnulldriver_p.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qsqlnulldriver_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/sql/kernel/qsqlquery.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qsqlquery.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/sql/kernel/qsqlrecord.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qsqlrecord.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/sql/kernel/qsqlresult.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qsqlresult.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/sql/kernel/qsqlresult_p.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qsqlresult_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/sql/kernel/qtsqlglobal.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qtsqlglobal.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/sql/kernel/qtsqlglobal_p.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qtsqlglobal_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/sql/models/qsqlquerymodel.h",
+			"Mu",
+			"IVK4DJNV27/moc_qsqlquerymodel.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/sql/models/qsqlquerymodel_p.h",
+			"Mu",
+			"IVK4DJNV27/moc_qsqlquerymodel_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/sql/models/qsqlrelationaldelegate.h",
+			"Mu",
+			"IVK4DJNV27/moc_qsqlrelationaldelegate.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/sql/models/qsqlrelationaltablemodel.h",
+			"Mu",
+			"IVK4DJNV27/moc_qsqlrelationaltablemodel.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/sql/models/qsqltablemodel.h",
+			"Mu",
+			"IVK4DJNV27/moc_qsqltablemodel.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/sql/models/qsqltablemodel_p.h",
+			"Mu",
+			"IVK4DJNV27/moc_qsqltablemodel_p.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "C:/Qt/qtbase-6.8/build/src/sql/Sql_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Qt/qtbase-6.8/build/src/sql/Sql_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"MINGW_HAS_SECURE_API=1",
+		"NOMINMAX",
+		"QT_ASCII_CAST_WARNINGS",
+		"QT_BUILDING_QT",
+		"QT_BUILD_SQL_LIB",
+		"QT_CORE_LIB",
+		"QT_DEPRECATED_WARNINGS",
+		"QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH",
+		"QT_LEAN_HEADERS=1",
+		"QT_MOC_COMPAT",
+		"QT_NO_CAST_FROM_ASCII",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_CONTEXTLESS_CONNECT",
+		"QT_NO_DEBUG",
+		"QT_NO_EXCEPTIONS",
+		"QT_NO_FOREACH",
+		"QT_NO_JAVA_STYLE_ITERATORS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_QASCONST",
+		"QT_NO_QEXCHANGE",
+		"QT_NO_USING_NAMESPACE",
+		"QT_USE_NODISCARD_FILE_OPEN",
+		"QT_USE_QSTRINGBUILDER",
+		"UNICODE",
+		"WIN32",
+		"WIN64",
+		"WINVER=0x0A00",
+		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
+		"_GLIBCXX_ASSERTIONS",
+		"_UNICODE",
+		"_USE_MATH_DEFINES",
+		"_WIN32_WINNT=0x0A00",
+		"_WIN64"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"C:/Qt/qtbase-6.8/build/include",
+		"C:/Qt/qtbase-6.8/build/include/QtSql",
+		"C:/Qt/qtbase-6.8/src/sql",
+		"C:/Qt/qtbase-6.8/build/src/sql",
+		"C:/Qt/qtbase-6.8/build/include/QtSql/6.8.0",
+		"C:/Qt/qtbase-6.8/build/include/QtSql/6.8.0/QtSql",
+		"C:/Qt/qtbase-6.8/build/include/QtCore",
+		"C:/Qt/qtbase-6.8/mkspecs/win32-g++",
+		"C:/Qt/qtbase-6.8/build/src/corelib",
+		"C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0",
+		"C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0/QtCore",
+		"C:/msys64/mingw64/include/c++/13.2.0",
+		"C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32",
+		"C:/msys64/mingw64/include/c++/13.2.0/backward",
+		"C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include",
+		"C:/msys64/mingw64/include",
+		"C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_ENUM_NS",
+		"Q_GADGET_EXPORT"
+	],
+	"MOC_OPTIONS" : [ "--output-json" ],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"C:/msys64/mingw64/bin/g++.exe",
+		"-std=c++17",
+		"-dM",
+		"-E",
+		"-c",
+		"C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "C:/Qt/qtbase-6.8/build/src/sql/Sql_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"C:/Qt/qtbase-6.8/build/src/sql/qtsql-config.h",
+		"C:/Qt/qtbase-6.8/build/src/sql/qtsql-config_p.h"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "C:/Qt/qtbase-6.8/build/src/sql/CMakeFiles/Sql_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "C:/Qt/qtbase-6.8/build/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 8,
+	"SETTINGS_FILE" : "C:/Qt/qtbase-6.8/build/src/sql/CMakeFiles/Sql_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "C:/Qt/qtbase-6.8/src/sql/compat/removed_api.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/sql/kernel/qsqlcachedresult.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/sql/kernel/qsqldatabase.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/sql/kernel/qsqldriver.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/sql/kernel/qsqldriverplugin.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/sql/kernel/qsqlerror.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/sql/kernel/qsqlfield.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/sql/kernel/qsqlindex.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/sql/kernel/qsqlquery.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/sql/kernel/qsqlrecord.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/sql/kernel/qsqlresult.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/sql/models/qsqlquerymodel.cpp", "Mu", null ],
+		[
+			"C:/Qt/qtbase-6.8/src/sql/models/qsqlrelationaldelegate.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/sql/models/qsqlrelationaltablemodel.cpp",
+			"Mu",
+			null
+		],
+		[ "C:/Qt/qtbase-6.8/src/sql/models/qsqltablemodel.cpp", "Mu", null ]
+	],
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

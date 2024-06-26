@@ -1,0 +1,221 @@
+{
+	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
+	"BUILD_DIR" : "C:/Qt/qtbase-6.8/build/src/plugins/tls/schannel/QSchannelBackendPlugin_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Qt/qtbase-6.8/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Qt/qtbase-6.8/build/src/plugins/tls/schannel",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Qt/qtbase-6.8/src/plugins/tls/schannel",
+	"CMAKE_EXECUTABLE" : "C:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"C:/Qt/qtbase-6.8/src/plugins/tls/schannel/CMakeLists.txt",
+		"C:/Qt/qtbase-6.8/cmake/QtPluginConfig.cmake.in",
+		"C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in",
+		"C:/Qt/qtbase-6.8/cmake/QtCMakePackageVersionFile.cmake.in",
+		"C:/Qt/qtbase-6.8/cmake/QtFileConfigure.txt.in"
+	],
+	"CMAKE_SOURCE_DIR" : "C:/Qt/qtbase-6.8",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "C:/Qt/qtbase-6.8/build/src/plugins/tls/schannel/QSchannelBackendPlugin_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "QSchannelBackendPlugin_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"C:/Qt/qtbase-6.8/src/plugins/tls/schannel/qtls_schannel_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtls_schannel_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/plugins/tls/schannel/qtlsbackend_schannel_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtlsbackend_schannel_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/plugins/tls/schannel/qtlskey_schannel_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtlskey_schannel_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/plugins/tls/schannel/qx509_schannel_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qx509_schannel_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/plugins/tls/shared/qasn1element_p.h",
+			"Mu",
+			"BEMDQ7WSKB/moc_qasn1element_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/plugins/tls/shared/qtlskey_base_p.h",
+			"Mu",
+			"BEMDQ7WSKB/moc_qtlskey_base_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/plugins/tls/shared/qtlskey_generic_p.h",
+			"Mu",
+			"BEMDQ7WSKB/moc_qtlskey_generic_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/plugins/tls/shared/qwincrypt_p.h",
+			"Mu",
+			"BEMDQ7WSKB/moc_qwincrypt_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/plugins/tls/shared/qx509_base_p.h",
+			"Mu",
+			"BEMDQ7WSKB/moc_qx509_base_p.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/plugins/tls/shared/qx509_generic_p.h",
+			"Mu",
+			"BEMDQ7WSKB/moc_qx509_generic_p.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "C:/Qt/qtbase-6.8/build/src/plugins/tls/schannel/QSchannelBackendPlugin_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Qt/qtbase-6.8/build/src/plugins/tls/schannel/QSchannelBackendPlugin_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"MINGW_HAS_SECURE_API=1",
+		"NOMINMAX",
+		"QT_CORE_LIB",
+		"QT_DEPRECATED_WARNINGS",
+		"QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH",
+		"QT_LEAN_HEADERS=1",
+		"QT_NETWORK_LIB",
+		"QT_NO_CAST_FROM_ASCII",
+		"QT_NO_DEBUG",
+		"QT_NO_EXCEPTIONS",
+		"QT_NO_FOREACH",
+		"QT_NO_JAVA_STYLE_ITERATORS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_QASCONST",
+		"QT_NO_QEXCHANGE",
+		"QT_PLUGIN",
+		"QT_STATICPLUGIN",
+		"QT_USE_QSTRINGBUILDER",
+		"UNICODE",
+		"WIN32",
+		"WIN64",
+		"WINVER=0x0A00",
+		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
+		"_GLIBCXX_ASSERTIONS",
+		"_UNICODE",
+		"_WIN32_WINNT=0x0A00",
+		"_WIN64"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"C:/Qt/qtbase-6.8/src/plugins/tls/schannel",
+		"C:/Qt/qtbase-6.8/build/src/plugins/tls/schannel",
+		"C:/Qt/qtbase-6.8/build/include",
+		"C:/Qt/qtbase-6.8/build/src/network",
+		"C:/Qt/qtbase-6.8/build/include/QtNetwork/6.8.0",
+		"C:/Qt/qtbase-6.8/build/include/QtNetwork/6.8.0/QtNetwork",
+		"C:/Qt/qtbase-6.8/build/src/corelib",
+		"C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0",
+		"C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0/QtCore",
+		"C:/Qt/qtbase-6.8/build/include/QtCore",
+		"C:/Qt/qtbase-6.8/mkspecs/win32-g++",
+		"C:/Qt/qtbase-6.8/build/include/QtNetwork",
+		"C:/msys64/mingw64/include/c++/13.2.0",
+		"C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32",
+		"C:/msys64/mingw64/include/c++/13.2.0/backward",
+		"C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include",
+		"C:/msys64/mingw64/include",
+		"C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_ENUM_NS",
+		"Q_GADGET_EXPORT"
+	],
+	"MOC_OPTIONS" : [ "--output-json" ],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"C:/msys64/mingw64/bin/g++.exe",
+		"-std=c++17",
+		"-dM",
+		"-E",
+		"-c",
+		"C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "C:/Qt/qtbase-6.8/build/src/plugins/tls/schannel/QSchannelBackendPlugin_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "C:/Qt/qtbase-6.8/build/src/plugins/tls/schannel/CMakeFiles/QSchannelBackendPlugin_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "C:/Qt/qtbase-6.8/build/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 8,
+	"SETTINGS_FILE" : "C:/Qt/qtbase-6.8/build/src/plugins/tls/schannel/CMakeFiles/QSchannelBackendPlugin_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"C:/Qt/qtbase-6.8/src/plugins/tls/schannel/qtls_schannel.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/plugins/tls/schannel/qtlskey_schannel.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/plugins/tls/schannel/qx509_schannel.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/plugins/tls/shared/qasn1element.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/plugins/tls/shared/qsslsocket_qt.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/plugins/tls/shared/qtlskey_base.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/plugins/tls/shared/qtlskey_generic.cpp",
+			"Mu",
+			null
+		],
+		[ "C:/Qt/qtbase-6.8/src/plugins/tls/shared/qx509_base.cpp", "Mu", null ],
+		[
+			"C:/Qt/qtbase-6.8/src/plugins/tls/shared/qx509_generic.cpp",
+			"Mu",
+			null
+		]
+	],
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

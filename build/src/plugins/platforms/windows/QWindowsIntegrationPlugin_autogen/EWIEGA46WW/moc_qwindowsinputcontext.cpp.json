@@ -1,0 +1,24 @@
+{
+    "classes": [
+        {
+            "className": "QWindowsInputContext",
+            "object": true,
+            "qualifiedClassName": "QWindowsInputContext",
+            "slots": [
+                {
+                    "access": "private",
+                    "name": "cursorRectChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPlatformInputContext"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwindowsinputcontext.h",
+    "outputRevision": 68
+}

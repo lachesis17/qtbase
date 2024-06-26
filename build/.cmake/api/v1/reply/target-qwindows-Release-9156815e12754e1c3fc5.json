@@ -1,0 +1,57 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_add_plugin",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"cmake/QtPluginHelpers.cmake",
+			"src/plugins/platforms/windows/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 155,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 156,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "QWindowsIntegrationPlugin::@5f31441e043f26c22ebb"
+		}
+	],
+	"id" : "qwindows::@5f31441e043f26c22ebb",
+	"name" : "qwindows",
+	"paths" : 
+	{
+		"build" : "src/plugins/platforms/windows",
+		"source" : "src/plugins/platforms/windows"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

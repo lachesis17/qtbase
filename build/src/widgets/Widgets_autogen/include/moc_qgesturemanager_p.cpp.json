@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QGestureManager",
+            "object": true,
+            "qualifiedClassName": "QGestureManager",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qgesturemanager_p.h",
+    "outputRevision": 68
+}

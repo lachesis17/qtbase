@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QWindows11Style",
+            "object": true,
+            "qualifiedClassName": "QWindows11Style",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWindowsVistaStyle"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwindows11style_p.h",
+    "outputRevision": 68
+}

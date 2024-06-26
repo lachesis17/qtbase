@@ -1,0 +1,19 @@
+[
+    {
+        "classes": [
+            {
+                "className": "QICOPlugin",
+                "object": true,
+                "qualifiedClassName": "QICOPlugin",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QImageIOPlugin"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "main.cpp",
+        "outputRevision": 68
+    }
+]

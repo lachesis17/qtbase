@@ -1,0 +1,289 @@
+{
+    "classes": [
+        {
+            "className": "QCompleter",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "CompletionMode",
+                    "values": [
+                        "PopupCompletion",
+                        "UnfilteredPopupCompletion",
+                        "InlineCompletion"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ModelSorting",
+                    "values": [
+                        "UnsortedModel",
+                        "CaseSensitivelySortedModel",
+                        "CaseInsensitivelySortedModel"
+                    ]
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "completionPrefix",
+                    "read": "completionPrefix",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setCompletionPrefix"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "modelSorting",
+                    "read": "modelSorting",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "ModelSorting",
+                    "user": false,
+                    "write": "setModelSorting"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "filterMode",
+                    "read": "filterMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::MatchFlags",
+                    "user": false,
+                    "write": "setFilterMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "completionMode",
+                    "read": "completionMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "CompletionMode",
+                    "user": false,
+                    "write": "setCompletionMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "completionColumn",
+                    "read": "completionColumn",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setCompletionColumn"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "completionRole",
+                    "read": "completionRole",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setCompletionRole"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "maxVisibleItems",
+                    "read": "maxVisibleItems",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setMaxVisibleItems"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "name": "caseSensitivity",
+                    "read": "caseSensitivity",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::CaseSensitivity",
+                    "user": false,
+                    "write": "setCaseSensitivity"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "name": "wrapAround",
+                    "read": "wrapAround",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setWrapAround"
+                }
+            ],
+            "qualifiedClassName": "QCompleter",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "text",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "activated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "activated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "text",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "highlighted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "highlighted",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "prefix",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "setCompletionPrefix",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rect",
+                            "type": "QRect"
+                        }
+                    ],
+                    "name": "complete",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "isCloned": true,
+                    "name": "complete",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "wrap",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "setWrapAround",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "_q_complete",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QItemSelection"
+                        }
+                    ],
+                    "name": "_q_completionSelected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_autoResizePopup",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "_q_fileSystemModelDirectoryLoaded",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qcompleter.h",
+    "outputRevision": 68
+}

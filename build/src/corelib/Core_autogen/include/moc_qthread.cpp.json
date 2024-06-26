@@ -1,0 +1,74 @@
+{
+    "classes": [
+        {
+            "className": "QThread",
+            "object": true,
+            "qualifiedClassName": "QThread",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "started",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "finished",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "Priority"
+                        }
+                    ],
+                    "name": "start",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "isCloned": true,
+                    "name": "start",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "terminate",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "retcode",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "exit",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "isCloned": true,
+                    "name": "exit",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "quit",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qthread.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,39 @@
+{
+    "classes": [
+        {
+            "className": "QWindowsVistaAnimation",
+            "object": true,
+            "qualifiedClassName": "QWindowsVistaAnimation",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QBlendStyleAnimation"
+                }
+            ]
+        },
+        {
+            "className": "QWindowsVistaTransition",
+            "object": true,
+            "qualifiedClassName": "QWindowsVistaTransition",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWindowsVistaAnimation"
+                }
+            ]
+        },
+        {
+            "className": "QWindowsVistaPulse",
+            "object": true,
+            "qualifiedClassName": "QWindowsVistaPulse",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWindowsVistaAnimation"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwindowsvistaanimation_p.h",
+    "outputRevision": 68
+}

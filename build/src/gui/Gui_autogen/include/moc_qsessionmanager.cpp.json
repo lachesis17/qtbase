@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QSessionManager",
+            "object": true,
+            "qualifiedClassName": "QSessionManager",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qsessionmanager.h",
+    "outputRevision": 68
+}

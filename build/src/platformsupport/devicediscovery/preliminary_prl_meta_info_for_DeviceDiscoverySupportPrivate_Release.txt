@@ -1,0 +1,1 @@
+FINAL_PRL_FILE_PATH = C:/Qt/qtbase-6.8/build/lib/Qt6DeviceDiscoverySupport.prl

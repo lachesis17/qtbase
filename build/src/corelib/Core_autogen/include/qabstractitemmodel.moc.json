@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QEmptyItemModel",
+            "object": true,
+            "qualifiedClassName": "QEmptyItemModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractItemModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qabstractitemmodel.cpp",
+    "outputRevision": 68
+}

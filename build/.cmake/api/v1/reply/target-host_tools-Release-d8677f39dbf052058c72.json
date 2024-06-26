@@ -1,0 +1,369 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_repo_begin",
+			"add_dependencies",
+			"qt_internal_add_tool"
+		],
+		"files" : 
+		[
+			"cmake/QtBuildRepoHelpers.cmake",
+			"CMakeLists.txt",
+			"cmake/QtToolHelpers.cmake",
+			"src/tools/syncqt/CMakeLists.txt",
+			"src/tools/moc/CMakeLists.txt",
+			"src/tools/tracepointgen/CMakeLists.txt",
+			"src/tools/rcc/CMakeLists.txt",
+			"src/tools/cmake_automoc_parser/CMakeLists.txt",
+			"src/tools/tracegen/CMakeLists.txt",
+			"src/tools/qdbuscpp2xml/CMakeLists.txt",
+			"src/tools/uic/CMakeLists.txt",
+			"src/tools/qdbusxml2cpp/CMakeLists.txt",
+			"src/tools/qlalr/CMakeLists.txt",
+			"src/tools/androiddeployqt/CMakeLists.txt",
+			"src/tools/qvkgen/CMakeLists.txt",
+			"src/tools/qtpaths/CMakeLists.txt",
+			"src/tools/androidtestrunner/CMakeLists.txt",
+			"src/tools/windeployqt/CMakeLists.txt",
+			"qmake/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 143,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 298,
+				"parent" : 1
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 36,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 173,
+				"parent" : 4
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 9,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 173,
+				"parent" : 7
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 9,
+				"parent" : 9
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 173,
+				"parent" : 10
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 9,
+				"parent" : 12
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 173,
+				"parent" : 13
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 9,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 173,
+				"parent" : 16
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 9,
+				"parent" : 18
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 173,
+				"parent" : 19
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 9,
+				"parent" : 21
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 173,
+				"parent" : 22
+			},
+			{
+				"file" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 10,
+				"line" : 9,
+				"parent" : 24
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 173,
+				"parent" : 25
+			},
+			{
+				"file" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 11,
+				"line" : 9,
+				"parent" : 27
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 173,
+				"parent" : 28
+			},
+			{
+				"file" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 12,
+				"line" : 9,
+				"parent" : 30
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 173,
+				"parent" : 31
+			},
+			{
+				"file" : 13
+			},
+			{
+				"command" : 3,
+				"file" : 13,
+				"line" : 9,
+				"parent" : 33
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 173,
+				"parent" : 34
+			},
+			{
+				"file" : 14
+			},
+			{
+				"command" : 3,
+				"file" : 14,
+				"line" : 9,
+				"parent" : 36
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 173,
+				"parent" : 37
+			},
+			{
+				"file" : 15
+			},
+			{
+				"command" : 3,
+				"file" : 15,
+				"line" : 9,
+				"parent" : 39
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 173,
+				"parent" : 40
+			},
+			{
+				"file" : 16
+			},
+			{
+				"command" : 3,
+				"file" : 16,
+				"line" : 9,
+				"parent" : 42
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 173,
+				"parent" : 43
+			},
+			{
+				"file" : 17
+			},
+			{
+				"command" : 3,
+				"file" : 17,
+				"line" : 9,
+				"parent" : 45
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 173,
+				"parent" : 46
+			},
+			{
+				"file" : 18
+			},
+			{
+				"command" : 3,
+				"file" : 18,
+				"line" : 58,
+				"parent" : 48
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 173,
+				"parent" : 49
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "syncqt::@f35fab93c498e8f8c838"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "tracepointgen::@ee82868d5a4b8b317d35"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "rcc::@43976444945f368aca17"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "cmake_automoc_parser::@9df279ca5a40d551589d"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "tracegen::@c4157af62469cb23859f"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "qdbuscpp2xml::@1a02565fd30fe13d1e40"
+		},
+		{
+			"backtrace" : 26,
+			"id" : "uic::@53da06d1729bbbe1e0d9"
+		},
+		{
+			"backtrace" : 29,
+			"id" : "qdbusxml2cpp::@b05d75fa85b4f991d5aa"
+		},
+		{
+			"backtrace" : 32,
+			"id" : "qlalr::@893b88a152e04c55327d"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "androiddeployqt::@3c5344cf5dd68dba46a4"
+		},
+		{
+			"backtrace" : 38,
+			"id" : "qvkgen::@47c008c9f3a7efdbf746"
+		},
+		{
+			"backtrace" : 41,
+			"id" : "qtpaths::@146dfbd4f1bec7ecfe48"
+		},
+		{
+			"backtrace" : 44,
+			"id" : "androidtestrunner::@7d7ebd217b1aaa6766ab"
+		},
+		{
+			"backtrace" : 47,
+			"id" : "windeployqt::@6035da89ad2e9a2802f4"
+		},
+		{
+			"backtrace" : 50,
+			"id" : "qmake::@63f2f4db298c7a29a9ac"
+		}
+	],
+	"id" : "host_tools::@6890427a1f51a3e7e1df",
+	"name" : "host_tools",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

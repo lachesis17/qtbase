@@ -1,0 +1,74 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/assets/downloader/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		},
+		{
+			"id" : "ExamplesAssetDownloaderPrivate_autogen_timestamp_deps::@b7766ebde7b7461cd71e"
+		}
+	],
+	"id" : "ExamplesAssetDownloaderPrivate_autogen::@b7766ebde7b7461cd71e",
+	"isGeneratorProvided" : true,
+	"name" : "ExamplesAssetDownloaderPrivate_autogen",
+	"paths" : 
+	{
+		"build" : "src/assets/downloader",
+		"source" : "src/assets/downloader"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/assets/downloader/CMakeFiles/ExamplesAssetDownloaderPrivate_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/assets/downloader/CMakeFiles/ExamplesAssetDownloaderPrivate_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/assets/downloader/ExamplesAssetDownloaderPrivate_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

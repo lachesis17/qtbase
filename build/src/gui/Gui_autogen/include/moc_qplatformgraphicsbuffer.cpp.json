@@ -1,0 +1,53 @@
+{
+    "classes": [
+        {
+            "className": "QPlatformGraphicsBuffer",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "AccessType",
+                    "values": [
+                        "None",
+                        "SWReadAccess",
+                        "SWWriteAccess",
+                        "TextureAccess",
+                        "HWCompositor"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "Origin",
+                    "values": [
+                        "OriginBottomLeft",
+                        "OriginTopLeft"
+                    ]
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "QPlatformGraphicsBuffer",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "previousAccessTypes",
+                            "type": "AccessTypes"
+                        }
+                    ],
+                    "name": "unlocked",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qplatformgraphicsbuffer.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QSaveFile",
+            "object": true,
+            "qualifiedClassName": "QSaveFile",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QFileDevice"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qsavefile.h",
+    "outputRevision": 68
+}

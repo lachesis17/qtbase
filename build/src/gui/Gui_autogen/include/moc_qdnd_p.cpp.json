@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QDragManager",
+            "object": true,
+            "qualifiedClassName": "QDragManager",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdnd_p.h",
+    "outputRevision": 68
+}

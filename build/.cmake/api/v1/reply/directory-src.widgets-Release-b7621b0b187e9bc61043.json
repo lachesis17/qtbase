@@ -1,0 +1,850 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt6_extract_metatypes",
+			"qt_internal_add_module",
+			"qt_install",
+			"qt_internal_export_modern_cmake_config_targets_file",
+			"qt_describe_module",
+			"qt_internal_add_resource",
+			"qt_internal_add_docs",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"qt_internal_install_module_headers",
+			"qt_generate_module_pri_file"
+		],
+		"files" : 
+		[
+			"src/corelib/Qt6CoreMacros.cmake",
+			"cmake/QtModuleHelpers.cmake",
+			"src/widgets/CMakeLists.txt",
+			"cmake/QtInstallHelpers.cmake",
+			"cmake/QtTargetHelpers.cmake",
+			"cmake/QtResourceHelpers.cmake",
+			"cmake/QtDocsHelpers.cmake",
+			"cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"cmake/QtSyncQtHelpers.cmake",
+			"cmake/QtPriHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 766,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1531,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 793,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 809,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 829,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 840,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1124,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 918,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1253,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 284,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 39,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 17
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 321,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 39,
+				"parent" : 19
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 20
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 351,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 39,
+				"parent" : 22
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 23
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 732,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 39,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 26
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 910,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 230,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 243,
+				"parent" : 28
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 31
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 806,
+				"parent" : 32
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1081,
+				"parent" : 33
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 34
+			},
+			{
+				"command" : 11,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 31
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 36
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 242,
+				"parent" : 37
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 38
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 1003,
+				"parent" : 36
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1318,
+				"parent" : 40
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 41
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1322,
+				"parent" : 40
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 43
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 1013,
+				"parent" : 36
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 559,
+				"parent" : 45
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 46
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "./metatypes",
+			"paths" : 
+			[
+				"build/src/widgets/meta_types/qt6widgets_release_metatypes.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6Widgets",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
+				"build/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake",
+				"build/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake",
+				"src/widgets/Qt6WidgetsMacros.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libQt6Widgets.a"
+			],
+			"targetId" : "Widgets::@01ca4e8faf65486cb322",
+			"targetIndex" : 202,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Widgets",
+			"exportName" : "Qt6WidgetsTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Widgets::@01ca4e8faf65486cb322",
+					"index" : 202
+				},
+				{
+					"id" : "WidgetsPrivate::@01ca4e8faf65486cb322",
+					"index" : 0
+				},
+				{
+					"id" : "Widgets_resources_1::@01ca4e8faf65486cb322",
+					"index" : 207
+				},
+				{
+					"id" : "Widgets_resources_2::@01ca4e8faf65486cb322",
+					"index" : 208
+				},
+				{
+					"id" : "Widgets_resources_3::@01ca4e8faf65486cb322",
+					"index" : 209
+				},
+				{
+					"id" : "Widgets_resources_4::@01ca4e8faf65486cb322",
+					"index" : 210
+				}
+			],
+			"paths" : 
+			[
+				"src/widgets/CMakeFiles/Export/9fa5f737d316e9cf5e6bd89bf93c801b/Qt6WidgetsTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6Widgets",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake",
+				"build/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "modules",
+			"paths" : 
+			[
+				"build/modules/Widgets.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				{
+					"from" : "src/widgets/CMakeFiles/Widgets_resources_1.dir/.//.qt/rcc/qrc_qstyle_init.cpp.obj",
+					"to" : "objects-Release/Widgets_resources_1/.qt/rcc/qrc_qstyle_init.cpp.obj"
+				}
+			],
+			"targetId" : "Widgets_resources_1::@01ca4e8faf65486cb322",
+			"targetIndex" : 207,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "Widgets_resources_1::@01ca4e8faf65486cb322",
+				"index" : 207
+			},
+			"destination" : "lib",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				{
+					"from" : "src/widgets/CMakeFiles/Widgets_resources_2.dir/.//.qt/rcc/qrc_qstyle1_init.cpp.obj",
+					"to" : "objects-Release/Widgets_resources_2/.qt/rcc/qrc_qstyle1_init.cpp.obj"
+				}
+			],
+			"targetId" : "Widgets_resources_2::@01ca4e8faf65486cb322",
+			"targetIndex" : 208,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "Widgets_resources_2::@01ca4e8faf65486cb322",
+				"index" : 208
+			},
+			"destination" : "lib",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				{
+					"from" : "src/widgets/CMakeFiles/Widgets_resources_3.dir/.//.qt/rcc/qrc_qstyle_fusion_init.cpp.obj",
+					"to" : "objects-Release/Widgets_resources_3/.qt/rcc/qrc_qstyle_fusion_init.cpp.obj"
+				}
+			],
+			"targetId" : "Widgets_resources_3::@01ca4e8faf65486cb322",
+			"targetIndex" : 209,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "Widgets_resources_3::@01ca4e8faf65486cb322",
+				"index" : 209
+			},
+			"destination" : "lib",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				{
+					"from" : "src/widgets/CMakeFiles/Widgets_resources_4.dir/.//.qt/rcc/qrc_qmessagebox_init.cpp.obj",
+					"to" : "objects-Release/Widgets_resources_4/.qt/rcc/qrc_qmessagebox_init.cpp.obj"
+				}
+			],
+			"targetId" : "Widgets_resources_4::@01ca4e8faf65486cb322",
+			"targetIndex" : 210,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "Widgets_resources_4::@01ca4e8faf65486cb322",
+				"index" : 210
+			},
+			"destination" : "lib",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "_install_html_docs_Widgets",
+			"destination" : "doc/qtwidgets",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				{
+					"from" : "build/doc/qtwidgets",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "_install_qch_docs_Widgets",
+			"destination" : "doc",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"build/doc/qtwidgets.qch"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Widgets",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 39,
+			"component" : "Unspecified",
+			"destination" : "include/QtWidgets",
+			"paths" : 
+			[
+				{
+					"from" : "build/include/QtWidgets/.syncqt_staging",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "Unspecified",
+			"destination" : "include/QtWidgets",
+			"paths" : 
+			[
+				"build/include/QtWidgets/qtwidgetsexports.h",
+				"src/widgets/itemviews/qfileiconprovider.h",
+				"src/widgets/kernel/qapplication.h",
+				"src/widgets/kernel/qboxlayout.h",
+				"src/widgets/kernel/qgesture.h",
+				"src/widgets/kernel/qgesturerecognizer.h",
+				"src/widgets/kernel/qgridlayout.h",
+				"src/widgets/kernel/qlayout.h",
+				"src/widgets/kernel/qlayoutitem.h",
+				"src/widgets/kernel/qrhiwidget.h",
+				"src/widgets/kernel/qsizepolicy.h",
+				"src/widgets/kernel/qstackedlayout.h",
+				"src/widgets/kernel/qtestsupport_widgets.h",
+				"src/widgets/kernel/qtwidgetsglobal.h",
+				"src/widgets/kernel/qwidget.h",
+				"src/widgets/styles/qcommonstyle.h",
+				"src/widgets/styles/qdrawutil.h",
+				"src/widgets/styles/qproxystyle.h",
+				"src/widgets/styles/qstyle.h",
+				"src/widgets/styles/qstylefactory.h",
+				"src/widgets/styles/qstyleoption.h",
+				"src/widgets/styles/qstylepainter.h",
+				"src/widgets/styles/qstyleplugin.h",
+				"src/widgets/util/qcolormap.h",
+				"src/widgets/util/qsystemtrayicon.h",
+				"src/widgets/widgets/qabstractscrollarea.h",
+				"src/widgets/widgets/qfocusframe.h",
+				"src/widgets/widgets/qframe.h",
+				"build/src/widgets/qtwidgets-config.h",
+				"src/widgets/effects/qgraphicseffect.h",
+				"src/widgets/kernel/qaction.h",
+				"src/widgets/kernel/qactiongroup.h",
+				"src/widgets/kernel/qwidgetaction.h",
+				"src/widgets/kernel/qformlayout.h",
+				"src/widgets/kernel/qshortcut.h",
+				"src/widgets/kernel/qtooltip.h",
+				"src/widgets/kernel/qwhatsthis.h",
+				"src/widgets/widgets/qabstractbutton.h",
+				"src/widgets/widgets/qabstractslider.h",
+				"src/widgets/widgets/qbuttongroup.h",
+				"src/widgets/widgets/qcalendarwidget.h",
+				"src/widgets/widgets/qcheckbox.h",
+				"src/widgets/widgets/qcombobox.h",
+				"src/widgets/widgets/qcommandlinkbutton.h",
+				"src/widgets/widgets/qdatetimeedit.h",
+				"src/widgets/widgets/qdial.h",
+				"src/widgets/widgets/qdockwidget.h",
+				"src/widgets/widgets/qfontcombobox.h",
+				"src/widgets/widgets/qgroupbox.h",
+				"src/widgets/widgets/qkeysequenceedit.h",
+				"src/widgets/widgets/qlabel.h",
+				"src/widgets/widgets/qlcdnumber.h",
+				"src/widgets/widgets/qlineedit.h",
+				"src/widgets/widgets/qmainwindow.h",
+				"src/widgets/widgets/qmdiarea.h",
+				"src/widgets/widgets/qmdisubwindow.h",
+				"src/widgets/widgets/qmenu.h",
+				"src/widgets/widgets/qmenubar.h",
+				"src/widgets/widgets/qprogressbar.h",
+				"src/widgets/widgets/qpushbutton.h",
+				"src/widgets/widgets/qradiobutton.h",
+				"src/widgets/widgets/qdialogbuttonbox.h",
+				"src/widgets/widgets/qrubberband.h",
+				"src/widgets/widgets/qscrollarea.h",
+				"src/widgets/widgets/qscrollbar.h",
+				"src/widgets/widgets/qsizegrip.h",
+				"src/widgets/widgets/qslider.h",
+				"src/widgets/widgets/qabstractspinbox.h",
+				"src/widgets/widgets/qspinbox.h",
+				"src/widgets/widgets/qsplashscreen.h",
+				"src/widgets/widgets/qsplitter.h",
+				"src/widgets/widgets/qstackedwidget.h",
+				"src/widgets/widgets/qstatusbar.h",
+				"src/widgets/widgets/qtabbar.h",
+				"src/widgets/widgets/qplaintextedit.h",
+				"src/widgets/widgets/qtextedit.h",
+				"src/widgets/widgets/qtextbrowser.h",
+				"src/widgets/widgets/qtabwidget.h",
+				"src/widgets/widgets/qtoolbar.h",
+				"src/widgets/widgets/qtoolbox.h",
+				"src/widgets/widgets/qtoolbutton.h",
+				"src/widgets/dialogs/qcolordialog.h",
+				"src/widgets/dialogs/qdialog.h",
+				"src/widgets/dialogs/qerrormessage.h",
+				"src/widgets/dialogs/qfiledialog.h",
+				"src/widgets/dialogs/qfilesystemmodel.h",
+				"src/widgets/dialogs/qfontdialog.h",
+				"src/widgets/dialogs/qinputdialog.h",
+				"src/widgets/dialogs/qmessagebox.h",
+				"src/widgets/dialogs/qprogressdialog.h",
+				"src/widgets/dialogs/qwizard.h",
+				"src/widgets/accessible/qaccessiblewidget.h",
+				"src/widgets/itemviews/qabstractitemdelegate.h",
+				"src/widgets/itemviews/qabstractitemview.h",
+				"src/widgets/itemviews/qheaderview.h",
+				"src/widgets/itemviews/qitemdelegate.h",
+				"src/widgets/itemviews/qitemeditorfactory.h",
+				"src/widgets/itemviews/qstyleditemdelegate.h",
+				"src/widgets/itemviews/qcolumnview.h",
+				"src/widgets/itemviews/qdatawidgetmapper.h",
+				"src/widgets/itemviews/qlistview.h",
+				"src/widgets/itemviews/qlistwidget.h",
+				"src/widgets/itemviews/qtableview.h",
+				"src/widgets/itemviews/qtablewidget.h",
+				"src/widgets/itemviews/qtreeview.h",
+				"src/widgets/itemviews/qtreewidget.h",
+				"src/widgets/itemviews/qtreewidgetitemiterator.h",
+				"src/widgets/graphicsview/qgraphicsanchorlayout.h",
+				"src/widgets/graphicsview/qgraphicsgridlayout.h",
+				"src/widgets/graphicsview/qgraphicsitem.h",
+				"src/widgets/graphicsview/qgraphicslayout.h",
+				"src/widgets/graphicsview/qgraphicslayoutitem.h",
+				"src/widgets/graphicsview/qgraphicslinearlayout.h",
+				"src/widgets/graphicsview/qgraphicsproxywidget.h",
+				"src/widgets/graphicsview/qgraphicsscene.h",
+				"src/widgets/graphicsview/qgraphicssceneevent.h",
+				"src/widgets/graphicsview/qgraphicstransform.h",
+				"src/widgets/graphicsview/qgraphicsview.h",
+				"src/widgets/graphicsview/qgraphicswidget.h",
+				"src/widgets/graphicsview/qgraphicsitemanimation.h",
+				"src/widgets/util/qcompleter.h",
+				"src/widgets/util/qscroller.h",
+				"src/widgets/util/qscrollerproperties.h",
+				"src/widgets/util/qundostack.h",
+				"src/widgets/util/qundogroup.h",
+				"src/widgets/util/qundoview.h",
+				"build/include/QtWidgets/QtWidgetsDepends"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 44,
+			"component" : "Unspecified",
+			"destination" : "include/QtWidgets/6.8.0/QtWidgets/private",
+			"paths" : 
+			[
+				"src/widgets/itemviews/qfileiconprovider_p.h",
+				"src/widgets/kernel/qapplication_p.h",
+				"src/widgets/kernel/qgesture_p.h",
+				"src/widgets/kernel/qgesturemanager_p.h",
+				"src/widgets/kernel/qlayout_p.h",
+				"src/widgets/kernel/qlayoutengine_p.h",
+				"src/widgets/kernel/qrhiwidget_p.h",
+				"src/widgets/kernel/qstandardgestures_p.h",
+				"src/widgets/kernel/qtwidgetsglobal_p.h",
+				"src/widgets/kernel/qwidget_p.h",
+				"src/widgets/kernel/qwidgetrepaintmanager_p.h",
+				"src/widgets/kernel/qwidgetwindow_p.h",
+				"src/widgets/kernel/qwindowcontainer_p.h",
+				"src/widgets/styles/qcommonstyle_p.h",
+				"src/widgets/styles/qcommonstylepixmaps_p.h",
+				"src/widgets/styles/qpixmapstyle_p.h",
+				"src/widgets/styles/qpixmapstyle_p_p.h",
+				"src/widgets/styles/qproxystyle_p.h",
+				"src/widgets/styles/qstyle_p.h",
+				"src/widgets/styles/qstylehelper_p.h",
+				"src/widgets/styles/qstylesheetstyle_p.h",
+				"src/widgets/util/qsystemtrayicon_p.h",
+				"src/widgets/widgets/qabstractscrollarea_p.h",
+				"src/widgets/widgets/qframe_p.h",
+				"src/widgets/widgets/qwidgetanimator_p.h",
+				"build/src/widgets/qtwidgets-config_p.h",
+				"src/widgets/effects/qgraphicseffect_p.h",
+				"src/widgets/effects/qpixmapfilter_p.h",
+				"src/widgets/kernel/qaction_widgets_p.h",
+				"src/widgets/kernel/qwidgetaction_p.h",
+				"src/widgets/styles/qstyleanimation_p.h",
+				"src/widgets/styles/qwindowsstyle_p.h",
+				"src/widgets/styles/qwindowsstyle_p_p.h",
+				"src/widgets/styles/qfusionstyle_p.h",
+				"src/widgets/styles/qfusionstyle_p_p.h",
+				"src/widgets/widgets/qabstractbutton_p.h",
+				"src/widgets/widgets/qabstractslider_p.h",
+				"src/widgets/widgets/qbuttongroup_p.h",
+				"src/widgets/widgets/qcombobox_p.h",
+				"src/widgets/widgets/qdatetimeedit_p.h",
+				"src/widgets/widgets/qdockarealayout_p.h",
+				"src/widgets/widgets/qdockwidget_p.h",
+				"src/widgets/widgets/qeffects_p.h",
+				"src/widgets/widgets/qkeysequenceedit_p.h",
+				"src/widgets/widgets/qlabel_p.h",
+				"src/widgets/widgets/qlineedit_p.h",
+				"src/widgets/widgets/qwidgetlinecontrol_p.h",
+				"src/widgets/widgets/qmainwindowlayout_p.h",
+				"src/widgets/widgets/qmdiarea_p.h",
+				"src/widgets/widgets/qmdisubwindow_p.h",
+				"src/widgets/widgets/qmenu_p.h",
+				"src/widgets/widgets/qmenubar_p.h",
+				"src/widgets/widgets/qpushbutton_p.h",
+				"src/widgets/widgets/qwidgetresizehandler_p.h",
+				"src/widgets/widgets/qdialogbuttonbox_p.h",
+				"src/widgets/widgets/qscrollarea_p.h",
+				"src/widgets/widgets/qscrollbar_p.h",
+				"src/widgets/widgets/qabstractspinbox_p.h",
+				"src/widgets/widgets/qsplitter_p.h",
+				"src/widgets/widgets/qtabbar_p.h",
+				"src/widgets/widgets/qplaintextedit_p.h",
+				"src/widgets/widgets/qtextedit_p.h",
+				"src/widgets/widgets/qtoolbar_p.h",
+				"src/widgets/widgets/qtoolbararealayout_p.h",
+				"src/widgets/widgets/qtoolbarlayout_p.h",
+				"src/widgets/widgets/qtoolbarseparator_p.h",
+				"src/widgets/widgets/qtoolbarextension_p.h",
+				"src/widgets/widgets/qwidgettextcontrol_p.h",
+				"src/widgets/widgets/qwidgettextcontrol_p_p.h",
+				"src/widgets/dialogs/qdialog_p.h",
+				"src/widgets/dialogs/qfiledialog_p.h",
+				"src/widgets/dialogs/qsidebar_p.h",
+				"src/widgets/dialogs/qfontdialog_p.h",
+				"src/widgets/dialogs/qfscompleter_p.h",
+				"src/widgets/dialogs/qwizard_win_p.h",
+				"src/widgets/accessible/complexwidgets_p.h",
+				"src/widgets/accessible/qaccessiblemenu_p.h",
+				"src/widgets/accessible/qaccessiblewidgetfactory_p.h",
+				"src/widgets/accessible/qaccessiblewidgets_p.h",
+				"src/widgets/accessible/rangecontrols_p.h",
+				"src/widgets/accessible/simplewidgets_p.h",
+				"src/widgets/accessible/itemviews_p.h",
+				"src/widgets/itemviews/qabstractitemdelegate_p.h",
+				"src/widgets/itemviews/qabstractitemview_p.h",
+				"src/widgets/itemviews/qbsptree_p.h",
+				"src/widgets/itemviews/qheaderview_p.h",
+				"src/widgets/itemviews/qitemeditorfactory_p.h",
+				"src/widgets/itemviews/qwidgetitemdata_p.h",
+				"src/widgets/itemviews/qcolumnview_p.h",
+				"src/widgets/itemviews/qcolumnviewgrip_p.h",
+				"src/widgets/itemviews/qlistview_p.h",
+				"src/widgets/itemviews/qlistwidget_p.h",
+				"src/widgets/itemviews/qtableview_p.h",
+				"src/widgets/itemviews/qtablewidget_p.h",
+				"src/widgets/itemviews/qtreeview_p.h",
+				"src/widgets/itemviews/qtreewidget_p.h",
+				"src/widgets/itemviews/qtreewidgetitemiterator_p.h",
+				"src/widgets/graphicsview/qgraph_p.h",
+				"src/widgets/graphicsview/qgraphicsanchorlayout_p.h",
+				"src/widgets/graphicsview/qgraphicsgridlayoutengine_p.h",
+				"src/widgets/graphicsview/qgraphicsitem_p.h",
+				"src/widgets/graphicsview/qgraphicslayout_p.h",
+				"src/widgets/graphicsview/qgraphicslayoutitem_p.h",
+				"src/widgets/graphicsview/qgraphicslayoutstyleinfo_p.h",
+				"src/widgets/graphicsview/qgraphicsproxywidget_p.h",
+				"src/widgets/graphicsview/qgraphicsscene_p.h",
+				"src/widgets/graphicsview/qgraphicsscene_bsp_p.h",
+				"src/widgets/graphicsview/qgraphicsscenebsptreeindex_p.h",
+				"src/widgets/graphicsview/qgraphicssceneindex_p.h",
+				"src/widgets/graphicsview/qgraphicsscenelinearindex_p.h",
+				"src/widgets/graphicsview/qgraphicstransform_p.h",
+				"src/widgets/graphicsview/qgraphicsview_p.h",
+				"src/widgets/graphicsview/qgraphicswidget_p.h",
+				"src/widgets/graphicsview/qsimplex_p.h",
+				"src/widgets/util/qcompleter_p.h",
+				"src/widgets/util/qflickgesture_p.h",
+				"src/widgets/util/qscroller_p.h",
+				"src/widgets/util/qscrollerproperties_p.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 47,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"build/mkspecs/modules/qt_lib_widgets.pri",
+				"build/mkspecs/modules/qt_lib_widgets_private.pri"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/widgets",
+		"source" : "src/widgets"
+	}
+}

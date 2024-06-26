@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QKeyMapper",
+            "object": true,
+            "qualifiedClassName": "QKeyMapper",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qkeymapper_p.h",
+    "outputRevision": 68
+}

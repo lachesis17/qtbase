@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QRestAccessManager",
+            "object": true,
+            "qualifiedClassName": "QRestAccessManager",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qrestaccessmanager.h",
+    "outputRevision": 68
+}

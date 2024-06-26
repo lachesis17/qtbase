@@ -1,0 +1,92 @@
+{
+    "classes": [
+        {
+            "className": "QHttp2ProtocolHandler",
+            "methods": [
+                {
+                    "access": "public",
+                    "name": "handleConnectionClosure",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "ensureClientPrefaceSent",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_receiveReply",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "sendRequest",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "streamID",
+                            "type": "quint32"
+                        },
+                        {
+                            "name": "delta",
+                            "type": "quint32"
+                        }
+                    ],
+                    "name": "sendWINDOW_UPDATE",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "private",
+                    "name": "resumeSuspendedStreams",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "QHttp2ProtocolHandler",
+            "slots": [
+                {
+                    "access": "private",
+                    "name": "_q_uploadDataReadyRead",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "reply",
+                            "type": "QObject*"
+                        }
+                    ],
+                    "name": "_q_replyDestroyed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "uploadData",
+                            "type": "QObject*"
+                        }
+                    ],
+                    "name": "_q_uploadDataDestroyed",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                },
+                {
+                    "access": "public",
+                    "name": "QAbstractProtocolHandler"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qhttp2protocolhandler_p.h",
+    "outputRevision": 68
+}

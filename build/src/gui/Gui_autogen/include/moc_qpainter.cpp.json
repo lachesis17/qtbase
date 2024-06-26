@@ -1,0 +1,40 @@
+{
+    "classes": [
+        {
+            "className": "QPainter",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "RenderHint",
+                    "values": [
+                        "Antialiasing",
+                        "TextAntialiasing",
+                        "SmoothPixmapTransform",
+                        "VerticalSubpixelPositioning",
+                        "LosslessImageRendering",
+                        "NonCosmeticBrushPatterns"
+                    ]
+                },
+                {
+                    "alias": "RenderHint",
+                    "isClass": false,
+                    "isFlag": true,
+                    "name": "RenderHints",
+                    "values": [
+                        "Antialiasing",
+                        "TextAntialiasing",
+                        "SmoothPixmapTransform",
+                        "VerticalSubpixelPositioning",
+                        "LosslessImageRendering",
+                        "NonCosmeticBrushPatterns"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "qualifiedClassName": "QPainter"
+        }
+    ],
+    "inputFile": "qpainter.h",
+    "outputRevision": 68
+}

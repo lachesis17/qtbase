@@ -1,0 +1,180 @@
+{
+    "classes": [
+        {
+            "className": "QAbstractSocket",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "SocketType",
+                    "values": [
+                        "TcpSocket",
+                        "UdpSocket",
+                        "SctpSocket",
+                        "UnknownSocketType"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "NetworkLayerProtocol",
+                    "values": [
+                        "IPv4Protocol",
+                        "IPv6Protocol",
+                        "AnyIPProtocol",
+                        "UnknownNetworkLayerProtocol"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "SocketError",
+                    "values": [
+                        "ConnectionRefusedError",
+                        "RemoteHostClosedError",
+                        "HostNotFoundError",
+                        "SocketAccessError",
+                        "SocketResourceError",
+                        "SocketTimeoutError",
+                        "DatagramTooLargeError",
+                        "NetworkError",
+                        "AddressInUseError",
+                        "SocketAddressNotAvailableError",
+                        "UnsupportedSocketOperationError",
+                        "UnfinishedSocketOperationError",
+                        "ProxyAuthenticationRequiredError",
+                        "SslHandshakeFailedError",
+                        "ProxyConnectionRefusedError",
+                        "ProxyConnectionClosedError",
+                        "ProxyConnectionTimeoutError",
+                        "ProxyNotFoundError",
+                        "ProxyProtocolError",
+                        "OperationError",
+                        "SslInternalError",
+                        "SslInvalidUserDataError",
+                        "TemporaryError",
+                        "UnknownSocketError"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "SocketState",
+                    "values": [
+                        "UnconnectedState",
+                        "HostLookupState",
+                        "ConnectingState",
+                        "ConnectedState",
+                        "BoundState",
+                        "ListeningState",
+                        "ClosingState"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "SocketOption",
+                    "values": [
+                        "LowDelayOption",
+                        "KeepAliveOption",
+                        "MulticastTtlOption",
+                        "MulticastLoopbackOption",
+                        "TypeOfServiceOption",
+                        "SendBufferSizeSocketOption",
+                        "ReceiveBufferSizeSocketOption",
+                        "PathMtuSocketOption"
+                    ]
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "QAbstractSocket",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "hostFound",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "connected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "disconnected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QAbstractSocket::SocketState"
+                        }
+                    ],
+                    "name": "stateChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QAbstractSocket::SocketError"
+                        }
+                    ],
+                    "name": "errorOccurred",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "proxy",
+                            "type": "QNetworkProxy"
+                        },
+                        {
+                            "name": "authenticator",
+                            "type": "QAuthenticator*"
+                        }
+                    ],
+                    "name": "proxyAuthenticationRequired",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "name": "_q_connectToNextAddress",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QHostInfo"
+                        }
+                    ],
+                    "name": "_q_startConnecting",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_abortConnectionAttempt",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_testConnection",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QIODevice"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qabstractsocket.h",
+    "outputRevision": 68
+}

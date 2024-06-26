@@ -1,0 +1,57 @@
+{
+    "classes": [
+        {
+            "className": "ControlLabel",
+            "object": true,
+            "qualifiedClassName": "QMdi::ControlLabel",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "_q_clicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "_q_doubleClicked",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        },
+        {
+            "className": "ControllerWidget",
+            "object": true,
+            "qualifiedClassName": "QMdi::ControllerWidget",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "_q_minimize",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "_q_restore",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "_q_close",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qmdisubwindow.cpp",
+    "outputRevision": 68
+}

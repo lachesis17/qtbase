@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QFactoryLoader",
+            "object": true,
+            "qualifiedClassName": "QFactoryLoader",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qfactoryloader_p.h",
+    "outputRevision": 68
+}

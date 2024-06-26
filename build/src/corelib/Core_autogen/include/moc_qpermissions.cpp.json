@@ -1,0 +1,86 @@
+{
+    "classes": [
+        {
+            "className": "QLocationPermission",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "Accuracy",
+                    "type": "quint8",
+                    "values": [
+                        "Approximate",
+                        "Precise"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "Availability",
+                    "type": "quint8",
+                    "values": [
+                        "WhenInUse",
+                        "Always"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "qualifiedClassName": "QLocationPermission"
+        },
+        {
+            "className": "QCalendarPermission",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "AccessMode",
+                    "type": "quint8",
+                    "values": [
+                        "ReadOnly",
+                        "ReadWrite"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "qualifiedClassName": "QCalendarPermission"
+        },
+        {
+            "className": "QContactsPermission",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "AccessMode",
+                    "type": "quint8",
+                    "values": [
+                        "ReadOnly",
+                        "ReadWrite"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "qualifiedClassName": "QContactsPermission"
+        },
+        {
+            "className": "QBluetoothPermission",
+            "enums": [
+                {
+                    "alias": "CommunicationMode",
+                    "isClass": false,
+                    "isFlag": true,
+                    "name": "CommunicationModes",
+                    "type": "quint8",
+                    "values": [
+                        "Access",
+                        "Advertise",
+                        "Default"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "qualifiedClassName": "QBluetoothPermission"
+        }
+    ],
+    "inputFile": "qpermissions.h",
+    "outputRevision": 68
+}

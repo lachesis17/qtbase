@@ -1,0 +1,1225 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "plugins/styles/libqmodernwindowsstyle.a"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_qt_internal_add_library",
+			"qt6_add_plugin",
+			"qt_internal_add_plugin",
+			"install",
+			"qt_install",
+			"target_link_libraries",
+			"qt_internal_extend_target",
+			"add_dependencies",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"qt_internal_add_linker_version_script",
+			"add_compile_options",
+			"include",
+			"qt_internal_set_compiler_warning_flags",
+			"qt_internal_setup_build_and_global_variables",
+			"qt_build_internals_set_up_private_api",
+			"qt_build_repo_begin",
+			"target_compile_options",
+			"qt_internal_set_exceptions_flags",
+			"target_compile_definitions",
+			"qt_internal_add_repo_local_defines",
+			"target_include_directories",
+			"set_property",
+			"qt_update_precompiled_header",
+			"qt_update_precompiled_header_with_library",
+			"target_sources",
+			"qt6_extract_metatypes",
+			"qt6_finalize_target",
+			"qt_generate_prl_file",
+			"qt_finalize_plugin"
+		],
+		"files" : 
+		[
+			"src/corelib/Qt6CoreMacros.cmake",
+			"cmake/QtPluginHelpers.cmake",
+			"src/plugins/styles/modernwindows/CMakeLists.txt",
+			"cmake/QtInstallHelpers.cmake",
+			"cmake/QtTargetHelpers.cmake",
+			"cmake/QtSyncQtHelpers.cmake",
+			"cmake/QtModuleHelpers.cmake",
+			"cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"src/corelib/CMakeLists.txt",
+			"src/gui/CMakeLists.txt",
+			"src/widgets/CMakeLists.txt",
+			"cmake/QtFlagHandlingHelpers.cmake",
+			"cmake/QtCompilerFlags.cmake",
+			"cmake/QtBuildHelpers.cmake",
+			"cmake/QtBuild.cmake",
+			"cmake/QtSetup.cmake",
+			"cmake/QtBuildRepoHelpers.cmake",
+			"CMakeLists.txt",
+			"cmake/QtPrecompiledHeadersHelpers.cmake",
+			"src/corelib/Qt6CoreMacros.cmake:2617:EVAL",
+			"cmake/QtPrlHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 94,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2526,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2736,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 390,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 5
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 286,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 180,
+				"parent" : 7
+			},
+			{
+				"file" : 8
+			},
+			{
+				"file" : 8,
+				"line" : -1,
+				"parent" : 9
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 10
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1000,
+				"parent" : 11
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 12
+			},
+			{
+				"file" : 9
+			},
+			{
+				"file" : 9,
+				"line" : -1,
+				"parent" : 14
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 15
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1000,
+				"parent" : 16
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 17
+			},
+			{
+				"file" : 10
+			},
+			{
+				"file" : 10,
+				"line" : -1,
+				"parent" : 19
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 20
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1000,
+				"parent" : 21
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 22
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 415,
+				"parent" : 1
+			},
+			{
+				"command" : 8,
+				"file" : 11,
+				"line" : 136,
+				"parent" : 24
+			},
+			{
+				"file" : 17
+			},
+			{
+				"command" : 17,
+				"file" : 17,
+				"line" : 143,
+				"parent" : 26
+			},
+			{
+				"command" : 16,
+				"file" : 16,
+				"line" : 180,
+				"parent" : 27
+			},
+			{
+				"command" : 13,
+				"file" : 16,
+				"line" : 22,
+				"parent" : 28
+			},
+			{
+				"file" : 15,
+				"parent" : 29
+			},
+			{
+				"command" : 13,
+				"file" : 15,
+				"line" : 6,
+				"parent" : 30
+			},
+			{
+				"file" : 14,
+				"parent" : 31
+			},
+			{
+				"command" : 15,
+				"file" : 14,
+				"line" : 4,
+				"parent" : 32
+			},
+			{
+				"command" : 14,
+				"file" : 13,
+				"line" : 451,
+				"parent" : 33
+			},
+			{
+				"command" : 13,
+				"file" : 13,
+				"line" : 79,
+				"parent" : 34
+			},
+			{
+				"file" : 12,
+				"parent" : 35
+			},
+			{
+				"command" : 12,
+				"file" : 12,
+				"line" : 39,
+				"parent" : 36
+			},
+			{
+				"command" : 19,
+				"file" : 1,
+				"line" : 322,
+				"parent" : 1
+			},
+			{
+				"command" : 18,
+				"file" : 11,
+				"line" : 288,
+				"parent" : 38
+			},
+			{
+				"command" : 20,
+				"file" : 0,
+				"line" : 2593,
+				"parent" : 2
+			},
+			{
+				"command" : 21,
+				"file" : 1,
+				"line" : 320,
+				"parent" : 1
+			},
+			{
+				"command" : 20,
+				"file" : 4,
+				"line" : 1529,
+				"parent" : 41
+			},
+			{
+				"command" : 20,
+				"file" : 11,
+				"line" : 287,
+				"parent" : 38
+			},
+			{
+				"command" : 20,
+				"file" : 0,
+				"line" : 2531,
+				"parent" : 2
+			},
+			{
+				"command" : 22,
+				"file" : 4,
+				"line" : 172,
+				"parent" : 7
+			},
+			{
+				"command" : 25,
+				"file" : 4,
+				"line" : 118,
+				"parent" : 7
+			},
+			{
+				"command" : 24,
+				"file" : 18,
+				"line" : 15,
+				"parent" : 46
+			},
+			{
+				"command" : 23,
+				"file" : 18,
+				"line" : 6,
+				"parent" : 47
+			},
+			{
+				"command" : 25,
+				"file" : 4,
+				"line" : 118,
+				"parent" : 7
+			},
+			{
+				"command" : 24,
+				"file" : 18,
+				"line" : 15,
+				"parent" : 49
+			},
+			{
+				"command" : 23,
+				"file" : 18,
+				"line" : 6,
+				"parent" : 50
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 7
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 28,
+				"file" : 19,
+				"line" : 1,
+				"parent" : 53
+			},
+			{
+				"command" : 27,
+				"file" : 0,
+				"line" : 853,
+				"parent" : 54
+			},
+			{
+				"command" : 26,
+				"file" : 0,
+				"line" : 1490,
+				"parent" : 55
+			},
+			{
+				"command" : 30,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 53
+			},
+			{
+				"command" : 29,
+				"file" : 1,
+				"line" : 468,
+				"parent" : 57
+			},
+			{
+				"command" : 26,
+				"file" : 20,
+				"line" : 205,
+				"parent" : 58
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 39,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wa,-mbig-obj"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-ftrivial-auto-var-init=pattern"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fstack-clash-protection"
+				},
+				{
+					"fragment" : "-Winvalid-pch -x c++-header -include C:/Qt/qtbase-6.8/build/src/plugins/styles/modernwindows/CMakeFiles/QModernWindowsStylePlugin.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "MINGW_HAS_SECURE_API=1"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 42,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 43,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_QASCONST"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_PLUGIN"
+				},
+				{
+					"backtrace" : 44,
+					"define" : "QT_STATICPLUGIN"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "WINVER=0x0A00"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_WIN32_WINNT=0x0A00"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "C:/Qt/qtbase-6.8/build/src/plugins/styles/modernwindows/QModernWindowsStylePlugin_autogen/include"
+				},
+				{
+					"backtrace" : 45,
+					"path" : "C:/Qt/qtbase-6.8/src/plugins/styles/modernwindows"
+				},
+				{
+					"backtrace" : 45,
+					"path" : "C:/Qt/qtbase-6.8/build/src/plugins/styles/modernwindows"
+				},
+				{
+					"backtrace" : 45,
+					"path" : "C:/Qt/qtbase-6.8/build/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/src/gui"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui/6.8.0"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui/6.8.0/QtGui"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0/QtCore"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/src/widgets"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtWidgets/6.8.0"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtWidgets/6.8.0/QtWidgets"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtWidgets"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					8
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 48,
+					"header" : "C:/Qt/qtbase-6.8/build/include/QtCore/QtCore"
+				},
+				{
+					"backtrace" : 51,
+					"header" : "C:/Qt/qtbase-6.8/build/include/QtGui/QtGui"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 39,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wa,-mbig-obj"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-ftrivial-auto-var-init=pattern"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fstack-clash-protection"
+				},
+				{
+					"fragment" : "-Winvalid-pch -include C:/Qt/qtbase-6.8/build/src/plugins/styles/modernwindows/CMakeFiles/QModernWindowsStylePlugin.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "MINGW_HAS_SECURE_API=1"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 42,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 43,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_QASCONST"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_PLUGIN"
+				},
+				{
+					"backtrace" : 44,
+					"define" : "QT_STATICPLUGIN"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "WINVER=0x0A00"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_WIN32_WINNT=0x0A00"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "C:/Qt/qtbase-6.8/build/src/plugins/styles/modernwindows/QModernWindowsStylePlugin_autogen/include"
+				},
+				{
+					"backtrace" : 45,
+					"path" : "C:/Qt/qtbase-6.8/src/plugins/styles/modernwindows"
+				},
+				{
+					"backtrace" : 45,
+					"path" : "C:/Qt/qtbase-6.8/build/src/plugins/styles/modernwindows"
+				},
+				{
+					"backtrace" : 45,
+					"path" : "C:/Qt/qtbase-6.8/build/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/src/gui"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui/6.8.0"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui/6.8.0/QtGui"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0/QtCore"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/src/widgets"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtWidgets/6.8.0"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtWidgets/6.8.0/QtWidgets"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtWidgets"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					8
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 48,
+					"header" : "C:/Qt/qtbase-6.8/build/include/QtCore/QtCore"
+				},
+				{
+					"backtrace" : 51,
+					"header" : "C:/Qt/qtbase-6.8/build/include/QtGui/QtGui"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				5,
+				8,
+				10
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		},
+		{
+			"id" : "cmake_automoc_parser::@9df279ca5a40d551589d"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "ZlibPrivate::@fab9159b69e9a33b7bcd"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "BundledPcre2::@662af84d20aaf7d84676"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "BundledZLIB::@fab9159b69e9a33b7bcd"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "Core::@e8138540d8b2daa0b357"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "BundledLibpng::@f0d8789028037e8800e8"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "Core_sync_headers::@e8138540d8b2daa0b357"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "BundledHarfbuzz::@0b15749e035ccedaa8cf"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "BundledFreetype::@17c7c8edb7eca99300c5"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "Gui::@7675e61a69a6135e3026"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "Gui_sync_headers::@7675e61a69a6135e3026"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "Gui_resources_2::@7675e61a69a6135e3026"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "Gui_resources_1::@7675e61a69a6135e3026"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "Widgets_resources_3::@01ca4e8faf65486cb322"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "Widgets_sync_headers::@01ca4e8faf65486cb322"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "Widgets_resources_4::@01ca4e8faf65486cb322"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "Widgets_resources_1::@01ca4e8faf65486cb322"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "Widgets_resources_2::@01ca4e8faf65486cb322"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "Widgets::@01ca4e8faf65486cb322"
+		},
+		{
+			"backtrace" : 25,
+			"id" : "QModernWindowsStylePlugin_version_script::@1325d0d638e4cb86c9fc"
+		},
+		{
+			"id" : "QModernWindowsStylePlugin_autogen_timestamp_deps::@1325d0d638e4cb86c9fc"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QModernWindowsStylePlugin_autogen::@1325d0d638e4cb86c9fc"
+		}
+	],
+	"id" : "QModernWindowsStylePlugin::@1325d0d638e4cb86c9fc",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 6,
+				"path" : "plugins/styles"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Qt/Qt-6.8.0"
+		}
+	},
+	"name" : "QModernWindowsStylePlugin",
+	"nameOnDisk" : "libqmodernwindowsstyle.a",
+	"paths" : 
+	{
+		"build" : "src/plugins/styles/modernwindows",
+		"source" : "src/plugins/styles/modernwindows"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				5,
+				8,
+				10
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				4,
+				6,
+				7,
+				9,
+				11
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				15
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				16,
+				17,
+				18,
+				19
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"path" : "build/src/plugins/styles/modernwindows/CMakeFiles/QModernWindowsStylePlugin.dir/cmake_pch.hxx.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/styles/modernwindows/QModernWindowsStylePlugin_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 52,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/styles/modernwindows/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 52,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/styles/modernwindows/qwindowsvistastyle.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 52,
+			"path" : "src/plugins/styles/modernwindows/qwindowsvistastyle_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 52,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/styles/modernwindows/qwindows11style.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 52,
+			"path" : "src/plugins/styles/modernwindows/qwindows11style_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 52,
+			"path" : "src/plugins/styles/modernwindows/qwindowsvistastyle_p_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 52,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/styles/modernwindows/qwindowsvistaanimation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 52,
+			"path" : "src/plugins/styles/modernwindows/qwindowsvistaanimation_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 52,
+			"compileGroupIndex" : 1,
+			"path" : "src/plugins/styles/modernwindows/qwindowsthemedata.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 52,
+			"path" : "src/plugins/styles/modernwindows/qwindowsthemedata_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 56,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/styles/modernwindows/meta_types/qt6qmodernwindowsstyleplugin_release_metatypes.json.gen",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 59,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/styles/modernwindows/preliminary_prl_for_QModernWindowsStylePlugin_step2_Release.prl",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/styles/modernwindows/QModernWindowsStylePlugin_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"path" : "build/src/plugins/styles/modernwindows/CMakeFiles/QModernWindowsStylePlugin.dir/cmake_pch.hxx",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/styles/modernwindows/meta_types/qt6qmodernwindowsstyleplugin_release_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/styles/modernwindows/preliminary_prl_for_QModernWindowsStylePlugin_step2_Release.prl.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/styles/modernwindows/QModernWindowsStylePlugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/styles/modernwindows/meta_types/QModernWindowsStylePlugin_json_file_list.txt.rule",
+			"sourceGroupIndex" : 4
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

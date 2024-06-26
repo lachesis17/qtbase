@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QTextTable",
+            "object": true,
+            "qualifiedClassName": "QTextTable",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QTextFrame"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtexttable.h",
+    "outputRevision": 68
+}

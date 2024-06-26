@@ -1,0 +1,19 @@
+[
+    {
+        "classes": [
+            {
+                "className": "QJpegPlugin",
+                "object": true,
+                "qualifiedClassName": "QJpegPlugin",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QImageIOPlugin"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "main.cpp",
+        "outputRevision": 68
+    }
+]

@@ -1,0 +1,74 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/plugins/sqldrivers/odbc/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		},
+		{
+			"id" : "QODBCDriverPlugin_autogen_timestamp_deps::@4e04d8770e22af219169"
+		}
+	],
+	"id" : "QODBCDriverPlugin_autogen::@4e04d8770e22af219169",
+	"isGeneratorProvided" : true,
+	"name" : "QODBCDriverPlugin_autogen",
+	"paths" : 
+	{
+		"build" : "src/plugins/sqldrivers/odbc",
+		"source" : "src/plugins/sqldrivers/odbc"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/sqldrivers/odbc/CMakeFiles/QODBCDriverPlugin_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/sqldrivers/odbc/CMakeFiles/QODBCDriverPlugin_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/sqldrivers/odbc/QODBCDriverPlugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

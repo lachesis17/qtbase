@@ -1,0 +1,24 @@
+{
+    "classes": [
+        {
+            "className": "QWidgetResizeHandler",
+            "object": true,
+            "qualifiedClassName": "QWidgetResizeHandler",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "activate",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwidgetresizehandler_p.h",
+    "outputRevision": 68
+}

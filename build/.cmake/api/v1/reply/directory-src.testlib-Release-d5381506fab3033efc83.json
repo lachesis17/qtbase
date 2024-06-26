@@ -1,0 +1,465 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt6_extract_metatypes",
+			"qt_internal_add_module",
+			"qt_install",
+			"qt_internal_export_modern_cmake_config_targets_file",
+			"qt_describe_module",
+			"qt_internal_add_docs",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"qt_internal_install_module_headers",
+			"qt_generate_module_pri_file"
+		],
+		"files" : 
+		[
+			"src/corelib/Qt6CoreMacros.cmake",
+			"cmake/QtModuleHelpers.cmake",
+			"src/testlib/CMakeLists.txt",
+			"cmake/QtInstallHelpers.cmake",
+			"cmake/QtTargetHelpers.cmake",
+			"cmake/QtDocsHelpers.cmake",
+			"cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"cmake/QtSyncQtHelpers.cmake",
+			"cmake/QtPriHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 766,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1531,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 793,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 809,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 829,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 840,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1124,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 918,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1253,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 142,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 230,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 243,
+				"parent" : 16
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 19
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 806,
+				"parent" : 20
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1081,
+				"parent" : 21
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 22
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 19
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 242,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 26
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 1003,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1318,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 29
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1322,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 31
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 1013,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 559,
+				"parent" : 33
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 34
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "./metatypes",
+			"paths" : 
+			[
+				"build/src/testlib/meta_types/qt6test_release_metatypes.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6Test",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6Test/Qt6TestConfig.cmake",
+				"build/lib/cmake/Qt6Test/Qt6TestConfigVersion.cmake",
+				"build/lib/cmake/Qt6Test/Qt6TestConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libQt6Test.a"
+			],
+			"targetId" : "Test::@6d64fd40ee034a68d3ce",
+			"targetIndex" : 195,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Test",
+			"exportName" : "Qt6TestTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Test::@6d64fd40ee034a68d3ce",
+					"index" : 195
+				},
+				{
+					"id" : "TestPrivate::@6d64fd40ee034a68d3ce",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"src/testlib/CMakeFiles/Export/e0e8a5215ca67046dcc96cd802132d6a/Qt6TestTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6Test",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6Test/Qt6TestVersionlessAliasTargets.cmake",
+				"build/lib/cmake/Qt6Test/Qt6TestVersionlessTargets.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "modules",
+			"paths" : 
+			[
+				"build/modules/Test.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "_install_html_docs_Test",
+			"destination" : "doc/qttestlib",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				{
+					"from" : "build/doc/qttestlib",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "_install_qch_docs_Test",
+			"destination" : "doc",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"build/doc/qttestlib.qch"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Test",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6Test/Qt6TestAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "include/QtTest",
+			"paths" : 
+			[
+				{
+					"from" : "build/include/QtTest/.syncqt_staging",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "include/QtTest",
+			"paths" : 
+			[
+				"build/include/QtTest/qttestexports.h",
+				"src/testlib/qbenchmark.h",
+				"src/testlib/qbenchmarkmetric.h",
+				"src/testlib/qsignalspy.h",
+				"src/testlib/qtest.h",
+				"src/testlib/qtest_gui.h",
+				"src/testlib/qtest_network.h",
+				"src/testlib/qtest_widgets.h",
+				"src/testlib/qtestaccessible.h",
+				"src/testlib/qtestassert.h",
+				"src/testlib/qtestcase.h",
+				"src/testlib/qtestdata.h",
+				"src/testlib/qtestevent.h",
+				"src/testlib/qtesteventloop.h",
+				"src/testlib/qtestkeyboard.h",
+				"src/testlib/qtestmouse.h",
+				"src/testlib/qtestspontaneevent.h",
+				"src/testlib/qtestsystem.h",
+				"src/testlib/qtesttouch.h",
+				"src/testlib/qtesttostring.h",
+				"src/testlib/qtestwheel.h",
+				"src/testlib/qttestglobal.h",
+				"build/src/testlib/qttestlib-config.h",
+				"src/testlib/qabstractitemmodeltester.h",
+				"build/include/QtTest/QtTestDepends"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "include/QtTest/6.8.0/QtTest/private",
+			"paths" : 
+			[
+				"src/testlib/3rdparty/cycle_p.h",
+				"src/testlib/qabstracttestlogger_p.h",
+				"src/testlib/qbenchmark_p.h",
+				"src/testlib/qbenchmarkevent_p.h",
+				"src/testlib/qbenchmarkmeasurement_p.h",
+				"src/testlib/qbenchmarkmetric_p.h",
+				"src/testlib/qbenchmarkperfevents_p.h",
+				"src/testlib/qbenchmarktimemeasurers_p.h",
+				"src/testlib/qcomparisontesthelper_p.h",
+				"src/testlib/qcsvbenchmarklogger_p.h",
+				"src/testlib/qemulationdetector_p.h",
+				"src/testlib/qjunittestlogger_p.h",
+				"src/testlib/qplaintestlogger_p.h",
+				"src/testlib/qpropertytesthelper_p.h",
+				"src/testlib/qsignaldumper_p.h",
+				"src/testlib/qtaptestlogger_p.h",
+				"src/testlib/qteamcitylogger_p.h",
+				"src/testlib/qtestblacklist_p.h",
+				"src/testlib/qtestcase_p.h",
+				"src/testlib/qtestcoreelement_p.h",
+				"src/testlib/qtestcrashhandler_p.h",
+				"src/testlib/qtestelement_p.h",
+				"src/testlib/qtestelementattribute_p.h",
+				"src/testlib/qtesthelpers_p.h",
+				"src/testlib/qtestjunitstreamer_p.h",
+				"src/testlib/qtestlog_p.h",
+				"src/testlib/qtestresult_p.h",
+				"src/testlib/qtesttable_p.h",
+				"src/testlib/qxmltestlogger_p.h",
+				"build/src/testlib/qttestlib-config_p.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"build/mkspecs/modules/qt_lib_testlib.pri",
+				"build/mkspecs/modules/qt_lib_testlib_private.pri"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/testlib",
+		"source" : "src/testlib"
+	}
+}

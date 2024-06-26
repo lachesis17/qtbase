@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QBalloonTip",
+            "object": true,
+            "qualifiedClassName": "QBalloonTip",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qsystemtrayicon_p.h",
+    "outputRevision": 68
+}

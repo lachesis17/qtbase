@@ -1,0 +1,5567 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"path" : ".cmake.conf"
+		},
+		{
+			"path" : "cmake/QtAutoDetect.cmake"
+		},
+		{
+			"path" : "cmake/QtAutoDetectHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtPublicAppleHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtPublicWasmToolchainHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeSystem.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.29.1/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeNinjaFindMake.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows-Determine-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/HP-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/XL-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.29.1/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/Bruce-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/Compaq-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/GNU-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/HP-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/LCC-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/SDCC-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/SunPro-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/XL-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/XLClang-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.29.1/CMakeCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineASMCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeASMCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.29.1/CMakeASMCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeRCCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.29.1/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows-windres.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.29.1/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCCompilerABI.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.29.1/CMakeCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeASMInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/GNU-ASM.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU-ASM.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestASMCompiler.cmake"
+		},
+		{
+			"path" : "cmake/QtCMakeVersionHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtPublicCMakeVersionHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtBuildInternals/QtBuildInternalsConfig.cmake"
+		},
+		{
+			"path" : "cmake/QtBuildHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake"
+		},
+		{
+			"path" : "cmake/Qt3rdPartyLibraryHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtAndroidHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtAppHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtAutoDetectHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtAutogenHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtBuildInformation.cmake"
+		},
+		{
+			"path" : "cmake/QtBuildOptionsHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtBuildPathsHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtBuildRepoExamplesHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtBuildRepoHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtCMakeHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtCMakeVersionHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtDbusHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtDeferredDependenciesHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtDocsHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtExecutableHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtFindPackageHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtFlagHandlingHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtFrameworkHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtGlobalStateHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtHeadersClean.cmake"
+		},
+		{
+			"path" : "cmake/QtInstallHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtJavaHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtLalrHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtMkspecHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtModuleHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtNoLinkTargetHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtPkgConfigHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtPlatformTargetHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtPluginHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtPostProcessHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtPrecompiledHeadersHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtPriHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtPrlHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtQmakeHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtResourceHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtRpathHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtSanitizerHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtSbomHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtScopeFinalizerHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtSeparateDebugInfo.cmake"
+		},
+		{
+			"path" : "cmake/QtSimdHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtSingleRepoTargetSetBuildHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtSyncQtHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtTargetHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtTestHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtToolHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtToolchainHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtUnityBuildHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtWasmHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtWrapperScriptHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtFeature.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"path" : "cmake/QtFeatureCommon.cmake"
+		},
+		{
+			"path" : "cmake/QtPublicAppleHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtPublicCMakeHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtPublicCMakeVersionHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtPublicDependencyHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtPublicExternalProjectHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtPublicFinalizerHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtPublicFindPackageHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtPublicGitHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtPublicPluginHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtPublicSbomGenerationHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtPublicSbomHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtPublicTargetHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtPublicTestHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtPublicToolHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtPublicWalkLibsHelpers.cmake"
+		},
+		{
+			"path" : "cmake/QtPlatformSupport.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/QtSetup.cmake"
+		},
+		{
+			"path" : "cmake/QtBuild.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckPIESupported.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckLinkerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CTest.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CTestUseLaunchers.cmake"
+		},
+		{
+			"path" : "cmake/QtCompilerOptimization.cmake"
+		},
+		{
+			"path" : "cmake/QtCompilerFlags.cmake"
+		},
+		{
+			"path" : "cmake/QtBaseConfigureTests.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"path" : "cmake/QtBaseCMakeTesting.cmake"
+		},
+		{
+			"path" : "cmake/QtBaseGlobalTargets.cmake"
+		},
+		{
+			"path" : "cmake/QtBuildInternals/QtBuildInternalsConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/qt.toolchain.cmake.in"
+		},
+		{
+			"path" : "configure.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapSystemZLIB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindZLIB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapOpenSSLHeaders.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindOpenSSL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapOpenSSL.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapOpenSSLHeaders.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindOpenSSL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapZSTD.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapDBus1.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindLibudev.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindLTTngUST.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "bin/qt-cmake.bat.in"
+		},
+		{
+			"path" : "bin/qt-cmake-create.bat.in"
+		},
+		{
+			"path" : "bin/qt-cmake.bat.in"
+		},
+		{
+			"path" : "bin/qt-configure-module.bat.in"
+		},
+		{
+			"path" : "bin/qt-cmake-standalone-test.in"
+		},
+		{
+			"path" : "bin/qt-cmake-private-install.cmake.in"
+		},
+		{
+			"path" : "libexec/qt-internal-configure-tests.bat.in"
+		},
+		{
+			"path" : "libexec/qt-internal-configure-examples.bat.in"
+		},
+		{
+			"path" : "libexec/qt-internal-config.redo.bat.in"
+		},
+		{
+			"path" : "cmake/QtInternalTargets.cmake"
+		},
+		{
+			"path" : "cmake/3rdparty/extra-cmake-modules/modules/ECMEnableSanitizers.cmake"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtConfig.cmake.in"
+		},
+		{
+			"path" : "cmake/QtConfigExtras.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtInstallPaths.cmake.in"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreMacros.cmake"
+		},
+		{
+			"path" : "cmake/QtPostProcess.cmake"
+		},
+		{
+			"path" : "cmake/QtConfigDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtPluginDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtPluginDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtPluginDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtPluginDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtPluginDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtPluginDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtPluginDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtPluginDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtPluginDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtPluginDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtPluginDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtPluginDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtPluginDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtPluginDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtHostInfoConfig.cmake.in"
+		},
+		{
+			"path" : "cmake/QtBuildInternalsExtra.cmake.in"
+		},
+		{
+			"path" : "cmake/QtPlugins.cmake.in"
+		},
+		{
+			"path" : "cmake/QtPlugins.cmake.in"
+		},
+		{
+			"path" : "cmake/QtPlugins.cmake.in"
+		},
+		{
+			"path" : "cmake/QtPlugins.cmake.in"
+		},
+		{
+			"path" : "cmake/QtPlugins.cmake.in"
+		},
+		{
+			"path" : "cmake/QtStandaloneTestsConfig.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleToolsDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleToolsConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleToolsVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleToolsDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleToolsConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleToolsVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleToolsDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleToolsConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleToolsVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleToolsDependencies.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleToolsConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleToolsVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtBuildInternals/QtStandaloneTestTemplateProject/CMakeLists.txt"
+		},
+		{
+			"path" : "doc/CMakeLists.txt"
+		},
+		{
+			"path" : "src/CMakeLists.txt"
+		},
+		{
+			"path" : "src/corelib/configure.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapSystemDoubleConversion.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake"
+		},
+		{
+			"path" : "cmake/3rdparty/extra-cmake-modules/find-modules/FindGLIB2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindICU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindLibsystemd.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapAtomic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindLibb2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapRt.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakePushCheckState.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapSystemPCRE2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindSlog2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "src/network/configure.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapBrotli.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindLibproxy.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindGSSAPI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake"
+		},
+		{
+			"path" : "cmake/3rdparty/extra-cmake-modules/find-modules/FindGLIB2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake"
+		},
+		{
+			"path" : "cmake/3rdparty/extra-cmake-modules/find-modules/FindGLIB2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapResolv.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakePushCheckState.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "src/gui/configure.cmake"
+		},
+		{
+			"path" : "cmake/FindATSPI2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindDirectFB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/3rdparty/kwin/FindLibdrm.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake"
+		},
+		{
+			"path" : "cmake/3rdparty/extra-cmake-modules/find-modules/FindEGL.cmake"
+		},
+		{
+			"path" : "cmake/3rdparty/extra-cmake-modules/find-modules/ECMFindModuleHelpersStub.cmake"
+		},
+		{
+			"path" : "cmake/3rdparty/extra-cmake-modules/modules/ECMFindModuleHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakePushCheckState.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapSystemFreetype.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindFreetype.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindFontconfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/3rdparty/kwin/Findgbm.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapSystemHarfbuzz.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/3rdparty/kwin/FindLibinput.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapSystemJpeg.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindJPEG.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapSystemMd4c.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapSystemPNG.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPNG.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindZLIB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindMtdev.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapOpenGL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindOpenGL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindGLESv2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"path" : "cmake/3rdparty/extra-cmake-modules/find-modules/FindEGL.cmake"
+		},
+		{
+			"path" : "cmake/3rdparty/extra-cmake-modules/find-modules/ECMFindModuleHelpersStub.cmake"
+		},
+		{
+			"path" : "cmake/3rdparty/extra-cmake-modules/modules/ECMFindModuleHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakePushCheckState.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindTslib.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapVulkanHeaders.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindVulkan.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindRenderDoc.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/QtFindWrapConfigExtra.cmake.in"
+		},
+		{
+			"path" : "cmake/QtFindWrapConfigExtra.cmake.in"
+		},
+		{
+			"path" : "src/tools/syncqt/CMakeLists.txt"
+		},
+		{
+			"path" : "src/tools/bootstrap/CMakeLists.txt"
+		},
+		{
+			"path" : "src/tools/moc/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/tools/rcc/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/tools/tracepointgen/CMakeLists.txt"
+		},
+		{
+			"path" : "src/tools/tracegen/CMakeLists.txt"
+		},
+		{
+			"path" : "src/tools/cmake_automoc_parser/CMakeLists.txt"
+		},
+		{
+			"path" : "src/entrypoint/CMakeLists.txt"
+		},
+		{
+			"path" : "src/entrypoint/EntryPointMinGW32Target.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/src/entrypoint/Qt6EntryPointMinGW32Target.cmake"
+		},
+		{
+			"path" : "cmake/QtModuleConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/ModuleDescription.json.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/3rdparty/pcre2/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/Qt3rdPartyLibraryConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/3rdparty/zlib/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/Qt3rdPartyLibraryConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/ModuleDescription.json.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/corelib/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/FindWrapPCRE2.cmake"
+		},
+		{
+			"path" : "cmake/QtFindWrapHelper.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapZLIB.cmake"
+		},
+		{
+			"path" : "cmake/QtFindWrapHelper.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/modulecppexports.h.in"
+		},
+		{
+			"path" : "src/corelib/configure.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapSystemDoubleConversion.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake"
+		},
+		{
+			"path" : "cmake/3rdparty/extra-cmake-modules/find-modules/FindGLIB2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindICU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindLibsystemd.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapAtomic.cmake"
+		},
+		{
+			"path" : "cmake/FindLibb2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapRt.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapSystemPCRE2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindSlog2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreConfigExtras.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/ModuleDescription.json.in"
+		},
+		{
+			"path" : "src/corelib/global/qconfig.cpp.in"
+		},
+		{
+			"path" : "src/corelib/mimetypes/mimetypes_resources.cmake"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/corelib/global/qtdeprecationdefinitions.h.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/corelib/Qt6CTestMacros.cmake"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreDeploySupport.cmake"
+		},
+		{
+			"path" : "src/3rdparty/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/QtFindWrapConfigExtra.cmake.in"
+		},
+		{
+			"path" : "cmake/QtFindWrapConfigExtra.cmake.in"
+		},
+		{
+			"path" : "cmake/FindWrapPNG.cmake"
+		},
+		{
+			"path" : "cmake/QtFindWrapHelper.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/QtFindWrapConfigExtra.cmake.in"
+		},
+		{
+			"path" : "cmake/QtFindWrapConfigExtra.cmake.in"
+		},
+		{
+			"path" : "src/3rdparty/libpng/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/Qt3rdPartyLibraryConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/ModuleDescription.json.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/CMakeLists.txt"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jcapistd.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jccolor.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jcdiffct.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jclossls.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jcmainct.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jcprepct.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jcsample.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdapistd.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdcolor.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jddiffct.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdlossls.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdmainct.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdpostct.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdsample.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jutils.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jcapistd.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jccolor.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jcdiffct.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jclossls.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jcmainct.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jcprepct.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jcsample.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdapistd.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdcolor.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jddiffct.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdlossls.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdmainct.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdpostct.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdsample.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jutils.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jccoefct.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jcdctmgr.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdcoefct.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jddctmgr.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdmerge.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jfdctfst.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jfdctint.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jidctflt.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jidctfst.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jidctint.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jidctred.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jquant1.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jquant2.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jcapistd.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jccolor.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jcdiffct.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jclossls.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jcmainct.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jcprepct.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jcsample.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdapistd.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdcolor.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jddiffct.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdlossls.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdmainct.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdpostct.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdsample.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jutils.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jccoefct.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jcdctmgr.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdcoefct.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jddctmgr.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdmerge.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jfdctfst.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jfdctint.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jidctflt.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jidctfst.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jidctint.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jidctred.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jquant1.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jquant2.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jaricom.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jcapimin.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jcarith.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jchuff.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jcicc.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jcinit.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jclhuff.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jcmarker.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jcmaster.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jcomapi.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jcparam.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jcphuff.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jctrans.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdapimin.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdarith.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdatadst.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdatasrc.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdhuff.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdicc.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdinput.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdlhuff.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdmarker.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdmaster.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdphuff.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jdtrans.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jerror.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jfdctflt.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jmemmgr.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jmemnobs.c"
+		},
+		{
+			"path" : "src/3rdparty/libjpeg/src/jpeg_nbits.c"
+		},
+		{
+			"path" : "cmake/Qt3rdPartyLibraryConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/Qt3rdPartyLibraryConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/Qt3rdPartyLibraryConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/ModuleDescription.json.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/3rdparty/freetype/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/Qt3rdPartyLibraryConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/ModuleDescription.json.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/3rdparty/harfbuzz-ng/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/Qt3rdPartyLibraryConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtModuleConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/ModuleDescription.json.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/concurrent/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/modulecppexports.h.in"
+		},
+		{
+			"path" : "cmake/QtModuleConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/ModuleDescription.json.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/sql/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/modulecppexports.h.in"
+		},
+		{
+			"path" : "src/sql/configure.cmake"
+		},
+		{
+			"path" : "cmake/QtModuleConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/ModuleDescription.json.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/network/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/modulecppexports.h.in"
+		},
+		{
+			"path" : "src/network/configure.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapBrotli.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindLibproxy.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindGSSAPI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake"
+		},
+		{
+			"path" : "cmake/3rdparty/extra-cmake-modules/find-modules/FindGLIB2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake"
+		},
+		{
+			"path" : "cmake/3rdparty/extra-cmake-modules/find-modules/FindGLIB2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapResolv.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakePushCheckState.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/QtModuleConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/ModuleDescription.json.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/xml/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/modulecppexports.h.in"
+		},
+		{
+			"path" : "src/xml/configure.cmake"
+		},
+		{
+			"path" : "cmake/QtModuleConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/ModuleDescription.json.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/dbus/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/modulecppexports.h.in"
+		},
+		{
+			"path" : "cmake/QtModuleConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/ModuleDescription.json.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/tools/CMakeLists.txt"
+		},
+		{
+			"path" : "src/tools/configure.cmake"
+		},
+		{
+			"path" : "src/tools/configure.cmake"
+		},
+		{
+			"path" : "src/tools/uic/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/tools/qdbuscpp2xml/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/tools/qdbusxml2cpp/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/tools/qlalr/CMakeLists.txt"
+		},
+		{
+			"path" : "src/tools/qvkgen/CMakeLists.txt"
+		},
+		{
+			"path" : "src/tools/qtpaths/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/tools/androiddeployqt/CMakeLists.txt"
+		},
+		{
+			"path" : "src/tools/androidtestrunner/CMakeLists.txt"
+		},
+		{
+			"path" : "src/tools/windeployqt/CMakeLists.txt"
+		},
+		{
+			"path" : "src/gui/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/3rdparty/extra-cmake-modules/find-modules/FindX11_XCB.cmake"
+		},
+		{
+			"path" : "cmake/3rdparty/extra-cmake-modules/find-modules/ECMFindModuleHelpersStub.cmake"
+		},
+		{
+			"path" : "cmake/3rdparty/extra-cmake-modules/modules/ECMFindModuleHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapHarfbuzz.cmake"
+		},
+		{
+			"path" : "cmake/QtFindWrapHelper.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapPNG.cmake"
+		},
+		{
+			"path" : "cmake/QtFindWrapHelper.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapFreetype.cmake"
+		},
+		{
+			"path" : "cmake/QtFindWrapHelper.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/modulecppexports.h.in"
+		},
+		{
+			"path" : "src/gui/configure.cmake"
+		},
+		{
+			"path" : "cmake/FindATSPI2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindDirectFB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/3rdparty/kwin/FindLibdrm.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake"
+		},
+		{
+			"path" : "cmake/3rdparty/extra-cmake-modules/find-modules/FindEGL.cmake"
+		},
+		{
+			"path" : "cmake/3rdparty/extra-cmake-modules/find-modules/ECMFindModuleHelpersStub.cmake"
+		},
+		{
+			"path" : "cmake/3rdparty/extra-cmake-modules/modules/ECMFindModuleHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakePushCheckState.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapSystemFreetype.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindFreetype.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindFontconfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/3rdparty/kwin/Findgbm.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapSystemHarfbuzz.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/3rdparty/kwin/FindLibinput.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapSystemJpeg.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindJPEG.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapSystemMd4c.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapSystemPNG.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPNG.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindZLIB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindMtdev.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapOpenGL.cmake"
+		},
+		{
+			"path" : "cmake/FindGLESv2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"path" : "cmake/3rdparty/extra-cmake-modules/find-modules/FindEGL.cmake"
+		},
+		{
+			"path" : "cmake/3rdparty/extra-cmake-modules/find-modules/ECMFindModuleHelpersStub.cmake"
+		},
+		{
+			"path" : "cmake/3rdparty/extra-cmake-modules/modules/ECMFindModuleHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakePushCheckState.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindTslib.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindWrapVulkanHeaders.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindVulkan.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindRenderDoc.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/QtModuleConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/ModuleDescription.json.in"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/assets/CMakeLists.txt"
+		},
+		{
+			"path" : "src/assets/icons/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/QtModuleConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/ModuleDescription.json.in"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/assets/downloader/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/QtModuleConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/ModuleDescription.json.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/opengl/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/modulecppexports.h.in"
+		},
+		{
+			"path" : "cmake/QtModuleConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/ModuleDescription.json.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/widgets/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/modulecppexports.h.in"
+		},
+		{
+			"path" : "src/widgets/configure.cmake"
+		},
+		{
+			"path" : "cmake/FindGTK3.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/QtModuleConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/ModuleDescription.json.in"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/openglwidgets/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/modulecppexports.h.in"
+		},
+		{
+			"path" : "cmake/QtModuleConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/ModuleDescription.json.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/platformsupport/CMakeLists.txt"
+		},
+		{
+			"path" : "src/platformsupport/devicediscovery/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/QtModuleConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/ModuleDescription.json.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/platformsupport/fbconvenience/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/QtModuleConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/ModuleDescription.json.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/testlib/CMakeLists.txt"
+		},
+		{
+			"path" : "src/testlib/selfcover.cmake"
+		},
+		{
+			"path" : "cmake/modulecppexports.h.in"
+		},
+		{
+			"path" : "src/testlib/configure.cmake"
+		},
+		{
+			"path" : "cmake/QtModuleConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/ModuleDescription.json.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/printsupport/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/modulecppexports.h.in"
+		},
+		{
+			"path" : "src/printsupport/configure.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindCups.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/QtModuleConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/QtVersionlessAliasTargets.cmake.in"
+		},
+		{
+			"path" : "cmake/ModuleDescription.json.in"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/plugins/CMakeLists.txt"
+		},
+		{
+			"path" : "src/plugins/sqldrivers/CMakeLists.txt"
+		},
+		{
+			"path" : "src/plugins/sqldrivers/configure.cmake"
+		},
+		{
+			"path" : "cmake/FindDB2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake"
+		},
+		{
+			"path" : "cmake/FindMySQL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake"
+		},
+		{
+			"path" : "cmake/FindPostgreSQL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPostgreSQL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindOracle.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindODBC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindSQLite3.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/FindInterbase.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake"
+		},
+		{
+			"path" : "cmake/FindMimer.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake"
+		},
+		{
+			"path" : "src/plugins/sqldrivers/odbc/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindODBC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/QtPluginConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/plugins/sqldrivers/sqlite/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/QtPluginConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/plugins/platforms/CMakeLists.txt"
+		},
+		{
+			"path" : "src/plugins/platforms/minimal/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/FindWrapFreetype.cmake"
+		},
+		{
+			"path" : "cmake/QtFindWrapHelper.cmake"
+		},
+		{
+			"path" : "cmake/QtPluginConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/plugins/platforms/offscreen/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/QtPluginConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/plugins/platforms/windows/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/QtPluginConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/plugins/platforms/direct2d/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/QtPluginConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"path" : "src/corelib/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/plugins/platforminputcontexts/CMakeLists.txt"
+		},
+		{
+			"path" : "src/plugins/platformthemes/CMakeLists.txt"
+		},
+		{
+			"path" : "src/plugins/imageformats/CMakeLists.txt"
+		},
+		{
+			"path" : "src/plugins/imageformats/ico/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/QtPluginConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/plugins/imageformats/jpeg/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/FindWrapJpeg.cmake"
+		},
+		{
+			"path" : "cmake/QtFindWrapHelper.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/QtPluginConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/plugins/imageformats/gif/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/QtPluginConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/plugins/generic/CMakeLists.txt"
+		},
+		{
+			"path" : "src/plugins/generic/tuiotouch/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/QtPluginConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/plugins/styles/CMakeLists.txt"
+		},
+		{
+			"path" : "src/plugins/styles/modernwindows/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/QtPluginConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/plugins/printsupport/CMakeLists.txt"
+		},
+		{
+			"path" : "src/plugins/networkinformation/CMakeLists.txt"
+		},
+		{
+			"path" : "src/plugins/networkinformation/networklistmanager/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/QtPluginConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/plugins/tls/CMakeLists.txt"
+		},
+		{
+			"path" : "src/plugins/tls/schannel/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/QtPluginConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/plugins/tls/certonly/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/QtPluginConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "cmake/QtCMakePackageVersionFile.cmake.in"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		},
+		{
+			"path" : "src/android/CMakeLists.txt"
+		},
+		{
+			"path" : "qmake/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/QtFileConfigure.txt.in"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "C:/Qt/qtbase-6.8/build",
+		"source" : "C:/Qt/qtbase-6.8"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

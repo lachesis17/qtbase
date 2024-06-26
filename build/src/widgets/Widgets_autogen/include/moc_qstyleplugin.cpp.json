@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QStylePlugin",
+            "object": true,
+            "qualifiedClassName": "QStylePlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qstyleplugin.h",
+    "outputRevision": 68
+}

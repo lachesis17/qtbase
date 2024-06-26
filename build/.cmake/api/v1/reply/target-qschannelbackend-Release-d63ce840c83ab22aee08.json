@@ -1,0 +1,57 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_add_plugin",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"cmake/QtPluginHelpers.cmake",
+			"src/plugins/tls/schannel/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 155,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 156,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "QSchannelBackendPlugin::@12b9be290db92c69e3d5"
+		}
+	],
+	"id" : "qschannelbackend::@12b9be290db92c69e3d5",
+	"name" : "qschannelbackend",
+	"paths" : 
+	{
+		"build" : "src/plugins/tls/schannel",
+		"source" : "src/plugins/tls/schannel"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

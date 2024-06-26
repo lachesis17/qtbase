@@ -1,0 +1,179 @@
+{
+    "classes": [
+        {
+            "className": "QProcess",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ProcessError",
+                    "values": [
+                        "FailedToStart",
+                        "Crashed",
+                        "Timedout",
+                        "ReadError",
+                        "WriteError",
+                        "UnknownError"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ProcessState",
+                    "values": [
+                        "NotRunning",
+                        "Starting",
+                        "Running"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ProcessChannel",
+                    "values": [
+                        "StandardOutput",
+                        "StandardError"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ProcessChannelMode",
+                    "values": [
+                        "SeparateChannels",
+                        "MergedChannels",
+                        "ForwardedChannels",
+                        "ForwardedOutputChannel",
+                        "ForwardedErrorChannel"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "InputChannelMode",
+                    "values": [
+                        "ManagedInputChannel",
+                        "ForwardedInputChannel"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ExitStatus",
+                    "values": [
+                        "NormalExit",
+                        "CrashExit"
+                    ]
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "QProcess",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "started",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "exitCode",
+                            "type": "int"
+                        },
+                        {
+                            "name": "exitStatus",
+                            "type": "QProcess::ExitStatus"
+                        }
+                    ],
+                    "name": "finished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "exitCode",
+                            "type": "int"
+                        }
+                    ],
+                    "isCloned": true,
+                    "name": "finished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "error",
+                            "type": "QProcess::ProcessError"
+                        }
+                    ],
+                    "name": "errorOccurred",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "state",
+                            "type": "QProcess::ProcessState"
+                        }
+                    ],
+                    "name": "stateChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "readyReadStandardOutput",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "readyReadStandardError",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "name": "terminate",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "kill",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_canReadStandardOutput",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_canReadStandardError",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_startupNotification",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_processDied",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QIODevice"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qprocess.h",
+    "outputRevision": 68
+}

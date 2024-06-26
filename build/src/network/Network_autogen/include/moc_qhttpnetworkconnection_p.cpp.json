@@ -1,0 +1,50 @@
+{
+    "classes": [
+        {
+            "className": "QHttpNetworkConnection",
+            "object": true,
+            "qualifiedClassName": "QHttpNetworkConnection",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "isOnline",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "onlineStateChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_startNextRequest",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QHostInfo"
+                        }
+                    ],
+                    "name": "_q_hostLookupFinished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_connectDelayedChannel",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qhttpnetworkconnection_p.h",
+    "outputRevision": 68
+}

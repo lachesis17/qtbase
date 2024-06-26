@@ -1,0 +1,30 @@
+{
+    "classes": [
+        {
+            "className": "QToolBarLayout",
+            "object": true,
+            "qualifiedClassName": "QToolBarLayout",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "b",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "setExpanded",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QLayout"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtoolbarlayout_p.h",
+    "outputRevision": 68
+}

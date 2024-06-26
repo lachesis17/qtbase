@@ -1,0 +1,75 @@
+{
+    "classes": [
+        {
+            "className": "QIODevice",
+            "object": true,
+            "qualifiedClassName": "QIODevice",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "readyRead",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "channel",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "channelReadyRead",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "bytes",
+                            "type": "qint64"
+                        }
+                    ],
+                    "name": "bytesWritten",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "channel",
+                            "type": "int"
+                        },
+                        {
+                            "name": "bytes",
+                            "type": "qint64"
+                        }
+                    ],
+                    "name": "channelBytesWritten",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "aboutToClose",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "readChannelFinished",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                },
+                {
+                    "access": "public",
+                    "name": "QIODeviceBase"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qiodevice.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QNetworkCookieJar",
+            "object": true,
+            "qualifiedClassName": "QNetworkCookieJar",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qnetworkcookiejar.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,85 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_dependencies",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module"
+		],
+		"files" : 
+		[
+			"src/plugins/sqldrivers/sqlite/CMakeLists.txt",
+			"cmake/QtSyncQtHelpers.cmake",
+			"cmake/QtModuleHelpers.cmake",
+			"cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"src/corelib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"file" : 4
+			},
+			{
+				"file" : 4,
+				"line" : -1,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 1,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 1000,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 256,
+				"parent" : 4
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Core::@e8138540d8b2daa0b357"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Core_sync_headers::@e8138540d8b2daa0b357"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Sql_sync_headers::@3cdb5acf1c1f11493d2c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QSQLiteDriverPlugin_version_script::@e2bfa9afaa3bfdf10953"
+		}
+	],
+	"id" : "QSQLiteDriverPlugin_autogen_timestamp_deps::@e2bfa9afaa3bfdf10953",
+	"isGeneratorProvided" : true,
+	"name" : "QSQLiteDriverPlugin_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "src/plugins/sqldrivers/sqlite",
+		"source" : "src/plugins/sqldrivers/sqlite"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

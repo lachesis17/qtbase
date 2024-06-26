@@ -1,0 +1,30 @@
+{
+    "classes": [
+        {
+            "className": "QToolBarExtension",
+            "object": true,
+            "qualifiedClassName": "QToolBarExtension",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "o",
+                            "type": "Qt::Orientation"
+                        }
+                    ],
+                    "name": "setOrientation",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QToolButton"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtoolbarextension_p.h",
+    "outputRevision": 68
+}

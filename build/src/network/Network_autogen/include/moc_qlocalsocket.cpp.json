@@ -1,0 +1,100 @@
+{
+    "classes": [
+        {
+            "className": "QLocalSocket",
+            "enums": [
+                {
+                    "alias": "SocketOption",
+                    "isClass": false,
+                    "isFlag": true,
+                    "name": "SocketOptions",
+                    "values": [
+                        "NoOptions",
+                        "AbstractNamespaceOption"
+                    ]
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "bindable": "bindableSocketOptions",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "socketOptions",
+                    "read": "socketOptions",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "SocketOptions",
+                    "user": false,
+                    "write": "setSocketOptions"
+                }
+            ],
+            "qualifiedClassName": "QLocalSocket",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "connected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "disconnected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "socketError",
+                            "type": "QLocalSocket::LocalSocketError"
+                        }
+                    ],
+                    "name": "errorOccurred",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "socketState",
+                            "type": "QLocalSocket::LocalSocketState"
+                        }
+                    ],
+                    "name": "stateChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "name": "_q_pipeClosed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "ulong"
+                        },
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "_q_winError",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QIODevice"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qlocalsocket.h",
+    "outputRevision": 68
+}

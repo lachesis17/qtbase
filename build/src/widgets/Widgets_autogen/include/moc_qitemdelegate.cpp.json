@@ -1,0 +1,33 @@
+{
+    "classes": [
+        {
+            "className": "QItemDelegate",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "clipping",
+                    "read": "hasClipping",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setClipping"
+                }
+            ],
+            "qualifiedClassName": "QItemDelegate",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractItemDelegate"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qitemdelegate.h",
+    "outputRevision": 68
+}

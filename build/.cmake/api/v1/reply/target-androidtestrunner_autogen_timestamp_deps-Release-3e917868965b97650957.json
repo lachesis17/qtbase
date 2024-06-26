@@ -1,0 +1,34 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/tools/androidtestrunner/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		}
+	],
+	"id" : "androidtestrunner_autogen_timestamp_deps::@7d7ebd217b1aaa6766ab",
+	"isGeneratorProvided" : true,
+	"name" : "androidtestrunner_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "src/tools/androidtestrunner",
+		"source" : "src/tools/androidtestrunner"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

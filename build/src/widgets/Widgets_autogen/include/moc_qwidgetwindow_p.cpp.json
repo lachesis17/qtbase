@@ -1,0 +1,24 @@
+{
+    "classes": [
+        {
+            "className": "QWidgetWindow",
+            "object": true,
+            "qualifiedClassName": "QWidgetWindow",
+            "slots": [
+                {
+                    "access": "private",
+                    "name": "updateObjectName",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWindow"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwidgetwindow_p.h",
+    "outputRevision": 68
+}

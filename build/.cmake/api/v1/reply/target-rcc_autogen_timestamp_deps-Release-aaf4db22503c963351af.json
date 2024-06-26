@@ -1,0 +1,38 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/tools/rcc/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Core::@e8138540d8b2daa0b357"
+		}
+	],
+	"id" : "rcc_autogen_timestamp_deps::@43976444945f368aca17",
+	"isGeneratorProvided" : true,
+	"name" : "rcc_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "src/tools/rcc",
+		"source" : "src/tools/rcc"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

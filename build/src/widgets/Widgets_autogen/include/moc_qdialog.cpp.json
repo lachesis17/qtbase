@@ -1,0 +1,113 @@
+{
+    "classes": [
+        {
+            "className": "QDialog",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "DialogCode",
+                    "values": [
+                        "Rejected",
+                        "Accepted"
+                    ]
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "sizeGripEnabled",
+                    "read": "isSizeGripEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setSizeGripEnabled"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "modal",
+                    "read": "isModal",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setModal"
+                }
+            ],
+            "qualifiedClassName": "QDialog",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "result",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "finished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "accepted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "rejected",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "name": "open",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "exec",
+                    "returnType": "int"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "int"
+                        }
+                    ],
+                    "name": "done",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "accept",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "reject",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdialog.h",
+    "outputRevision": 68
+}

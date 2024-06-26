@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QInternalMimeData",
+            "object": true,
+            "qualifiedClassName": "QInternalMimeData",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QMimeData"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qinternalmimedata_p.h",
+    "outputRevision": 68
+}

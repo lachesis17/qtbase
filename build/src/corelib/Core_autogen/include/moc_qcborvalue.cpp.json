@@ -1,0 +1,38 @@
+{
+    "classes": [
+        {
+            "className": "QCborValue",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "Type",
+                    "type": "int",
+                    "values": [
+                        "Integer",
+                        "ByteArray",
+                        "String",
+                        "Array",
+                        "Map",
+                        "Tag",
+                        "SimpleType",
+                        "False",
+                        "True",
+                        "Null",
+                        "Undefined",
+                        "Double",
+                        "DateTime",
+                        "Url",
+                        "RegularExpression",
+                        "Uuid",
+                        "Invalid"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "qualifiedClassName": "QCborValue"
+        }
+    ],
+    "inputFile": "qcborvalue.h",
+    "outputRevision": 68
+}

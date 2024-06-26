@@ -1,0 +1,34 @@
+{
+    "classes": [
+        {
+            "className": "QPlatformNativeInterface",
+            "object": true,
+            "qualifiedClassName": "QPlatformNativeInterface",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "window",
+                            "type": "QPlatformWindow*"
+                        },
+                        {
+                            "name": "propertyName",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "windowPropertyChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qplatformnativeinterface.h",
+    "outputRevision": 68
+}

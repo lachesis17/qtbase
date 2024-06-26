@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QInputControl",
+            "object": true,
+            "qualifiedClassName": "QInputControl",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qinputcontrol_p.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,35 @@
+{
+    "classes": [
+        {
+            "className": "QOpenGLShader",
+            "object": true,
+            "qualifiedClassName": "QOpenGLShader",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "QOpenGLShaderProgram",
+            "object": true,
+            "qualifiedClassName": "QOpenGLShaderProgram",
+            "slots": [
+                {
+                    "access": "private",
+                    "name": "shaderDestroyed",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qopenglshaderprogram.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,30 @@
+{
+    "classes": [
+        {
+            "className": "QToolBarSeparator",
+            "object": true,
+            "qualifiedClassName": "QToolBarSeparator",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "orientation",
+                            "type": "Qt::Orientation"
+                        }
+                    ],
+                    "name": "setOrientation",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtoolbarseparator_p.h",
+    "outputRevision": 68
+}

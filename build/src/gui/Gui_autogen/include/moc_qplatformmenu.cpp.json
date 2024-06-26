@@ -1,0 +1,95 @@
+{
+    "classes": [
+        {
+            "className": "QPlatformMenuItem",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "MenuRole",
+                    "values": [
+                        "NoRole",
+                        "TextHeuristicRole",
+                        "ApplicationSpecificRole",
+                        "AboutQtRole",
+                        "AboutRole",
+                        "PreferencesRole",
+                        "QuitRole",
+                        "CutRole",
+                        "CopyRole",
+                        "PasteRole",
+                        "SelectAllRole",
+                        "RoleCount"
+                    ]
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "QPlatformMenuItem",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "activated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "hovered",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "QPlatformMenu",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "MenuType",
+                    "values": [
+                        "DefaultMenu",
+                        "EditMenu"
+                    ]
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "QPlatformMenu",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "aboutToShow",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "aboutToHide",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "QPlatformMenuBar",
+            "object": true,
+            "qualifiedClassName": "QPlatformMenuBar",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qplatformmenu.h",
+    "outputRevision": 68
+}

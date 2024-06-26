@@ -1,0 +1,12 @@
+windeployqt_autogen/timestamp: \
+	C:/Qt/qtbase-6.8/src/tools/windeployqt/CMakeLists.txt \
+	C:/Qt/qtbase-6.8/src/tools/windeployqt/main.cpp \
+	C:/Qt/qtbase-6.8/src/tools/windeployqt/qmlutils.cpp \
+	C:/Qt/qtbase-6.8/src/tools/windeployqt/qmlutils.h \
+	C:/Qt/qtbase-6.8/src/tools/windeployqt/qtmoduleinfo.cpp \
+	C:/Qt/qtbase-6.8/src/tools/windeployqt/qtmoduleinfo.h \
+	C:/Qt/qtbase-6.8/src/tools/windeployqt/qtplugininfo.cpp \
+	C:/Qt/qtbase-6.8/src/tools/windeployqt/qtplugininfo.h \
+	C:/Qt/qtbase-6.8/src/tools/windeployqt/utils.cpp \
+	C:/Qt/qtbase-6.8/src/tools/windeployqt/utils.h \
+	C:/Program\ Files/CMake/bin/cmake.exe

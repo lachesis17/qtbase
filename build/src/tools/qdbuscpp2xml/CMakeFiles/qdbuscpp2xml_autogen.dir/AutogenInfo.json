@@ -1,0 +1,187 @@
+{
+	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
+	"BUILD_DIR" : "C:/Qt/qtbase-6.8/build/src/tools/qdbuscpp2xml/qdbuscpp2xml_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Qt/qtbase-6.8/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Qt/qtbase-6.8/build/src/tools/qdbuscpp2xml",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Qt/qtbase-6.8/src/tools/qdbuscpp2xml",
+	"CMAKE_EXECUTABLE" : "C:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"C:/Qt/qtbase-6.8/src/tools/qdbuscpp2xml/CMakeLists.txt",
+		"C:/Qt/qtbase-6.8/cmake/QtFileConfigure.txt.in"
+	],
+	"CMAKE_SOURCE_DIR" : "C:/Qt/qtbase-6.8",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "C:/Qt/qtbase-6.8/build/src/tools/qdbuscpp2xml/qdbuscpp2xml_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "qdbuscpp2xml_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"C:/Qt/qtbase-6.8/src/tools/moc/cbordevice.h",
+			"Mu",
+			"EUEC5S4U44/moc_cbordevice.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/tools/moc/collectjson.h",
+			"Mu",
+			"EUEC5S4U44/moc_collectjson.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/tools/moc/generator.h",
+			"Mu",
+			"EUEC5S4U44/moc_generator.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/tools/moc/moc.h",
+			"Mu",
+			"EUEC5S4U44/moc_moc.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/tools/moc/outputrevision.h",
+			"Mu",
+			"EUEC5S4U44/moc_outputrevision.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/tools/moc/parser.h",
+			"Mu",
+			"EUEC5S4U44/moc_parser.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/tools/moc/preprocessor.h",
+			"Mu",
+			"EUEC5S4U44/moc_preprocessor.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/tools/moc/symbols.h",
+			"Mu",
+			"EUEC5S4U44/moc_symbols.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/tools/moc/token.h",
+			"Mu",
+			"EUEC5S4U44/moc_token.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/tools/moc/utils.h",
+			"Mu",
+			"EUEC5S4U44/moc_utils.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "C:/Qt/qtbase-6.8/build/src/tools/qdbuscpp2xml/qdbuscpp2xml_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Qt/qtbase-6.8/build/src/tools/qdbuscpp2xml/qdbuscpp2xml_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"MINGW_HAS_SECURE_API=1",
+		"NOMINMAX",
+		"QT_CORE_LIB",
+		"QT_DBUS_LIB",
+		"QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH",
+		"QT_LEAN_HEADERS=1",
+		"QT_NO_CAST_FROM_ASCII",
+		"QT_NO_DEBUG",
+		"QT_NO_EXCEPTIONS",
+		"QT_NO_FOREACH",
+		"QT_NO_JAVA_STYLE_ITERATORS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_QASCONST",
+		"QT_NO_QEXCHANGE",
+		"QT_USE_QSTRINGBUILDER",
+		"UNICODE",
+		"WIN32",
+		"WIN64",
+		"WINVER=0x0A00",
+		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
+		"_GLIBCXX_ASSERTIONS",
+		"_UNICODE",
+		"_WIN32_WINNT=0x0A00",
+		"_WIN64"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"C:/Qt/qtbase-6.8/src/tools/qdbuscpp2xml",
+		"C:/Qt/qtbase-6.8/build/src/tools/qdbuscpp2xml",
+		"C:/Qt/qtbase-6.8/src/tools/moc",
+		"C:/Qt/qtbase-6.8/src/3rdparty/tinycbor/src",
+		"C:/Qt/qtbase-6.8/build/src/corelib",
+		"C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0",
+		"C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0/QtCore",
+		"C:/Qt/qtbase-6.8/build/include",
+		"C:/Qt/qtbase-6.8/build/include/QtCore",
+		"C:/Qt/qtbase-6.8/mkspecs/win32-g++",
+		"C:/Qt/qtbase-6.8/build/src/dbus",
+		"C:/Qt/qtbase-6.8/build/include/QtDBus/6.8.0",
+		"C:/Qt/qtbase-6.8/build/include/QtDBus/6.8.0/QtDBus",
+		"C:/Qt/qtbase-6.8/build/include/QtDBus",
+		"C:/msys64/mingw64/include/c++/13.2.0",
+		"C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32",
+		"C:/msys64/mingw64/include/c++/13.2.0/backward",
+		"C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include",
+		"C:/msys64/mingw64/include",
+		"C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_ENUM_NS",
+		"Q_GADGET_EXPORT"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"C:/msys64/mingw64/bin/g++.exe",
+		"-std=c++17",
+		"-dM",
+		"-E",
+		"-c",
+		"C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "C:/Qt/qtbase-6.8/build/src/tools/qdbuscpp2xml/qdbuscpp2xml_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "C:/Qt/qtbase-6.8/build/src/tools/qdbuscpp2xml/CMakeFiles/qdbuscpp2xml_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "C:/Qt/qtbase-6.8/build/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 8,
+	"SETTINGS_FILE" : "C:/Qt/qtbase-6.8/build/src/tools/qdbuscpp2xml/CMakeFiles/qdbuscpp2xml_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "C:/Qt/qtbase-6.8/src/tools/moc/collectjson.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/tools/moc/generator.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/tools/moc/moc.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/tools/moc/parser.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/tools/moc/preprocessor.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/tools/moc/token.cpp", "Mu", null ],
+		[
+			"C:/Qt/qtbase-6.8/src/tools/qdbuscpp2xml/qdbuscpp2xml.cpp",
+			"Mu",
+			null
+		]
+	],
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

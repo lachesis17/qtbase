@@ -1,0 +1,109 @@
+{
+    "classes": [
+        {
+            "className": "QWidgetLineControl",
+            "object": true,
+            "qualifiedClassName": "QWidgetLineControl",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "int"
+                        },
+                        {
+                            "type": "int"
+                        }
+                    ],
+                    "name": "cursorPositionChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "selectionChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "displayTextChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "textChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "textEdited",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "resetInputContext",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "updateMicroFocus",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "accepted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "editingFinished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QRect"
+                        }
+                    ],
+                    "name": "updateNeeded",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "inputRejected",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "name": "_q_deleteSelected",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QInputControl"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwidgetlinecontrol_p.h",
+    "outputRevision": 68
+}

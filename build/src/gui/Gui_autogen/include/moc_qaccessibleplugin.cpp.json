@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QAccessiblePlugin",
+            "object": true,
+            "qualifiedClassName": "QAccessiblePlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qaccessibleplugin.h",
+    "outputRevision": 68
+}

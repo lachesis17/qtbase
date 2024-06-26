@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240626-1720-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.29.1"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="Admin"
+	OSRelease=" Professional"
+	OSVersion=" (Build 22631)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="15"
+	ModelID="1"
+	ProcessorCacheSize="64"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="33985"
+	TotalPhysicalMemory="31937"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="4199"
+	>
+	<Testing>
+		<StartDateTime>Jun 26 18:56 GMT Summer Time</StartDateTime>
+		<StartTestTime>1719424612</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jun 26 18:56 GMT Summer Time</EndDateTime>
+		<EndTestTime>1719424612</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

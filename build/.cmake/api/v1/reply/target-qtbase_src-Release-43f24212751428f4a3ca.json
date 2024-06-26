@@ -1,0 +1,839 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_internals_add_toplevel_targets",
+			"qt_build_repo_end",
+			"add_dependencies",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module"
+		],
+		"files" : 
+		[
+			"cmake/QtBuildRepoHelpers.cmake",
+			"CMakeLists.txt",
+			"cmake/QtSyncQtHelpers.cmake",
+			"cmake/QtModuleHelpers.cmake",
+			"cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"src/corelib/CMakeLists.txt",
+			"src/3rdparty/harfbuzz-ng/CMakeLists.txt",
+			"src/3rdparty/freetype/CMakeLists.txt",
+			"src/concurrent/CMakeLists.txt",
+			"src/sql/CMakeLists.txt",
+			"src/network/CMakeLists.txt",
+			"src/xml/CMakeLists.txt",
+			"src/dbus/CMakeLists.txt",
+			"src/gui/CMakeLists.txt",
+			"src/widgets/CMakeLists.txt",
+			"src/openglwidgets/CMakeLists.txt",
+			"src/opengl/CMakeLists.txt",
+			"src/testlib/CMakeLists.txt",
+			"src/printsupport/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 227,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 358,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 5
+			},
+			{
+				"file" : 5,
+				"line" : -1,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 1000,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 8
+			},
+			{
+				"file" : 6
+			},
+			{
+				"file" : 6,
+				"line" : -1,
+				"parent" : 10
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 11
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 1000,
+				"parent" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 251,
+				"parent" : 13
+			},
+			{
+				"file" : 7
+			},
+			{
+				"file" : 7,
+				"line" : -1,
+				"parent" : 15
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 16
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 1000,
+				"parent" : 17
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 251,
+				"parent" : 18
+			},
+			{
+				"file" : 8
+			},
+			{
+				"file" : 8,
+				"line" : -1,
+				"parent" : 20
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 21
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 1000,
+				"parent" : 22
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 23
+			},
+			{
+				"file" : 9
+			},
+			{
+				"file" : 9,
+				"line" : -1,
+				"parent" : 25
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 26
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 1000,
+				"parent" : 27
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 28
+			},
+			{
+				"file" : 10
+			},
+			{
+				"file" : 10,
+				"line" : -1,
+				"parent" : 30
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 31
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 1000,
+				"parent" : 32
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 33
+			},
+			{
+				"file" : 11
+			},
+			{
+				"file" : 11,
+				"line" : -1,
+				"parent" : 35
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 36
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 1000,
+				"parent" : 37
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 38
+			},
+			{
+				"file" : 12
+			},
+			{
+				"file" : 12,
+				"line" : -1,
+				"parent" : 40
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 41
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 1000,
+				"parent" : 42
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 43
+			},
+			{
+				"file" : 13
+			},
+			{
+				"file" : 13,
+				"line" : -1,
+				"parent" : 45
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 46
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 1000,
+				"parent" : 47
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 48
+			},
+			{
+				"file" : 14
+			},
+			{
+				"file" : 14,
+				"line" : -1,
+				"parent" : 50
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 51
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 1000,
+				"parent" : 52
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 53
+			},
+			{
+				"file" : 15
+			},
+			{
+				"file" : 15,
+				"line" : -1,
+				"parent" : 55
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 56
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 1000,
+				"parent" : 57
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 58
+			},
+			{
+				"file" : 16
+			},
+			{
+				"file" : 16,
+				"line" : -1,
+				"parent" : 60
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 61
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 1000,
+				"parent" : 62
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 63
+			},
+			{
+				"file" : 17
+			},
+			{
+				"file" : 17,
+				"line" : -1,
+				"parent" : 65
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 66
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 1000,
+				"parent" : 67
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 68
+			},
+			{
+				"file" : 18
+			},
+			{
+				"file" : 18,
+				"line" : -1,
+				"parent" : 70
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 71
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 1000,
+				"parent" : 72
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 73
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "syncqt::@f35fab93c498e8f8c838"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "Bootstrap::@3d810a52173b246964d8"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "tracepointgen::@ee82868d5a4b8b317d35"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "rcc::@43976444945f368aca17"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "EntryPointImplementation::@e690636efd56e926d536"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "cmake_automoc_parser::@9df279ca5a40d551589d"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "tracegen::@c4157af62469cb23859f"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "ZlibPrivate::@fab9159b69e9a33b7bcd"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "BundledPcre2::@662af84d20aaf7d84676"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "BundledZLIB::@fab9159b69e9a33b7bcd"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "Core::@e8138540d8b2daa0b357"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "BundledLibpng::@f0d8789028037e8800e8"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "Core_sync_headers::@e8138540d8b2daa0b357"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "PngPrivate::@f0d8789028037e8800e8"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "BundledLibjpeg::@ee307bfce77e16311264"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "JpegPrivate::@ee307bfce77e16311264"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "BundledLibjpeg12bits::@ee307bfce77e16311264"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "BundledLibjpeg16bits::@ee307bfce77e16311264"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "BundledHarfbuzz::@0b15749e035ccedaa8cf"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "HarfbuzzPrivate_sync_headers::@0b15749e035ccedaa8cf"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "BundledFreetype::@17c7c8edb7eca99300c5"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "FreetypePrivate_sync_headers::@17c7c8edb7eca99300c5"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "Concurrent_sync_headers::@e039ee0229fd7540ae63"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "Concurrent::@e039ee0229fd7540ae63"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "Sql::@3cdb5acf1c1f11493d2c"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "Network::@311edf953348ef8fadde"
+		},
+		{
+			"backtrace" : 29,
+			"id" : "Sql_sync_headers::@3cdb5acf1c1f11493d2c"
+		},
+		{
+			"backtrace" : 34,
+			"id" : "Network_sync_headers::@311edf953348ef8fadde"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "Xml::@92fc915ce26cc64eab9d"
+		},
+		{
+			"backtrace" : 39,
+			"id" : "Xml_sync_headers::@92fc915ce26cc64eab9d"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "qdbuscpp2xml::@1a02565fd30fe13d1e40"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "uic::@53da06d1729bbbe1e0d9"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "qdbusxml2cpp::@b05d75fa85b4f991d5aa"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "qlalr::@893b88a152e04c55327d"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "androiddeployqt::@3c5344cf5dd68dba46a4"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "qvkgen::@47c008c9f3a7efdbf746"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "qtpaths::@146dfbd4f1bec7ecfe48"
+		},
+		{
+			"backtrace" : 44,
+			"id" : "DBus_sync_headers::@7679c349088050c077d2"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "DBus::@7679c349088050c077d2"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "androidtestrunner::@7d7ebd217b1aaa6766ab"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "windeployqt::@6035da89ad2e9a2802f4"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "Gui::@7675e61a69a6135e3026"
+		},
+		{
+			"backtrace" : 49,
+			"id" : "Gui_sync_headers::@7675e61a69a6135e3026"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "Gui_resources_2::@7675e61a69a6135e3026"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "Gui_resources_1::@7675e61a69a6135e3026"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "ExampleIconsPrivate::@a61c3f4b7aded4aabb04"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "ExampleIconsPrivate_resources_1::@a61c3f4b7aded4aabb04"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "OpenGL::@557a2e62dd030bddd73f"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "ExamplesAssetDownloaderPrivate::@b7766ebde7b7461cd71e"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "Widgets_resources_3::@01ca4e8faf65486cb322"
+		},
+		{
+			"backtrace" : 54,
+			"id" : "Widgets_sync_headers::@01ca4e8faf65486cb322"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "Widgets_resources_4::@01ca4e8faf65486cb322"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "OpenGLWidgets::@9b28f444a8eb634650c9"
+		},
+		{
+			"backtrace" : 59,
+			"id" : "OpenGLWidgets_sync_headers::@9b28f444a8eb634650c9"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "DeviceDiscoverySupportPrivate::@db88ac3235615b72a0f8"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "FbSupportPrivate::@f639f8dda1281739aec6"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "Widgets_resources_1::@01ca4e8faf65486cb322"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "Widgets_resources_2::@01ca4e8faf65486cb322"
+		},
+		{
+			"backtrace" : 64,
+			"id" : "OpenGL_sync_headers::@557a2e62dd030bddd73f"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "Widgets::@01ca4e8faf65486cb322"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "Test::@6d64fd40ee034a68d3ce"
+		},
+		{
+			"backtrace" : 69,
+			"id" : "Test_sync_headers::@6d64fd40ee034a68d3ce"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "PrintSupport_resources_1::@f385d124e6f9e38987e2"
+		},
+		{
+			"backtrace" : 74,
+			"id" : "PrintSupport_sync_headers::@f385d124e6f9e38987e2"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "PrintSupport::@f385d124e6f9e38987e2"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "PrintSupport_resources_2::@f385d124e6f9e38987e2"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QSQLiteDriverPlugin::@e2bfa9afaa3bfdf10953"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QODBCDriverPlugin_init::@4e04d8770e22af219169"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QSQLiteDriverPlugin_init::@e2bfa9afaa3bfdf10953"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QODBCDriverPlugin::@4e04d8770e22af219169"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QMinimalIntegrationPlugin::@a6fb5d20e6cdb1db36a1"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QMinimalIntegrationPlugin_init::@a6fb5d20e6cdb1db36a1"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QWindowsIntegrationPlugin_resources_2::@5f31441e043f26c22ebb"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QWindowsIntegrationPlugin_init::@5f31441e043f26c22ebb"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QWindowsIntegrationPlugin::@5f31441e043f26c22ebb"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QWindowsDirect2DIntegrationPlugin_resources_1::@c7c26e17e5629e502a58"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QWindowsIntegrationPlugin_resources_1::@5f31441e043f26c22ebb"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QOffscreenIntegrationPlugin::@205c3e43ec6b99b35745"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QOffscreenIntegrationPlugin_init::@205c3e43ec6b99b35745"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QWindowsDirect2DIntegrationPlugin::@c7c26e17e5629e502a58"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QWindowsDirect2DIntegrationPlugin_init::@c7c26e17e5629e502a58"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QWindowsDirect2DIntegrationPlugin_resources_2::@c7c26e17e5629e502a58"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QICOPlugin_init::@5b6564d291c671947203"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QICOPlugin::@5b6564d291c671947203"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QJpegPlugin_init::@20cd662f235a8fec124f"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QJpegPlugin::@20cd662f235a8fec124f"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QGifPlugin::@db481f4670a9b0759ac4"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QGifPlugin_init::@db481f4670a9b0759ac4"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QTuioTouchPlugin::@1c690fe35aa61c0d8deb"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QTuioTouchPlugin_init::@1c690fe35aa61c0d8deb"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QModernWindowsStylePlugin::@1325d0d638e4cb86c9fc"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QModernWindowsStylePlugin_init::@1325d0d638e4cb86c9fc"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QNLMNIPlugin::@f58ed192ffd43d9d8a4b"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QNLMNIPlugin_init::@f58ed192ffd43d9d8a4b"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QSchannelBackendPlugin_init::@12b9be290db92c69e3d5"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QTlsBackendCertOnlyPlugin_init::@e576dade91c8331b5fe7"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QSchannelBackendPlugin::@12b9be290db92c69e3d5"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "QTlsBackendCertOnlyPlugin::@e576dade91c8331b5fe7"
+		}
+	],
+	"id" : "qtbase_src::@6890427a1f51a3e7e1df",
+	"name" : "qtbase_src",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

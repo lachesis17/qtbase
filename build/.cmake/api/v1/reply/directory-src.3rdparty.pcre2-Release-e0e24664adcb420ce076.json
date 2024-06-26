@@ -1,0 +1,210 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt_install",
+			"qt_internal_add_3rdparty_library",
+			"qt_internal_export_modern_cmake_config_targets_file",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer"
+		],
+		"files" : 
+		[
+			"cmake/QtInstallHelpers.cmake",
+			"cmake/Qt3rdPartyLibraryHelpers.cmake",
+			"src/3rdparty/pcre2/CMakeLists.txt",
+			"cmake/QtTargetHelpers.cmake",
+			"cmake/QtScopeFinalizerHelpers.cmake:24:EVAL"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 268,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 294,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 302,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 309,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 320,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1124,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 13
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 806,
+				"parent" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1081,
+				"parent" : 15
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 16
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"build/mkspecs/modules/qt_ext_pcre2.pri"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6BundledPcre2",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6BundledPcre2/Qt6BundledPcre2Config.cmake",
+				"build/lib/cmake/Qt6BundledPcre2/Qt6BundledPcre2ConfigVersion.cmake",
+				"build/lib/cmake/Qt6BundledPcre2/Qt6BundledPcre2ConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libQt6BundledPcre2.a"
+			],
+			"targetId" : "BundledPcre2::@662af84d20aaf7d84676",
+			"targetIndex" : 11,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6BundledPcre2",
+			"exportName" : "Qt6BundledPcre2Targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "BundledPcre2::@662af84d20aaf7d84676",
+					"index" : 11
+				}
+			],
+			"paths" : 
+			[
+				"src/3rdparty/pcre2/CMakeFiles/Export/bfe117f7cdcc7e425a27390dfde43273/Qt6BundledPcre2Targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6BundledPcre2",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6BundledPcre2/Qt6BundledPcre2VersionlessAliasTargets.cmake",
+				"build/lib/cmake/Qt6BundledPcre2/Qt6BundledPcre2VersionlessTargets.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6BundledPcre2",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6BundledPcre2/Qt6BundledPcre2AdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/3rdparty/pcre2",
+		"source" : "src/3rdparty/pcre2"
+	}
+}

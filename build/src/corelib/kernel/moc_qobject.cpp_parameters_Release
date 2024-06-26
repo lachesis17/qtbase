@@ -1,0 +1,4 @@
+-o
+C:/Qt/qtbase-6.8/build/src/corelib/kernel/moc_qobject.cpp
+kernel/qobject.h
+--output-json

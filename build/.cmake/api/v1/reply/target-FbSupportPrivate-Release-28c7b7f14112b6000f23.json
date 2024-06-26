@@ -1,0 +1,1158 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libQt6FbSupport.a"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_qt_internal_add_library",
+			"qt_internal_add_module",
+			"install",
+			"qt_install",
+			"target_link_libraries",
+			"qt_internal_extend_target",
+			"add_dependencies",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"qt_internal_add_linker_version_script",
+			"add_compile_options",
+			"include",
+			"qt_internal_set_compiler_warning_flags",
+			"qt_internal_setup_build_and_global_variables",
+			"qt_build_internals_set_up_private_api",
+			"qt_build_repo_begin",
+			"target_compile_options",
+			"qt_internal_set_exceptions_flags",
+			"target_compile_definitions",
+			"qt_internal_add_repo_local_defines",
+			"target_include_directories",
+			"set_property",
+			"qt_update_precompiled_header",
+			"target_sources",
+			"qt6_extract_metatypes",
+			"qt_generate_prl_file"
+		],
+		"files" : 
+		[
+			"src/corelib/Qt6CoreMacros.cmake",
+			"cmake/QtModuleHelpers.cmake",
+			"src/platformsupport/fbconvenience/CMakeLists.txt",
+			"cmake/QtInstallHelpers.cmake",
+			"cmake/QtTargetHelpers.cmake",
+			"cmake/QtSyncQtHelpers.cmake",
+			"cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"src/corelib/CMakeLists.txt",
+			"src/gui/CMakeLists.txt",
+			"cmake/QtFlagHandlingHelpers.cmake",
+			"cmake/QtCompilerFlags.cmake",
+			"cmake/QtBuildHelpers.cmake",
+			"cmake/QtBuild.cmake",
+			"cmake/QtSetup.cmake",
+			"cmake/QtBuildRepoHelpers.cmake",
+			"CMakeLists.txt",
+			"cmake/QtPrecompiledHeadersHelpers.cmake",
+			"cmake/QtPrlHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 180,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2736,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 809,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 610,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 180,
+				"parent" : 6
+			},
+			{
+				"file" : 7
+			},
+			{
+				"file" : 7,
+				"line" : -1,
+				"parent" : 8
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 11
+			},
+			{
+				"file" : 8
+			},
+			{
+				"file" : 8,
+				"line" : -1,
+				"parent" : 13
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 14
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 15
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 16
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 18
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 19
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 41,
+				"parent" : 20
+			},
+			{
+				"command" : 7,
+				"file" : 9,
+				"line" : 136,
+				"parent" : 21
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 251,
+				"parent" : 20
+			},
+			{
+				"file" : 15
+			},
+			{
+				"command" : 16,
+				"file" : 15,
+				"line" : 143,
+				"parent" : 24
+			},
+			{
+				"command" : 15,
+				"file" : 14,
+				"line" : 180,
+				"parent" : 25
+			},
+			{
+				"command" : 12,
+				"file" : 14,
+				"line" : 22,
+				"parent" : 26
+			},
+			{
+				"file" : 13,
+				"parent" : 27
+			},
+			{
+				"command" : 12,
+				"file" : 13,
+				"line" : 6,
+				"parent" : 28
+			},
+			{
+				"file" : 12,
+				"parent" : 29
+			},
+			{
+				"command" : 14,
+				"file" : 12,
+				"line" : 4,
+				"parent" : 30
+			},
+			{
+				"command" : 13,
+				"file" : 11,
+				"line" : 451,
+				"parent" : 31
+			},
+			{
+				"command" : 12,
+				"file" : 11,
+				"line" : 79,
+				"parent" : 32
+			},
+			{
+				"file" : 10,
+				"parent" : 33
+			},
+			{
+				"command" : 11,
+				"file" : 10,
+				"line" : 39,
+				"parent" : 34
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 653,
+				"parent" : 1
+			},
+			{
+				"command" : 17,
+				"file" : 9,
+				"line" : 288,
+				"parent" : 36
+			},
+			{
+				"command" : 19,
+				"file" : 4,
+				"line" : 177,
+				"parent" : 6
+			},
+			{
+				"command" : 20,
+				"file" : 1,
+				"line" : 598,
+				"parent" : 1
+			},
+			{
+				"command" : 19,
+				"file" : 4,
+				"line" : 1529,
+				"parent" : 39
+			},
+			{
+				"command" : 19,
+				"file" : 9,
+				"line" : 287,
+				"parent" : 36
+			},
+			{
+				"command" : 21,
+				"file" : 4,
+				"line" : 172,
+				"parent" : 6
+			},
+			{
+				"command" : 23,
+				"file" : 4,
+				"line" : 272,
+				"parent" : 6
+			},
+			{
+				"command" : 22,
+				"file" : 16,
+				"line" : 6,
+				"parent" : 43
+			},
+			{
+				"command" : 24,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 6
+			},
+			{
+				"command" : 25,
+				"file" : 1,
+				"line" : 766,
+				"parent" : 1
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 1490,
+				"parent" : 46
+			},
+			{
+				"command" : 26,
+				"file" : 1,
+				"line" : 1012,
+				"parent" : 19
+			},
+			{
+				"command" : 24,
+				"file" : 17,
+				"line" : 205,
+				"parent" : 48
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport"
+				},
+				{
+					"backtrace" : 35,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 35,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wa,-mbig-obj"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ftrivial-auto-var-init=pattern"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fstack-clash-protection"
+				},
+				{
+					"fragment" : "-Winvalid-pch -x c++-header -include C:/Qt/qtbase-6.8/build/src/platformsupport/fbconvenience/CMakeFiles/FbSupportPrivate.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "MINGW_HAS_SECURE_API=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_BUILD_FB_SUPPORT_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_CAST_FROM_ASCII"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 41,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_QASCONST"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WINVER=0x0A00"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_WIN32_WINNT=0x0A00"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "C:/Qt/qtbase-6.8/build/src/platformsupport/fbconvenience/FbSupportPrivate_autogen/include"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "C:/Qt/qtbase-6.8/build/include"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtFbSupport"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "C:/Qt/qtbase-6.8/src/platformsupport/fbconvenience"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "C:/Qt/qtbase-6.8/build/src/platformsupport/fbconvenience"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtFbSupport/6.8.0"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtFbSupport/6.8.0/QtFbSupport"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0/QtCore"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/src/gui"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui/6.8.0"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui/6.8.0/QtGui"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					7
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 44,
+					"header" : "../../corelib/global/qt_pch.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport"
+				},
+				{
+					"backtrace" : 35,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 35,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wa,-mbig-obj"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ftrivial-auto-var-init=pattern"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fstack-clash-protection"
+				},
+				{
+					"fragment" : "-Winvalid-pch -include C:/Qt/qtbase-6.8/build/src/platformsupport/fbconvenience/CMakeFiles/FbSupportPrivate.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "MINGW_HAS_SECURE_API=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_BUILD_FB_SUPPORT_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_CAST_FROM_ASCII"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 41,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_QASCONST"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WINVER=0x0A00"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_WIN32_WINNT=0x0A00"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "C:/Qt/qtbase-6.8/build/src/platformsupport/fbconvenience/FbSupportPrivate_autogen/include"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "C:/Qt/qtbase-6.8/build/include"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtFbSupport"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "C:/Qt/qtbase-6.8/src/platformsupport/fbconvenience"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "C:/Qt/qtbase-6.8/build/src/platformsupport/fbconvenience"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtFbSupport/6.8.0"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtFbSupport/6.8.0/QtFbSupport"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0/QtCore"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/src/gui"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui/6.8.0"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui/6.8.0/QtGui"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					7
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 44,
+					"header" : "../../corelib/global/qt_pch.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				4,
+				6,
+				8,
+				10
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		},
+		{
+			"id" : "cmake_automoc_parser::@9df279ca5a40d551589d"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "ZlibPrivate::@fab9159b69e9a33b7bcd"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "BundledPcre2::@662af84d20aaf7d84676"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "BundledZLIB::@fab9159b69e9a33b7bcd"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Core::@e8138540d8b2daa0b357"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "BundledLibpng::@f0d8789028037e8800e8"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "Core_sync_headers::@e8138540d8b2daa0b357"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "BundledHarfbuzz::@0b15749e035ccedaa8cf"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "BundledFreetype::@17c7c8edb7eca99300c5"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Gui::@7675e61a69a6135e3026"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "Gui_sync_headers::@7675e61a69a6135e3026"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Gui_resources_2::@7675e61a69a6135e3026"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Gui_resources_1::@7675e61a69a6135e3026"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "FbSupportPrivate_version_script::@f639f8dda1281739aec6"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "FbSupportPrivate_sync_headers::@f639f8dda1281739aec6"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "FbSupportPrivate_autogen::@f639f8dda1281739aec6"
+		},
+		{
+			"id" : "FbSupportPrivate_autogen_timestamp_deps::@f639f8dda1281739aec6"
+		}
+	],
+	"id" : "FbSupportPrivate::@f639f8dda1281739aec6",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Qt/Qt-6.8.0"
+		}
+	},
+	"name" : "FbSupportPrivate",
+	"nameOnDisk" : "libQt6FbSupport.a",
+	"paths" : 
+	{
+		"build" : "src/platformsupport/fbconvenience",
+		"source" : "src/platformsupport/fbconvenience"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				4,
+				6,
+				8,
+				10
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3,
+				5,
+				7,
+				9,
+				11
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				15
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				16,
+				17,
+				18,
+				19
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"path" : "build/src/platformsupport/fbconvenience/CMakeFiles/FbSupportPrivate.dir/cmake_pch.hxx.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/src/platformsupport/fbconvenience/FbSupportPrivate_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 45,
+			"compileGroupIndex" : 1,
+			"path" : "src/platformsupport/fbconvenience/qfbbackingstore.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 45,
+			"path" : "src/platformsupport/fbconvenience/qfbbackingstore_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 45,
+			"compileGroupIndex" : 1,
+			"path" : "src/platformsupport/fbconvenience/qfbcursor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 45,
+			"path" : "src/platformsupport/fbconvenience/qfbcursor_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 45,
+			"compileGroupIndex" : 1,
+			"path" : "src/platformsupport/fbconvenience/qfbscreen.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 45,
+			"path" : "src/platformsupport/fbconvenience/qfbscreen_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 45,
+			"compileGroupIndex" : 1,
+			"path" : "src/platformsupport/fbconvenience/qfbvthandler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 45,
+			"path" : "src/platformsupport/fbconvenience/qfbvthandler_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 45,
+			"compileGroupIndex" : 1,
+			"path" : "src/platformsupport/fbconvenience/qfbwindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 45,
+			"path" : "src/platformsupport/fbconvenience/qfbwindow_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 47,
+			"isGenerated" : true,
+			"path" : "build/src/platformsupport/fbconvenience/meta_types/qt6fbsupportprivate_release_metatypes.json.gen",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 49,
+			"isGenerated" : true,
+			"path" : "build/src/platformsupport/fbconvenience/preliminary_prl_for_FbSupportPrivate_step2_Release.prl",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/platformsupport/fbconvenience/FbSupportPrivate_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"path" : "build/src/platformsupport/fbconvenience/CMakeFiles/FbSupportPrivate.dir/cmake_pch.hxx",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/platformsupport/fbconvenience/meta_types/qt6fbsupportprivate_release_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/platformsupport/fbconvenience/preliminary_prl_for_FbSupportPrivate_step2_Release.prl.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/platformsupport/fbconvenience/FbSupportPrivate_autogen/timestamp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/platformsupport/fbconvenience/meta_types/FbSupportPrivate_json_file_list.txt.rule",
+			"sourceGroupIndex" : 4
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

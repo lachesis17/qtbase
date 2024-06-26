@@ -1,0 +1,40 @@
+{
+    "classes": [
+        {
+            "className": "QAbstractEventDispatcher",
+            "object": true,
+            "qualifiedClassName": "QAbstractEventDispatcher",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "aboutToBlock",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "awake",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "QAbstractEventDispatcherV2",
+            "object": true,
+            "qualifiedClassName": "QAbstractEventDispatcherV2",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractEventDispatcher"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qabstracteventdispatcher.h",
+    "outputRevision": 68
+}

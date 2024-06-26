@@ -1,0 +1,1345 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libQt6OpenGLWidgets.a"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_qt_internal_add_library",
+			"qt_internal_add_module",
+			"install",
+			"qt_install",
+			"target_link_libraries",
+			"qt_internal_extend_target",
+			"add_dependencies",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"qt_generate_module_pri_file",
+			"qt_internal_add_linker_version_script",
+			"add_compile_options",
+			"include",
+			"qt_internal_set_compiler_warning_flags",
+			"qt_internal_setup_build_and_global_variables",
+			"qt_build_internals_set_up_private_api",
+			"qt_build_repo_begin",
+			"target_compile_options",
+			"qt_internal_set_exceptions_flags",
+			"target_compile_definitions",
+			"qt_internal_add_repo_local_defines",
+			"target_include_directories",
+			"set_property",
+			"qt_update_precompiled_header",
+			"qt_update_precompiled_header_with_library",
+			"target_sources",
+			"qt_internal_generate_cpp_global_exports",
+			"qt6_extract_metatypes",
+			"qt_generate_prl_file"
+		],
+		"files" : 
+		[
+			"src/corelib/Qt6CoreMacros.cmake",
+			"cmake/QtModuleHelpers.cmake",
+			"src/openglwidgets/CMakeLists.txt",
+			"cmake/QtInstallHelpers.cmake",
+			"cmake/QtTargetHelpers.cmake",
+			"cmake/QtSyncQtHelpers.cmake",
+			"cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"src/corelib/CMakeLists.txt",
+			"src/gui/CMakeLists.txt",
+			"cmake/QtPriHelpers.cmake",
+			"src/widgets/CMakeLists.txt",
+			"cmake/QtFlagHandlingHelpers.cmake",
+			"src/opengl/CMakeLists.txt",
+			"cmake/QtCompilerFlags.cmake",
+			"cmake/QtBuildHelpers.cmake",
+			"cmake/QtBuild.cmake",
+			"cmake/QtSetup.cmake",
+			"cmake/QtBuildRepoHelpers.cmake",
+			"CMakeLists.txt",
+			"cmake/QtPrecompiledHeadersHelpers.cmake",
+			"cmake/QtPrlHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 180,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2736,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 809,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 610,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 180,
+				"parent" : 6
+			},
+			{
+				"file" : 7
+			},
+			{
+				"file" : 7,
+				"line" : -1,
+				"parent" : 8
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 11
+			},
+			{
+				"file" : 8
+			},
+			{
+				"file" : 8,
+				"line" : -1,
+				"parent" : 13
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 14
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 15
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 16
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 18
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 1013,
+				"parent" : 19
+			},
+			{
+				"command" : 7,
+				"file" : 9,
+				"line" : 556,
+				"parent" : 20
+			},
+			{
+				"file" : 10
+			},
+			{
+				"file" : 10,
+				"line" : -1,
+				"parent" : 22
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 23
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 24
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 25
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 19
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 41,
+				"parent" : 27
+			},
+			{
+				"command" : 7,
+				"file" : 11,
+				"line" : 136,
+				"parent" : 28
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 251,
+				"parent" : 27
+			},
+			{
+				"file" : 12
+			},
+			{
+				"file" : 12,
+				"line" : -1,
+				"parent" : 31
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 32
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 33
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 34
+			},
+			{
+				"file" : 18
+			},
+			{
+				"command" : 17,
+				"file" : 18,
+				"line" : 143,
+				"parent" : 36
+			},
+			{
+				"command" : 16,
+				"file" : 17,
+				"line" : 180,
+				"parent" : 37
+			},
+			{
+				"command" : 13,
+				"file" : 17,
+				"line" : 22,
+				"parent" : 38
+			},
+			{
+				"file" : 16,
+				"parent" : 39
+			},
+			{
+				"command" : 13,
+				"file" : 16,
+				"line" : 6,
+				"parent" : 40
+			},
+			{
+				"file" : 15,
+				"parent" : 41
+			},
+			{
+				"command" : 15,
+				"file" : 15,
+				"line" : 4,
+				"parent" : 42
+			},
+			{
+				"command" : 14,
+				"file" : 14,
+				"line" : 451,
+				"parent" : 43
+			},
+			{
+				"command" : 13,
+				"file" : 14,
+				"line" : 79,
+				"parent" : 44
+			},
+			{
+				"file" : 13,
+				"parent" : 45
+			},
+			{
+				"command" : 12,
+				"file" : 13,
+				"line" : 39,
+				"parent" : 46
+			},
+			{
+				"command" : 19,
+				"file" : 1,
+				"line" : 653,
+				"parent" : 1
+			},
+			{
+				"command" : 18,
+				"file" : 11,
+				"line" : 288,
+				"parent" : 48
+			},
+			{
+				"command" : 20,
+				"file" : 4,
+				"line" : 177,
+				"parent" : 6
+			},
+			{
+				"command" : 21,
+				"file" : 1,
+				"line" : 598,
+				"parent" : 1
+			},
+			{
+				"command" : 20,
+				"file" : 4,
+				"line" : 1529,
+				"parent" : 51
+			},
+			{
+				"command" : 20,
+				"file" : 11,
+				"line" : 287,
+				"parent" : 48
+			},
+			{
+				"command" : 22,
+				"file" : 4,
+				"line" : 172,
+				"parent" : 6
+			},
+			{
+				"command" : 25,
+				"file" : 4,
+				"line" : 118,
+				"parent" : 6
+			},
+			{
+				"command" : 24,
+				"file" : 19,
+				"line" : 15,
+				"parent" : 55
+			},
+			{
+				"command" : 23,
+				"file" : 19,
+				"line" : 6,
+				"parent" : 56
+			},
+			{
+				"command" : 25,
+				"file" : 4,
+				"line" : 118,
+				"parent" : 6
+			},
+			{
+				"command" : 24,
+				"file" : 19,
+				"line" : 15,
+				"parent" : 58
+			},
+			{
+				"command" : 23,
+				"file" : 19,
+				"line" : 6,
+				"parent" : 59
+			},
+			{
+				"command" : 27,
+				"file" : 1,
+				"line" : 438,
+				"parent" : 1
+			},
+			{
+				"command" : 26,
+				"file" : 1,
+				"line" : 1281,
+				"parent" : 61
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 6
+			},
+			{
+				"command" : 28,
+				"file" : 1,
+				"line" : 766,
+				"parent" : 1
+			},
+			{
+				"command" : 26,
+				"file" : 0,
+				"line" : 1490,
+				"parent" : 64
+			},
+			{
+				"command" : 29,
+				"file" : 1,
+				"line" : 1012,
+				"parent" : 19
+			},
+			{
+				"command" : 26,
+				"file" : 20,
+				"line" : 205,
+				"parent" : 66
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport"
+				},
+				{
+					"backtrace" : 47,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 47,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 49,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wa,-mbig-obj"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ftrivial-auto-var-init=pattern"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fstack-clash-protection"
+				},
+				{
+					"fragment" : "-Winvalid-pch -x c++-header -include C:/Qt/qtbase-6.8/build/src/openglwidgets/CMakeFiles/OpenGLWidgets.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "MINGW_HAS_SECURE_API=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_BUILD_OPENGLWIDGETS_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 52,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 53,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_QASCONST"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_NO_USING_NAMESPACE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_USE_NODISCARD_FILE_OPEN"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WINVER=0x0A00"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_WIN32_WINNT=0x0A00"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "C:/Qt/qtbase-6.8/build/src/openglwidgets/OpenGLWidgets_autogen/include"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "C:/Qt/qtbase-6.8/build/include"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtOpenGLWidgets"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "C:/Qt/qtbase-6.8/src/openglwidgets"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "C:/Qt/qtbase-6.8/build/src/openglwidgets"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtOpenGL"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtWidgets"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/src/opengl"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtOpenGL/6.8.0"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtOpenGL/6.8.0/QtOpenGL"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0/QtCore"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/src/gui"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui/6.8.0"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui/6.8.0/QtGui"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/src/widgets"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtWidgets/6.8.0"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtWidgets/6.8.0/QtWidgets"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					7
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 57,
+					"header" : "C:/Qt/qtbase-6.8/build/include/QtOpenGL/QtOpenGL"
+				},
+				{
+					"backtrace" : 60,
+					"header" : "C:/Qt/qtbase-6.8/build/include/QtWidgets/QtWidgets"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport"
+				},
+				{
+					"backtrace" : 47,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 47,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 49,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wa,-mbig-obj"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ftrivial-auto-var-init=pattern"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fstack-clash-protection"
+				},
+				{
+					"fragment" : "-Winvalid-pch -include C:/Qt/qtbase-6.8/build/src/openglwidgets/CMakeFiles/OpenGLWidgets.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "MINGW_HAS_SECURE_API=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_BUILD_OPENGLWIDGETS_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 52,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 53,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_QASCONST"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_NO_USING_NAMESPACE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "QT_USE_NODISCARD_FILE_OPEN"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WINVER=0x0A00"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_WIN32_WINNT=0x0A00"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "C:/Qt/qtbase-6.8/build/src/openglwidgets/OpenGLWidgets_autogen/include"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "C:/Qt/qtbase-6.8/build/include"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtOpenGLWidgets"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "C:/Qt/qtbase-6.8/src/openglwidgets"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "C:/Qt/qtbase-6.8/build/src/openglwidgets"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtOpenGL"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtWidgets"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/src/opengl"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtOpenGL/6.8.0"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtOpenGL/6.8.0/QtOpenGL"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0/QtCore"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/src/gui"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui/6.8.0"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui/6.8.0/QtGui"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/src/widgets"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtWidgets/6.8.0"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtWidgets/6.8.0/QtWidgets"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					7
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 57,
+					"header" : "C:/Qt/qtbase-6.8/build/include/QtOpenGL/QtOpenGL"
+				},
+				{
+					"backtrace" : 60,
+					"header" : "C:/Qt/qtbase-6.8/build/include/QtWidgets/QtWidgets"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1,
+				3
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		},
+		{
+			"id" : "cmake_automoc_parser::@9df279ca5a40d551589d"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "ZlibPrivate::@fab9159b69e9a33b7bcd"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "BundledPcre2::@662af84d20aaf7d84676"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "BundledZLIB::@fab9159b69e9a33b7bcd"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Core::@e8138540d8b2daa0b357"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "BundledLibpng::@f0d8789028037e8800e8"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "Core_sync_headers::@e8138540d8b2daa0b357"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "BundledHarfbuzz::@0b15749e035ccedaa8cf"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "BundledFreetype::@17c7c8edb7eca99300c5"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Gui::@7675e61a69a6135e3026"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "Gui_sync_headers::@7675e61a69a6135e3026"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Gui_resources_2::@7675e61a69a6135e3026"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Gui_resources_1::@7675e61a69a6135e3026"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "OpenGL::@557a2e62dd030bddd73f"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "OpenGLWidgets_lib_pri::@9b28f444a8eb634650c9"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Widgets_resources_3::@01ca4e8faf65486cb322"
+		},
+		{
+			"backtrace" : 26,
+			"id" : "Widgets_sync_headers::@01ca4e8faf65486cb322"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Widgets_resources_4::@01ca4e8faf65486cb322"
+		},
+		{
+			"backtrace" : 29,
+			"id" : "OpenGLWidgets_version_script::@9b28f444a8eb634650c9"
+		},
+		{
+			"backtrace" : 30,
+			"id" : "OpenGLWidgets_sync_headers::@9b28f444a8eb634650c9"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Widgets_resources_1::@01ca4e8faf65486cb322"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Widgets_resources_2::@01ca4e8faf65486cb322"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "OpenGL_sync_headers::@557a2e62dd030bddd73f"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Widgets::@01ca4e8faf65486cb322"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "OpenGLWidgets_autogen::@9b28f444a8eb634650c9"
+		},
+		{
+			"id" : "OpenGLWidgets_autogen_timestamp_deps::@9b28f444a8eb634650c9"
+		}
+	],
+	"id" : "OpenGLWidgets::@9b28f444a8eb634650c9",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Qt/Qt-6.8.0"
+		}
+	},
+	"name" : "OpenGLWidgets",
+	"nameOnDisk" : "libQt6OpenGLWidgets.a",
+	"paths" : 
+	{
+		"build" : "src/openglwidgets",
+		"source" : "src/openglwidgets"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2,
+				4,
+				5
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				6,
+				7,
+				8
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				9
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				10,
+				11,
+				12,
+				13
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"path" : "build/src/openglwidgets/CMakeFiles/OpenGLWidgets.dir/cmake_pch.hxx.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/src/openglwidgets/OpenGLWidgets_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 62,
+			"isGenerated" : true,
+			"path" : "build/include/QtOpenGLWidgets/qtopenglwidgetsexports.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 63,
+			"compileGroupIndex" : 1,
+			"path" : "src/openglwidgets/qopenglwidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 63,
+			"path" : "src/openglwidgets/qopenglwidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 63,
+			"path" : "src/openglwidgets/qtopenglwidgetsglobal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 65,
+			"isGenerated" : true,
+			"path" : "build/src/openglwidgets/meta_types/qt6openglwidgets_release_metatypes.json.gen",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 67,
+			"isGenerated" : true,
+			"path" : "build/src/openglwidgets/preliminary_prl_for_OpenGLWidgets_step2_Release.prl",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/openglwidgets/OpenGLWidgets_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"path" : "build/src/openglwidgets/CMakeFiles/OpenGLWidgets.dir/cmake_pch.hxx",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/openglwidgets/meta_types/qt6openglwidgets_release_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/openglwidgets/preliminary_prl_for_OpenGLWidgets_step2_Release.prl.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/openglwidgets/OpenGLWidgets_autogen/timestamp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/openglwidgets/meta_types/OpenGLWidgets_json_file_list.txt.rule",
+			"sourceGroupIndex" : 4
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

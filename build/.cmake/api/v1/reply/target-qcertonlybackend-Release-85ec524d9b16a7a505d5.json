@@ -1,0 +1,57 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_add_plugin",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"cmake/QtPluginHelpers.cmake",
+			"src/plugins/tls/certonly/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 155,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 156,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "QTlsBackendCertOnlyPlugin::@e576dade91c8331b5fe7"
+		}
+	],
+	"id" : "qcertonlybackend::@e576dade91c8331b5fe7",
+	"name" : "qcertonlybackend",
+	"paths" : 
+	{
+		"build" : "src/plugins/tls/certonly",
+		"source" : "src/plugins/tls/certonly"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QWindowContainer",
+            "object": true,
+            "qualifiedClassName": "QWindowContainer",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwindowcontainer_p.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,24 @@
+{
+    "classes": [
+        {
+            "className": "QExpandingLineEdit",
+            "object": true,
+            "qualifiedClassName": "QExpandingLineEdit",
+            "slots": [
+                {
+                    "access": "public",
+                    "name": "resizeToContents",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QLineEdit"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qitemeditorfactory_p.h",
+    "outputRevision": 68
+}

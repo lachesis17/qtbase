@@ -1,0 +1,214 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt_install",
+			"qt_internal_add_plugin",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_generate_plugin_pri_file",
+			"qt_finalize_plugin"
+		],
+		"files" : 
+		[
+			"cmake/QtInstallHelpers.cmake",
+			"cmake/QtPluginHelpers.cmake",
+			"src/plugins/imageformats/gif/CMakeLists.txt",
+			"cmake/QtTargetHelpers.cmake",
+			"cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"cmake/QtPriHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 379,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 390,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 399,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 806,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1081,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 475,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 662,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 15
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6Gui",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake",
+				"build/lib/cmake/Qt6Gui/Qt6QGifPluginConfigVersion.cmake",
+				"build/lib/cmake/Qt6Gui/Qt6QGifPluginConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "plugins/imageformats",
+			"paths" : 
+			[
+				"plugins/imageformats/libqgif.a"
+			],
+			"targetId" : "QGifPlugin::@db481f4670a9b0759ac4",
+			"targetIndex" : 113,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "plugins/imageformats",
+			"paths" : 
+			[
+				{
+					"from" : "src/plugins/imageformats/gif/CMakeFiles/QGifPlugin_init.dir/.//QGifPlugin_init.cpp.obj",
+					"to" : "objects-Release/QGifPlugin_init/QGifPlugin_init.cpp.obj"
+				}
+			],
+			"targetId" : "QGifPlugin_init::@db481f4670a9b0759ac4",
+			"targetIndex" : 116,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Gui",
+			"exportName" : "Qt6QGifPluginTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "QGifPlugin::@db481f4670a9b0759ac4",
+					"index" : 113
+				},
+				{
+					"id" : "QGifPlugin_init::@db481f4670a9b0759ac4",
+					"index" : 116
+				}
+			],
+			"paths" : 
+			[
+				"src/plugins/imageformats/gif/CMakeFiles/Export/186cdab8ebd5e47f6ef8450c9fc81ba1/Qt6QGifPluginTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Gui",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"build/mkspecs/modules/qt_plugin_qgif.pri"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/plugins/imageformats/gif",
+		"source" : "src/plugins/imageformats/gif"
+	}
+}

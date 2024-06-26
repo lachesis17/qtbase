@@ -1,0 +1,373 @@
+{
+    "classes": [
+        {
+            "className": "QHttp2Stream",
+            "enums": [
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "State",
+                    "values": [
+                        "Idle",
+                        "ReservedRemote",
+                        "Open",
+                        "HalfClosedLocal",
+                        "HalfClosedRemote",
+                        "Closed"
+                    ]
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "QHttp2Stream",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "headers",
+                            "type": "HPack::HttpHeader"
+                        },
+                        {
+                            "name": "endStream",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "headersReceived",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "headersUpdated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "errorCode",
+                            "type": "quint32"
+                        },
+                        {
+                            "name": "errorString",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "errorOccurred",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newState",
+                            "type": "QHttp2Stream::State"
+                        }
+                    ],
+                    "name": "stateChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newStreamID",
+                            "type": "quint32"
+                        }
+                    ],
+                    "name": "promisedStreamReceived",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "uploadBlocked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "data",
+                            "type": "QByteArray"
+                        },
+                        {
+                            "name": "endStream",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "dataReceived",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "bytesWritten",
+                            "type": "qint64"
+                        }
+                    ],
+                    "name": "bytesWritten",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "errorString",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "uploadDeviceError",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "uploadFinished",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "errorCode",
+                            "type": "quint32"
+                        }
+                    ],
+                    "name": "sendRST_STREAM",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "headers",
+                            "type": "HPack::HttpHeader"
+                        },
+                        {
+                            "name": "endStream",
+                            "type": "bool"
+                        },
+                        {
+                            "name": "priority",
+                            "type": "quint8"
+                        }
+                    ],
+                    "name": "sendHEADERS",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "headers",
+                            "type": "HPack::HttpHeader"
+                        },
+                        {
+                            "name": "endStream",
+                            "type": "bool"
+                        }
+                    ],
+                    "isCloned": true,
+                    "name": "sendHEADERS",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "device",
+                            "type": "QIODevice*"
+                        },
+                        {
+                            "name": "endStream",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "sendDATA",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "device",
+                            "type": "QNonContiguousByteDevice*"
+                        },
+                        {
+                            "name": "endStream",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "sendDATA",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "delta",
+                            "type": "quint32"
+                        }
+                    ],
+                    "name": "sendWINDOW_UPDATE",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "maybeResumeUpload",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "uploadDeviceReadChannelFinished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "uploadDeviceDestroyed",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "QHttp2Connection",
+            "enums": [
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "CreateStreamError",
+                    "values": [
+                        "MaxConcurrentStreamsReached",
+                        "StreamIdsExhausted",
+                        "ReceivedGOAWAY"
+                    ]
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "QHttp2Connection",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "stream",
+                            "type": "QHttp2Stream*"
+                        }
+                    ],
+                    "name": "newIncomingStream",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "stream",
+                            "type": "QHttp2Stream*"
+                        }
+                    ],
+                    "name": "newPromisedStream",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "errorReceived",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "connectionClosed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "settingsFrameReceived",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "state",
+                            "type": "QHttp2Connection::PingState"
+                        }
+                    ],
+                    "name": "pingFrameRecived",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "errorCode",
+                            "type": "Http2::Http2Error"
+                        },
+                        {
+                            "name": "errorString",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "errorOccurred",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "errorCode",
+                            "type": "quint32"
+                        },
+                        {
+                            "name": "lastStreamID",
+                            "type": "quint32"
+                        }
+                    ],
+                    "name": "receivedGOAWAY",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "name": "sendPing",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "data",
+                            "type": "QByteArrayView"
+                        }
+                    ],
+                    "name": "sendPing",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "name": "handleReadyRead",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "handleConnectionClosure",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qhttp2connection_p.h",
+    "outputRevision": 68
+}

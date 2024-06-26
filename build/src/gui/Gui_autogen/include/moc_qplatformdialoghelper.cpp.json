@@ -1,0 +1,408 @@
+{
+    "classes": [
+        {
+            "className": "QPlatformDialogHelper",
+            "enums": [
+                {
+                    "alias": "StandardButton",
+                    "isClass": false,
+                    "isFlag": true,
+                    "name": "StandardButtons",
+                    "values": [
+                        "NoButton",
+                        "Ok",
+                        "Save",
+                        "SaveAll",
+                        "Open",
+                        "Yes",
+                        "YesToAll",
+                        "No",
+                        "NoToAll",
+                        "Abort",
+                        "Retry",
+                        "Ignore",
+                        "Close",
+                        "Cancel",
+                        "Discard",
+                        "Help",
+                        "Apply",
+                        "Reset",
+                        "RestoreDefaults",
+                        "FirstButton",
+                        "LastButton",
+                        "LowestBit",
+                        "HighestBit"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ButtonRole",
+                    "values": [
+                        "InvalidRole",
+                        "AcceptRole",
+                        "RejectRole",
+                        "DestructiveRole",
+                        "ActionRole",
+                        "HelpRole",
+                        "YesRole",
+                        "NoRole",
+                        "ResetRole",
+                        "ApplyRole",
+                        "NRoles",
+                        "RoleMask",
+                        "AlternateRole",
+                        "Stretch",
+                        "Reverse",
+                        "EOL"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ButtonLayout",
+                    "values": [
+                        "UnknownLayout",
+                        "WinLayout",
+                        "MacLayout",
+                        "KdeLayout",
+                        "GnomeLayout",
+                        "AndroidLayout"
+                    ]
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "QPlatformDialogHelper",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "accept",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "reject",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "QColorDialogOptions",
+            "enums": [
+                {
+                    "alias": "ColorDialogOption",
+                    "isClass": false,
+                    "isFlag": true,
+                    "name": "ColorDialogOptions",
+                    "values": [
+                        "ShowAlphaChannel",
+                        "NoButtons",
+                        "DontUseNativeDialog",
+                        "NoEyeDropperButton"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "qualifiedClassName": "QColorDialogOptions"
+        },
+        {
+            "className": "QPlatformColorDialogHelper",
+            "object": true,
+            "qualifiedClassName": "QPlatformColorDialogHelper",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "color",
+                            "type": "QColor"
+                        }
+                    ],
+                    "name": "currentColorChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "color",
+                            "type": "QColor"
+                        }
+                    ],
+                    "name": "colorSelected",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPlatformDialogHelper"
+                }
+            ]
+        },
+        {
+            "className": "QFontDialogOptions",
+            "enums": [
+                {
+                    "alias": "FontDialogOption",
+                    "isClass": false,
+                    "isFlag": true,
+                    "name": "FontDialogOptions",
+                    "values": [
+                        "NoButtons",
+                        "DontUseNativeDialog",
+                        "ScalableFonts",
+                        "NonScalableFonts",
+                        "MonospacedFonts",
+                        "ProportionalFonts"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "qualifiedClassName": "QFontDialogOptions"
+        },
+        {
+            "className": "QPlatformFontDialogHelper",
+            "object": true,
+            "qualifiedClassName": "QPlatformFontDialogHelper",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "font",
+                            "type": "QFont"
+                        }
+                    ],
+                    "name": "currentFontChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "font",
+                            "type": "QFont"
+                        }
+                    ],
+                    "name": "fontSelected",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPlatformDialogHelper"
+                }
+            ]
+        },
+        {
+            "className": "QFileDialogOptions",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ViewMode",
+                    "values": [
+                        "Detail",
+                        "List"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "FileMode",
+                    "values": [
+                        "AnyFile",
+                        "ExistingFile",
+                        "Directory",
+                        "ExistingFiles",
+                        "DirectoryOnly"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "AcceptMode",
+                    "values": [
+                        "AcceptOpen",
+                        "AcceptSave"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "DialogLabel",
+                    "values": [
+                        "LookIn",
+                        "FileName",
+                        "FileType",
+                        "Accept",
+                        "Reject",
+                        "DialogLabelCount"
+                    ]
+                },
+                {
+                    "alias": "FileDialogOption",
+                    "isClass": false,
+                    "isFlag": true,
+                    "name": "FileDialogOptions",
+                    "values": [
+                        "ShowDirsOnly",
+                        "DontResolveSymlinks",
+                        "DontConfirmOverwrite",
+                        "DontUseNativeDialog",
+                        "ReadOnly",
+                        "HideNameFilterDetails",
+                        "DontUseCustomDirectoryIcons"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "qualifiedClassName": "QFileDialogOptions"
+        },
+        {
+            "className": "QPlatformFileDialogHelper",
+            "object": true,
+            "qualifiedClassName": "QPlatformFileDialogHelper",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "file",
+                            "type": "QUrl"
+                        }
+                    ],
+                    "name": "fileSelected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "files",
+                            "type": "QList<QUrl>"
+                        }
+                    ],
+                    "name": "filesSelected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QUrl"
+                        }
+                    ],
+                    "name": "currentChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "directory",
+                            "type": "QUrl"
+                        }
+                    ],
+                    "name": "directoryEntered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "filter",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "filterSelected",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPlatformDialogHelper"
+                }
+            ]
+        },
+        {
+            "className": "QMessageDialogOptions",
+            "enums": [
+                {
+                    "alias": "Option",
+                    "isClass": true,
+                    "isFlag": true,
+                    "name": "Options",
+                    "values": [
+                        "DontUseNativeDialog"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "StandardIcon",
+                    "values": [
+                        "NoIcon",
+                        "Information",
+                        "Warning",
+                        "Critical",
+                        "Question"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "qualifiedClassName": "QMessageDialogOptions"
+        },
+        {
+            "className": "QPlatformMessageDialogHelper",
+            "object": true,
+            "qualifiedClassName": "QPlatformMessageDialogHelper",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "button",
+                            "type": "QPlatformDialogHelper::StandardButton"
+                        },
+                        {
+                            "name": "role",
+                            "type": "QPlatformDialogHelper::ButtonRole"
+                        }
+                    ],
+                    "name": "clicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "state",
+                            "type": "Qt::CheckState"
+                        }
+                    ],
+                    "name": "checkBoxStateChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPlatformDialogHelper"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qplatformdialoghelper.h",
+    "outputRevision": 68
+}

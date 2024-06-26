@@ -1,0 +1,269 @@
+{
+    "classes": [
+        {
+            "className": "QMdiArea",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "WindowOrder",
+                    "values": [
+                        "CreationOrder",
+                        "StackingOrder",
+                        "ActivationHistoryOrder"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ViewMode",
+                    "values": [
+                        "SubWindowView",
+                        "TabbedView"
+                    ]
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "background",
+                    "read": "background",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QBrush",
+                    "user": false,
+                    "write": "setBackground"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "activationOrder",
+                    "read": "activationOrder",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "WindowOrder",
+                    "user": false,
+                    "write": "setActivationOrder"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "viewMode",
+                    "read": "viewMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "ViewMode",
+                    "user": false,
+                    "write": "setViewMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "documentMode",
+                    "read": "documentMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setDocumentMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "tabsClosable",
+                    "read": "tabsClosable",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setTabsClosable"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "tabsMovable",
+                    "read": "tabsMovable",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setTabsMovable"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "tabShape",
+                    "read": "tabShape",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QTabWidget::TabShape",
+                    "user": false,
+                    "write": "setTabShape"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "name": "tabPosition",
+                    "read": "tabPosition",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QTabWidget::TabPosition",
+                    "user": false,
+                    "write": "setTabPosition"
+                }
+            ],
+            "qualifiedClassName": "QMdiArea",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QMdiSubWindow*"
+                        }
+                    ],
+                    "name": "subWindowActivated",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "window",
+                            "type": "QMdiSubWindow*"
+                        }
+                    ],
+                    "name": "setActiveSubWindow",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "tileSubWindows",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "cascadeSubWindows",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "closeActiveSubWindow",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "closeAllSubWindows",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "activateNextSubWindow",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "activatePreviousSubWindow",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "viewport",
+                            "type": "QWidget*"
+                        }
+                    ],
+                    "name": "setupViewport",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_deactivateAllWindows",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "Qt::WindowStates"
+                        },
+                        {
+                            "type": "Qt::WindowStates"
+                        }
+                    ],
+                    "name": "_q_processWindowStateChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "int"
+                        }
+                    ],
+                    "name": "_q_currentTabChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "int"
+                        }
+                    ],
+                    "name": "_q_closeTab",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "int"
+                        },
+                        {
+                            "type": "int"
+                        }
+                    ],
+                    "name": "_q_moveTab",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractScrollArea"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qmdiarea.h",
+    "outputRevision": 68
+}

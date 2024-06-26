@@ -1,0 +1,43 @@
+{
+    "classes": [
+        {
+            "className": "QWinEventNotifier",
+            "object": true,
+            "qualifiedClassName": "QWinEventNotifier",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "hEvent",
+                            "type": "HANDLE"
+                        }
+                    ],
+                    "name": "activated",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "enable",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "setEnabled",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwineventnotifier.h",
+    "outputRevision": 68
+}

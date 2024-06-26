@@ -1,0 +1,42 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/assets/icons/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "ExampleIconsPrivate_version_script::@a61c3f4b7aded4aabb04"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "ExampleIconsPrivate_sync_headers::@a61c3f4b7aded4aabb04"
+		}
+	],
+	"id" : "ExampleIconsPrivate_autogen_timestamp_deps::@a61c3f4b7aded4aabb04",
+	"isGeneratorProvided" : true,
+	"name" : "ExampleIconsPrivate_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "src/assets/icons",
+		"source" : "src/assets/icons"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

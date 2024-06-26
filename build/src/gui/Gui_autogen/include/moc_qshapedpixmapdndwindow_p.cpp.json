@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QShapedPixmapWindow",
+            "object": true,
+            "qualifiedClassName": "QShapedPixmapWindow",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QRasterWindow"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qshapedpixmapdndwindow_p.h",
+    "outputRevision": 68
+}

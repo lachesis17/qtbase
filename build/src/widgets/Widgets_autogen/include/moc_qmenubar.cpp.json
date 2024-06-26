@@ -1,0 +1,109 @@
+{
+    "classes": [
+        {
+            "className": "QMenuBar",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "defaultUp",
+                    "read": "isDefaultUp",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setDefaultUp"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "nativeMenuBar",
+                    "read": "isNativeMenuBar",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setNativeMenuBar"
+                }
+            ],
+            "qualifiedClassName": "QMenuBar",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "action",
+                            "type": "QAction*"
+                        }
+                    ],
+                    "name": "triggered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "action",
+                            "type": "QAction*"
+                        }
+                    ],
+                    "name": "hovered",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "visible",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "setVisible",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_actionTriggered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_actionHovered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "int"
+                        }
+                    ],
+                    "name": "_q_internalShortcutActivated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_updateLayout",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qmenubar.h",
+    "outputRevision": 68
+}

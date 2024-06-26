@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QPlatformInputContext",
+            "object": true,
+            "qualifiedClassName": "QPlatformInputContext",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qplatforminputcontext.h",
+    "outputRevision": 68
+}

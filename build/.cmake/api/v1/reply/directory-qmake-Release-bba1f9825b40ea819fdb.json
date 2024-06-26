@@ -1,0 +1,131 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt_install",
+			"qt_internal_add_tool",
+			"_qt_internal_create_versioned_link_or_copy",
+			"qt_internal_install_versioned_link",
+			"qt_internal_add_docs"
+		],
+		"files" : 
+		[
+			"cmake/QtInstallHelpers.cmake",
+			"cmake/QtToolHelpers.cmake",
+			"qmake/CMakeLists.txt",
+			"cmake/QtDocsHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 246,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 255,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 134,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 184,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 230,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 243,
+				"parent" : 7
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/qmake.exe"
+			],
+			"targetId" : "qmake::@63f2f4db298c7a29a9ac",
+			"targetIndex" : 424,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "_install_html_docs_qmake",
+			"destination" : "doc/qmake",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				{
+					"from" : "build/doc/qmake",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "_install_qch_docs_qmake",
+			"destination" : "doc",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"build/doc/qmake.qch"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "qmake",
+		"source" : "qmake"
+	}
+}

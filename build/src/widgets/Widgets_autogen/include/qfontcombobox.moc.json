@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QFontFamilyDelegate",
+            "object": true,
+            "qualifiedClassName": "QFontFamilyDelegate",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractItemDelegate"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qfontcombobox.cpp",
+    "outputRevision": 68
+}

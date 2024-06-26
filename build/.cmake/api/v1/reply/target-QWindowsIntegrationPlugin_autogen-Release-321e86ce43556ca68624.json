@@ -1,0 +1,74 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/plugins/platforms/windows/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		},
+		{
+			"id" : "QWindowsIntegrationPlugin_autogen_timestamp_deps::@5f31441e043f26c22ebb"
+		}
+	],
+	"id" : "QWindowsIntegrationPlugin_autogen::@5f31441e043f26c22ebb",
+	"isGeneratorProvided" : true,
+	"name" : "QWindowsIntegrationPlugin_autogen",
+	"paths" : 
+	{
+		"build" : "src/plugins/platforms/windows",
+		"source" : "src/plugins/platforms/windows"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/platforms/windows/CMakeFiles/QWindowsIntegrationPlugin_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/platforms/windows/CMakeFiles/QWindowsIntegrationPlugin_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/platforms/windows/QWindowsIntegrationPlugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

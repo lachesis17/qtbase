@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QThreadPoolThread",
+            "object": true,
+            "qualifiedClassName": "QThreadPoolThread",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QThread"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qthreadpool.cpp",
+    "outputRevision": 68
+}

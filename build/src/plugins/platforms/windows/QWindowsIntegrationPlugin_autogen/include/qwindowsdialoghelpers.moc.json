@@ -1,0 +1,134 @@
+{
+    "classes": [
+        {
+            "className": "QWindowsNativeDialogBase",
+            "object": true,
+            "qualifiedClassName": "QWindowsNativeDialogBase",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "accepted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "rejected",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "name": "close",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "QWindowsNativeFileDialogBase",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "hideFiltersDetails",
+                    "read": "hideFiltersDetails",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setHideFiltersDetails"
+                }
+            ],
+            "qualifiedClassName": "QWindowsNativeFileDialogBase",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "directory",
+                            "type": "QUrl"
+                        }
+                    ],
+                    "name": "directoryEntered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "file",
+                            "type": "QUrl"
+                        }
+                    ],
+                    "name": "currentChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "filter",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "filterSelected",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "name": "close",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWindowsNativeDialogBase"
+                }
+            ]
+        },
+        {
+            "className": "QWindowsNativeSaveFileDialog",
+            "object": true,
+            "qualifiedClassName": "QWindowsNativeSaveFileDialog",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWindowsNativeFileDialogBase"
+                }
+            ]
+        },
+        {
+            "className": "QWindowsXpNativeFileDialog",
+            "object": true,
+            "qualifiedClassName": "QWindowsXpNativeFileDialog",
+            "slots": [
+                {
+                    "access": "public",
+                    "name": "close",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWindowsNativeDialogBase"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwindowsdialoghelpers.cpp",
+    "outputRevision": 68
+}

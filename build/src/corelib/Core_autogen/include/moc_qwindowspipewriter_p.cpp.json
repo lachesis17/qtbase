@@ -1,0 +1,35 @@
+{
+    "classes": [
+        {
+            "className": "QWindowsPipeWriter",
+            "object": true,
+            "qualifiedClassName": "QWindowsPipeWriter",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "bytes",
+                            "type": "qint64"
+                        }
+                    ],
+                    "name": "bytesWritten",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "writeFailed",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwindowspipewriter_p.h",
+    "outputRevision": 68
+}

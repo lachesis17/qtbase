@@ -1,0 +1,691 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"cmake/QtSyncQtHelpers.cmake",
+			"cmake/QtModuleHelpers.cmake",
+			"cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"src/3rdparty/zlib/CMakeLists.txt",
+			"src/corelib/CMakeLists.txt",
+			"src/3rdparty/libpng/CMakeLists.txt",
+			"src/3rdparty/libjpeg/CMakeLists.txt",
+			"src/3rdparty/freetype/CMakeLists.txt",
+			"src/3rdparty/harfbuzz-ng/CMakeLists.txt",
+			"src/concurrent/CMakeLists.txt",
+			"src/sql/CMakeLists.txt",
+			"src/network/CMakeLists.txt",
+			"src/xml/CMakeLists.txt",
+			"src/dbus/CMakeLists.txt",
+			"src/gui/CMakeLists.txt",
+			"src/assets/icons/CMakeLists.txt",
+			"src/assets/downloader/CMakeLists.txt",
+			"src/widgets/CMakeLists.txt",
+			"src/openglwidgets/CMakeLists.txt",
+			"src/platformsupport/devicediscovery/CMakeLists.txt",
+			"src/platformsupport/fbconvenience/CMakeLists.txt",
+			"src/opengl/CMakeLists.txt",
+			"src/testlib/CMakeLists.txt",
+			"src/printsupport/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"file" : 3,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 236,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 238,
+				"parent" : 3
+			},
+			{
+				"file" : 4
+			},
+			{
+				"file" : 4,
+				"line" : -1,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 238,
+				"parent" : 9
+			},
+			{
+				"file" : 5
+			},
+			{
+				"file" : 5,
+				"line" : -1,
+				"parent" : 11
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 12
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 13
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 238,
+				"parent" : 14
+			},
+			{
+				"file" : 6
+			},
+			{
+				"file" : 6,
+				"line" : -1,
+				"parent" : 16
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 18
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 238,
+				"parent" : 19
+			},
+			{
+				"file" : 7
+			},
+			{
+				"file" : 7,
+				"line" : -1,
+				"parent" : 21
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 22
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 23
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 238,
+				"parent" : 24
+			},
+			{
+				"file" : 8
+			},
+			{
+				"file" : 8,
+				"line" : -1,
+				"parent" : 26
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 27
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 28
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 238,
+				"parent" : 29
+			},
+			{
+				"file" : 9
+			},
+			{
+				"file" : 9,
+				"line" : -1,
+				"parent" : 31
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 32
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 33
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 238,
+				"parent" : 34
+			},
+			{
+				"file" : 10
+			},
+			{
+				"file" : 10,
+				"line" : -1,
+				"parent" : 36
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 37
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 38
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 238,
+				"parent" : 39
+			},
+			{
+				"file" : 11
+			},
+			{
+				"file" : 11,
+				"line" : -1,
+				"parent" : 41
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 42
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 43
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 238,
+				"parent" : 44
+			},
+			{
+				"file" : 12
+			},
+			{
+				"file" : 12,
+				"line" : -1,
+				"parent" : 46
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 47
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 48
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 238,
+				"parent" : 49
+			},
+			{
+				"file" : 13
+			},
+			{
+				"file" : 13,
+				"line" : -1,
+				"parent" : 51
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 52
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 53
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 238,
+				"parent" : 54
+			},
+			{
+				"file" : 14
+			},
+			{
+				"file" : 14,
+				"line" : -1,
+				"parent" : 56
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 57
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 58
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 238,
+				"parent" : 59
+			},
+			{
+				"file" : 15
+			},
+			{
+				"file" : 15,
+				"line" : -1,
+				"parent" : 61
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 62
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 63
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 238,
+				"parent" : 64
+			},
+			{
+				"file" : 16
+			},
+			{
+				"file" : 16,
+				"line" : -1,
+				"parent" : 66
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 67
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 68
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 238,
+				"parent" : 69
+			},
+			{
+				"file" : 17
+			},
+			{
+				"file" : 17,
+				"line" : -1,
+				"parent" : 71
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 72
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 73
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 238,
+				"parent" : 74
+			},
+			{
+				"file" : 18
+			},
+			{
+				"file" : 18,
+				"line" : -1,
+				"parent" : 76
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 77
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 78
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 238,
+				"parent" : 79
+			},
+			{
+				"file" : 19
+			},
+			{
+				"file" : 19,
+				"line" : -1,
+				"parent" : 81
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 82
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 83
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 238,
+				"parent" : 84
+			},
+			{
+				"file" : 20
+			},
+			{
+				"file" : 20,
+				"line" : -1,
+				"parent" : 86
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 87
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 88
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 238,
+				"parent" : 89
+			},
+			{
+				"file" : 21
+			},
+			{
+				"file" : 21,
+				"line" : -1,
+				"parent" : 91
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 92
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 93
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 238,
+				"parent" : 94
+			},
+			{
+				"file" : 22
+			},
+			{
+				"file" : 22,
+				"line" : -1,
+				"parent" : 96
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 97
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 98
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 238,
+				"parent" : 99
+			},
+			{
+				"file" : 23
+			},
+			{
+				"file" : 23,
+				"line" : -1,
+				"parent" : 101
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 102
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 103
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 238,
+				"parent" : 104
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "ZlibPrivate_sync_all_public_headers::@fab9159b69e9a33b7bcd"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "Core_sync_all_public_headers::@e8138540d8b2daa0b357"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "PngPrivate_sync_all_public_headers::@f0d8789028037e8800e8"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "JpegPrivate_sync_all_public_headers::@ee307bfce77e16311264"
+		},
+		{
+			"backtrace" : 25,
+			"id" : "FreetypePrivate_sync_all_public_headers::@17c7c8edb7eca99300c5"
+		},
+		{
+			"backtrace" : 30,
+			"id" : "HarfbuzzPrivate_sync_all_public_headers::@0b15749e035ccedaa8cf"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "Concurrent_sync_all_public_headers::@e039ee0229fd7540ae63"
+		},
+		{
+			"backtrace" : 40,
+			"id" : "Sql_sync_all_public_headers::@3cdb5acf1c1f11493d2c"
+		},
+		{
+			"backtrace" : 45,
+			"id" : "Network_sync_all_public_headers::@311edf953348ef8fadde"
+		},
+		{
+			"backtrace" : 50,
+			"id" : "Xml_sync_all_public_headers::@92fc915ce26cc64eab9d"
+		},
+		{
+			"backtrace" : 55,
+			"id" : "DBus_sync_all_public_headers::@7679c349088050c077d2"
+		},
+		{
+			"backtrace" : 60,
+			"id" : "Gui_sync_all_public_headers::@7675e61a69a6135e3026"
+		},
+		{
+			"backtrace" : 65,
+			"id" : "ExampleIconsPrivate_sync_all_public_headers::@a61c3f4b7aded4aabb04"
+		},
+		{
+			"backtrace" : 70,
+			"id" : "ExamplesAssetDownloaderPrivate_sync_all_public_headers::@b7766ebde7b7461cd71e"
+		},
+		{
+			"backtrace" : 75,
+			"id" : "Widgets_sync_all_public_headers::@01ca4e8faf65486cb322"
+		},
+		{
+			"backtrace" : 80,
+			"id" : "OpenGLWidgets_sync_all_public_headers::@9b28f444a8eb634650c9"
+		},
+		{
+			"backtrace" : 85,
+			"id" : "DeviceDiscoverySupportPrivate_sync_all_public_headers::@db88ac3235615b72a0f8"
+		},
+		{
+			"backtrace" : 90,
+			"id" : "FbSupportPrivate_sync_all_public_headers::@f639f8dda1281739aec6"
+		},
+		{
+			"backtrace" : 95,
+			"id" : "OpenGL_sync_all_public_headers::@557a2e62dd030bddd73f"
+		},
+		{
+			"backtrace" : 100,
+			"id" : "Test_sync_all_public_headers::@6d64fd40ee034a68d3ce"
+		},
+		{
+			"backtrace" : 105,
+			"id" : "PrintSupport_sync_all_public_headers::@f385d124e6f9e38987e2"
+		}
+	],
+	"id" : "sync_all_public_headers::@fab9159b69e9a33b7bcd",
+	"name" : "sync_all_public_headers",
+	"paths" : 
+	{
+		"build" : "src/3rdparty/zlib",
+		"source" : "src/3rdparty/zlib"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

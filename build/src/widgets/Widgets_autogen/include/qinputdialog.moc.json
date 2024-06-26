@@ -1,0 +1,66 @@
+{
+    "classes": [
+        {
+            "className": "QInputDialogSpinBox",
+            "object": true,
+            "qualifiedClassName": "QInputDialogSpinBox",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "textChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "name": "notifyTextChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QSpinBox"
+                }
+            ]
+        },
+        {
+            "className": "QInputDialogDoubleSpinBox",
+            "object": true,
+            "qualifiedClassName": "QInputDialogDoubleSpinBox",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "textChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "name": "notifyTextChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDoubleSpinBox"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qinputdialog.cpp",
+    "outputRevision": 68
+}

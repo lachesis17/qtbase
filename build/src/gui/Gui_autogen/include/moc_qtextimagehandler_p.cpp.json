@@ -1,0 +1,29 @@
+{
+    "classes": [
+        {
+            "className": "QTextImageHandler",
+            "interfaces": [
+                [
+                    {
+                        "className": "QTextObjectInterface",
+                        "id": "\"org.qt-project.Qt.QTextObjectInterface\""
+                    }
+                ]
+            ],
+            "object": true,
+            "qualifiedClassName": "QTextImageHandler",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                },
+                {
+                    "access": "public",
+                    "name": "QTextObjectInterface"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtextimagehandler_p.h",
+    "outputRevision": 68
+}

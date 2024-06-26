@@ -1,0 +1,42 @@
+{
+    "classes": [
+        {
+            "className": "QWindowsPipeReader",
+            "object": true,
+            "qualifiedClassName": "QWindowsPipeReader",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "ulong"
+                        },
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "winError",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "readyRead",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "pipeClosed",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwindowspipereader_p.h",
+    "outputRevision": 68
+}

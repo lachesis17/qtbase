@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QAccessibleBridgePlugin",
+            "object": true,
+            "qualifiedClassName": "QAccessibleBridgePlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qaccessiblebridge.h",
+    "outputRevision": 68
+}

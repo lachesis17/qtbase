@@ -1,0 +1,57 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_add_plugin",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"cmake/QtPluginHelpers.cmake",
+			"src/plugins/networkinformation/networklistmanager/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 155,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 156,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "QNLMNIPlugin::@f58ed192ffd43d9d8a4b"
+		}
+	],
+	"id" : "qnetworklistmanager::@f58ed192ffd43d9d8a4b",
+	"name" : "qnetworklistmanager",
+	"paths" : 
+	{
+		"build" : "src/plugins/networkinformation/networklistmanager",
+		"source" : "src/plugins/networkinformation/networklistmanager"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

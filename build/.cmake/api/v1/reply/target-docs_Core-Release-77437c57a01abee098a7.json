@@ -1,0 +1,67 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_add_docs",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"cmake/QtDocsHelpers.cmake",
+			"src/corelib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1450,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 265,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 266,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 267,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "html_docs_Core::@e8138540d8b2daa0b357"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "qch_docs_Core::@e8138540d8b2daa0b357"
+		}
+	],
+	"id" : "docs_Core::@e8138540d8b2daa0b357",
+	"name" : "docs_Core",
+	"paths" : 
+	{
+		"build" : "src/corelib",
+		"source" : "src/corelib"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,609 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libQt6BundledLibpng.a"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_qt_internal_add_library",
+			"qt_internal_add_common_qt_library_helper",
+			"qt_internal_add_3rdparty_library",
+			"install",
+			"qt_install",
+			"target_link_libraries",
+			"qt_internal_extend_target",
+			"add_dependencies",
+			"qt_generate_3rdparty_lib_pri_file",
+			"add_compile_options",
+			"include",
+			"qt_internal_set_compiler_warning_flags",
+			"qt_internal_setup_build_and_global_variables",
+			"qt_build_internals_set_up_private_api",
+			"qt_build_repo_begin",
+			"target_compile_options",
+			"qt_internal_set_exceptions_flags",
+			"target_compile_definitions",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"src/corelib/Qt6CoreMacros.cmake",
+			"cmake/Qt3rdPartyLibraryHelpers.cmake",
+			"src/3rdparty/libpng/CMakeLists.txt",
+			"cmake/QtInstallHelpers.cmake",
+			"cmake/QtTargetHelpers.cmake",
+			"cmake/QtPriHelpers.cmake",
+			"cmake/QtCompilerFlags.cmake",
+			"cmake/QtBuildHelpers.cmake",
+			"cmake/QtBuild.cmake",
+			"cmake/QtSetup.cmake",
+			"cmake/QtBuildRepoHelpers.cmake",
+			"CMakeLists.txt",
+			"cmake/QtFlagHandlingHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 178,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 53,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2736,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 302,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 5
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 180,
+				"parent" : 7
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 266,
+				"parent" : 1
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 600,
+				"parent" : 9
+			},
+			{
+				"file" : 11
+			},
+			{
+				"command" : 15,
+				"file" : 11,
+				"line" : 143,
+				"parent" : 11
+			},
+			{
+				"command" : 14,
+				"file" : 10,
+				"line" : 180,
+				"parent" : 12
+			},
+			{
+				"command" : 11,
+				"file" : 10,
+				"line" : 22,
+				"parent" : 13
+			},
+			{
+				"file" : 9,
+				"parent" : 14
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 6,
+				"parent" : 15
+			},
+			{
+				"file" : 8,
+				"parent" : 16
+			},
+			{
+				"command" : 13,
+				"file" : 8,
+				"line" : 4,
+				"parent" : 17
+			},
+			{
+				"command" : 12,
+				"file" : 7,
+				"line" : 451,
+				"parent" : 18
+			},
+			{
+				"command" : 11,
+				"file" : 7,
+				"line" : 79,
+				"parent" : 19
+			},
+			{
+				"file" : 6,
+				"parent" : 20
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 39,
+				"parent" : 21
+			},
+			{
+				"command" : 17,
+				"file" : 1,
+				"line" : 232,
+				"parent" : 1
+			},
+			{
+				"command" : 16,
+				"file" : 12,
+				"line" : 288,
+				"parent" : 23
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 237,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 180,
+				"parent" : 25
+			},
+			{
+				"command" : 18,
+				"file" : 4,
+				"line" : 177,
+				"parent" : 25
+			},
+			{
+				"command" : 18,
+				"file" : 12,
+				"line" : 287,
+				"parent" : 23
+			},
+			{
+				"command" : 19,
+				"file" : 4,
+				"line" : 172,
+				"parent" : 25
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 19,
+				"file" : 4,
+				"line" : 172,
+				"parent" : 30
+			},
+			{
+				"command" : 20,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 25
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -std=c11 -fvisibility=hidden"
+				},
+				{
+					"backtrace" : 22,
+					"fragment" : "-w"
+				},
+				{
+					"backtrace" : 24,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 26,
+					"fragment" : "-Wa,-mbig-obj"
+				},
+				{
+					"backtrace" : 26,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"backtrace" : 26,
+					"fragment" : "-ftrivial-auto-var-init=pattern"
+				},
+				{
+					"backtrace" : 26,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 26,
+					"fragment" : "-fstack-clash-protection"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fdata-sections"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 26,
+					"define" : "MINGW_HAS_SECURE_API=1"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "PNG_ARM_NEON_OPT=0"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "PNG_IMPEXP="
+				},
+				{
+					"backtrace" : 27,
+					"define" : "PNG_POWERPC_VSX_OPT=0"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "QT_NO_QASCONST"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "WINVER=0x0A00"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "_CRT_SECURE_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "_WIN32_WINNT=0x0A00"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 29,
+					"path" : "C:/Qt/qtbase-6.8/src/3rdparty/libpng"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Qt/qtbase-6.8/src/3rdparty/libpng/../zlib/src"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "C:/Qt/qtbase-6.8/mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "C:/Qt/qtbase-6.8/build/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 8,
+			"id" : "ZlibPrivate::@fab9159b69e9a33b7bcd"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "BundledPcre2::@662af84d20aaf7d84676"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "BundledZLIB::@fab9159b69e9a33b7bcd"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "Core::@e8138540d8b2daa0b357"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "BundledLibpng_ext_pri::@f0d8789028037e8800e8"
+		}
+	],
+	"id" : "BundledLibpng::@f0d8789028037e8800e8",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Qt/Qt-6.8.0"
+		}
+	},
+	"name" : "BundledLibpng",
+	"nameOnDisk" : "libQt6BundledLibpng.a",
+	"paths" : 
+	{
+		"build" : "src/3rdparty/libpng",
+		"source" : "src/3rdparty/libpng"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "src/3rdparty/libpng/png.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "src/3rdparty/libpng/pngerror.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "src/3rdparty/libpng/pngget.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "src/3rdparty/libpng/pngmem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "src/3rdparty/libpng/pngpread.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "src/3rdparty/libpng/pngread.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "src/3rdparty/libpng/pngrio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "src/3rdparty/libpng/pngrtran.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "src/3rdparty/libpng/pngrutil.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "src/3rdparty/libpng/pngset.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "src/3rdparty/libpng/pngtrans.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "src/3rdparty/libpng/pngwio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "src/3rdparty/libpng/pngwrite.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "src/3rdparty/libpng/pngwtran.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "src/3rdparty/libpng/pngwutil.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

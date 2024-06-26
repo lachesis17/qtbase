@@ -1,0 +1,7 @@
+RCC_OBJECTS = $$[QT_INSTALL_PREFIX]/lib/objects-Release/QWindowsIntegrationPlugin_resources_1/.qt/rcc/qrc_openglblacklists_init.cpp.obj;$$[QT_INSTALL_PREFIX]/lib/objects-Release/QWindowsIntegrationPlugin_resources_2/.qt/rcc/qrc_cursors_init.cpp.obj;$$[QT_INSTALL_PREFIX]/lib/objects-Release/Gui_resources_1/.qt/rcc/qrc_qpdf_init.cpp.obj;$$[QT_INSTALL_PREFIX]/lib/objects-Release/Gui_resources_2/.qt/rcc/qrc_gui_shaders_init.cpp.obj
+QMAKE_PRL_TARGET = libqwindows.a
+QMAKE_PRL_TARGET_PATH_FOR_CMAKE = C:/Qt/qtbase-6.8/build/plugins/platforms/libqwindows.a
+QMAKE_PRL_CONFIG = static
+QMAKE_PRL_VERSION = 6.8.0
+QMAKE_PRL_LIBS_FOR_CMAKE = ;;dwmapi;imm32;oleaut32;setupapi;shlwapi;winspool;wtsapi32;shcore;comdlg32;d3d9;runtimeobject;C:/Qt/qtbase-6.8/build/lib/libQt6OpenGL.a;C:/Qt/qtbase-6.8/build/lib/libQt6Gui.a;;;d3d11;dxgi;dxguid;d3d12;gdi32;uxtheme;C:/Qt/qtbase-6.8/build/lib/libQt6BundledHarfbuzz.a;C:/Qt/qtbase-6.8/build/lib/libQt6BundledFreetype.a;C:/Qt/qtbase-6.8/build/lib/libQt6BundledLibpng.a;d2d1;dwrite;C:/Qt/qtbase-6.8/build/lib/libQt6Core.a;;C:/Qt/qtbase-6.8/build/lib/libQt6BundledZLIB.a;synchronization;mpr;userenv;advapi32;authz;kernel32;netapi32;ole32;shell32;user32;version;winmm;ws2_32;C:/Qt/qtbase-6.8/build/lib/libQt6BundledPcre2.a;uuid
+

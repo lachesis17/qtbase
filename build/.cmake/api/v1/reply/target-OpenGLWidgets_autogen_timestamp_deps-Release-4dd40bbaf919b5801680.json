@@ -1,0 +1,155 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_dependencies",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module"
+		],
+		"files" : 
+		[
+			"src/openglwidgets/CMakeLists.txt",
+			"cmake/QtSyncQtHelpers.cmake",
+			"cmake/QtModuleHelpers.cmake",
+			"cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"src/widgets/CMakeLists.txt",
+			"src/opengl/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"file" : 4
+			},
+			{
+				"file" : 4,
+				"line" : -1,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 1,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 1000,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 256,
+				"parent" : 4
+			},
+			{
+				"file" : 5
+			},
+			{
+				"file" : 5,
+				"line" : -1,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 1,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 1000,
+				"parent" : 8
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 256,
+				"parent" : 9
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "OpenGL::@557a2e62dd030bddd73f"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "OpenGLWidgets_lib_pri::@9b28f444a8eb634650c9"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Widgets_sync_headers::@01ca4e8faf65486cb322"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "OpenGLWidgets_version_script::@9b28f444a8eb634650c9"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "OpenGLWidgets_sync_headers::@9b28f444a8eb634650c9"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "OpenGL_sync_headers::@557a2e62dd030bddd73f"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Widgets::@01ca4e8faf65486cb322"
+		}
+	],
+	"id" : "OpenGLWidgets_autogen_timestamp_deps::@9b28f444a8eb634650c9",
+	"isGeneratorProvided" : true,
+	"name" : "OpenGLWidgets_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "src/openglwidgets",
+		"source" : "src/openglwidgets"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/openglwidgets/CMakeFiles/OpenGLWidgets_autogen_timestamp_deps",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/openglwidgets/CMakeFiles/OpenGLWidgets_autogen_timestamp_deps.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

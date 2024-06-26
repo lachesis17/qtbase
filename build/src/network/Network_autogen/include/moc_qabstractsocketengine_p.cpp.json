@@ -1,0 +1,59 @@
+{
+    "classes": [
+        {
+            "className": "QAbstractSocketEngine",
+            "object": true,
+            "qualifiedClassName": "QAbstractSocketEngine",
+            "slots": [
+                {
+                    "access": "public",
+                    "name": "readNotification",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "writeNotification",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "closeNotification",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "exceptionNotification",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "connectionNotification",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "proxy",
+                            "type": "QNetworkProxy"
+                        },
+                        {
+                            "name": "authenticator",
+                            "type": "QAuthenticator*"
+                        }
+                    ],
+                    "name": "proxyAuthenticationRequired",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qabstractsocketengine_p.h",
+    "outputRevision": 68
+}

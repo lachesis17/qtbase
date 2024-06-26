@@ -1,0 +1,84 @@
+{
+    "classes": [
+        {
+            "className": "QObject",
+            "constructors": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "parent",
+                            "type": "QObject*"
+                        }
+                    ],
+                    "name": "QObject",
+                    "returnType": ""
+                },
+                {
+                    "access": "public",
+                    "isCloned": true,
+                    "name": "QObject",
+                    "returnType": ""
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "bindable": "bindableObjectName",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "objectName",
+                    "notify": "objectNameChanged",
+                    "read": "objectName",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setObjectName"
+                }
+            ],
+            "qualifiedClassName": "QObject",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QObject*"
+                        }
+                    ],
+                    "name": "destroyed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "isCloned": true,
+                    "name": "destroyed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "objectName",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "objectNameChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "name": "deleteLater",
+                    "returnType": "void"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qobject.h",
+    "outputRevision": 68
+}

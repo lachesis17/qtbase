@@ -1,0 +1,77 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/printsupport/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		},
+		{
+			"id" : "uic::@53da06d1729bbbe1e0d9"
+		},
+		{
+			"id" : "PrintSupport_autogen_timestamp_deps::@f385d124e6f9e38987e2"
+		}
+	],
+	"id" : "PrintSupport_autogen::@f385d124e6f9e38987e2",
+	"isGeneratorProvided" : true,
+	"name" : "PrintSupport_autogen",
+	"paths" : 
+	{
+		"build" : "src/printsupport",
+		"source" : "src/printsupport"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/printsupport/CMakeFiles/PrintSupport_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/printsupport/CMakeFiles/PrintSupport_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/printsupport/PrintSupport_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

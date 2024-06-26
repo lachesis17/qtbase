@@ -1,0 +1,119 @@
+{
+    "classes": [
+        {
+            "className": "QUndoGroup",
+            "object": true,
+            "qualifiedClassName": "QUndoGroup",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "stack",
+                            "type": "QUndoStack*"
+                        }
+                    ],
+                    "name": "activeStackChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "idx",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "indexChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "clean",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "cleanChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "canUndo",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "canUndoChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "canRedo",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "canRedoChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "undoText",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "undoTextChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "redoText",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "redoTextChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "name": "undo",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "redo",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "stack",
+                            "type": "QUndoStack*"
+                        }
+                    ],
+                    "name": "setActiveStack",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qundogroup.h",
+    "outputRevision": 68
+}

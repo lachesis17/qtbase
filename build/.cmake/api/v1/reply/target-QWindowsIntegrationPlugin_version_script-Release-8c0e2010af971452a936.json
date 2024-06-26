@@ -1,0 +1,89 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_add_linker_version_script",
+			"qt_internal_add_plugin"
+		],
+		"files" : 
+		[
+			"cmake/QtFlagHandlingHelpers.cmake",
+			"cmake/QtPluginHelpers.cmake",
+			"src/plugins/platforms/windows/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 415,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 135,
+				"parent" : 2
+			}
+		]
+	},
+	"id" : "QWindowsIntegrationPlugin_version_script::@5f31441e043f26c22ebb",
+	"name" : "QWindowsIntegrationPlugin_version_script",
+	"paths" : 
+	{
+		"build" : "src/plugins/platforms/windows",
+		"source" : "src/plugins/platforms/windows"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/platforms/windows/CMakeFiles/QWindowsIntegrationPlugin_version_script",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/platforms/windows/CMakeFiles/QWindowsIntegrationPlugin_version_script.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/platforms/windows/QWindowsIntegrationPlugin.version.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

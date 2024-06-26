@@ -1,0 +1,96 @@
+{
+    "classes": [
+        {
+            "className": "QOpenGLDebugLogger",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "LoggingMode",
+                    "values": [
+                        "AsynchronousLogging",
+                        "SynchronousLogging"
+                    ]
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "loggingMode",
+                    "read": "loggingMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "LoggingMode",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "QOpenGLDebugLogger",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "debugMessage",
+                            "type": "QOpenGLDebugMessage"
+                        }
+                    ],
+                    "name": "messageLogged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "debugMessage",
+                            "type": "QOpenGLDebugMessage"
+                        }
+                    ],
+                    "name": "logMessage",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "loggingMode",
+                            "type": "LoggingMode"
+                        }
+                    ],
+                    "name": "startLogging",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "isCloned": true,
+                    "name": "startLogging",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "stopLogging",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_contextAboutToBeDestroyed",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qopengldebug.h",
+    "outputRevision": 68
+}

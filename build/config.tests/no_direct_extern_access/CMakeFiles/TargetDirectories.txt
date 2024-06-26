@@ -1,0 +1,4 @@
+C:/Qt/qtbase-6.8/build/config.tests/no_direct_extern_access/CMakeFiles/no_extern_access_lib.dir
+C:/Qt/qtbase-6.8/build/config.tests/no_direct_extern_access/CMakeFiles/no_extern_access_main.dir
+C:/Qt/qtbase-6.8/build/config.tests/no_direct_extern_access/CMakeFiles/edit_cache.dir
+C:/Qt/qtbase-6.8/build/config.tests/no_direct_extern_access/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,214 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt_install",
+			"qt_internal_add_plugin",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_generate_plugin_pri_file",
+			"qt_finalize_plugin"
+		],
+		"files" : 
+		[
+			"cmake/QtInstallHelpers.cmake",
+			"cmake/QtPluginHelpers.cmake",
+			"src/plugins/networkinformation/networklistmanager/CMakeLists.txt",
+			"cmake/QtTargetHelpers.cmake",
+			"cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"cmake/QtPriHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 379,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 390,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 399,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 806,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1081,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 475,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 662,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 15
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6Network",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6Network/Qt6QNLMNIPluginConfig.cmake",
+				"build/lib/cmake/Qt6Network/Qt6QNLMNIPluginConfigVersion.cmake",
+				"build/lib/cmake/Qt6Network/Qt6QNLMNIPluginConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "plugins/networkinformation",
+			"paths" : 
+			[
+				"plugins/networkinformation/libqnetworklistmanager.a"
+			],
+			"targetId" : "QNLMNIPlugin::@f58ed192ffd43d9d8a4b",
+			"targetIndex" : 138,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "plugins/networkinformation",
+			"paths" : 
+			[
+				{
+					"from" : "src/plugins/networkinformation/networklistmanager/CMakeFiles/QNLMNIPlugin_init.dir/.//QNLMNIPlugin_init.cpp.obj",
+					"to" : "objects-Release/QNLMNIPlugin_init/QNLMNIPlugin_init.cpp.obj"
+				}
+			],
+			"targetId" : "QNLMNIPlugin_init::@f58ed192ffd43d9d8a4b",
+			"targetIndex" : 141,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Network",
+			"exportName" : "Qt6QNLMNIPluginTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "QNLMNIPlugin::@f58ed192ffd43d9d8a4b",
+					"index" : 138
+				},
+				{
+					"id" : "QNLMNIPlugin_init::@f58ed192ffd43d9d8a4b",
+					"index" : 141
+				}
+			],
+			"paths" : 
+			[
+				"src/plugins/networkinformation/networklistmanager/CMakeFiles/Export/4f7a78213d2af5c8b0a2bc72fc885662/Qt6QNLMNIPluginTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Network",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6Network/Qt6QNLMNIPluginAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"build/mkspecs/modules/qt_plugin_qnetworklistmanager.pri"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/plugins/networkinformation/networklistmanager",
+		"source" : "src/plugins/networkinformation/networklistmanager"
+	}
+}

@@ -1,0 +1,2116 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libQt6PrintSupport.a"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_qt_internal_add_library",
+			"qt_internal_add_module",
+			"install",
+			"qt_install",
+			"target_link_libraries",
+			"qt_internal_extend_target",
+			"add_dependencies",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"qt_generate_module_pri_file",
+			"qt_internal_add_linker_version_script",
+			"add_compile_options",
+			"include",
+			"qt_internal_set_compiler_warning_flags",
+			"qt_internal_setup_build_and_global_variables",
+			"qt_build_internals_set_up_private_api",
+			"qt_build_repo_begin",
+			"target_compile_options",
+			"qt_internal_set_exceptions_flags",
+			"target_compile_definitions",
+			"qt_internal_add_repo_local_defines",
+			"target_include_directories",
+			"set_property",
+			"qt_update_precompiled_header",
+			"qt_update_precompiled_header_with_library",
+			"target_sources",
+			"qt_internal_generate_cpp_global_exports",
+			"qt6_extract_metatypes",
+			"__qt_propagate_generated_resource",
+			"_qt_internal_process_resource",
+			"qt_internal_add_resource",
+			"qt_generate_prl_file"
+		],
+		"files" : 
+		[
+			"src/corelib/Qt6CoreMacros.cmake",
+			"cmake/QtModuleHelpers.cmake",
+			"src/printsupport/CMakeLists.txt",
+			"cmake/QtInstallHelpers.cmake",
+			"cmake/QtTargetHelpers.cmake",
+			"cmake/QtSyncQtHelpers.cmake",
+			"cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"src/corelib/CMakeLists.txt",
+			"src/gui/CMakeLists.txt",
+			"src/widgets/CMakeLists.txt",
+			"cmake/QtPriHelpers.cmake",
+			"cmake/QtFlagHandlingHelpers.cmake",
+			"cmake/QtCompilerFlags.cmake",
+			"cmake/QtBuildHelpers.cmake",
+			"cmake/QtBuild.cmake",
+			"cmake/QtSetup.cmake",
+			"cmake/QtBuildRepoHelpers.cmake",
+			"CMakeLists.txt",
+			"cmake/QtPrecompiledHeadersHelpers.cmake",
+			"cmake/QtResourceHelpers.cmake",
+			"cmake/QtPrlHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 180,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2736,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 809,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 610,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 180,
+				"parent" : 6
+			},
+			{
+				"file" : 7
+			},
+			{
+				"file" : 7,
+				"line" : -1,
+				"parent" : 8
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 11
+			},
+			{
+				"file" : 8
+			},
+			{
+				"file" : 8,
+				"line" : -1,
+				"parent" : 13
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 14
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 15
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 16
+			},
+			{
+				"file" : 9
+			},
+			{
+				"file" : 9,
+				"line" : -1,
+				"parent" : 18
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 19
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 20
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 256,
+				"parent" : 21
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 23
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 24
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 251,
+				"parent" : 25
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 1013,
+				"parent" : 24
+			},
+			{
+				"command" : 7,
+				"file" : 10,
+				"line" : 556,
+				"parent" : 27
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 41,
+				"parent" : 25
+			},
+			{
+				"command" : 7,
+				"file" : 11,
+				"line" : 136,
+				"parent" : 29
+			},
+			{
+				"file" : 17
+			},
+			{
+				"command" : 17,
+				"file" : 17,
+				"line" : 143,
+				"parent" : 31
+			},
+			{
+				"command" : 16,
+				"file" : 16,
+				"line" : 180,
+				"parent" : 32
+			},
+			{
+				"command" : 13,
+				"file" : 16,
+				"line" : 22,
+				"parent" : 33
+			},
+			{
+				"file" : 15,
+				"parent" : 34
+			},
+			{
+				"command" : 13,
+				"file" : 15,
+				"line" : 6,
+				"parent" : 35
+			},
+			{
+				"file" : 14,
+				"parent" : 36
+			},
+			{
+				"command" : 15,
+				"file" : 14,
+				"line" : 4,
+				"parent" : 37
+			},
+			{
+				"command" : 14,
+				"file" : 13,
+				"line" : 451,
+				"parent" : 38
+			},
+			{
+				"command" : 13,
+				"file" : 13,
+				"line" : 79,
+				"parent" : 39
+			},
+			{
+				"file" : 12,
+				"parent" : 40
+			},
+			{
+				"command" : 12,
+				"file" : 12,
+				"line" : 39,
+				"parent" : 41
+			},
+			{
+				"command" : 19,
+				"file" : 1,
+				"line" : 653,
+				"parent" : 1
+			},
+			{
+				"command" : 18,
+				"file" : 11,
+				"line" : 288,
+				"parent" : 43
+			},
+			{
+				"command" : 20,
+				"file" : 4,
+				"line" : 177,
+				"parent" : 6
+			},
+			{
+				"command" : 21,
+				"file" : 1,
+				"line" : 598,
+				"parent" : 1
+			},
+			{
+				"command" : 20,
+				"file" : 4,
+				"line" : 1529,
+				"parent" : 46
+			},
+			{
+				"command" : 20,
+				"file" : 11,
+				"line" : 287,
+				"parent" : 43
+			},
+			{
+				"command" : 22,
+				"file" : 4,
+				"line" : 172,
+				"parent" : 6
+			},
+			{
+				"command" : 25,
+				"file" : 4,
+				"line" : 118,
+				"parent" : 6
+			},
+			{
+				"command" : 24,
+				"file" : 18,
+				"line" : 15,
+				"parent" : 50
+			},
+			{
+				"command" : 23,
+				"file" : 18,
+				"line" : 6,
+				"parent" : 51
+			},
+			{
+				"command" : 25,
+				"file" : 4,
+				"line" : 118,
+				"parent" : 6
+			},
+			{
+				"command" : 24,
+				"file" : 18,
+				"line" : 15,
+				"parent" : 53
+			},
+			{
+				"command" : 23,
+				"file" : 18,
+				"line" : 6,
+				"parent" : 54
+			},
+			{
+				"command" : 25,
+				"file" : 4,
+				"line" : 118,
+				"parent" : 6
+			},
+			{
+				"command" : 24,
+				"file" : 18,
+				"line" : 15,
+				"parent" : 56
+			},
+			{
+				"command" : 23,
+				"file" : 18,
+				"line" : 6,
+				"parent" : 57
+			},
+			{
+				"command" : 27,
+				"file" : 1,
+				"line" : 438,
+				"parent" : 1
+			},
+			{
+				"command" : 26,
+				"file" : 1,
+				"line" : 1281,
+				"parent" : 59
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 673,
+				"parent" : 1
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 62
+			},
+			{
+				"command" : 28,
+				"file" : 1,
+				"line" : 766,
+				"parent" : 1
+			},
+			{
+				"command" : 26,
+				"file" : 0,
+				"line" : 1490,
+				"parent" : 64
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 66,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 66
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 81,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 68
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 70
+			},
+			{
+				"command" : 31,
+				"file" : 2,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 30,
+				"file" : 19,
+				"line" : 30,
+				"parent" : 72
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2465,
+				"parent" : 73
+			},
+			{
+				"command" : 26,
+				"file" : 0,
+				"line" : 2079,
+				"parent" : 74
+			},
+			{
+				"command" : 31,
+				"file" : 2,
+				"line" : 170,
+				"parent" : 0
+			},
+			{
+				"command" : 30,
+				"file" : 19,
+				"line" : 30,
+				"parent" : 76
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 2465,
+				"parent" : 77
+			},
+			{
+				"command" : 26,
+				"file" : 0,
+				"line" : 2079,
+				"parent" : 78
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 188,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 80
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 209,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 82
+			},
+			{
+				"command" : 32,
+				"file" : 1,
+				"line" : 1012,
+				"parent" : 24
+			},
+			{
+				"command" : 26,
+				"file" : 20,
+				"line" : 205,
+				"parent" : 84
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport"
+				},
+				{
+					"backtrace" : 42,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 42,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 44,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wa,-mbig-obj"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ftrivial-auto-var-init=pattern"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fstack-clash-protection"
+				},
+				{
+					"fragment" : "-Winvalid-pch -x c++-header -include C:/Qt/qtbase-6.8/build/src/printsupport/CMakeFiles/PrintSupport.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "MINGW_HAS_SECURE_API=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_BUILD_PRINTSUPPORT_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 47,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 48,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_QASCONST"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_NO_USING_NAMESPACE"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_USE_NODISCARD_FILE_OPEN"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WINVER=0x0A00"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_WIN32_WINNT=0x0A00"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "C:/Qt/qtbase-6.8/build/src/printsupport/PrintSupport_autogen/include"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "C:/Qt/qtbase-6.8/build/include"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtPrintSupport"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "C:/Qt/qtbase-6.8/src/printsupport"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "C:/Qt/qtbase-6.8/build/src/printsupport"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "C:/Qt/qtbase-6.8/src/printsupport/dialogs"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "C:/Qt/qtbase-6.8/src/printsupport/widgets"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtPrintSupport/6.8.0"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtPrintSupport/6.8.0/QtPrintSupport"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtWidgets"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0/QtCore"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/src/gui"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui/6.8.0"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui/6.8.0/QtGui"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/src/widgets"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtWidgets/6.8.0"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtWidgets/6.8.0/QtWidgets"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					7
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 52,
+					"header" : "C:/Qt/qtbase-6.8/build/include/QtCore/QtCore"
+				},
+				{
+					"backtrace" : 55,
+					"header" : "C:/Qt/qtbase-6.8/build/include/QtGui/QtGui"
+				},
+				{
+					"backtrace" : 58,
+					"header" : "C:/Qt/qtbase-6.8/build/include/QtWidgets/QtWidgets"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport"
+				},
+				{
+					"backtrace" : 42,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 42,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 44,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wa,-mbig-obj"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ftrivial-auto-var-init=pattern"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fstack-clash-protection"
+				},
+				{
+					"fragment" : "-Winvalid-pch -include C:/Qt/qtbase-6.8/build/src/printsupport/CMakeFiles/PrintSupport.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "MINGW_HAS_SECURE_API=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_BUILD_PRINTSUPPORT_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 47,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 48,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_QASCONST"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_NO_USING_NAMESPACE"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_USE_NODISCARD_FILE_OPEN"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WINVER=0x0A00"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_WIN32_WINNT=0x0A00"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "C:/Qt/qtbase-6.8/build/src/printsupport/PrintSupport_autogen/include"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "C:/Qt/qtbase-6.8/build/include"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtPrintSupport"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "C:/Qt/qtbase-6.8/src/printsupport"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "C:/Qt/qtbase-6.8/build/src/printsupport"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "C:/Qt/qtbase-6.8/src/printsupport/dialogs"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "C:/Qt/qtbase-6.8/src/printsupport/widgets"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtPrintSupport/6.8.0"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtPrintSupport/6.8.0/QtPrintSupport"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtWidgets"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0/QtCore"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/src/gui"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui/6.8.0"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui/6.8.0/QtGui"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/src/widgets"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtWidgets/6.8.0"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtWidgets/6.8.0/QtWidgets"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					7
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 52,
+					"header" : "C:/Qt/qtbase-6.8/build/include/QtCore/QtCore"
+				},
+				{
+					"backtrace" : 55,
+					"header" : "C:/Qt/qtbase-6.8/build/include/QtGui/QtGui"
+				},
+				{
+					"backtrace" : 58,
+					"header" : "C:/Qt/qtbase-6.8/build/include/QtWidgets/QtWidgets"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				5,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				22,
+				30,
+				32,
+				36,
+				38,
+				40,
+				43,
+				50,
+				51,
+				52
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport"
+				},
+				{
+					"backtrace" : 42,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 42,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 44,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wa,-mbig-obj"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ftrivial-auto-var-init=pattern"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fstack-clash-protection"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "MINGW_HAS_SECURE_API=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_BUILD_PRINTSUPPORT_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 47,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_NO_CAST_TO_ASCII"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 48,
+					"define" : "QT_NO_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_QASCONST"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_NO_USING_NAMESPACE"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "QT_USE_NODISCARD_FILE_OPEN"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WINVER=0x0A00"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_WIN32_WINNT=0x0A00"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "C:/Qt/qtbase-6.8/build/src/printsupport/PrintSupport_autogen/include"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "C:/Qt/qtbase-6.8/build/include"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtPrintSupport"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "C:/Qt/qtbase-6.8/src/printsupport"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "C:/Qt/qtbase-6.8/build/src/printsupport"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "C:/Qt/qtbase-6.8/src/printsupport/dialogs"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "C:/Qt/qtbase-6.8/src/printsupport/widgets"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtPrintSupport/6.8.0"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtPrintSupport/6.8.0/QtPrintSupport"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtWidgets"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0/QtCore"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/src/gui"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui/6.8.0"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtGui/6.8.0/QtGui"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/src/widgets"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtWidgets/6.8.0"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtWidgets/6.8.0/QtWidgets"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					7
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 52,
+					"header" : "C:/Qt/qtbase-6.8/build/include/QtCore/QtCore"
+				},
+				{
+					"backtrace" : 55,
+					"header" : "C:/Qt/qtbase-6.8/build/include/QtGui/QtGui"
+				},
+				{
+					"backtrace" : 58,
+					"header" : "C:/Qt/qtbase-6.8/build/include/QtWidgets/QtWidgets"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				34,
+				48,
+				49
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		},
+		{
+			"id" : "rcc::@43976444945f368aca17"
+		},
+		{
+			"id" : "cmake_automoc_parser::@9df279ca5a40d551589d"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "ZlibPrivate::@fab9159b69e9a33b7bcd"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "BundledPcre2::@662af84d20aaf7d84676"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "BundledZLIB::@fab9159b69e9a33b7bcd"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Core::@e8138540d8b2daa0b357"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "BundledLibpng::@f0d8789028037e8800e8"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "Core_sync_headers::@e8138540d8b2daa0b357"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "BundledHarfbuzz::@0b15749e035ccedaa8cf"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "BundledFreetype::@17c7c8edb7eca99300c5"
+		},
+		{
+			"id" : "uic::@53da06d1729bbbe1e0d9"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Gui::@7675e61a69a6135e3026"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "Gui_sync_headers::@7675e61a69a6135e3026"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Gui_resources_2::@7675e61a69a6135e3026"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Gui_resources_1::@7675e61a69a6135e3026"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Widgets_resources_3::@01ca4e8faf65486cb322"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "Widgets_sync_headers::@01ca4e8faf65486cb322"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Widgets_resources_4::@01ca4e8faf65486cb322"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Widgets_resources_1::@01ca4e8faf65486cb322"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Widgets_resources_2::@01ca4e8faf65486cb322"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Widgets::@01ca4e8faf65486cb322"
+		},
+		{
+			"backtrace" : 26,
+			"id" : "PrintSupport_sync_headers::@f385d124e6f9e38987e2"
+		},
+		{
+			"backtrace" : 28,
+			"id" : "PrintSupport_lib_pri::@f385d124e6f9e38987e2"
+		},
+		{
+			"backtrace" : 30,
+			"id" : "PrintSupport_version_script::@f385d124e6f9e38987e2"
+		},
+		{
+			"id" : "PrintSupport_autogen_timestamp_deps::@f385d124e6f9e38987e2"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "PrintSupport_autogen::@f385d124e6f9e38987e2"
+		}
+	],
+	"id" : "PrintSupport::@f385d124e6f9e38987e2",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Qt/Qt-6.8.0"
+		}
+	},
+	"name" : "PrintSupport",
+	"nameOnDisk" : "libQt6PrintSupport.a",
+	"paths" : 
+	{
+		"build" : "src/printsupport",
+		"source" : "src/printsupport"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				5,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				22,
+				30,
+				32,
+				34,
+				36,
+				38,
+				40,
+				43,
+				48,
+				49,
+				50,
+				51,
+				52
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				21,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				31,
+				33,
+				35,
+				37,
+				39,
+				41,
+				42,
+				44,
+				45,
+				47,
+				53,
+				55
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				29,
+				46,
+				54,
+				56
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				57
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				58,
+				59,
+				60,
+				61,
+				62,
+				63
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"path" : "build/src/printsupport/CMakeFiles/PrintSupport.dir/cmake_pch.hxx.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/src/printsupport/PrintSupport_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 60,
+			"isGenerated" : true,
+			"path" : "build/include/QtPrintSupport/qtprintsupportexports.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 61,
+			"compileGroupIndex" : 1,
+			"path" : "src/printsupport/kernel/qpaintengine_alpha.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 61,
+			"path" : "src/printsupport/kernel/qpaintengine_alpha_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 61,
+			"compileGroupIndex" : 1,
+			"path" : "src/printsupport/kernel/qplatformprintdevice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 61,
+			"path" : "src/printsupport/kernel/qplatformprintdevice.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 61,
+			"compileGroupIndex" : 1,
+			"path" : "src/printsupport/kernel/qplatformprintersupport.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 61,
+			"path" : "src/printsupport/kernel/qplatformprintersupport.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 61,
+			"compileGroupIndex" : 1,
+			"path" : "src/printsupport/kernel/qplatformprintplugin.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 61,
+			"path" : "src/printsupport/kernel/qplatformprintplugin.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 61,
+			"compileGroupIndex" : 1,
+			"path" : "src/printsupport/kernel/qprint.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 61,
+			"path" : "src/printsupport/kernel/qprint_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 61,
+			"compileGroupIndex" : 1,
+			"path" : "src/printsupport/kernel/qprintdevice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 61,
+			"path" : "src/printsupport/kernel/qprintdevice_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 61,
+			"compileGroupIndex" : 1,
+			"path" : "src/printsupport/kernel/qprintengine.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 61,
+			"path" : "src/printsupport/kernel/qprintengine.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 61,
+			"compileGroupIndex" : 1,
+			"path" : "src/printsupport/kernel/qprintengine_pdf.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 61,
+			"path" : "src/printsupport/kernel/qprintengine_pdf_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 61,
+			"compileGroupIndex" : 1,
+			"path" : "src/printsupport/kernel/qprinter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 61,
+			"path" : "src/printsupport/kernel/qprinter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 61,
+			"path" : "src/printsupport/kernel/qprinter_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 61,
+			"compileGroupIndex" : 1,
+			"path" : "src/printsupport/kernel/qprinterinfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 61,
+			"path" : "src/printsupport/kernel/qprinterinfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 61,
+			"path" : "src/printsupport/kernel/qprinterinfo_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 61,
+			"path" : "src/printsupport/kernel/qtprintsupportglobal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 61,
+			"path" : "src/printsupport/kernel/qtprintsupportglobal_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 63,
+			"isGenerated" : true,
+			"path" : "build/src/printsupport/qtprintsupport-config.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 63,
+			"isGenerated" : true,
+			"path" : "build/src/printsupport/qtprintsupport-config_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 65,
+			"isGenerated" : true,
+			"path" : "build/src/printsupport/meta_types/qt6printsupport_release_metatypes.json.gen",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 67,
+			"compileGroupIndex" : 1,
+			"path" : "src/printsupport/platform/windows/qprintengine_win.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 67,
+			"path" : "src/printsupport/platform/windows/qprintengine_win_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 67,
+			"compileGroupIndex" : 1,
+			"path" : "src/printsupport/platform/windows/qwindowsprintdevice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 67,
+			"path" : "src/printsupport/platform/windows/qwindowsprintdevice_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 67,
+			"compileGroupIndex" : 2,
+			"path" : "src/printsupport/platform/windows/qwindowsprintersupport.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 67,
+			"path" : "src/printsupport/platform/windows/qwindowsprintersupport_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 69,
+			"compileGroupIndex" : 1,
+			"path" : "src/printsupport/kernel/qpaintengine_preview.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 69,
+			"path" : "src/printsupport/kernel/qpaintengine_preview_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 69,
+			"compileGroupIndex" : 1,
+			"path" : "src/printsupport/widgets/qprintpreviewwidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 69,
+			"path" : "src/printsupport/widgets/qprintpreviewwidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 1,
+			"path" : "src/printsupport/dialogs/qabstractprintdialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/printsupport/dialogs/qabstractprintdialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/printsupport/dialogs/qabstractprintdialog_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 1,
+			"path" : "src/printsupport/dialogs/qpagesetupdialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/printsupport/dialogs/qpagesetupdialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/printsupport/dialogs/qpagesetupdialog_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/printsupport/dialogs/qpagesetupwidget.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/printsupport/dialogs/qprintdialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 75,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "build/src/printsupport/.qt/rcc/qrc_qprintdialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 79,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "build/src/printsupport/.qt/rcc/qrc_qprintdialog1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 81,
+			"compileGroupIndex" : 1,
+			"path" : "src/printsupport/dialogs/qpagesetupdialog_win.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 81,
+			"compileGroupIndex" : 1,
+			"path" : "src/printsupport/dialogs/qprintdialog_win.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 1,
+			"path" : "src/printsupport/dialogs/qprintpreviewdialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/printsupport/dialogs/qprintpreviewdialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 85,
+			"isGenerated" : true,
+			"path" : "build/src/printsupport/preliminary_prl_for_PrintSupport_step2_Release.prl",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/printsupport/PrintSupport_autogen/include/dialogs/ui_qpagesetupwidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/printsupport/PrintSupport_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"path" : "build/src/printsupport/CMakeFiles/PrintSupport.dir/cmake_pch.hxx",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/printsupport/meta_types/qt6printsupport_release_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/printsupport/.qt/rcc/qrc_qprintdialog.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/printsupport/.qt/rcc/qrc_qprintdialog1.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/printsupport/preliminary_prl_for_PrintSupport_step2_Release.prl.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/printsupport/PrintSupport_autogen/timestamp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/printsupport/meta_types/PrintSupport_json_file_list.txt.rule",
+			"sourceGroupIndex" : 4
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

@@ -1,0 +1,31 @@
+{
+    "classes": [
+        {
+            "className": "QNetworkProxyQuery",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "QueryType",
+                    "values": [
+                        "TcpSocket",
+                        "UdpSocket",
+                        "SctpSocket",
+                        "TcpServer",
+                        "UrlRequest",
+                        "SctpServer"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "qualifiedClassName": "QNetworkProxyQuery"
+        },
+        {
+            "className": "QNetworkProxy",
+            "gadget": true,
+            "qualifiedClassName": "QNetworkProxy"
+        }
+    ],
+    "inputFile": "qnetworkproxy.h",
+    "outputRevision": 68
+}

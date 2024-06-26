@@ -1,0 +1,27 @@
+[
+    {
+        "classes": [
+            {
+                "className": "QSchannelBackend",
+                "interfaces": [
+                    [
+                        {
+                            "className": "QTlsBackend",
+                            "id": "\"org.qt-project.Qt.QTlsBackend\""
+                        }
+                    ]
+                ],
+                "object": true,
+                "qualifiedClassName": "QSchannelBackend",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QTlsBackend"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qtlsbackend_schannel_p.h",
+        "outputRevision": 68
+    }
+]

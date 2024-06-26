@@ -1,0 +1,456 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt_install",
+			"qt_internal_add_3rdparty_library",
+			"qt_internal_export_modern_cmake_config_targets_file",
+			"qt_internal_add_module",
+			"qt_internal_add_3rdparty_header_module",
+			"qt_describe_module",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_internal_install_module_headers",
+			"qt_finalize_module",
+			"qt_generate_module_pri_file"
+		],
+		"files" : 
+		[
+			"cmake/QtInstallHelpers.cmake",
+			"cmake/Qt3rdPartyLibraryHelpers.cmake",
+			"src/3rdparty/harfbuzz-ng/CMakeLists.txt",
+			"cmake/QtTargetHelpers.cmake",
+			"cmake/QtModuleHelpers.cmake",
+			"cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"cmake/QtPriHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 268,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 294,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 302,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 309,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 320,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1124,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 191,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 431,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 487,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 15
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 793,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 829,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 19
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 840,
+				"parent" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1124,
+				"parent" : 21
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 22
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 918,
+				"parent" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 1253,
+				"parent" : 24
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 25
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 27
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 806,
+				"parent" : 28
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1081,
+				"parent" : 29
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 30
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 806,
+				"parent" : 28
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1081,
+				"parent" : 32
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 33
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 27
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 1003,
+				"parent" : 35
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 1318,
+				"parent" : 36
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 37
+			},
+			{
+				"command" : 11,
+				"file" : 4,
+				"line" : 1013,
+				"parent" : 35
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 559,
+				"parent" : 39
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 40
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"build/mkspecs/modules/qt_ext_harfbuzz.pri"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6BundledHarfbuzz",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6BundledHarfbuzz/Qt6BundledHarfbuzzConfig.cmake",
+				"build/lib/cmake/Qt6BundledHarfbuzz/Qt6BundledHarfbuzzConfigVersion.cmake",
+				"build/lib/cmake/Qt6BundledHarfbuzz/Qt6BundledHarfbuzzConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libQt6BundledHarfbuzz.a"
+			],
+			"targetId" : "BundledHarfbuzz::@0b15749e035ccedaa8cf",
+			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6BundledHarfbuzz",
+			"exportName" : "Qt6BundledHarfbuzzTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "BundledHarfbuzz::@0b15749e035ccedaa8cf",
+					"index" : 3
+				}
+			],
+			"paths" : 
+			[
+				"src/3rdparty/harfbuzz-ng/CMakeFiles/Export/df2080aaeee5d8bf0e5ae9918302061b/Qt6BundledHarfbuzzTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6BundledHarfbuzz",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6BundledHarfbuzz/Qt6BundledHarfbuzzVersionlessAliasTargets.cmake",
+				"build/lib/cmake/Qt6BundledHarfbuzz/Qt6BundledHarfbuzzVersionlessTargets.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "include/QtHarfbuzz",
+			"paths" : 
+			[
+				{
+					"from" : "src/3rdparty/harfbuzz-ng/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6HarfbuzzPrivate",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6HarfbuzzPrivate/Qt6HarfbuzzPrivateConfig.cmake",
+				"build/lib/cmake/Qt6HarfbuzzPrivate/Qt6HarfbuzzPrivateConfigVersion.cmake",
+				"build/lib/cmake/Qt6HarfbuzzPrivate/Qt6HarfbuzzPrivateConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6HarfbuzzPrivate",
+			"exportName" : "Qt6HarfbuzzPrivateTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "HarfbuzzPrivate::@0b15749e035ccedaa8cf",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"src/3rdparty/harfbuzz-ng/CMakeFiles/Export/35052cc10e4f9c56c58deea88650a258/Qt6HarfbuzzPrivateTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6HarfbuzzPrivate",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6HarfbuzzPrivate/Qt6HarfbuzzPrivateVersionlessAliasTargets.cmake",
+				"build/lib/cmake/Qt6HarfbuzzPrivate/Qt6HarfbuzzPrivateVersionlessTargets.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Unspecified",
+			"destination" : "modules",
+			"paths" : 
+			[
+				"build/modules/HarfbuzzPrivate.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6BundledHarfbuzz",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6BundledHarfbuzz/Qt6BundledHarfbuzzAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6HarfbuzzPrivate",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6HarfbuzzPrivate/Qt6HarfbuzzPrivateAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "Unspecified",
+			"destination" : "include/QtHarfbuzz",
+			"paths" : 
+			[
+				"build/include/QtHarfbuzz/QtHarfbuzzDepends"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 41,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"build/mkspecs/modules/qt_lib_harfbuzz_private.pri"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/3rdparty/harfbuzz-ng",
+		"source" : "src/3rdparty/harfbuzz-ng"
+	}
+}

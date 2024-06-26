@@ -1,0 +1,74 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/tools/qdbuscpp2xml/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		},
+		{
+			"id" : "qdbuscpp2xml_autogen_timestamp_deps::@1a02565fd30fe13d1e40"
+		}
+	],
+	"id" : "qdbuscpp2xml_autogen::@1a02565fd30fe13d1e40",
+	"isGeneratorProvided" : true,
+	"name" : "qdbuscpp2xml_autogen",
+	"paths" : 
+	{
+		"build" : "src/tools/qdbuscpp2xml",
+		"source" : "src/tools/qdbuscpp2xml"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/tools/qdbuscpp2xml/CMakeFiles/qdbuscpp2xml_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/tools/qdbuscpp2xml/CMakeFiles/qdbuscpp2xml_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/tools/qdbuscpp2xml/qdbuscpp2xml_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

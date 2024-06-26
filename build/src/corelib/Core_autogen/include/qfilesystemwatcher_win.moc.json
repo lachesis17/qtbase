@@ -1,0 +1,63 @@
+{
+    "classes": [
+        {
+            "className": "QWindowsRemovableDriveListener",
+            "object": true,
+            "qualifiedClassName": "QWindowsRemovableDriveListener",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "driveAdded",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "driveRemoved",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "driveRemoved",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "driveLockForRemoval",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "driveLockForRemovalFailed",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                },
+                {
+                    "access": "public",
+                    "name": "QAbstractNativeEventFilter"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qfilesystemwatcher_win.cpp",
+    "outputRevision": 68
+}

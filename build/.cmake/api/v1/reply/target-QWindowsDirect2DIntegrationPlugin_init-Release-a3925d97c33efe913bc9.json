@@ -1,0 +1,408 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/plugins/platforms/direct2d/CMakeFiles/QWindowsDirect2DIntegrationPlugin_init.dir/./QWindowsDirect2DIntegrationPlugin_init.cpp.obj"
+		}
+	],
+	"backtrace" : 6,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_qt_internal_add_library",
+			"qt6_add_library",
+			"__qt_internal_add_static_plugin_init_object_library",
+			"qt6_add_plugin",
+			"qt_internal_add_plugin",
+			"install",
+			"qt_install",
+			"target_link_libraries",
+			"add_compile_options",
+			"include",
+			"qt_internal_set_compiler_warning_flags",
+			"qt_internal_setup_build_and_global_variables",
+			"qt_build_internals_set_up_private_api",
+			"qt_build_repo_begin",
+			"qt_internal_link_internal_platform_for_object_library"
+		],
+		"files" : 
+		[
+			"src/corelib/Qt6CoreMacros.cmake",
+			"cmake/QtPublicPluginHelpers.cmake",
+			"cmake/QtPluginHelpers.cmake",
+			"src/plugins/platforms/direct2d/CMakeLists.txt",
+			"cmake/QtInstallHelpers.cmake",
+			"cmake/QtCompilerFlags.cmake",
+			"cmake/QtBuildHelpers.cmake",
+			"cmake/QtBuild.cmake",
+			"cmake/QtSetup.cmake",
+			"cmake/QtBuildRepoHelpers.cmake",
+			"CMakeLists.txt",
+			"cmake/QtTargetHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 94,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 2575,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 258,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2639,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2736,
+				"parent" : 5
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 390,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 259,
+				"parent" : 3
+			},
+			{
+				"file" : 10
+			},
+			{
+				"command" : 14,
+				"file" : 10,
+				"line" : 143,
+				"parent" : 10
+			},
+			{
+				"command" : 13,
+				"file" : 9,
+				"line" : 180,
+				"parent" : 11
+			},
+			{
+				"command" : 10,
+				"file" : 9,
+				"line" : 22,
+				"parent" : 12
+			},
+			{
+				"file" : 8,
+				"parent" : 13
+			},
+			{
+				"command" : 10,
+				"file" : 8,
+				"line" : 6,
+				"parent" : 14
+			},
+			{
+				"file" : 7,
+				"parent" : 15
+			},
+			{
+				"command" : 12,
+				"file" : 7,
+				"line" : 4,
+				"parent" : 16
+			},
+			{
+				"command" : 11,
+				"file" : 6,
+				"line" : 451,
+				"parent" : 17
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 79,
+				"parent" : 18
+			},
+			{
+				"file" : 5,
+				"parent" : 19
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 39,
+				"parent" : 20
+			},
+			{
+				"command" : 15,
+				"file" : 2,
+				"line" : 338,
+				"parent" : 1
+			},
+			{
+				"command" : 8,
+				"file" : 11,
+				"line" : 1440,
+				"parent" : 22
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O2 -std=gnu++17"
+				},
+				{
+					"backtrace" : 21,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 21,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wa,-mbig-obj"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-ftrivial-auto-var-init=pattern"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-fstack-clash-protection"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "MINGW_HAS_SECURE_API=1"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "QT_NO_QASCONST"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "WINVER=0x0A00"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_WIN32_WINNT=0x0A00"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "C:/Qt/qtbase-6.8/build/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Qt/qtbase-6.8/mkspecs/win32-g++"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					9
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 9,
+			"id" : "ZlibPrivate::@fab9159b69e9a33b7bcd"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "BundledPcre2::@662af84d20aaf7d84676"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "BundledZLIB::@fab9159b69e9a33b7bcd"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "Core::@e8138540d8b2daa0b357"
+		}
+	],
+	"id" : "QWindowsDirect2DIntegrationPlugin_init::@c7c26e17e5629e502a58",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 8,
+				"path" : "plugins/platforms"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Qt/Qt-6.8.0"
+		}
+	},
+	"name" : "QWindowsDirect2DIntegrationPlugin_init",
+	"paths" : 
+	{
+		"build" : "src/plugins/platforms/direct2d",
+		"source" : "src/plugins/platforms/direct2d"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/platforms/direct2d/QWindowsDirect2DIntegrationPlugin_init.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

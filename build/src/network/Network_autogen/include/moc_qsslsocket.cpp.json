@@ -1,0 +1,266 @@
+{
+    "classes": [
+        {
+            "className": "QSslSocket",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "SslMode",
+                    "values": [
+                        "UnencryptedMode",
+                        "SslClientMode",
+                        "SslServerMode"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "PeerVerifyMode",
+                    "values": [
+                        "VerifyNone",
+                        "QueryPeer",
+                        "VerifyPeer",
+                        "AutoVerifyPeer"
+                    ]
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "QSslSocket",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "encrypted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "error",
+                            "type": "QSslError"
+                        }
+                    ],
+                    "name": "peerVerifyError",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "errors",
+                            "type": "QList<QSslError>"
+                        }
+                    ],
+                    "name": "sslErrors",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newMode",
+                            "type": "QSslSocket::SslMode"
+                        }
+                    ],
+                    "name": "modeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "totalBytes",
+                            "type": "qint64"
+                        }
+                    ],
+                    "name": "encryptedBytesWritten",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "authenticator",
+                            "type": "QSslPreSharedKeyAuthenticator*"
+                        }
+                    ],
+                    "name": "preSharedKeyAuthenticationRequired",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "newSessionTicketReceived",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "level",
+                            "type": "QSsl::AlertLevel"
+                        },
+                        {
+                            "name": "type",
+                            "type": "QSsl::AlertType"
+                        },
+                        {
+                            "name": "description",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "alertSent",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "level",
+                            "type": "QSsl::AlertLevel"
+                        },
+                        {
+                            "name": "type",
+                            "type": "QSsl::AlertType"
+                        },
+                        {
+                            "name": "description",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "alertReceived",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "error",
+                            "type": "QSslError"
+                        }
+                    ],
+                    "name": "handshakeInterruptedOnError",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "name": "startClientEncryption",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "startServerEncryption",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "ignoreSslErrors",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_connectedSlot",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_hostFoundSlot",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_disconnectedSlot",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QAbstractSocket::SocketState"
+                        }
+                    ],
+                    "name": "_q_stateChangedSlot",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QAbstractSocket::SocketError"
+                        }
+                    ],
+                    "name": "_q_errorSlot",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_readyReadSlot",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "int"
+                        }
+                    ],
+                    "name": "_q_channelReadyReadSlot",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "qint64"
+                        }
+                    ],
+                    "name": "_q_bytesWrittenSlot",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "int"
+                        },
+                        {
+                            "type": "qint64"
+                        }
+                    ],
+                    "name": "_q_channelBytesWrittenSlot",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_readChannelFinishedSlot",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_flushWriteBuffer",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_flushReadBuffer",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_resumeImplementation",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QTcpSocket"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qsslsocket.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,42 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/plugins/tls/certonly/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Network_sync_headers::@311edf953348ef8fadde"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QTlsBackendCertOnlyPlugin_version_script::@e576dade91c8331b5fe7"
+		}
+	],
+	"id" : "QTlsBackendCertOnlyPlugin_autogen_timestamp_deps::@e576dade91c8331b5fe7",
+	"isGeneratorProvided" : true,
+	"name" : "QTlsBackendCertOnlyPlugin_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "src/plugins/tls/certonly",
+		"source" : "src/plugins/tls/certonly"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

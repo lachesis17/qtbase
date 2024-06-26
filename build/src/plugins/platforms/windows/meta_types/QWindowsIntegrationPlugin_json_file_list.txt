@@ -1,0 +1,9 @@
+C:/Qt/qtbase-6.8/build/src/plugins/platforms/windows/QWindowsIntegrationPlugin_autogen/include/../EWIEGA46WW/moc_qwindowsgdinativeinterface.cpp.json
+C:/Qt/qtbase-6.8/build/src/plugins/platforms/windows/QWindowsIntegrationPlugin_autogen/include/../EWIEGA46WW/moc_qwindowsinputcontext.cpp.json
+C:/Qt/qtbase-6.8/build/src/plugins/platforms/windows/QWindowsIntegrationPlugin_autogen/include/../EWIEGA46WW/moc_qwindowsmenu.cpp.json
+C:/Qt/qtbase-6.8/build/src/plugins/platforms/windows/QWindowsIntegrationPlugin_autogen/include/../EWIEGA46WW/moc_qwindowsnativeinterface.cpp.json
+C:/Qt/qtbase-6.8/build/src/plugins/platforms/windows/QWindowsIntegrationPlugin_autogen/include/../YREJX6ZWLS/moc_qwindowsuiabaseprovider.cpp.json
+C:/Qt/qtbase-6.8/build/src/plugins/platforms/windows/QWindowsIntegrationPlugin_autogen/include/../YREJX6ZWLS/moc_qwindowsuiamainprovider.cpp.json
+C:/Qt/qtbase-6.8/build/src/plugins/platforms/windows/QWindowsIntegrationPlugin_autogen/include/../YREJX6ZWLS/moc_qwindowsuiaprovidercache.cpp.json
+C:/Qt/qtbase-6.8/build/src/plugins/platforms/windows/QWindowsIntegrationPlugin_autogen/include/main.moc.json
+C:/Qt/qtbase-6.8/build/src/plugins/platforms/windows/QWindowsIntegrationPlugin_autogen/include/qwindowsdialoghelpers.moc.json

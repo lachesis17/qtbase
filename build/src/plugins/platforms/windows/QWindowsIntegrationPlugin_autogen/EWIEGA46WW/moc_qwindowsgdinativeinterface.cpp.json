@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QWindowsGdiNativeInterface",
+            "object": true,
+            "qualifiedClassName": "QWindowsGdiNativeInterface",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWindowsNativeInterface"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwindowsgdinativeinterface.h",
+    "outputRevision": 68
+}

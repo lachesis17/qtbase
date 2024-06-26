@@ -1,0 +1,750 @@
+{
+    "classes": [
+        {
+            "className": "QWindow",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "Visibility",
+                    "values": [
+                        "Hidden",
+                        "AutomaticVisibility",
+                        "Windowed",
+                        "Minimized",
+                        "Maximized",
+                        "FullScreen"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "AncestorMode",
+                    "values": [
+                        "ExcludeTransients",
+                        "IncludeTransients"
+                    ]
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "title",
+                    "notify": "windowTitleChanged",
+                    "read": "title",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setTitle"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "modality",
+                    "notify": "modalityChanged",
+                    "read": "modality",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::WindowModality",
+                    "user": false,
+                    "write": "setModality"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "flags",
+                    "read": "flags",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::WindowFlags",
+                    "user": false,
+                    "write": "setFlags"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "x",
+                    "notify": "xChanged",
+                    "read": "x",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setX"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "y",
+                    "notify": "yChanged",
+                    "read": "y",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setY"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "width",
+                    "notify": "widthChanged",
+                    "read": "width",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setWidth"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "height",
+                    "notify": "heightChanged",
+                    "read": "height",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setHeight"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "name": "minimumWidth",
+                    "notify": "minimumWidthChanged",
+                    "read": "minimumWidth",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setMinimumWidth"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "name": "minimumHeight",
+                    "notify": "minimumHeightChanged",
+                    "read": "minimumHeight",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setMinimumHeight"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 9,
+                    "name": "maximumWidth",
+                    "notify": "maximumWidthChanged",
+                    "read": "maximumWidth",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setMaximumWidth"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 10,
+                    "name": "maximumHeight",
+                    "notify": "maximumHeightChanged",
+                    "read": "maximumHeight",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setMaximumHeight"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 11,
+                    "name": "visible",
+                    "notify": "visibleChanged",
+                    "read": "isVisible",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setVisible"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 12,
+                    "name": "active",
+                    "notify": "activeChanged",
+                    "read": "isActive",
+                    "required": false,
+                    "revision": 513,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 13,
+                    "name": "visibility",
+                    "notify": "visibilityChanged",
+                    "read": "visibility",
+                    "required": false,
+                    "revision": 513,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Visibility",
+                    "user": false,
+                    "write": "setVisibility"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 14,
+                    "name": "contentOrientation",
+                    "notify": "contentOrientationChanged",
+                    "read": "contentOrientation",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::ScreenOrientation",
+                    "user": false,
+                    "write": "reportContentOrientationChange"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 15,
+                    "name": "opacity",
+                    "notify": "opacityChanged",
+                    "read": "opacity",
+                    "required": false,
+                    "revision": 513,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "write": "setOpacity"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 16,
+                    "member": "transientParent",
+                    "name": "transientParent",
+                    "notify": "transientParentChanged",
+                    "privateClass": "QWindow::d_func()",
+                    "required": false,
+                    "revision": 525,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QWindow*",
+                    "user": false,
+                    "write": "setTransientParent"
+                }
+            ],
+            "qualifiedClassName": "QWindow",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "screen",
+                            "type": "QScreen*"
+                        }
+                    ],
+                    "name": "screenChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "modality",
+                            "type": "Qt::WindowModality"
+                        }
+                    ],
+                    "name": "modalityChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "windowState",
+                            "type": "Qt::WindowState"
+                        }
+                    ],
+                    "name": "windowStateChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "windowTitleChanged",
+                    "returnType": "void",
+                    "revision": 514
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "arg",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "xChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "arg",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "yChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "arg",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "widthChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "arg",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "heightChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "arg",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "minimumWidthChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "arg",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "minimumHeightChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "arg",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "maximumWidthChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "arg",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "maximumHeightChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "arg",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "visibleChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "visibility",
+                            "type": "QWindow::Visibility"
+                        }
+                    ],
+                    "name": "visibilityChanged",
+                    "returnType": "void",
+                    "revision": 513
+                },
+                {
+                    "access": "public",
+                    "name": "activeChanged",
+                    "returnType": "void",
+                    "revision": 513
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "orientation",
+                            "type": "Qt::ScreenOrientation"
+                        }
+                    ],
+                    "name": "contentOrientationChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "object",
+                            "type": "QObject*"
+                        }
+                    ],
+                    "name": "focusObjectChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "opacity",
+                            "type": "qreal"
+                        }
+                    ],
+                    "name": "opacityChanged",
+                    "returnType": "void",
+                    "revision": 513
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "transientParent",
+                            "type": "QWindow*"
+                        }
+                    ],
+                    "name": "transientParentChanged",
+                    "returnType": "void",
+                    "revision": 525
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "name": "requestActivate",
+                    "returnType": "void",
+                    "revision": 513
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "visible",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "setVisible",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "show",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "hide",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "showMinimized",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "showMaximized",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "showFullScreen",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "showNormal",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "close",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "name": "raise",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "lower",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "edges",
+                            "type": "Qt::Edges"
+                        }
+                    ],
+                    "name": "startSystemResize",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "name": "startSystemMove",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "setTitle",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "arg",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "setX",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "arg",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "setY",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "arg",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "setWidth",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "arg",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "setHeight",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "posx",
+                            "type": "int"
+                        },
+                        {
+                            "name": "posy",
+                            "type": "int"
+                        },
+                        {
+                            "name": "w",
+                            "type": "int"
+                        },
+                        {
+                            "name": "h",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "setGeometry",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rect",
+                            "type": "QRect"
+                        }
+                    ],
+                    "name": "setGeometry",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "w",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "setMinimumWidth",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "h",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "setMinimumHeight",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "w",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "setMaximumWidth",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "h",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "setMaximumHeight",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "msec",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "alert",
+                    "returnType": "void",
+                    "revision": 513
+                },
+                {
+                    "access": "public",
+                    "name": "requestUpdate",
+                    "returnType": "void",
+                    "revision": 515
+                },
+                {
+                    "access": "private",
+                    "name": "_q_clearAlert",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                },
+                {
+                    "access": "public",
+                    "name": "QSurface"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwindow.h",
+    "outputRevision": 68
+}

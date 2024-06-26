@@ -1,0 +1,80 @@
+{
+    "classes": [
+        {
+            "className": "QAbstractTextDocumentLayout",
+            "object": true,
+            "qualifiedClassName": "QAbstractTextDocumentLayout",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QRectF"
+                        }
+                    ],
+                    "name": "update",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "isCloned": true,
+                    "name": "update",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "block",
+                            "type": "QTextBlock"
+                        }
+                    ],
+                    "name": "updateBlock",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newSize",
+                            "type": "QSizeF"
+                        }
+                    ],
+                    "name": "documentSizeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newPages",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "pageCountChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "name": "_q_dynamicPageCountSlot",
+                    "returnType": "int"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_dynamicDocumentSizeSlot",
+                    "returnType": "QSizeF"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qabstracttextdocumentlayout.h",
+    "outputRevision": 68
+}

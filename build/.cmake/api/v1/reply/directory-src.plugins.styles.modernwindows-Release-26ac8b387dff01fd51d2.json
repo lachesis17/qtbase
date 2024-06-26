@@ -1,0 +1,214 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt_install",
+			"qt_internal_add_plugin",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_generate_plugin_pri_file",
+			"qt_finalize_plugin"
+		],
+		"files" : 
+		[
+			"cmake/QtInstallHelpers.cmake",
+			"cmake/QtPluginHelpers.cmake",
+			"src/plugins/styles/modernwindows/CMakeLists.txt",
+			"cmake/QtTargetHelpers.cmake",
+			"cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"cmake/QtPriHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 379,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 390,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 399,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 806,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1081,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 475,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 662,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 15
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6Widgets",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginConfig.cmake",
+				"build/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginConfigVersion.cmake",
+				"build/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "plugins/styles",
+			"paths" : 
+			[
+				"plugins/styles/libqmodernwindowsstyle.a"
+			],
+			"targetId" : "QModernWindowsStylePlugin::@1325d0d638e4cb86c9fc",
+			"targetIndex" : 133,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "plugins/styles",
+			"paths" : 
+			[
+				{
+					"from" : "src/plugins/styles/modernwindows/CMakeFiles/QModernWindowsStylePlugin_init.dir/.//QModernWindowsStylePlugin_init.cpp.obj",
+					"to" : "objects-Release/QModernWindowsStylePlugin_init/QModernWindowsStylePlugin_init.cpp.obj"
+				}
+			],
+			"targetId" : "QModernWindowsStylePlugin_init::@1325d0d638e4cb86c9fc",
+			"targetIndex" : 136,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Widgets",
+			"exportName" : "Qt6QModernWindowsStylePluginTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "QModernWindowsStylePlugin::@1325d0d638e4cb86c9fc",
+					"index" : 133
+				},
+				{
+					"id" : "QModernWindowsStylePlugin_init::@1325d0d638e4cb86c9fc",
+					"index" : 136
+				}
+			],
+			"paths" : 
+			[
+				"src/plugins/styles/modernwindows/CMakeFiles/Export/9fa5f737d316e9cf5e6bd89bf93c801b/Qt6QModernWindowsStylePluginTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Widgets",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"build/mkspecs/modules/qt_plugin_qmodernwindowsstyle.pri"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/plugins/styles/modernwindows",
+		"source" : "src/plugins/styles/modernwindows"
+	}
+}

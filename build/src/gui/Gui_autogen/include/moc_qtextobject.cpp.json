@@ -1,0 +1,39 @@
+{
+    "classes": [
+        {
+            "className": "QTextObject",
+            "object": true,
+            "qualifiedClassName": "QTextObject",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "QTextBlockGroup",
+            "object": true,
+            "qualifiedClassName": "QTextBlockGroup",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QTextObject"
+                }
+            ]
+        },
+        {
+            "className": "QTextFrame",
+            "object": true,
+            "qualifiedClassName": "QTextFrame",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QTextObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtextobject.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,411 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt_install",
+			"qt_internal_add_3rdparty_library",
+			"qt_internal_export_modern_cmake_config_targets_file",
+			"qt_internal_add_module",
+			"qt_internal_add_3rdparty_header_module",
+			"qt_describe_module",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_internal_install_module_headers",
+			"qt_finalize_module",
+			"qt_generate_module_pri_file"
+		],
+		"files" : 
+		[
+			"cmake/QtInstallHelpers.cmake",
+			"cmake/Qt3rdPartyLibraryHelpers.cmake",
+			"src/3rdparty/zlib/CMakeLists.txt",
+			"cmake/QtTargetHelpers.cmake",
+			"cmake/QtModuleHelpers.cmake",
+			"cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"cmake/QtPriHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 294,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 302,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 309,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 320,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1124,
+				"parent" : 8
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 9
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 431,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 793,
+				"parent" : 12
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 829,
+				"parent" : 12
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 15
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 840,
+				"parent" : 12
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1124,
+				"parent" : 17
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 18
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 918,
+				"parent" : 12
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 1253,
+				"parent" : 20
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 21
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 23
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 806,
+				"parent" : 24
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1081,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 26
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 806,
+				"parent" : 24
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1081,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 29
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 23
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 1003,
+				"parent" : 31
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 1318,
+				"parent" : 32
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 33
+			},
+			{
+				"command" : 11,
+				"file" : 4,
+				"line" : 1013,
+				"parent" : 31
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 559,
+				"parent" : 35
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 36
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6BundledZLIB",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6BundledZLIB/Qt6BundledZLIBConfig.cmake",
+				"build/lib/cmake/Qt6BundledZLIB/Qt6BundledZLIBConfigVersion.cmake",
+				"build/lib/cmake/Qt6BundledZLIB/Qt6BundledZLIBConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libQt6BundledZLIB.a"
+			],
+			"targetId" : "BundledZLIB::@fab9159b69e9a33b7bcd",
+			"targetIndex" : 13,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6BundledZLIB",
+			"exportName" : "Qt6BundledZLIBTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "BundledZLIB::@fab9159b69e9a33b7bcd",
+					"index" : 13
+				}
+			],
+			"paths" : 
+			[
+				"src/3rdparty/zlib/CMakeFiles/Export/cbed65ff4fb1fbe9074c85666ba2707d/Qt6BundledZLIBTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6BundledZLIB",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6BundledZLIB/Qt6BundledZLIBVersionlessAliasTargets.cmake",
+				"build/lib/cmake/Qt6BundledZLIB/Qt6BundledZLIBVersionlessTargets.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6ZlibPrivate",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfig.cmake",
+				"build/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersion.cmake",
+				"build/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6ZlibPrivate",
+			"exportName" : "Qt6ZlibPrivateTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "ZlibPrivate::@fab9159b69e9a33b7bcd",
+					"index" : 221
+				}
+			],
+			"paths" : 
+			[
+				"src/3rdparty/zlib/CMakeFiles/Export/f618674a1b04e00f2a39d1a878155636/Qt6ZlibPrivateTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6ZlibPrivate",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateVersionlessAliasTargets.cmake",
+				"build/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateVersionlessTargets.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Unspecified",
+			"destination" : "modules",
+			"paths" : 
+			[
+				"build/modules/ZlibPrivate.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6BundledZLIB",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6BundledZLIB/Qt6BundledZLIBAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6ZlibPrivate",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "Unspecified",
+			"destination" : "include/QtZlib",
+			"paths" : 
+			[
+				"src/3rdparty/zlib/src/zlib.h",
+				"src/3rdparty/zlib/src/zconf.h",
+				"build/include/QtZlib/QtZlibDepends"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"build/mkspecs/modules/qt_lib_zlib_private.pri"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/3rdparty/zlib",
+		"source" : "src/3rdparty/zlib"
+	}
+}

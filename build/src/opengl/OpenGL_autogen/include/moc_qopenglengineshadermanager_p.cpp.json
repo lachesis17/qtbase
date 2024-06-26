@@ -1,0 +1,22 @@
+{
+    "classes": [
+        {
+            "className": "QOpenGLEngineSharedShaders",
+            "gadget": true,
+            "qualifiedClassName": "QOpenGLEngineSharedShaders"
+        },
+        {
+            "className": "QOpenGLEngineShaderManager",
+            "object": true,
+            "qualifiedClassName": "QOpenGLEngineShaderManager",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qopenglengineshadermanager_p.h",
+    "outputRevision": 68
+}

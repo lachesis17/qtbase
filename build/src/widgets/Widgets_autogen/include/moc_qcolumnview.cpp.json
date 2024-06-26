@@ -1,0 +1,46 @@
+{
+    "classes": [
+        {
+            "className": "QColumnView",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "resizeGripsVisible",
+                    "read": "resizeGripsVisible",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setResizeGripsVisible"
+                }
+            ],
+            "qualifiedClassName": "QColumnView",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "updatePreviewWidget",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractItemView"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qcolumnview.h",
+    "outputRevision": 68
+}

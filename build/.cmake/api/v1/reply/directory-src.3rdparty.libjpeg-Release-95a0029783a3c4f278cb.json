@@ -1,0 +1,717 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt_install",
+			"qt_internal_add_3rdparty_library",
+			"qt_internal_export_modern_cmake_config_targets_file",
+			"qt_internal_add_module",
+			"qt_internal_add_3rdparty_header_module",
+			"qt_describe_module",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_internal_install_module_headers",
+			"qt_finalize_module",
+			"qt_generate_module_pri_file"
+		],
+		"files" : 
+		[
+			"cmake/QtInstallHelpers.cmake",
+			"cmake/Qt3rdPartyLibraryHelpers.cmake",
+			"src/3rdparty/libjpeg/CMakeLists.txt",
+			"cmake/QtTargetHelpers.cmake",
+			"cmake/QtModuleHelpers.cmake",
+			"cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"cmake/QtPriHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 87,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 294,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 302,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 309,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 320,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1124,
+				"parent" : 8
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 9
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 100,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 294,
+				"parent" : 11
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 12
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 302,
+				"parent" : 11
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 309,
+				"parent" : 11
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 16
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 320,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1124,
+				"parent" : 18
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 19
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 113,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 268,
+				"parent" : 21
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 22
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 294,
+				"parent" : 21
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 24
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 302,
+				"parent" : 21
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 26
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 309,
+				"parent" : 21
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 28
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 320,
+				"parent" : 21
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1124,
+				"parent" : 30
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 31
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 128,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 431,
+				"parent" : 33
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 793,
+				"parent" : 34
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 35
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 829,
+				"parent" : 34
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 37
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 840,
+				"parent" : 34
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1124,
+				"parent" : 39
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 40
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 918,
+				"parent" : 34
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 1253,
+				"parent" : 42
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 43
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 45
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 806,
+				"parent" : 46
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1081,
+				"parent" : 47
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 48
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 806,
+				"parent" : 46
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1081,
+				"parent" : 50
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 51
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 806,
+				"parent" : 46
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1081,
+				"parent" : 53
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 54
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 806,
+				"parent" : 46
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1081,
+				"parent" : 56
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 57
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 45
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 1003,
+				"parent" : 59
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 1318,
+				"parent" : 60
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 61
+			},
+			{
+				"command" : 11,
+				"file" : 4,
+				"line" : 1013,
+				"parent" : 59
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 559,
+				"parent" : 63
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 64
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6BundledLibjpeg16bits",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6BundledLibjpeg16bits/Qt6BundledLibjpeg16bitsConfig.cmake",
+				"build/lib/cmake/Qt6BundledLibjpeg16bits/Qt6BundledLibjpeg16bitsConfigVersion.cmake",
+				"build/lib/cmake/Qt6BundledLibjpeg16bits/Qt6BundledLibjpeg16bitsConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libQt6BundledLibjpeg16bits.a"
+			],
+			"targetId" : "BundledLibjpeg16bits::@ee307bfce77e16311264",
+			"targetIndex" : 7,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6BundledLibjpeg16bits",
+			"exportName" : "Qt6BundledLibjpeg16bitsTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "BundledLibjpeg16bits::@ee307bfce77e16311264",
+					"index" : 7
+				}
+			],
+			"paths" : 
+			[
+				"src/3rdparty/libjpeg/CMakeFiles/Export/2ace2f594fede14fe0523ad72003d09c/Qt6BundledLibjpeg16bitsTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6BundledLibjpeg16bits",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6BundledLibjpeg16bits/Qt6BundledLibjpeg16bitsVersionlessAliasTargets.cmake",
+				"build/lib/cmake/Qt6BundledLibjpeg16bits/Qt6BundledLibjpeg16bitsVersionlessTargets.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6BundledLibjpeg12bits",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6BundledLibjpeg12bits/Qt6BundledLibjpeg12bitsConfig.cmake",
+				"build/lib/cmake/Qt6BundledLibjpeg12bits/Qt6BundledLibjpeg12bitsConfigVersion.cmake",
+				"build/lib/cmake/Qt6BundledLibjpeg12bits/Qt6BundledLibjpeg12bitsConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libQt6BundledLibjpeg12bits.a"
+			],
+			"targetId" : "BundledLibjpeg12bits::@ee307bfce77e16311264",
+			"targetIndex" : 6,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6BundledLibjpeg12bits",
+			"exportName" : "Qt6BundledLibjpeg12bitsTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "BundledLibjpeg12bits::@ee307bfce77e16311264",
+					"index" : 6
+				}
+			],
+			"paths" : 
+			[
+				"src/3rdparty/libjpeg/CMakeFiles/Export/f38c1271179eb18443c445dd47b41286/Qt6BundledLibjpeg12bitsTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6BundledLibjpeg12bits",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6BundledLibjpeg12bits/Qt6BundledLibjpeg12bitsVersionlessAliasTargets.cmake",
+				"build/lib/cmake/Qt6BundledLibjpeg12bits/Qt6BundledLibjpeg12bitsVersionlessTargets.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"build/mkspecs/modules/qt_ext_libjpeg.pri"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6BundledLibjpeg",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6BundledLibjpeg/Qt6BundledLibjpegConfig.cmake",
+				"build/lib/cmake/Qt6BundledLibjpeg/Qt6BundledLibjpegConfigVersion.cmake",
+				"build/lib/cmake/Qt6BundledLibjpeg/Qt6BundledLibjpegConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libQt6BundledLibjpeg.a"
+			],
+			"targetId" : "BundledLibjpeg::@ee307bfce77e16311264",
+			"targetIndex" : 5,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6BundledLibjpeg",
+			"exportName" : "Qt6BundledLibjpegTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "BundledLibjpeg::@ee307bfce77e16311264",
+					"index" : 5
+				}
+			],
+			"paths" : 
+			[
+				"src/3rdparty/libjpeg/CMakeFiles/Export/6a793c1c248f988f93e5ee28d3fd374d/Qt6BundledLibjpegTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6BundledLibjpeg",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6BundledLibjpeg/Qt6BundledLibjpegVersionlessAliasTargets.cmake",
+				"build/lib/cmake/Qt6BundledLibjpeg/Qt6BundledLibjpegVersionlessTargets.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6JpegPrivate",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6JpegPrivate/Qt6JpegPrivateConfig.cmake",
+				"build/lib/cmake/Qt6JpegPrivate/Qt6JpegPrivateConfigVersion.cmake",
+				"build/lib/cmake/Qt6JpegPrivate/Qt6JpegPrivateConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6JpegPrivate",
+			"exportName" : "Qt6JpegPrivateTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "JpegPrivate::@ee307bfce77e16311264",
+					"index" : 76
+				}
+			],
+			"paths" : 
+			[
+				"src/3rdparty/libjpeg/CMakeFiles/Export/ae4cc19c06fbc0f6fae66b95087d52bf/Qt6JpegPrivateTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 41,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6JpegPrivate",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6JpegPrivate/Qt6JpegPrivateVersionlessAliasTargets.cmake",
+				"build/lib/cmake/Qt6JpegPrivate/Qt6JpegPrivateVersionlessTargets.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 44,
+			"component" : "Unspecified",
+			"destination" : "modules",
+			"paths" : 
+			[
+				"build/modules/JpegPrivate.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 49,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6BundledLibjpeg16bits",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6BundledLibjpeg16bits/Qt6BundledLibjpeg16bitsAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 52,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6BundledLibjpeg12bits",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6BundledLibjpeg12bits/Qt6BundledLibjpeg12bitsAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 55,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6BundledLibjpeg",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6BundledLibjpeg/Qt6BundledLibjpegAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 58,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6JpegPrivate",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6JpegPrivate/Qt6JpegPrivateAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 62,
+			"component" : "Unspecified",
+			"destination" : "include/QtJpeg",
+			"paths" : 
+			[
+				"src/3rdparty/libjpeg/src/jpeglib.h",
+				"src/3rdparty/libjpeg/src/jerror.h",
+				"src/3rdparty/libjpeg/src/jconfig.h",
+				"src/3rdparty/libjpeg/src/jmorecfg.h",
+				"build/include/QtJpeg/QtJpegDepends"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 65,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"build/mkspecs/modules/qt_lib_jpeg_private.pri"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/3rdparty/libjpeg",
+		"source" : "src/3rdparty/libjpeg"
+	}
+}

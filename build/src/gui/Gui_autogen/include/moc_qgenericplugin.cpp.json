@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QGenericPlugin",
+            "object": true,
+            "qualifiedClassName": "QGenericPlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qgenericplugin.h",
+    "outputRevision": 68
+}

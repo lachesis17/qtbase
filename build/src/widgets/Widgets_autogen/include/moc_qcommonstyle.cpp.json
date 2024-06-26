@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QCommonStyle",
+            "object": true,
+            "qualifiedClassName": "QCommonStyle",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QStyle"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qcommonstyle.h",
+    "outputRevision": 68
+}

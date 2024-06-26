@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QImageIOPlugin",
+            "object": true,
+            "qualifiedClassName": "QImageIOPlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qimageiohandler.h",
+    "outputRevision": 68
+}

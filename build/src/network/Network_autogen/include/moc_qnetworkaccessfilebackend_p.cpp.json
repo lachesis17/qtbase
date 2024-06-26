@@ -1,0 +1,24 @@
+{
+    "classes": [
+        {
+            "className": "QNetworkAccessFileBackend",
+            "object": true,
+            "qualifiedClassName": "QNetworkAccessFileBackend",
+            "slots": [
+                {
+                    "access": "public",
+                    "name": "uploadReadyReadSlot",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QNetworkAccessBackend"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qnetworkaccessfilebackend_p.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,59 @@
+{
+    "classes": [
+        {
+            "className": "QSyntaxHighlighter",
+            "object": true,
+            "qualifiedClassName": "QSyntaxHighlighter",
+            "slots": [
+                {
+                    "access": "public",
+                    "name": "rehighlight",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "block",
+                            "type": "QTextBlock"
+                        }
+                    ],
+                    "name": "rehighlightBlock",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "from",
+                            "type": "int"
+                        },
+                        {
+                            "name": "charsRemoved",
+                            "type": "int"
+                        },
+                        {
+                            "name": "charsAdded",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "_q_reformatBlocks",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_delayedRehighlight",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qsyntaxhighlighter.h",
+    "outputRevision": 68
+}

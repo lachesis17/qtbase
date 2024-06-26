@@ -1,0 +1,41 @@
+{
+    "classes": [
+        {
+            "className": "QTornOffMenu",
+            "object": true,
+            "qualifiedClassName": "QTornOffMenu",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "action",
+                            "type": "QAction*"
+                        }
+                    ],
+                    "name": "onTrigger",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "action",
+                            "type": "QAction*"
+                        }
+                    ],
+                    "name": "onHovered",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QMenu"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qmenu.cpp",
+    "outputRevision": 68
+}

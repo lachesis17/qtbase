@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QModernWindowsStylePlugin",
+            "object": true,
+            "qualifiedClassName": "QModernWindowsStylePlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QStylePlugin"
+                }
+            ]
+        }
+    ],
+    "inputFile": "main.cpp",
+    "outputRevision": 68
+}

@@ -1,0 +1,30 @@
+{
+    "classes": [
+        {
+            "className": "QNetworkReplyFileImpl",
+            "object": true,
+            "qualifiedClassName": "QNetworkReplyFileImpl",
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "isOpen",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "fileOpenFinished",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QNetworkReply"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qnetworkreplyfileimpl_p.h",
+    "outputRevision": 68
+}

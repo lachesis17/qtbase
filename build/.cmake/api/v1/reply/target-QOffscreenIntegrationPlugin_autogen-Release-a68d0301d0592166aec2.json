@@ -1,0 +1,74 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/plugins/platforms/offscreen/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		},
+		{
+			"id" : "QOffscreenIntegrationPlugin_autogen_timestamp_deps::@205c3e43ec6b99b35745"
+		}
+	],
+	"id" : "QOffscreenIntegrationPlugin_autogen::@205c3e43ec6b99b35745",
+	"isGeneratorProvided" : true,
+	"name" : "QOffscreenIntegrationPlugin_autogen",
+	"paths" : 
+	{
+		"build" : "src/plugins/platforms/offscreen",
+		"source" : "src/plugins/platforms/offscreen"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/platforms/offscreen/CMakeFiles/QOffscreenIntegrationPlugin_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/platforms/offscreen/CMakeFiles/QOffscreenIntegrationPlugin_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/plugins/platforms/offscreen/QOffscreenIntegrationPlugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

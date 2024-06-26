@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QAbstractScrollAreaFilter",
+            "object": true,
+            "qualifiedClassName": "QAbstractScrollAreaFilter",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qabstractscrollarea_p.h",
+    "outputRevision": 68
+}

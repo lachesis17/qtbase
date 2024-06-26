@@ -1,0 +1,30 @@
+{
+    "classes": [
+        {
+            "className": "QWindowsUiaProviderCache",
+            "object": true,
+            "qualifiedClassName": "QWindowsUiaProviderCache",
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "obj",
+                            "type": "QObject*"
+                        }
+                    ],
+                    "name": "objectDestroyed",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwindowsuiaprovidercache.h",
+    "outputRevision": 68
+}

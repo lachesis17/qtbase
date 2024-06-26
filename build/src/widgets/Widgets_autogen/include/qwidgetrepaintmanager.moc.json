@@ -1,0 +1,30 @@
+{
+    "classes": [
+        {
+            "className": "QPlatformTextureListWatcher",
+            "object": true,
+            "qualifiedClassName": "QPlatformTextureListWatcher",
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "locked",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "onLockStatusChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwidgetrepaintmanager.cpp",
+    "outputRevision": 68
+}

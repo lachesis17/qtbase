@@ -1,0 +1,94 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"_qt_internal_add_try_run_post_build",
+			"qt_internal_add_tool"
+		],
+		"files" : 
+		[
+			"cmake/QtToolHelpers.cmake",
+			"src/tools/qtpaths/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 267,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "qtpaths::@146dfbd4f1bec7ecfe48"
+		}
+	],
+	"id" : "qtpaths_try_run::@146dfbd4f1bec7ecfe48",
+	"name" : "qtpaths_try_run",
+	"paths" : 
+	{
+		"build" : "src/tools/qtpaths",
+		"source" : "src/tools/qtpaths"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/src/tools/qtpaths/CMakeFiles/qtpaths_try_run",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/tools/qtpaths/CMakeFiles/qtpaths_try_run.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/tools/qtpaths/qtpaths_try_run_passed.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

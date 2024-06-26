@@ -1,0 +1,242 @@
+{
+	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
+	"BUILD_DIR" : "C:/Qt/qtbase-6.8/build/src/tools/uic/uic_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Qt/qtbase-6.8/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Qt/qtbase-6.8/build/src/tools/uic",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Qt/qtbase-6.8/src/tools/uic",
+	"CMAKE_EXECUTABLE" : "C:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"C:/Qt/qtbase-6.8/src/tools/uic/CMakeLists.txt",
+		"C:/Qt/qtbase-6.8/cmake/QtFileConfigure.txt.in"
+	],
+	"CMAKE_SOURCE_DIR" : "C:/Qt/qtbase-6.8",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "C:/Qt/qtbase-6.8/build/src/tools/uic/uic_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "uic_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"C:/Qt/qtbase-6.8/src/tools/uic/cpp/cppwritedeclaration.h",
+			"Mu",
+			"SVODSI3R2M/moc_cppwritedeclaration.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/tools/uic/cpp/cppwriteincludes.h",
+			"Mu",
+			"SVODSI3R2M/moc_cppwriteincludes.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/tools/uic/cpp/cppwriteinitialization.h",
+			"Mu",
+			"SVODSI3R2M/moc_cppwriteinitialization.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/tools/uic/customwidgetsinfo.h",
+			"Mu",
+			"EWIEGA46WW/moc_customwidgetsinfo.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/tools/uic/databaseinfo.h",
+			"Mu",
+			"EWIEGA46WW/moc_databaseinfo.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/tools/uic/driver.h",
+			"Mu",
+			"EWIEGA46WW/moc_driver.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/tools/uic/option.h",
+			"Mu",
+			"EWIEGA46WW/moc_option.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/tools/uic/python/pythonwritedeclaration.h",
+			"Mu",
+			"K3GKKSBDS6/moc_pythonwritedeclaration.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/tools/uic/python/pythonwriteimports.h",
+			"Mu",
+			"K3GKKSBDS6/moc_pythonwriteimports.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/tools/uic/shared/language.h",
+			"Mu",
+			"MTKJWXDCAS/moc_language.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/tools/uic/shared/writeincludesbase.h",
+			"Mu",
+			"MTKJWXDCAS/moc_writeincludesbase.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/tools/uic/treewalker.h",
+			"Mu",
+			"EWIEGA46WW/moc_treewalker.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/tools/uic/ui4.h",
+			"Mu",
+			"EWIEGA46WW/moc_ui4.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/tools/uic/uic.h",
+			"Mu",
+			"EWIEGA46WW/moc_uic.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/tools/uic/utils.h",
+			"Mu",
+			"EWIEGA46WW/moc_utils.cpp",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/tools/uic/validator.h",
+			"Mu",
+			"EWIEGA46WW/moc_validator.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "C:/Qt/qtbase-6.8/build/src/tools/uic/uic_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Qt/qtbase-6.8/build/src/tools/uic/uic_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"MINGW_HAS_SECURE_API=1",
+		"NOMINMAX",
+		"QT_CORE_LIB",
+		"QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH",
+		"QT_LEAN_HEADERS=1",
+		"QT_NO_CAST_FROM_ASCII",
+		"QT_NO_DEBUG",
+		"QT_NO_EXCEPTIONS",
+		"QT_NO_FOREACH",
+		"QT_NO_JAVA_STYLE_ITERATORS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_QASCONST",
+		"QT_NO_QEXCHANGE",
+		"QT_UIC",
+		"QT_USE_NODISCARD_FILE_OPEN",
+		"QT_USE_QSTRINGBUILDER",
+		"UNICODE",
+		"WIN32",
+		"WIN64",
+		"WINVER=0x0A00",
+		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
+		"_GLIBCXX_ASSERTIONS",
+		"_UNICODE",
+		"_WIN32_WINNT=0x0A00",
+		"_WIN64"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"C:/Qt/qtbase-6.8/src/tools/uic",
+		"C:/Qt/qtbase-6.8/build/src/tools/uic",
+		"C:/Qt/qtbase-6.8/src/tools/uic/cpp",
+		"C:/Qt/qtbase-6.8/src/tools/uic/python",
+		"C:/Qt/qtbase-6.8/src/tools/uic/shared",
+		"C:/Qt/qtbase-6.8/mkspecs/win32-g++",
+		"C:/Qt/qtbase-6.8/build/include",
+		"C:/Qt/qtbase-6.8/build/include/QtCore",
+		"C:/msys64/mingw64/include/c++/13.2.0",
+		"C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32",
+		"C:/msys64/mingw64/include/c++/13.2.0/backward",
+		"C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include",
+		"C:/msys64/mingw64/include",
+		"C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_ENUM_NS",
+		"Q_GADGET_EXPORT"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"C:/msys64/mingw64/bin/g++.exe",
+		"-std=c++17",
+		"-dM",
+		"-E",
+		"-c",
+		"C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "C:/Qt/qtbase-6.8/build/src/tools/uic/uic_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "C:/Qt/qtbase-6.8/build/src/tools/uic/CMakeFiles/uic_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "C:/Qt/qtbase-6.8/build/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 8,
+	"SETTINGS_FILE" : "C:/Qt/qtbase-6.8/build/src/tools/uic/CMakeFiles/uic_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"C:/Qt/qtbase-6.8/src/tools/uic/cpp/cppwritedeclaration.cpp",
+			"Mu",
+			null
+		],
+		[ "C:/Qt/qtbase-6.8/src/tools/uic/cpp/cppwriteincludes.cpp", "Mu", null ],
+		[
+			"C:/Qt/qtbase-6.8/src/tools/uic/cpp/cppwriteinitialization.cpp",
+			"Mu",
+			null
+		],
+		[ "C:/Qt/qtbase-6.8/src/tools/uic/customwidgetsinfo.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/tools/uic/databaseinfo.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/tools/uic/driver.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/tools/uic/main.cpp", "Mu", null ],
+		[
+			"C:/Qt/qtbase-6.8/src/tools/uic/python/pythonwritedeclaration.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Qt/qtbase-6.8/src/tools/uic/python/pythonwriteimports.cpp",
+			"Mu",
+			null
+		],
+		[ "C:/Qt/qtbase-6.8/src/tools/uic/shared/language.cpp", "Mu", null ],
+		[
+			"C:/Qt/qtbase-6.8/src/tools/uic/shared/writeincludesbase.cpp",
+			"Mu",
+			null
+		],
+		[ "C:/Qt/qtbase-6.8/src/tools/uic/treewalker.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/tools/uic/ui4.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/tools/uic/uic.cpp", "Mu", null ],
+		[ "C:/Qt/qtbase-6.8/src/tools/uic/validator.cpp", "Mu", null ]
+	],
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

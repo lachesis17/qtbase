@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QWindowsStyle",
+            "object": true,
+            "qualifiedClassName": "QWindowsStyle",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QCommonStyle"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwindowsstyle_p.h",
+    "outputRevision": 68
+}

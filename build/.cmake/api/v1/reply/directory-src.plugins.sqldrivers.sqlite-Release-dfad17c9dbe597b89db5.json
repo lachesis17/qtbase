@@ -1,0 +1,214 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt_install",
+			"qt_internal_add_plugin",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_generate_plugin_pri_file",
+			"qt_finalize_plugin"
+		],
+		"files" : 
+		[
+			"cmake/QtInstallHelpers.cmake",
+			"cmake/QtPluginHelpers.cmake",
+			"src/plugins/sqldrivers/sqlite/CMakeLists.txt",
+			"cmake/QtTargetHelpers.cmake",
+			"cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"cmake/QtPriHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 379,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 390,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 399,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 806,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1081,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 475,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 662,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 15
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6Sql",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginConfig.cmake",
+				"build/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginConfigVersion.cmake",
+				"build/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "plugins/sqldrivers",
+			"paths" : 
+			[
+				"plugins/sqldrivers/libqsqlite.a"
+			],
+			"targetId" : "QSQLiteDriverPlugin::@e2bfa9afaa3bfdf10953",
+			"targetIndex" : 153,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "plugins/sqldrivers",
+			"paths" : 
+			[
+				{
+					"from" : "src/plugins/sqldrivers/sqlite/CMakeFiles/QSQLiteDriverPlugin_init.dir/.//QSQLiteDriverPlugin_init.cpp.obj",
+					"to" : "objects-Release/QSQLiteDriverPlugin_init/QSQLiteDriverPlugin_init.cpp.obj"
+				}
+			],
+			"targetId" : "QSQLiteDriverPlugin_init::@e2bfa9afaa3bfdf10953",
+			"targetIndex" : 156,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Sql",
+			"exportName" : "Qt6QSQLiteDriverPluginTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "QSQLiteDriverPlugin::@e2bfa9afaa3bfdf10953",
+					"index" : 153
+				},
+				{
+					"id" : "QSQLiteDriverPlugin_init::@e2bfa9afaa3bfdf10953",
+					"index" : 156
+				}
+			],
+			"paths" : 
+			[
+				"src/plugins/sqldrivers/sqlite/CMakeFiles/Export/6daf95e385d7cc8ad37a0af677fcce5d/Qt6QSQLiteDriverPluginTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Sql",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"build/mkspecs/modules/qt_plugin_qsqlite.pri"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/plugins/sqldrivers/sqlite",
+		"source" : "src/plugins/sqldrivers/sqlite"
+	}
+}

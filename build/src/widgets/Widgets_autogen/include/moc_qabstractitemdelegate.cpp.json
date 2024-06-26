@@ -1,0 +1,79 @@
+{
+    "classes": [
+        {
+            "className": "QAbstractItemDelegate",
+            "object": true,
+            "qualifiedClassName": "QAbstractItemDelegate",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "editor",
+                            "type": "QWidget*"
+                        }
+                    ],
+                    "name": "commitData",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "editor",
+                            "type": "QWidget*"
+                        },
+                        {
+                            "name": "hint",
+                            "type": "QAbstractItemDelegate::EndEditHint"
+                        }
+                    ],
+                    "name": "closeEditor",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "editor",
+                            "type": "QWidget*"
+                        }
+                    ],
+                    "isCloned": true,
+                    "name": "closeEditor",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "sizeHintChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QWidget*"
+                        }
+                    ],
+                    "name": "_q_commitDataAndCloseEditor",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qabstractitemdelegate.h",
+    "outputRevision": 68
+}

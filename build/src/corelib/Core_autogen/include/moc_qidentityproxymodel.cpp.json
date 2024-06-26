@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QIdentityProxyModel",
+            "object": true,
+            "qualifiedClassName": "QIdentityProxyModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractProxyModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qidentityproxymodel.h",
+    "outputRevision": 68
+}

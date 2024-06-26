@@ -1,0 +1,38 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/tools/uic/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Core::@e8138540d8b2daa0b357"
+		}
+	],
+	"id" : "uic_autogen_timestamp_deps::@53da06d1729bbbe1e0d9",
+	"isGeneratorProvided" : true,
+	"name" : "uic_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "src/tools/uic",
+		"source" : "src/tools/uic"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

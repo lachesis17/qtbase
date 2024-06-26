@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QFlickGesture",
+            "object": true,
+            "qualifiedClassName": "QFlickGesture",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QGesture"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qflickgesture_p.h",
+    "outputRevision": 68
+}

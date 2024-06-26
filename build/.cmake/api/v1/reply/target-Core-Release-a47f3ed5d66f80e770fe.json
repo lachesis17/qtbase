@@ -1,0 +1,6782 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libQt6Core.a"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_qt_internal_add_library",
+			"qt_internal_add_module",
+			"install",
+			"qt_install",
+			"add_dependencies",
+			"target_link_libraries",
+			"qt_internal_extend_target",
+			"qt_generate_module_pri_file",
+			"qt_finalize_module",
+			"qt_internal_add_linker_version_script",
+			"qt_internal_target_sync_headers",
+			"add_compile_options",
+			"include",
+			"qt_internal_set_compiler_warning_flags",
+			"qt_internal_setup_build_and_global_variables",
+			"qt_build_internals_set_up_private_api",
+			"qt_build_repo_begin",
+			"target_compile_options",
+			"qt_internal_set_exceptions_flags",
+			"qt_internal_apply_gc_binaries",
+			"qt_internal_apply_gc_binaries_conditional",
+			"set_target_properties",
+			"target_include_directories",
+			"set_property",
+			"qt_update_precompiled_header",
+			"target_sources",
+			"qt_internal_generate_cpp_global_exports",
+			"qt6_extract_metatypes",
+			"set_source_files_properties",
+			"qt_internal_library_deprecation_level",
+			"qt_generate_prl_file"
+		],
+		"files" : 
+		[
+			"src/corelib/Qt6CoreMacros.cmake",
+			"cmake/QtModuleHelpers.cmake",
+			"src/corelib/CMakeLists.txt",
+			"cmake/QtInstallHelpers.cmake",
+			"cmake/QtTargetHelpers.cmake",
+			"cmake/QtPriHelpers.cmake",
+			"cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"cmake/QtFlagHandlingHelpers.cmake",
+			"cmake/QtSyncQtHelpers.cmake",
+			"cmake/QtCompilerFlags.cmake",
+			"cmake/QtBuildHelpers.cmake",
+			"cmake/QtBuild.cmake",
+			"cmake/QtSetup.cmake",
+			"cmake/QtBuildRepoHelpers.cmake",
+			"CMakeLists.txt",
+			"cmake/QtPrecompiledHeadersHelpers.cmake",
+			"cmake/QtPrlHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 180,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2736,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 809,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 371,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 754,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 180,
+				"parent" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 873,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 180,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 610,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 180,
+				"parent" : 11
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 13
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 1013,
+				"parent" : 14
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 556,
+				"parent" : 15
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 14
+			},
+			{
+				"command" : 10,
+				"file" : 8,
+				"line" : 41,
+				"parent" : 17
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 136,
+				"parent" : 18
+			},
+			{
+				"command" : 5,
+				"file" : 8,
+				"line" : 251,
+				"parent" : 17
+			},
+			{
+				"file" : 14
+			},
+			{
+				"command" : 17,
+				"file" : 14,
+				"line" : 143,
+				"parent" : 21
+			},
+			{
+				"command" : 16,
+				"file" : 13,
+				"line" : 180,
+				"parent" : 22
+			},
+			{
+				"command" : 13,
+				"file" : 13,
+				"line" : 22,
+				"parent" : 23
+			},
+			{
+				"file" : 12,
+				"parent" : 24
+			},
+			{
+				"command" : 13,
+				"file" : 12,
+				"line" : 6,
+				"parent" : 25
+			},
+			{
+				"file" : 11,
+				"parent" : 26
+			},
+			{
+				"command" : 15,
+				"file" : 11,
+				"line" : 4,
+				"parent" : 27
+			},
+			{
+				"command" : 14,
+				"file" : 10,
+				"line" : 451,
+				"parent" : 28
+			},
+			{
+				"command" : 13,
+				"file" : 10,
+				"line" : 79,
+				"parent" : 29
+			},
+			{
+				"file" : 9,
+				"parent" : 30
+			},
+			{
+				"command" : 12,
+				"file" : 9,
+				"line" : 39,
+				"parent" : 31
+			},
+			{
+				"command" : 19,
+				"file" : 1,
+				"line" : 655,
+				"parent" : 1
+			},
+			{
+				"command" : 18,
+				"file" : 7,
+				"line" : 288,
+				"parent" : 33
+			},
+			{
+				"command" : 21,
+				"file" : 2,
+				"line" : 1408,
+				"parent" : 0
+			},
+			{
+				"command" : 20,
+				"file" : 7,
+				"line" : 188,
+				"parent" : 35
+			},
+			{
+				"command" : 18,
+				"file" : 7,
+				"line" : 234,
+				"parent" : 36
+			},
+			{
+				"command" : 22,
+				"file" : 2,
+				"line" : 1405,
+				"parent" : 0
+			},
+			{
+				"command" : 23,
+				"file" : 4,
+				"line" : 172,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 777,
+				"parent" : 0
+			},
+			{
+				"command" : 23,
+				"file" : 4,
+				"line" : 172,
+				"parent" : 40
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 1372,
+				"parent" : 0
+			},
+			{
+				"command" : 23,
+				"file" : 4,
+				"line" : 172,
+				"parent" : 42
+			},
+			{
+				"command" : 25,
+				"file" : 4,
+				"line" : 272,
+				"parent" : 11
+			},
+			{
+				"command" : 24,
+				"file" : 15,
+				"line" : 6,
+				"parent" : 44
+			},
+			{
+				"command" : 27,
+				"file" : 1,
+				"line" : 438,
+				"parent" : 1
+			},
+			{
+				"command" : 26,
+				"file" : 1,
+				"line" : 1281,
+				"parent" : 46
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 673,
+				"parent" : 1
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 49
+			},
+			{
+				"command" : 28,
+				"file" : 2,
+				"line" : 418,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 0,
+				"line" : 1490,
+				"parent" : 51
+			},
+			{
+				"command" : 26,
+				"file" : 2,
+				"line" : 420,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 477,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 54
+			},
+			{
+				"command" : 29,
+				"file" : 2,
+				"line" : 488,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 493,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 57
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 512,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 59
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 519,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 61
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 534,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 63
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 542,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 65
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 700,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 67
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 737,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 69
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 759,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 71
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 40
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 811,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 74
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 834,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 76
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 858,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 78
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 885,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 81
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 891,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 83
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 896,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 85
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 902,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 87
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 931,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 89
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 950,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 91
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 960,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 93
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 966,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 95
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 986,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 97
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 991,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 99
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 1001,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 101
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 1006,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 103
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 1021,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 105
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 1093,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 107
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 1099,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 109
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 1104,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 111
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 1109,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 113
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 1114,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 115
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 1119,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 117
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 1124,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 119
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 1129,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 121
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 1133,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 123
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 1191,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 125
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 1208,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 127
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 1215,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 129
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 1222,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 131
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 1233,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 133
+			},
+			{
+				"command" : 26,
+				"file" : 4,
+				"line" : 156,
+				"parent" : 42
+			},
+			{
+				"command" : 30,
+				"file" : 2,
+				"line" : 1549,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 2,
+				"line" : 1546,
+				"parent" : 136
+			},
+			{
+				"command" : 31,
+				"file" : 1,
+				"line" : 1012,
+				"parent" : 14
+			},
+			{
+				"command" : 26,
+				"file" : 16,
+				"line" : 205,
+				"parent" : 138
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O3 -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport"
+				},
+				{
+					"backtrace" : 32,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 32,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 34,
+					"fragment" : "-fexceptions"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Wa,-mbig-obj"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-ftrivial-auto-var-init=pattern"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-fstack-clash-protection"
+				},
+				{
+					"fragment" : "-Winvalid-pch -x c++-header -include C:/Qt/qtbase-6.8/build/src/corelib/CMakeFiles/Core.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 12,
+					"define" : "MINGW_HAS_SECURE_API=1"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "PCRE2_CODE_UNIT_WIDTH=16"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "PCRE2_STATIC"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_BUILD_CORE_LIB"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "QT_NO_QASCONST"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_QPAIR"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_USING_NAMESPACE"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_TYPESAFE_FLAGS"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_USE_NODISCARD_FILE_OPEN"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_ZLIB_LIB"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "WINVER=0x0A00"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_WIN32_WINNT=0x0A00"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib/Core_autogen/include"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/build/include"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/src/corelib"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib/global"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib/kernel"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/src/corelib/../3rdparty/tinycbor/src"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0/QtCore"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "C:/Qt/qtbase-6.8/src/corelib/../3rdparty/double-conversion/double-conversion"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "C:/Qt/qtbase-6.8/src/corelib/../3rdparty/double-conversion"
+				},
+				{
+					"backtrace" : 43,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib/.rcc"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Qt/qtbase-6.8/mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtZlib"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/src/3rdparty/zlib"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/src/3rdparty/zlib"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/qtbase-6.8/src/3rdparty/pcre2/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					12
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 45,
+					"header" : "global/qt_pch.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O3 -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport"
+				},
+				{
+					"backtrace" : 32,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 32,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 34,
+					"fragment" : "-fexceptions"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Wa,-mbig-obj"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-ftrivial-auto-var-init=pattern"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-fstack-clash-protection"
+				},
+				{
+					"fragment" : "-Winvalid-pch -include C:/Qt/qtbase-6.8/build/src/corelib/CMakeFiles/Core.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 12,
+					"define" : "MINGW_HAS_SECURE_API=1"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "PCRE2_CODE_UNIT_WIDTH=16"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "PCRE2_STATIC"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_BUILD_CORE_LIB"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "QT_NO_QASCONST"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_QPAIR"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_USING_NAMESPACE"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_TYPESAFE_FLAGS"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_USE_NODISCARD_FILE_OPEN"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_ZLIB_LIB"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "WINVER=0x0A00"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_WIN32_WINNT=0x0A00"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib/Core_autogen/include"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/build/include"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/src/corelib"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib/global"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib/kernel"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/src/corelib/../3rdparty/tinycbor/src"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0/QtCore"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "C:/Qt/qtbase-6.8/src/corelib/../3rdparty/double-conversion/double-conversion"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "C:/Qt/qtbase-6.8/src/corelib/../3rdparty/double-conversion"
+				},
+				{
+					"backtrace" : 43,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib/.rcc"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Qt/qtbase-6.8/mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtZlib"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/src/3rdparty/zlib"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/src/3rdparty/zlib"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/qtbase-6.8/src/3rdparty/pcre2/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					12
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 45,
+					"header" : "global/qt_pch.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1,
+				6,
+				9,
+				10,
+				13,
+				20,
+				23,
+				26,
+				30,
+				34,
+				36,
+				39,
+				42,
+				48,
+				51,
+				56,
+				60,
+				67,
+				80,
+				92,
+				97,
+				100,
+				103,
+				106,
+				108,
+				110,
+				112,
+				115,
+				118,
+				121,
+				123,
+				126,
+				129,
+				132,
+				135,
+				137,
+				141,
+				143,
+				145,
+				149,
+				151,
+				154,
+				156,
+				158,
+				160,
+				163,
+				165,
+				168,
+				170,
+				173,
+				175,
+				178,
+				181,
+				182,
+				184,
+				187,
+				188,
+				191,
+				194,
+				196,
+				199,
+				201,
+				206,
+				209,
+				211,
+				213,
+				217,
+				220,
+				222,
+				224,
+				228,
+				230,
+				233,
+				237,
+				242,
+				247,
+				251,
+				253,
+				255,
+				257,
+				259,
+				262,
+				265,
+				268,
+				274,
+				276,
+				280,
+				282,
+				285,
+				288,
+				291,
+				294,
+				298,
+				300,
+				301,
+				303,
+				305,
+				307,
+				309,
+				311,
+				314,
+				316,
+				318,
+				321,
+				323,
+				328,
+				332,
+				335,
+				339,
+				342,
+				346,
+				349,
+				354,
+				358,
+				360,
+				362,
+				365,
+				368,
+				377,
+				379,
+				387,
+				391,
+				394,
+				396,
+				398,
+				400,
+				402,
+				405,
+				408,
+				413,
+				418,
+				420,
+				424,
+				426,
+				430,
+				435,
+				441,
+				444,
+				446,
+				448,
+				454,
+				457,
+				460,
+				467,
+				472,
+				481,
+				484,
+				487,
+				490,
+				493,
+				496,
+				498,
+				501,
+				504,
+				508,
+				509,
+				512,
+				513,
+				514,
+				515,
+				516,
+				517,
+				519,
+				522,
+				523,
+				525,
+				528,
+				529,
+				530,
+				533,
+				535,
+				537,
+				539,
+				541,
+				543,
+				545,
+				547,
+				550,
+				551,
+				555,
+				559,
+				563,
+				565,
+				567,
+				569,
+				570,
+				573,
+				577,
+				579,
+				581,
+				584,
+				586,
+				589,
+				591,
+				593,
+				594,
+				595,
+				597,
+				600,
+				602,
+				605,
+				608,
+				609,
+				611,
+				614,
+				616,
+				618,
+				621,
+				622,
+				625,
+				626,
+				627,
+				630,
+				633,
+				636,
+				638,
+				641,
+				643,
+				646,
+				648,
+				651,
+				653,
+				654,
+				655,
+				657,
+				659,
+				662,
+				664,
+				666,
+				668,
+				670,
+				673,
+				675
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O3 -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport"
+				},
+				{
+					"backtrace" : 32,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 32,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 34,
+					"fragment" : "-fexceptions"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Wa,-mbig-obj"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-ftrivial-auto-var-init=pattern"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-fstack-clash-protection"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 12,
+					"define" : "MINGW_HAS_SECURE_API=1"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "PCRE2_CODE_UNIT_WIDTH=16"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "PCRE2_STATIC"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_BUILD_CORE_LIB"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "QT_NO_QASCONST"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_QPAIR"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_USING_NAMESPACE"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_TYPESAFE_FLAGS"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_USE_NODISCARD_FILE_OPEN"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_ZLIB_LIB"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "WINVER=0x0A00"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_WIN32_WINNT=0x0A00"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib/Core_autogen/include"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/build/include"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/src/corelib"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib/global"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib/kernel"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/src/corelib/../3rdparty/tinycbor/src"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0/QtCore"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "C:/Qt/qtbase-6.8/src/corelib/../3rdparty/double-conversion/double-conversion"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "C:/Qt/qtbase-6.8/src/corelib/../3rdparty/double-conversion"
+				},
+				{
+					"backtrace" : 43,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib/.rcc"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Qt/qtbase-6.8/mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtZlib"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/src/3rdparty/zlib"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/src/3rdparty/zlib"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/qtbase-6.8/src/3rdparty/pcre2/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					12
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 45,
+					"header" : "global/qt_pch.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				3,
+				8
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DNDEBUG -O3 -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport"
+				},
+				{
+					"backtrace" : 32,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 32,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 34,
+					"fragment" : "-fexceptions"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Wa,-mbig-obj"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-ftrivial-auto-var-init=pattern"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-fstack-clash-protection"
+				},
+				{
+					"backtrace" : 56,
+					"fragment" : "-fno-lto"
+				},
+				{
+					"fragment" : "-Winvalid-pch -include C:/Qt/qtbase-6.8/build/src/corelib/CMakeFiles/Core.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 12,
+					"define" : "MINGW_HAS_SECURE_API=1"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "PCRE2_CODE_UNIT_WIDTH=16"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "PCRE2_STATIC"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_ASCII_CAST_WARNINGS"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_BUILDING_QT"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_BUILD_CORE_LIB"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_LEAN_HEADERS=1"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_MOC_COMPAT"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_CONTEXTLESS_CONNECT"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_FOREACH"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "QT_NO_JAVA_STYLE_ITERATORS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "QT_NO_NARROWING_CONVERSIONS_IN_CONNECT"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "QT_NO_QASCONST"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "QT_NO_QEXCHANGE"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_QPAIR"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_NO_USING_NAMESPACE"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_TYPESAFE_FLAGS"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_USE_NODISCARD_FILE_OPEN"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "QT_USE_QSTRINGBUILDER"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QT_ZLIB_LIB"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "WINVER=0x0A00"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_WIN32_WINNT=0x0A00"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib/Core_autogen/include"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/build/include"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/src/corelib"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib/global"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib/kernel"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/src/corelib/../3rdparty/tinycbor/src"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtCore/6.8.0/QtCore"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "C:/Qt/qtbase-6.8/src/corelib/../3rdparty/double-conversion/double-conversion"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "C:/Qt/qtbase-6.8/src/corelib/../3rdparty/double-conversion"
+				},
+				{
+					"backtrace" : 43,
+					"path" : "C:/Qt/qtbase-6.8/build/src/corelib/.rcc"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Qt/qtbase-6.8/mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/include/QtZlib"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/src/3rdparty/zlib"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Qt/qtbase-6.8/build/src/3rdparty/zlib"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/qtbase-6.8/src/3rdparty/pcre2/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					12
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 45,
+					"header" : "global/qt_pch.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				479
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "qmodule_pri::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "moc::@72a061c81ce7e9c7570f"
+		},
+		{
+			"id" : "cmake_automoc_parser::@9df279ca5a40d551589d"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "ZlibPrivate::@fab9159b69e9a33b7bcd"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "BundledPcre2::@662af84d20aaf7d84676"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "BundledZLIB::@fab9159b69e9a33b7bcd"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "Core_lib_pri::@e8138540d8b2daa0b357"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "Core_version_script::@e8138540d8b2daa0b357"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "Core_sync_headers::@e8138540d8b2daa0b357"
+		},
+		{
+			"id" : "Core_autogen_timestamp_deps::@e8138540d8b2daa0b357"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Core_autogen::@e8138540d8b2daa0b357"
+		}
+	],
+	"id" : "Core::@e8138540d8b2daa0b357",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Qt/Qt-6.8.0"
+		}
+	},
+	"name" : "Core",
+	"nameOnDisk" : "libQt6Core.a",
+	"paths" : 
+	{
+		"build" : "src/corelib",
+		"source" : "src/corelib"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				6,
+				8,
+				9,
+				10,
+				13,
+				20,
+				23,
+				26,
+				30,
+				34,
+				36,
+				39,
+				42,
+				48,
+				51,
+				56,
+				60,
+				67,
+				80,
+				92,
+				97,
+				100,
+				103,
+				106,
+				108,
+				110,
+				112,
+				115,
+				118,
+				121,
+				123,
+				126,
+				129,
+				132,
+				135,
+				137,
+				141,
+				143,
+				145,
+				149,
+				151,
+				154,
+				156,
+				158,
+				160,
+				163,
+				165,
+				168,
+				170,
+				173,
+				175,
+				178,
+				181,
+				182,
+				184,
+				187,
+				188,
+				191,
+				194,
+				196,
+				199,
+				201,
+				206,
+				209,
+				211,
+				213,
+				217,
+				220,
+				222,
+				224,
+				228,
+				230,
+				233,
+				237,
+				242,
+				247,
+				251,
+				253,
+				255,
+				257,
+				259,
+				262,
+				265,
+				268,
+				274,
+				276,
+				280,
+				282,
+				285,
+				288,
+				291,
+				294,
+				298,
+				300,
+				301,
+				303,
+				305,
+				307,
+				309,
+				311,
+				314,
+				316,
+				318,
+				321,
+				323,
+				328,
+				332,
+				335,
+				339,
+				342,
+				346,
+				349,
+				354,
+				358,
+				360,
+				362,
+				365,
+				368,
+				377,
+				379,
+				387,
+				391,
+				394,
+				396,
+				398,
+				400,
+				402,
+				405,
+				408,
+				413,
+				418,
+				420,
+				424,
+				426,
+				430,
+				435,
+				441,
+				444,
+				446,
+				448,
+				454,
+				457,
+				460,
+				467,
+				472,
+				479,
+				481,
+				484,
+				487,
+				490,
+				493,
+				496,
+				498,
+				501,
+				504,
+				508,
+				509,
+				512,
+				513,
+				514,
+				515,
+				516,
+				517,
+				519,
+				522,
+				523,
+				525,
+				528,
+				529,
+				530,
+				533,
+				535,
+				537,
+				539,
+				541,
+				543,
+				545,
+				547,
+				550,
+				551,
+				555,
+				559,
+				563,
+				565,
+				567,
+				569,
+				570,
+				573,
+				577,
+				579,
+				581,
+				584,
+				586,
+				589,
+				591,
+				593,
+				594,
+				595,
+				597,
+				600,
+				602,
+				605,
+				608,
+				609,
+				611,
+				614,
+				616,
+				618,
+				621,
+				622,
+				625,
+				626,
+				627,
+				630,
+				633,
+				636,
+				638,
+				641,
+				643,
+				646,
+				648,
+				651,
+				653,
+				654,
+				655,
+				657,
+				659,
+				662,
+				664,
+				666,
+				668,
+				670,
+				673,
+				675,
+				678
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2,
+				4,
+				5,
+				7,
+				11,
+				12,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				21,
+				22,
+				24,
+				25,
+				27,
+				28,
+				29,
+				31,
+				32,
+				33,
+				35,
+				37,
+				38,
+				40,
+				41,
+				43,
+				44,
+				45,
+				46,
+				47,
+				49,
+				50,
+				52,
+				53,
+				54,
+				55,
+				57,
+				58,
+				59,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				93,
+				94,
+				95,
+				96,
+				98,
+				99,
+				101,
+				102,
+				104,
+				105,
+				107,
+				109,
+				111,
+				113,
+				114,
+				116,
+				117,
+				119,
+				120,
+				122,
+				124,
+				125,
+				127,
+				128,
+				130,
+				131,
+				133,
+				134,
+				136,
+				138,
+				139,
+				140,
+				142,
+				144,
+				146,
+				147,
+				148,
+				150,
+				152,
+				153,
+				155,
+				157,
+				159,
+				161,
+				162,
+				164,
+				166,
+				167,
+				169,
+				171,
+				172,
+				174,
+				176,
+				177,
+				179,
+				180,
+				183,
+				185,
+				186,
+				189,
+				190,
+				192,
+				193,
+				195,
+				197,
+				198,
+				200,
+				202,
+				203,
+				204,
+				205,
+				207,
+				208,
+				210,
+				212,
+				214,
+				215,
+				216,
+				218,
+				219,
+				221,
+				223,
+				225,
+				226,
+				227,
+				229,
+				231,
+				232,
+				234,
+				235,
+				236,
+				238,
+				239,
+				240,
+				241,
+				243,
+				244,
+				245,
+				246,
+				248,
+				249,
+				250,
+				252,
+				254,
+				256,
+				258,
+				260,
+				261,
+				263,
+				264,
+				266,
+				267,
+				269,
+				270,
+				271,
+				272,
+				273,
+				275,
+				277,
+				278,
+				279,
+				281,
+				283,
+				284,
+				286,
+				287,
+				289,
+				290,
+				292,
+				293,
+				295,
+				296,
+				297,
+				299,
+				302,
+				304,
+				306,
+				308,
+				310,
+				312,
+				313,
+				315,
+				317,
+				319,
+				320,
+				322,
+				324,
+				325,
+				326,
+				327,
+				329,
+				330,
+				331,
+				333,
+				334,
+				336,
+				337,
+				338,
+				340,
+				341,
+				343,
+				344,
+				345,
+				347,
+				348,
+				350,
+				351,
+				352,
+				353,
+				355,
+				356,
+				357,
+				359,
+				361,
+				363,
+				364,
+				366,
+				367,
+				369,
+				370,
+				371,
+				372,
+				373,
+				374,
+				375,
+				376,
+				378,
+				380,
+				381,
+				382,
+				383,
+				384,
+				385,
+				386,
+				388,
+				389,
+				390,
+				392,
+				393,
+				395,
+				397,
+				399,
+				401,
+				403,
+				404,
+				406,
+				407,
+				409,
+				410,
+				411,
+				412,
+				414,
+				415,
+				416,
+				417,
+				419,
+				421,
+				422,
+				423,
+				425,
+				427,
+				428,
+				429,
+				431,
+				432,
+				433,
+				434,
+				436,
+				437,
+				438,
+				439,
+				440,
+				442,
+				443,
+				445,
+				447,
+				449,
+				450,
+				451,
+				452,
+				453,
+				455,
+				456,
+				458,
+				459,
+				461,
+				462,
+				463,
+				464,
+				465,
+				466,
+				468,
+				469,
+				470,
+				471,
+				473,
+				474,
+				475,
+				477,
+				478,
+				480,
+				482,
+				483,
+				485,
+				486,
+				488,
+				489,
+				491,
+				492,
+				494,
+				495,
+				497,
+				499,
+				500,
+				502,
+				503,
+				505,
+				506,
+				507,
+				510,
+				511,
+				518,
+				520,
+				521,
+				524,
+				526,
+				527,
+				531,
+				532,
+				534,
+				536,
+				538,
+				540,
+				542,
+				544,
+				546,
+				548,
+				549,
+				552,
+				553,
+				554,
+				556,
+				557,
+				558,
+				560,
+				561,
+				562,
+				564,
+				566,
+				568,
+				571,
+				572,
+				574,
+				575,
+				576,
+				578,
+				580,
+				582,
+				583,
+				585,
+				587,
+				588,
+				590,
+				592,
+				596,
+				598,
+				599,
+				601,
+				603,
+				604,
+				606,
+				607,
+				610,
+				612,
+				613,
+				615,
+				617,
+				619,
+				620,
+				623,
+				624,
+				628,
+				629,
+				631,
+				632,
+				634,
+				635,
+				637,
+				639,
+				640,
+				642,
+				644,
+				645,
+				647,
+				649,
+				650,
+				652,
+				656,
+				658,
+				660,
+				661,
+				663,
+				665,
+				667,
+				669,
+				671,
+				672,
+				674,
+				676,
+				677,
+				679
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				476,
+				680,
+				681
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				682
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				683,
+				684,
+				685,
+				686,
+				687,
+				688
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"path" : "build/src/corelib/CMakeFiles/Core.dir/cmake_pch.hxx.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/src/corelib/Core_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 47,
+			"isGenerated" : true,
+			"path" : "build/include/QtCore/qtcoreexports.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 2,
+			"path" : "src/corelib/global/qsimd.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qsimd.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qsimd_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/tools/qhash.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qhash.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 2,
+			"path" : "src/corelib/compat/removed_api.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/global/archdetect.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/global/qassert.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qassert.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qcompare_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/global/qcompare.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qcompare.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qcomparehelpers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qcompilerdetection.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qconstructormacros.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qcontainerinfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qdarwinhelpers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/global/qendian.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qendian.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qendian_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/global/qexceptionhandling.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qexceptionhandling.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qflags.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/global/qfloat16.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qfloat16.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qforeach.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qfunctionpointer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/global/qglobal.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qglobal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qglobal_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qglobalstatic.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/global/qhooks.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qhooks_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/global/qlibraryinfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qlibraryinfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qlibraryinfo_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/global/qlogging.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qlogging.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qlogging_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/global/qmalloc.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qmalloc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qminmax.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qnamespace.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qnativeinterface.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qnativeinterface_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/global/qnumeric.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qnumeric.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qnumeric_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/global/qoperatingsystemversion.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qoperatingsystemversion.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qoperatingsystemversion_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qoverload.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qprocessordetection.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/global/qrandom.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qrandom.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qrandom_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qswap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/global/qsysinfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qsysinfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qsystemdetection.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qtclasshelpermacros.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qtconfiginclude.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qtconfigmacros.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qtdeprecationmarkers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/global/qtenvironmentvariables.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qtenvironmentvariables.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qtenvironmentvariables_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qtnoop.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qtpreprocessorsupport.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qtrace_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qtresource.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qtsymbolmacros.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qttranslation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qttypetraits.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qtversionchecks.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qtversion.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qtypeinfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/global/qtypes.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qtypes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qvolatile_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/q20algorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/q20chrono.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/q20functional.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/q20iterator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/q20map.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/q20memory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/q20type_traits.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/q20vector.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/q23functional.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/global/q23utility.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/q23utility.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qxpfunctional.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qxptype_traits.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/global/qversiontagging.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/ipc/qsharedmemory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/ipc/qsharedmemory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/ipc/qsharedmemory_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/ipc/qsystemsemaphore.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/ipc/qsystemsemaphore.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/ipc/qsystemsemaphore_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/ipc/qtipccommon.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/ipc/qtipccommon.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/ipc/qtipccommon_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qabstractfileengine.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qabstractfileengine_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qbuffer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qbuffer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qdataurl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qdataurl_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qdebug.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qdebug.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qdebug_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qdir.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qdir.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qdir_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qdirlisting.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qdirlisting.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qdirentryinfo_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qdiriterator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qdiriterator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qfile.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qfile.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qfile_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qfiledevice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qfiledevice.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qfiledevice_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qfileinfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qfileinfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qfileinfo_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qfileselector.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qfileselector.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qfileselector_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qfilesystemengine.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qfilesystemengine_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qfilesystementry.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qfilesystementry_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qfilesystemiterator_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qfilesystemmetadata_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qfsfileengine.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qfsfileengine_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qfsfileengine_iterator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qfsfileengine_iterator_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qiodevice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qiodevice.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qiodevice_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qiodevicebase.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qipaddress.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qipaddress_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qlockfile.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qlockfile.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qlockfile_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qloggingcategory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qloggingcategory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qloggingregistry.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qloggingregistry_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qnoncontiguousbytedevice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qnoncontiguousbytedevice_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qresource.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qresource.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qresource_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qresource_iterator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qresource_iterator_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qsavefile.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qsavefile.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qsavefile_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qstandardpaths.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qstandardpaths.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qstorageinfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qstorageinfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qstorageinfo_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qtemporarydir.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qtemporarydir.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qtemporaryfile.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qtemporaryfile.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qtemporaryfile_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qurl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qurl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qurl_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qurlidna.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qurlquery.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qurlquery.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qurlrecode.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qzipreader_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/io/qzipwriter_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qzip.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qabstracteventdispatcher.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qabstracteventdispatcher.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qabstracteventdispatcher_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qabstractnativeeventfilter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qabstractnativeeventfilter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qapplicationstatic.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qassociativeiterable.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qassociativeiterable.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qbasictimer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qbasictimer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qbindingstorage.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qchronotimer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qchronotimer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qcoreapplication.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qcoreapplication.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qcoreapplication_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qcoreapplication_platform.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qcorecmdlineargs_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qcoreevent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qcoreevent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qcoreevent_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qdeadlinetimer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qdeadlinetimer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qelapsedtimer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qelapsedtimer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qeventloop.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qeventloop.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qeventloop_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qfunctions_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qiterable.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qiterable.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qiterable_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qmath.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qmath.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qmetacontainer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qmetacontainer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qmetaobject.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qmetaobject.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qmetaobject_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qmetaobject_moc_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qmetaobjectbuilder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qmetaobjectbuilder_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qmetatype.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qmetatype.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qmetatype_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qmimedata.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qmimedata.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qtmetamacros.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qtmochelpers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qobject.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qobject.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qobject_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qobject_p_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qobject_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qobjectcleanuphandler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qobjectcleanuphandler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qobjectdefs.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qobjectdefs_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qpointer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qproperty.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qproperty.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qproperty_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qpropertyprivate.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qsequentialiterable.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qsequentialiterable.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qsignalmapper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qsignalmapper.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qsocketnotifier.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qsocketnotifier.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qsystemerror.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qsystemerror_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qtestsupport_core.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qtestsupport_core.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qsingleshottimer_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qtimer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qtimer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qtimer_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qtranslator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qtranslator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qtranslator_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qvariant.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qvariant.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qvariant_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qvariantmap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qvarianthash.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/kernel/qvariantlist.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/plugin/qfactoryinterface.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/plugin/qfactoryinterface.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/plugin/qfactoryloader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/plugin/qfactoryloader_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/plugin/qplugin.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/plugin/qplugin_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/plugin/qpluginloader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/plugin/qpluginloader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/plugin/quuid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/plugin/quuid.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/serialization/qcborarray.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/serialization/qcborcommon.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/serialization/qcborcommon.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/serialization/qcborcommon_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/serialization/qcbordiagnostic.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/serialization/qcbormap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/serialization/qcborstream.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/serialization/qcborvalue.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/serialization/qcborvalue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/serialization/qcborvalue_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/serialization/qdatastream.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/serialization/qdatastream.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/serialization/qdatastream_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/serialization/qjson_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/serialization/qjsonarray.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/serialization/qjsonarray.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/serialization/qjsoncbor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/serialization/qjsondocument.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/serialization/qjsondocument.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/serialization/qjsonobject.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/serialization/qjsonobject.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/serialization/qjsonparser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/serialization/qjsonparser_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/serialization/qjsonvalue.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/serialization/qjsonvalue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/serialization/qjsonwriter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/serialization/qjsonwriter_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/serialization/qtextstream.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/serialization/qtextstream.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/serialization/qtextstream_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/serialization/qxmlutils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/serialization/qxmlutils_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/text/qanystringview.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qanystringview.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/text/qbytearray.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qbytearray.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qbytearrayalgorithms.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/text/qbytearraylist.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qbytearraylist.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/text/qbytearraymatcher.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qbytearraymatcher.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qbytearrayview.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qbytedata_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qchar.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/text/qcollator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qcollator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qcollator_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qdoublescanprint_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/text/qlatin1stringmatcher.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qlatin1stringmatcher.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qlatin1stringview.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/text/qlocale.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qlocale.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qlocale_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qlocale_data_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/text/qlocale_tools.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qlocale_tools_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qstaticlatin1stringmatcher.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/text/qstring.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qstring.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qstringalgorithms.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qstringalgorithms_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/text/qstringbuilder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qstringbuilder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qstringconverter_base.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/text/qstringconverter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qstringconverter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qstringconverter_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qstringfwd.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qstringiterator_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/text/qstringlist.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qstringlist.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qstringliteral.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qstringmatcher.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/text/qstringtokenizer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qstringtokenizer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/text/qstringview.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qstringview.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/text/qtextboundaryfinder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qtextboundaryfinder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qunicodetables_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/text/qunicodetools.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qunicodetools_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/text/qutf8stringview.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/text/qvsnprintf.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/thread/qatomic.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/thread/qatomic_cxx11.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/thread/qbasicatomic.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/thread/qgenericatomic.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/thread/qlocking_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/thread/qmutex.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/thread/qorderedmutexlocker_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/thread/qreadwritelock.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/thread/qrunnable.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/thread/qrunnable.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/thread/qthread.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/thread/qthread.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/thread/qthread_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/thread/qthreadstorage.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/thread/qtsan_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/thread/qwaitcondition.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/thread/qwaitcondition_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/thread/qyieldcpu.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/time/qcalendar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/time/qcalendar.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/time/qcalendarbackend_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/time/qcalendarmath_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/time/qdatetime.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/time/qdatetime.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/time/qdatetime_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/time/qgregoriancalendar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/time/qgregoriancalendar_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/time/qjuliancalendar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/time/qjuliancalendar_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/time/qlocaltime.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/time/qlocaltime_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/time/qmilankoviccalendar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/time/qmilankoviccalendar_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/time/qromancalendar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/time/qromancalendar_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/time/qromancalendar_data_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/time/qtimezone.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/time/qtimezone.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qalgorithms.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/tools/qarraydata.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qarraydata.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qarraydataops.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qarraydatapointer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qatomicscopedvaluerollback.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/tools/qbitarray.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qbitarray.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qcache.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qcontainerfwd.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qcontainertools_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/tools/qcontiguouscache.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qcontiguouscache.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/tools/qcryptographichash.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qcryptographichash.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qduplicatetracker_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qflatmap_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/tools/qfreelist.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qfreelist_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/tools/qfunctionaltools_impl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qfunctionaltools_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qhashfunctions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qiterator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/tools/qline.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qline.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qlist.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qmakearray_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qmap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/tools/qmargins.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qmargins.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qmessageauthenticationcode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qminimalflatset_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qoffsetstringarray_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qpair.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/tools/qpoint.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qpoint.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qqueue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/tools/qrect.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qrect.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/tools/qrefcount.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qrefcount.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/tools/qringbuffer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qringbuffer_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qscopedpointer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qscopedvaluerollback.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qscopeguard.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qset.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/tools/qshareddata.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qshareddata.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qshareddata_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/tools/qsharedpointer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qsharedpointer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qsharedpointer_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/tools/qsize.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qsize.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qspan.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qspan_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qstack.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qtaggedpointer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qtools_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/tools/qtyperevision.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qtyperevision.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/quniquehandle_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qvarlengtharray.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qvector.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/tools/qversionnumber.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"path" : "src/corelib/tools/qversionnumber.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"isGenerated" : true,
+			"path" : "build/src/corelib/qtcore-config.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"isGenerated" : true,
+			"path" : "build/src/corelib/qtcore-config_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 52,
+			"isGenerated" : true,
+			"path" : "build/src/corelib/meta_types/qt6core_release_metatypes.json.gen",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 53,
+			"isGenerated" : true,
+			"path" : "build/src/corelib/global/qconfig.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"isGenerated" : true,
+			"path" : "build/src/corelib/global/qconfig_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 55,
+			"compileGroupIndex" : 3,
+			"path" : "src/corelib/global/qversiontagging.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 58,
+			"path" : "src/corelib/global/qsimd_x86_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 60,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/serialization/qxmlstream.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 60,
+			"path" : "src/corelib/serialization/qxmlstream.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 60,
+			"path" : "src/corelib/serialization/qxmlstream_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 60,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/serialization/qxmlstreamgrammar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 60,
+			"path" : "src/corelib/serialization/qxmlstreamgrammar_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 60,
+			"path" : "src/corelib/serialization/qxmlstreamparser_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 62,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/animation/qabstractanimation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 62,
+			"path" : "src/corelib/animation/qabstractanimation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 62,
+			"path" : "src/corelib/animation/qabstractanimation_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 62,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/animation/qanimationgroup.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 62,
+			"path" : "src/corelib/animation/qanimationgroup.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 62,
+			"path" : "src/corelib/animation/qanimationgroup_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 62,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/animation/qparallelanimationgroup.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 62,
+			"path" : "src/corelib/animation/qparallelanimationgroup.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 62,
+			"path" : "src/corelib/animation/qparallelanimationgroup_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 62,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/animation/qpauseanimation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 62,
+			"path" : "src/corelib/animation/qpauseanimation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 62,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/animation/qpropertyanimation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 62,
+			"path" : "src/corelib/animation/qpropertyanimation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 62,
+			"path" : "src/corelib/animation/qpropertyanimation_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 62,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/animation/qsequentialanimationgroup.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 62,
+			"path" : "src/corelib/animation/qsequentialanimationgroup.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 62,
+			"path" : "src/corelib/animation/qsequentialanimationgroup_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 62,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/animation/qvariantanimation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 62,
+			"path" : "src/corelib/animation/qvariantanimation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 62,
+			"path" : "src/corelib/animation/qvariantanimation_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "src/corelib/thread/qfutex_win_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/thread/qwaitcondition_win.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 66,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/global/qoperatingsystemversion_win.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 66,
+			"path" : "src/corelib/global/qoperatingsystemversion_win_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 66,
+			"path" : "src/corelib/global/qt_windows.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 66,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qfilesystemengine_win.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 66,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qfsfileengine_win.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 66,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qlockfile_win.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 66,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qstandardpaths_win.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 66,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qstorageinfo_win.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 66,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qwindowspipereader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 66,
+			"path" : "src/corelib/io/qwindowspipereader_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 66,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qwindowspipewriter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 66,
+			"path" : "src/corelib/io/qwindowspipewriter_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 66,
+			"path" : "src/corelib/io/qntdll_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 66,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qcoreapplication_win.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 66,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qeventdispatcher_win.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 66,
+			"path" : "src/corelib/kernel/qeventdispatcher_win_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 66,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qfunctions_win.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 66,
+			"path" : "src/corelib/kernel/qfunctions_win_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 66,
+			"path" : "src/corelib/kernel/qfunctions_winrt_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 66,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/ipc/qsharedmemory_win.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 66,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/ipc/qsystemsemaphore_win.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 66,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qwineventnotifier.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 66,
+			"path" : "src/corelib/kernel/qwineventnotifier.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 66,
+			"path" : "src/corelib/kernel/qwineventnotifier_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 66,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qwinregistry.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 66,
+			"path" : "src/corelib/kernel/qwinregistry_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 66,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/plugin/qsystemlibrary.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 66,
+			"path" : "src/corelib/plugin/qsystemlibrary_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 66,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/thread/qthread_win.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 66,
+			"path" : "src/corelib/platform/windows/qcomobject_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 68,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/thread/qatomic.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 68,
+			"path" : "src/corelib/thread/qfutex_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 68,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/thread/qmutex.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 68,
+			"path" : "src/corelib/thread/qmutex_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 68,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/thread/qreadwritelock.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 68,
+			"path" : "src/corelib/thread/qreadwritelock_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 68,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/thread/qsemaphore.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 68,
+			"path" : "src/corelib/thread/qsemaphore.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 68,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/thread/qthreadpool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 68,
+			"path" : "src/corelib/thread/qthreadpool.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 68,
+			"path" : "src/corelib/thread/qthreadpool_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 68,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/thread/qthreadstorage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 70,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/thread/qexception.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 70,
+			"path" : "src/corelib/thread/qexception.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 70,
+			"path" : "src/corelib/thread/qfuture.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 70,
+			"path" : "src/corelib/thread/qfuture_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 70,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/thread/qfutureinterface.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 70,
+			"path" : "src/corelib/thread/qfutureinterface.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 70,
+			"path" : "src/corelib/thread/qfutureinterface_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 70,
+			"path" : "src/corelib/thread/qfuturesynchronizer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 70,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/thread/qfuturewatcher.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 70,
+			"path" : "src/corelib/thread/qfuturewatcher.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 70,
+			"path" : "src/corelib/thread/qfuturewatcher_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 70,
+			"path" : "src/corelib/thread/qpromise.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 70,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/thread/qresultstore.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 70,
+			"path" : "src/corelib/thread/qresultstore.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 72,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/tools/qcommandlineoption.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 72,
+			"path" : "src/corelib/tools/qcommandlineoption.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 72,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/tools/qcommandlineparser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 72,
+			"path" : "src/corelib/tools/qcommandlineparser.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 73,
+			"compileGroupIndex" : 1,
+			"path" : "src/3rdparty/double-conversion/double-conversion/bignum.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 73,
+			"compileGroupIndex" : 1,
+			"path" : "src/3rdparty/double-conversion/double-conversion/bignum-dtoa.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 73,
+			"path" : "src/3rdparty/double-conversion/double-conversion/bignum-dtoa.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 73,
+			"path" : "src/3rdparty/double-conversion/double-conversion/bignum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 73,
+			"compileGroupIndex" : 1,
+			"path" : "src/3rdparty/double-conversion/double-conversion/cached-powers.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 73,
+			"path" : "src/3rdparty/double-conversion/double-conversion/cached-powers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 73,
+			"path" : "src/3rdparty/double-conversion/double-conversion/diy-fp.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 73,
+			"path" : "src/3rdparty/double-conversion/double-conversion/double-conversion.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 73,
+			"compileGroupIndex" : 1,
+			"path" : "src/3rdparty/double-conversion/double-conversion/double-to-string.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 73,
+			"path" : "src/3rdparty/double-conversion/double-conversion/double-to-string.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 73,
+			"compileGroupIndex" : 1,
+			"path" : "src/3rdparty/double-conversion/double-conversion/fast-dtoa.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 73,
+			"path" : "src/3rdparty/double-conversion/double-conversion/fast-dtoa.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 73,
+			"compileGroupIndex" : 1,
+			"path" : "src/3rdparty/double-conversion/double-conversion/fixed-dtoa.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 73,
+			"path" : "src/3rdparty/double-conversion/double-conversion/fixed-dtoa.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 73,
+			"path" : "src/3rdparty/double-conversion/double-conversion/ieee.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 73,
+			"compileGroupIndex" : 1,
+			"path" : "src/3rdparty/double-conversion/double-conversion/string-to-double.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 73,
+			"path" : "src/3rdparty/double-conversion/double-conversion/string-to-double.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 73,
+			"compileGroupIndex" : 1,
+			"path" : "src/3rdparty/double-conversion/double-conversion/strtod.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 73,
+			"path" : "src/3rdparty/double-conversion/double-conversion/strtod.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 73,
+			"path" : "src/3rdparty/double-conversion/double-conversion/utils.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 75,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/tools/qeasingcurve.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 75,
+			"path" : "src/corelib/tools/qeasingcurve.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 75,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/tools/qtimeline.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 75,
+			"path" : "src/corelib/tools/qtimeline.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 77,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/text/qlocale_win.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 79,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/text/qcollator_win.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 80,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/text/qregularexpression.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 80,
+			"path" : "src/corelib/text/qregularexpression.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 82,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/time/qhijricalendar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 82,
+			"path" : "src/corelib/time/qhijricalendar_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 82,
+			"path" : "src/corelib/time/qhijricalendar_data_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 84,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/time/qislamiccivilcalendar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 84,
+			"path" : "src/corelib/time/qislamiccivilcalendar_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 86,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/time/qjalalicalendar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 86,
+			"path" : "src/corelib/time/qjalalicalendar_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 86,
+			"path" : "src/corelib/time/qjalalicalendar_data_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 88,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/time/qtimezoneprivate.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 88,
+			"path" : "src/corelib/time/qtimezoneprivate_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 88,
+			"path" : "src/corelib/time/qtimezoneprivate_data_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 90,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/time/qtimezoneprivate_win.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 92,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/time/qdatetimeparser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 92,
+			"path" : "src/corelib/time/qdatetimeparser_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 94,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qfilesystemwatcher.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 94,
+			"path" : "src/corelib/io/qfilesystemwatcher.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 94,
+			"path" : "src/corelib/io/qfilesystemwatcher_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 94,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qfilesystemwatcher_polling.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 94,
+			"path" : "src/corelib/io/qfilesystemwatcher_polling_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 96,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qfilesystemwatcher_win.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 96,
+			"path" : "src/corelib/io/qfilesystemwatcher_win_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 98,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qprocess.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 98,
+			"path" : "src/corelib/io/qprocess.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 98,
+			"path" : "src/corelib/io/qprocess_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 100,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qprocess_win.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 102,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qsettings.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 102,
+			"path" : "src/corelib/io/qsettings.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 102,
+			"path" : "src/corelib/io/qsettings_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 104,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qsettings_win.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 106,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/io/qfilesystemiterator_win.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 108,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/itemmodels/qabstractitemmodel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 108,
+			"path" : "src/corelib/itemmodels/qabstractitemmodel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 108,
+			"path" : "src/corelib/itemmodels/qabstractitemmodel_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 108,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/itemmodels/qitemselectionmodel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 108,
+			"path" : "src/corelib/itemmodels/qitemselectionmodel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 108,
+			"path" : "src/corelib/itemmodels/qitemselectionmodel_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 110,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/itemmodels/qabstractproxymodel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 110,
+			"path" : "src/corelib/itemmodels/qabstractproxymodel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 110,
+			"path" : "src/corelib/itemmodels/qabstractproxymodel_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 112,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/itemmodels/qconcatenatetablesproxymodel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 112,
+			"path" : "src/corelib/itemmodels/qconcatenatetablesproxymodel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 114,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/itemmodels/qidentityproxymodel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 114,
+			"path" : "src/corelib/itemmodels/qidentityproxymodel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 114,
+			"path" : "src/corelib/itemmodels/qidentityproxymodel_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 116,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/itemmodels/qsortfilterproxymodel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 116,
+			"path" : "src/corelib/itemmodels/qsortfilterproxymodel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 118,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/itemmodels/qtransposeproxymodel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 118,
+			"path" : "src/corelib/itemmodels/qtransposeproxymodel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 118,
+			"path" : "src/corelib/itemmodels/qtransposeproxymodel_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 120,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/itemmodels/qstringlistmodel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 120,
+			"path" : "src/corelib/itemmodels/qstringlistmodel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 122,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/plugin/qlibrary.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 122,
+			"path" : "src/corelib/plugin/qlibrary.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 122,
+			"path" : "src/corelib/plugin/qlibrary_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 124,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/plugin/qcoffpeparser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 124,
+			"path" : "src/corelib/plugin/qcoffpeparser_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 124,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/plugin/qlibrary_win.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 126,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/ipc/qsystemsemaphore_posix.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 128,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/serialization/qcborstreamreader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 128,
+			"path" : "src/corelib/serialization/qcborstreamreader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 130,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/serialization/qcborstreamwriter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 130,
+			"path" : "src/corelib/serialization/qcborstreamwriter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 132,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/mimetypes/qmimedatabase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 132,
+			"path" : "src/corelib/mimetypes/qmimedatabase.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 132,
+			"path" : "src/corelib/mimetypes/qmimedatabase_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 132,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/mimetypes/qmimeglobpattern.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 132,
+			"path" : "src/corelib/mimetypes/qmimeglobpattern_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 132,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/mimetypes/qmimemagicrule.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 132,
+			"path" : "src/corelib/mimetypes/qmimemagicrule_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 132,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/mimetypes/qmimemagicrulematcher.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 132,
+			"path" : "src/corelib/mimetypes/qmimemagicrulematcher_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 132,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/mimetypes/qmimeprovider.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 132,
+			"path" : "src/corelib/mimetypes/qmimeprovider_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 132,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/mimetypes/qmimetype.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 132,
+			"path" : "src/corelib/mimetypes/qmimetype.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 132,
+			"path" : "src/corelib/mimetypes/qmimetype_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 132,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/mimetypes/qmimetypeparser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 132,
+			"path" : "src/corelib/mimetypes/qmimetypeparser_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 134,
+			"compileGroupIndex" : 1,
+			"path" : "src/corelib/kernel/qpermissions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 134,
+			"path" : "src/corelib/kernel/qpermissions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 134,
+			"path" : "src/corelib/kernel/qpermissions_p.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 135,
+			"isGenerated" : true,
+			"path" : "build/src/corelib/.rcc/qmimeprovider_database.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 137,
+			"isGenerated" : true,
+			"path" : "build/src/corelib/global/qtdeprecationdefinitions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 139,
+			"isGenerated" : true,
+			"path" : "build/src/corelib/preliminary_prl_for_Core_step2_Release.prl",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/corelib/Core_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"path" : "build/src/corelib/CMakeFiles/Core.dir/cmake_pch.hxx",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/corelib/meta_types/qt6core_release_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/corelib/.rcc/qmimeprovider_database.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/corelib/preliminary_prl_for_Core_step2_Release.prl.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/corelib/Core_autogen/timestamp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/corelib/kernel/moc_qobject.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/corelib/meta_types/Core_json_file_list.txt.rule",
+			"sourceGroupIndex" : 4
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

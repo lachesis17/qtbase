@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QIconEnginePlugin",
+            "object": true,
+            "qualifiedClassName": "QIconEnginePlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qiconengineplugin.h",
+    "outputRevision": 68
+}

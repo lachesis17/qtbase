@@ -1,0 +1,846 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt_install",
+			"qt_internal_add_module",
+			"qt_internal_export_modern_cmake_config_targets_file",
+			"qt_describe_module",
+			"qt6_extract_metatypes",
+			"qt_internal_add_docs",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"qt_internal_install_module_headers",
+			"qt_generate_module_pri_file"
+		],
+		"files" : 
+		[
+			"cmake/QtInstallHelpers.cmake",
+			"cmake/QtModuleHelpers.cmake",
+			"src/corelib/CMakeLists.txt",
+			"cmake/QtTargetHelpers.cmake",
+			"src/corelib/Qt6CoreMacros.cmake",
+			"cmake/QtDocsHelpers.cmake",
+			"cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"cmake/QtSyncQtHelpers.cmake",
+			"cmake/QtPriHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 793,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 809,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 829,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 840,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1124,
+				"parent" : 8
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 918,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1253,
+				"parent" : 11
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 418,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 1531,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 1450,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 230,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 243,
+				"parent" : 16
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 19
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 806,
+				"parent" : 20
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1081,
+				"parent" : 21
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 22
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 19
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 24
+			},
+			{
+				"command" : 1,
+				"file" : 7,
+				"line" : 242,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 26
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 1003,
+				"parent" : 24
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1318,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 29
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1322,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 31
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 1013,
+				"parent" : 24
+			},
+			{
+				"command" : 1,
+				"file" : 8,
+				"line" : 559,
+				"parent" : 33
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 34
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6Core",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
+				"build/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake",
+				"build/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake",
+				"src/corelib/Qt6CoreMacros.cmake",
+				"build/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake",
+				"build/lib/cmake/Qt6Core/Qt6CTestMacros.cmake",
+				"build/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
+				"build/lib/cmake/Qt6Core/Qt6CoreResourceInit.in.cpp",
+				"build/lib/cmake/Qt6Core/Qt6CoreDeploySupport.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libQt6Core.a"
+			],
+			"targetId" : "Core::@e8138540d8b2daa0b357",
+			"targetIndex" : 21,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Core",
+			"exportName" : "Qt6CoreTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Core::@e8138540d8b2daa0b357",
+					"index" : 21
+				},
+				{
+					"id" : "CorePrivate::@e8138540d8b2daa0b357",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"src/corelib/CMakeFiles/Export/b258085a27956b39863b93fe26ed77e6/Qt6CoreTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6Core",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake",
+				"build/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "modules",
+			"paths" : 
+			[
+				"build/modules/Core.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "./metatypes",
+			"paths" : 
+			[
+				"build/src/corelib/meta_types/qt6core_release_metatypes.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "_install_html_docs_Core",
+			"destination" : "doc/qtcore",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				{
+					"from" : "build/doc/qtcore",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "_install_qch_docs_Core",
+			"destination" : "doc",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"build/doc/qtcore.qch"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Core",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "include/QtCore",
+			"paths" : 
+			[
+				{
+					"from" : "build/include/QtCore/.syncqt_staging",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "include/QtCore",
+			"paths" : 
+			[
+				"build/include/QtCore/qtcoreexports.h",
+				"src/corelib/global/qsimd.h",
+				"src/corelib/tools/qhash.h",
+				"src/corelib/global/qassert.h",
+				"src/corelib/global/qcompare_impl.h",
+				"src/corelib/global/qcompare.h",
+				"src/corelib/global/qcomparehelpers.h",
+				"src/corelib/global/qcompilerdetection.h",
+				"src/corelib/global/qconstructormacros.h",
+				"src/corelib/global/qcontainerinfo.h",
+				"src/corelib/global/qdarwinhelpers.h",
+				"src/corelib/global/qendian.h",
+				"src/corelib/global/qexceptionhandling.h",
+				"src/corelib/global/qflags.h",
+				"src/corelib/global/qfloat16.h",
+				"src/corelib/global/qforeach.h",
+				"src/corelib/global/qfunctionpointer.h",
+				"src/corelib/global/qglobal.h",
+				"src/corelib/global/qglobalstatic.h",
+				"src/corelib/global/qlibraryinfo.h",
+				"src/corelib/global/qlogging.h",
+				"src/corelib/global/qmalloc.h",
+				"src/corelib/global/qminmax.h",
+				"src/corelib/global/qnamespace.h",
+				"src/corelib/global/qnativeinterface.h",
+				"src/corelib/global/qnumeric.h",
+				"src/corelib/global/qoperatingsystemversion.h",
+				"src/corelib/global/qoverload.h",
+				"src/corelib/global/qprocessordetection.h",
+				"src/corelib/global/qrandom.h",
+				"src/corelib/global/qswap.h",
+				"src/corelib/global/qsysinfo.h",
+				"src/corelib/global/qsystemdetection.h",
+				"src/corelib/global/qtclasshelpermacros.h",
+				"src/corelib/global/qtconfiginclude.h",
+				"src/corelib/global/qtconfigmacros.h",
+				"src/corelib/global/qtdeprecationmarkers.h",
+				"src/corelib/global/qtenvironmentvariables.h",
+				"src/corelib/global/qtnoop.h",
+				"src/corelib/global/qtpreprocessorsupport.h",
+				"src/corelib/global/qtresource.h",
+				"src/corelib/global/qtsymbolmacros.h",
+				"src/corelib/global/qttranslation.h",
+				"src/corelib/global/qttypetraits.h",
+				"src/corelib/global/qtversionchecks.h",
+				"src/corelib/global/qtversion.h",
+				"src/corelib/global/qtypeinfo.h",
+				"src/corelib/global/qtypes.h",
+				"src/corelib/global/q20algorithm.h",
+				"src/corelib/global/q20chrono.h",
+				"src/corelib/global/q20functional.h",
+				"src/corelib/global/q20iterator.h",
+				"src/corelib/global/q20map.h",
+				"src/corelib/global/q20memory.h",
+				"src/corelib/global/q20type_traits.h",
+				"src/corelib/global/q20vector.h",
+				"src/corelib/global/q23functional.h",
+				"src/corelib/global/q23utility.h",
+				"src/corelib/global/qxpfunctional.h",
+				"src/corelib/global/qxptype_traits.h",
+				"src/corelib/global/qversiontagging.h",
+				"src/corelib/ipc/qsharedmemory.h",
+				"src/corelib/ipc/qsystemsemaphore.h",
+				"src/corelib/ipc/qtipccommon.h",
+				"src/corelib/io/qbuffer.h",
+				"src/corelib/io/qdebug.h",
+				"src/corelib/io/qdir.h",
+				"src/corelib/io/qdirlisting.h",
+				"src/corelib/io/qdiriterator.h",
+				"src/corelib/io/qfile.h",
+				"src/corelib/io/qfiledevice.h",
+				"src/corelib/io/qfileinfo.h",
+				"src/corelib/io/qfileselector.h",
+				"src/corelib/io/qiodevice.h",
+				"src/corelib/io/qiodevicebase.h",
+				"src/corelib/io/qlockfile.h",
+				"src/corelib/io/qloggingcategory.h",
+				"src/corelib/io/qresource.h",
+				"src/corelib/io/qsavefile.h",
+				"src/corelib/io/qstandardpaths.h",
+				"src/corelib/io/qstorageinfo.h",
+				"src/corelib/io/qtemporarydir.h",
+				"src/corelib/io/qtemporaryfile.h",
+				"src/corelib/io/qurl.h",
+				"src/corelib/io/qurlquery.h",
+				"src/corelib/kernel/qabstracteventdispatcher.h",
+				"src/corelib/kernel/qabstractnativeeventfilter.h",
+				"src/corelib/kernel/qapplicationstatic.h",
+				"src/corelib/kernel/qassociativeiterable.h",
+				"src/corelib/kernel/qbasictimer.h",
+				"src/corelib/kernel/qbindingstorage.h",
+				"src/corelib/kernel/qchronotimer.h",
+				"src/corelib/kernel/qcoreapplication.h",
+				"src/corelib/kernel/qcoreapplication_platform.h",
+				"src/corelib/kernel/qcoreevent.h",
+				"src/corelib/kernel/qdeadlinetimer.h",
+				"src/corelib/kernel/qelapsedtimer.h",
+				"src/corelib/kernel/qeventloop.h",
+				"src/corelib/kernel/qiterable.h",
+				"src/corelib/kernel/qmath.h",
+				"src/corelib/kernel/qmetacontainer.h",
+				"src/corelib/kernel/qmetaobject.h",
+				"src/corelib/kernel/qmetatype.h",
+				"src/corelib/kernel/qmimedata.h",
+				"src/corelib/kernel/qtmetamacros.h",
+				"src/corelib/kernel/qtmochelpers.h",
+				"src/corelib/kernel/qobject.h",
+				"src/corelib/kernel/qobject_impl.h",
+				"src/corelib/kernel/qobjectcleanuphandler.h",
+				"src/corelib/kernel/qobjectdefs.h",
+				"src/corelib/kernel/qobjectdefs_impl.h",
+				"src/corelib/kernel/qpointer.h",
+				"src/corelib/kernel/qproperty.h",
+				"src/corelib/kernel/qpropertyprivate.h",
+				"src/corelib/kernel/qsequentialiterable.h",
+				"src/corelib/kernel/qsignalmapper.h",
+				"src/corelib/kernel/qsocketnotifier.h",
+				"src/corelib/kernel/qtestsupport_core.h",
+				"src/corelib/kernel/qtimer.h",
+				"src/corelib/kernel/qtranslator.h",
+				"src/corelib/kernel/qvariant.h",
+				"src/corelib/kernel/qvariantmap.h",
+				"src/corelib/kernel/qvarianthash.h",
+				"src/corelib/kernel/qvariantlist.h",
+				"src/corelib/plugin/qfactoryinterface.h",
+				"src/corelib/plugin/qplugin.h",
+				"src/corelib/plugin/qpluginloader.h",
+				"src/corelib/plugin/quuid.h",
+				"src/corelib/serialization/qcborarray.h",
+				"src/corelib/serialization/qcborcommon.h",
+				"src/corelib/serialization/qcbormap.h",
+				"src/corelib/serialization/qcborstream.h",
+				"src/corelib/serialization/qcborvalue.h",
+				"src/corelib/serialization/qdatastream.h",
+				"src/corelib/serialization/qjsonarray.h",
+				"src/corelib/serialization/qjsondocument.h",
+				"src/corelib/serialization/qjsonobject.h",
+				"src/corelib/serialization/qjsonvalue.h",
+				"src/corelib/serialization/qtextstream.h",
+				"src/corelib/text/qanystringview.h",
+				"src/corelib/text/qbytearray.h",
+				"src/corelib/text/qbytearrayalgorithms.h",
+				"src/corelib/text/qbytearraylist.h",
+				"src/corelib/text/qbytearraymatcher.h",
+				"src/corelib/text/qbytearrayview.h",
+				"src/corelib/text/qchar.h",
+				"src/corelib/text/qcollator.h",
+				"src/corelib/text/qlatin1stringmatcher.h",
+				"src/corelib/text/qlatin1stringview.h",
+				"src/corelib/text/qlocale.h",
+				"src/corelib/text/qstaticlatin1stringmatcher.h",
+				"src/corelib/text/qstring.h",
+				"src/corelib/text/qstringalgorithms.h",
+				"src/corelib/text/qstringbuilder.h",
+				"src/corelib/text/qstringconverter_base.h",
+				"src/corelib/text/qstringconverter.h",
+				"src/corelib/text/qstringfwd.h",
+				"src/corelib/text/qstringlist.h",
+				"src/corelib/text/qstringliteral.h",
+				"src/corelib/text/qstringmatcher.h",
+				"src/corelib/text/qstringtokenizer.h",
+				"src/corelib/text/qstringview.h",
+				"src/corelib/text/qtextboundaryfinder.h",
+				"src/corelib/text/qutf8stringview.h",
+				"src/corelib/thread/qatomic.h",
+				"src/corelib/thread/qatomic_cxx11.h",
+				"src/corelib/thread/qbasicatomic.h",
+				"src/corelib/thread/qgenericatomic.h",
+				"src/corelib/thread/qmutex.h",
+				"src/corelib/thread/qreadwritelock.h",
+				"src/corelib/thread/qrunnable.h",
+				"src/corelib/thread/qthread.h",
+				"src/corelib/thread/qthreadstorage.h",
+				"src/corelib/thread/qtsan_impl.h",
+				"src/corelib/thread/qwaitcondition.h",
+				"src/corelib/thread/qyieldcpu.h",
+				"src/corelib/time/qcalendar.h",
+				"src/corelib/time/qdatetime.h",
+				"src/corelib/time/qtimezone.h",
+				"src/corelib/tools/qalgorithms.h",
+				"src/corelib/tools/qarraydata.h",
+				"src/corelib/tools/qarraydataops.h",
+				"src/corelib/tools/qarraydatapointer.h",
+				"src/corelib/tools/qatomicscopedvaluerollback.h",
+				"src/corelib/tools/qbitarray.h",
+				"src/corelib/tools/qcache.h",
+				"src/corelib/tools/qcontainerfwd.h",
+				"src/corelib/tools/qcontainertools_impl.h",
+				"src/corelib/tools/qcontiguouscache.h",
+				"src/corelib/tools/qcryptographichash.h",
+				"src/corelib/tools/qfunctionaltools_impl.h",
+				"src/corelib/tools/qhashfunctions.h",
+				"src/corelib/tools/qiterator.h",
+				"src/corelib/tools/qline.h",
+				"src/corelib/tools/qlist.h",
+				"src/corelib/tools/qmap.h",
+				"src/corelib/tools/qmargins.h",
+				"src/corelib/tools/qmessageauthenticationcode.h",
+				"src/corelib/tools/qpair.h",
+				"src/corelib/tools/qpoint.h",
+				"src/corelib/tools/qqueue.h",
+				"src/corelib/tools/qrect.h",
+				"src/corelib/tools/qrefcount.h",
+				"src/corelib/tools/qscopedpointer.h",
+				"src/corelib/tools/qscopedvaluerollback.h",
+				"src/corelib/tools/qscopeguard.h",
+				"src/corelib/tools/qset.h",
+				"src/corelib/tools/qshareddata.h",
+				"src/corelib/tools/qshareddata_impl.h",
+				"src/corelib/tools/qsharedpointer.h",
+				"src/corelib/tools/qsharedpointer_impl.h",
+				"src/corelib/tools/qsize.h",
+				"src/corelib/tools/qspan.h",
+				"src/corelib/tools/qstack.h",
+				"src/corelib/tools/qtaggedpointer.h",
+				"src/corelib/tools/qtyperevision.h",
+				"src/corelib/tools/qvarlengtharray.h",
+				"src/corelib/tools/qvector.h",
+				"src/corelib/tools/qversionnumber.h",
+				"build/src/corelib/qtcore-config.h",
+				"build/src/corelib/global/qconfig.h",
+				"src/corelib/serialization/qxmlstream.h",
+				"src/corelib/animation/qabstractanimation.h",
+				"src/corelib/animation/qanimationgroup.h",
+				"src/corelib/animation/qparallelanimationgroup.h",
+				"src/corelib/animation/qpauseanimation.h",
+				"src/corelib/animation/qpropertyanimation.h",
+				"src/corelib/animation/qsequentialanimationgroup.h",
+				"src/corelib/animation/qvariantanimation.h",
+				"src/corelib/global/qt_windows.h",
+				"src/corelib/kernel/qwineventnotifier.h",
+				"src/corelib/thread/qsemaphore.h",
+				"src/corelib/thread/qthreadpool.h",
+				"src/corelib/thread/qexception.h",
+				"src/corelib/thread/qfuture.h",
+				"src/corelib/thread/qfuture_impl.h",
+				"src/corelib/thread/qfutureinterface.h",
+				"src/corelib/thread/qfuturesynchronizer.h",
+				"src/corelib/thread/qfuturewatcher.h",
+				"src/corelib/thread/qpromise.h",
+				"src/corelib/thread/qresultstore.h",
+				"src/corelib/tools/qcommandlineoption.h",
+				"src/corelib/tools/qcommandlineparser.h",
+				"src/corelib/tools/qeasingcurve.h",
+				"src/corelib/tools/qtimeline.h",
+				"src/corelib/text/qregularexpression.h",
+				"src/corelib/io/qfilesystemwatcher.h",
+				"src/corelib/io/qprocess.h",
+				"src/corelib/io/qsettings.h",
+				"src/corelib/itemmodels/qabstractitemmodel.h",
+				"src/corelib/itemmodels/qitemselectionmodel.h",
+				"src/corelib/itemmodels/qabstractproxymodel.h",
+				"src/corelib/itemmodels/qconcatenatetablesproxymodel.h",
+				"src/corelib/itemmodels/qidentityproxymodel.h",
+				"src/corelib/itemmodels/qsortfilterproxymodel.h",
+				"src/corelib/itemmodels/qtransposeproxymodel.h",
+				"src/corelib/itemmodels/qstringlistmodel.h",
+				"src/corelib/plugin/qlibrary.h",
+				"src/corelib/serialization/qcborstreamreader.h",
+				"src/corelib/serialization/qcborstreamwriter.h",
+				"src/corelib/mimetypes/qmimedatabase.h",
+				"src/corelib/mimetypes/qmimetype.h",
+				"src/corelib/kernel/qpermissions.h",
+				"build/src/corelib/global/qtdeprecationdefinitions.h",
+				"build/include/QtCore/QtCoreDepends"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "include/QtCore/6.8.0/QtCore/private",
+			"paths" : 
+			[
+				"src/corelib/global/qsimd_p.h",
+				"src/corelib/global/qendian_p.h",
+				"src/corelib/global/qglobal_p.h",
+				"src/corelib/global/qhooks_p.h",
+				"src/corelib/global/qlibraryinfo_p.h",
+				"src/corelib/global/qlogging_p.h",
+				"src/corelib/global/qnativeinterface_p.h",
+				"src/corelib/global/qnumeric_p.h",
+				"src/corelib/global/qoperatingsystemversion_p.h",
+				"src/corelib/global/qrandom_p.h",
+				"src/corelib/global/qtenvironmentvariables_p.h",
+				"src/corelib/global/qtrace_p.h",
+				"src/corelib/global/qvolatile_p.h",
+				"src/corelib/ipc/qsharedmemory_p.h",
+				"src/corelib/ipc/qsystemsemaphore_p.h",
+				"src/corelib/ipc/qtipccommon_p.h",
+				"src/corelib/io/qabstractfileengine_p.h",
+				"src/corelib/io/qdataurl_p.h",
+				"src/corelib/io/qdebug_p.h",
+				"src/corelib/io/qdir_p.h",
+				"src/corelib/io/qdirentryinfo_p.h",
+				"src/corelib/io/qfile_p.h",
+				"src/corelib/io/qfiledevice_p.h",
+				"src/corelib/io/qfileinfo_p.h",
+				"src/corelib/io/qfileselector_p.h",
+				"src/corelib/io/qfilesystemengine_p.h",
+				"src/corelib/io/qfilesystementry_p.h",
+				"src/corelib/io/qfilesystemiterator_p.h",
+				"src/corelib/io/qfilesystemmetadata_p.h",
+				"src/corelib/io/qfsfileengine_p.h",
+				"src/corelib/io/qfsfileengine_iterator_p.h",
+				"src/corelib/io/qiodevice_p.h",
+				"src/corelib/io/qipaddress_p.h",
+				"src/corelib/io/qlockfile_p.h",
+				"src/corelib/io/qloggingregistry_p.h",
+				"src/corelib/io/qnoncontiguousbytedevice_p.h",
+				"src/corelib/io/qresource_p.h",
+				"src/corelib/io/qresource_iterator_p.h",
+				"src/corelib/io/qsavefile_p.h",
+				"src/corelib/io/qstorageinfo_p.h",
+				"src/corelib/io/qtemporaryfile_p.h",
+				"src/corelib/io/qurl_p.h",
+				"src/corelib/io/qzipreader_p.h",
+				"src/corelib/io/qzipwriter_p.h",
+				"src/corelib/kernel/qabstracteventdispatcher_p.h",
+				"src/corelib/kernel/qcoreapplication_p.h",
+				"src/corelib/kernel/qcorecmdlineargs_p.h",
+				"src/corelib/kernel/qcoreevent_p.h",
+				"src/corelib/kernel/qeventloop_p.h",
+				"src/corelib/kernel/qfunctions_p.h",
+				"src/corelib/kernel/qiterable_p.h",
+				"src/corelib/kernel/qmetaobject_p.h",
+				"src/corelib/kernel/qmetaobject_moc_p.h",
+				"src/corelib/kernel/qmetaobjectbuilder_p.h",
+				"src/corelib/kernel/qmetatype_p.h",
+				"src/corelib/kernel/qobject_p.h",
+				"src/corelib/kernel/qobject_p_p.h",
+				"src/corelib/kernel/qproperty_p.h",
+				"src/corelib/kernel/qsystemerror_p.h",
+				"src/corelib/kernel/qsingleshottimer_p.h",
+				"src/corelib/kernel/qtimer_p.h",
+				"src/corelib/kernel/qtranslator_p.h",
+				"src/corelib/kernel/qvariant_p.h",
+				"src/corelib/plugin/qfactoryloader_p.h",
+				"src/corelib/plugin/qplugin_p.h",
+				"src/corelib/serialization/qcborcommon_p.h",
+				"src/corelib/serialization/qcborvalue_p.h",
+				"src/corelib/serialization/qdatastream_p.h",
+				"src/corelib/serialization/qjson_p.h",
+				"src/corelib/serialization/qjsonparser_p.h",
+				"src/corelib/serialization/qjsonwriter_p.h",
+				"src/corelib/serialization/qtextstream_p.h",
+				"src/corelib/serialization/qxmlutils_p.h",
+				"src/corelib/text/qbytedata_p.h",
+				"src/corelib/text/qcollator_p.h",
+				"src/corelib/text/qdoublescanprint_p.h",
+				"src/corelib/text/qlocale_p.h",
+				"src/corelib/text/qlocale_data_p.h",
+				"src/corelib/text/qlocale_tools_p.h",
+				"src/corelib/text/qstringalgorithms_p.h",
+				"src/corelib/text/qstringconverter_p.h",
+				"src/corelib/text/qstringiterator_p.h",
+				"src/corelib/text/qunicodetables_p.h",
+				"src/corelib/text/qunicodetools_p.h",
+				"src/corelib/thread/qlocking_p.h",
+				"src/corelib/thread/qorderedmutexlocker_p.h",
+				"src/corelib/thread/qthread_p.h",
+				"src/corelib/thread/qwaitcondition_p.h",
+				"src/corelib/time/qcalendarbackend_p.h",
+				"src/corelib/time/qcalendarmath_p.h",
+				"src/corelib/time/qdatetime_p.h",
+				"src/corelib/time/qgregoriancalendar_p.h",
+				"src/corelib/time/qjuliancalendar_p.h",
+				"src/corelib/time/qlocaltime_p.h",
+				"src/corelib/time/qmilankoviccalendar_p.h",
+				"src/corelib/time/qromancalendar_p.h",
+				"src/corelib/time/qromancalendar_data_p.h",
+				"src/corelib/tools/qduplicatetracker_p.h",
+				"src/corelib/tools/qflatmap_p.h",
+				"src/corelib/tools/qfreelist_p.h",
+				"src/corelib/tools/qmakearray_p.h",
+				"src/corelib/tools/qminimalflatset_p.h",
+				"src/corelib/tools/qoffsetstringarray_p.h",
+				"src/corelib/tools/qringbuffer_p.h",
+				"src/corelib/tools/qspan_p.h",
+				"src/corelib/tools/qtools_p.h",
+				"src/corelib/tools/quniquehandle_p.h",
+				"build/src/corelib/qtcore-config_p.h",
+				"build/src/corelib/global/qconfig_p.h",
+				"src/corelib/global/qsimd_x86_p.h",
+				"src/corelib/serialization/qxmlstream_p.h",
+				"src/corelib/serialization/qxmlstreamgrammar_p.h",
+				"src/corelib/serialization/qxmlstreamparser_p.h",
+				"src/corelib/animation/qabstractanimation_p.h",
+				"src/corelib/animation/qanimationgroup_p.h",
+				"src/corelib/animation/qparallelanimationgroup_p.h",
+				"src/corelib/animation/qpropertyanimation_p.h",
+				"src/corelib/animation/qsequentialanimationgroup_p.h",
+				"src/corelib/animation/qvariantanimation_p.h",
+				"src/corelib/thread/qfutex_win_p.h",
+				"src/corelib/global/qoperatingsystemversion_win_p.h",
+				"src/corelib/io/qwindowspipereader_p.h",
+				"src/corelib/io/qwindowspipewriter_p.h",
+				"src/corelib/io/qntdll_p.h",
+				"src/corelib/kernel/qeventdispatcher_win_p.h",
+				"src/corelib/kernel/qfunctions_win_p.h",
+				"src/corelib/kernel/qfunctions_winrt_p.h",
+				"src/corelib/kernel/qwineventnotifier_p.h",
+				"src/corelib/kernel/qwinregistry_p.h",
+				"src/corelib/plugin/qsystemlibrary_p.h",
+				"src/corelib/platform/windows/qcomobject_p.h",
+				"src/corelib/thread/qfutex_p.h",
+				"src/corelib/thread/qmutex_p.h",
+				"src/corelib/thread/qreadwritelock_p.h",
+				"src/corelib/thread/qthreadpool_p.h",
+				"src/corelib/thread/qfutureinterface_p.h",
+				"src/corelib/thread/qfuturewatcher_p.h",
+				"src/corelib/time/qhijricalendar_p.h",
+				"src/corelib/time/qhijricalendar_data_p.h",
+				"src/corelib/time/qislamiccivilcalendar_p.h",
+				"src/corelib/time/qjalalicalendar_p.h",
+				"src/corelib/time/qjalalicalendar_data_p.h",
+				"src/corelib/time/qtimezoneprivate_p.h",
+				"src/corelib/time/qtimezoneprivate_data_p.h",
+				"src/corelib/time/qdatetimeparser_p.h",
+				"src/corelib/io/qfilesystemwatcher_p.h",
+				"src/corelib/io/qfilesystemwatcher_polling_p.h",
+				"src/corelib/io/qfilesystemwatcher_win_p.h",
+				"src/corelib/io/qprocess_p.h",
+				"src/corelib/io/qsettings_p.h",
+				"src/corelib/itemmodels/qabstractitemmodel_p.h",
+				"src/corelib/itemmodels/qitemselectionmodel_p.h",
+				"src/corelib/itemmodels/qabstractproxymodel_p.h",
+				"src/corelib/itemmodels/qidentityproxymodel_p.h",
+				"src/corelib/itemmodels/qtransposeproxymodel_p.h",
+				"src/corelib/plugin/qlibrary_p.h",
+				"src/corelib/plugin/qcoffpeparser_p.h",
+				"src/corelib/mimetypes/qmimedatabase_p.h",
+				"src/corelib/mimetypes/qmimeglobpattern_p.h",
+				"src/corelib/mimetypes/qmimemagicrule_p.h",
+				"src/corelib/mimetypes/qmimemagicrulematcher_p.h",
+				"src/corelib/mimetypes/qmimeprovider_p.h",
+				"src/corelib/mimetypes/qmimetype_p.h",
+				"src/corelib/mimetypes/qmimetypeparser_p.h",
+				"src/corelib/kernel/qpermissions_p.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"build/mkspecs/modules/qt_lib_core.pri",
+				"build/mkspecs/modules/qt_lib_core_private.pri"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/corelib",
+		"source" : "src/corelib"
+	}
+}

@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QFile",
+            "object": true,
+            "qualifiedClassName": "QFile",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QFileDevice"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qfile.h",
+    "outputRevision": 68
+}

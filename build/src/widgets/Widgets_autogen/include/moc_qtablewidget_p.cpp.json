@@ -1,0 +1,28 @@
+{
+    "classes": [
+        {
+            "className": "QTableWidgetMimeData",
+            "object": true,
+            "qualifiedClassName": "QTableWidgetMimeData",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QMimeData"
+                }
+            ]
+        },
+        {
+            "className": "QTableModel",
+            "object": true,
+            "qualifiedClassName": "QTableModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractTableModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtablewidget_p.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,123 @@
+{
+    "classes": [
+        {
+            "className": "QCalendarTextNavigator",
+            "object": true,
+            "qualifiedClassName": "QtPrivate::QCalendarTextNavigator",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "date",
+                            "type": "QDate"
+                        }
+                    ],
+                    "name": "dateChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "editingFinished",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "QCalendarModel",
+            "object": true,
+            "qualifiedClassName": "QtPrivate::QCalendarModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractTableModel"
+                }
+            ]
+        },
+        {
+            "className": "QCalendarView",
+            "object": true,
+            "qualifiedClassName": "QtPrivate::QCalendarView",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "date",
+                            "type": "QDate"
+                        }
+                    ],
+                    "name": "showDate",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "date",
+                            "type": "QDate"
+                        },
+                        {
+                            "name": "changeMonth",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "changeDate",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "date",
+                            "type": "QDate"
+                        }
+                    ],
+                    "name": "clicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "editingFinished",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QTableView"
+                }
+            ]
+        },
+        {
+            "className": "QCalendarDelegate",
+            "object": true,
+            "qualifiedClassName": "QtPrivate::QCalendarDelegate",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QStyledItemDelegate"
+                }
+            ]
+        },
+        {
+            "className": "QPrevNextCalButton",
+            "object": true,
+            "qualifiedClassName": "QtPrivate::QPrevNextCalButton",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QToolButton"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qcalendarwidget.cpp",
+    "outputRevision": 68
+}

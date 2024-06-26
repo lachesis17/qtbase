@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "CloseButton",
+            "object": true,
+            "qualifiedClassName": "CloseButton",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractButton"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtabbar.cpp",
+    "outputRevision": 68
+}

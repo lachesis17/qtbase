@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QPlatformInputContextPlugin",
+            "object": true,
+            "qualifiedClassName": "QPlatformInputContextPlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qplatforminputcontextplugin_p.h",
+    "outputRevision": 68
+}

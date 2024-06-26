@@ -1,0 +1,299 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_repo_begin",
+			"add_dependencies",
+			"qt_internal_add_docs"
+		],
+		"files" : 
+		[
+			"cmake/QtBuildRepoHelpers.cmake",
+			"CMakeLists.txt",
+			"cmake/QtDocsHelpers.cmake",
+			"src/corelib/CMakeLists.txt",
+			"src/concurrent/CMakeLists.txt",
+			"src/sql/CMakeLists.txt",
+			"src/network/CMakeLists.txt",
+			"src/xml/CMakeLists.txt",
+			"src/dbus/CMakeLists.txt",
+			"src/gui/CMakeLists.txt",
+			"src/opengl/CMakeLists.txt",
+			"src/widgets/CMakeLists.txt",
+			"src/testlib/CMakeLists.txt",
+			"src/printsupport/CMakeLists.txt",
+			"qmake/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 143,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 276,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 283,
+				"parent" : 1
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 1450,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 270,
+				"parent" : 5
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 49,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 270,
+				"parent" : 8
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 57,
+				"parent" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 270,
+				"parent" : 11
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 386,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 270,
+				"parent" : 14
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 33,
+				"parent" : 16
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 270,
+				"parent" : 17
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 80,
+				"parent" : 19
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 270,
+				"parent" : 20
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 1074,
+				"parent" : 22
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 270,
+				"parent" : 23
+			},
+			{
+				"file" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 10,
+				"line" : 123,
+				"parent" : 25
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 270,
+				"parent" : 26
+			},
+			{
+				"file" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 11,
+				"line" : 910,
+				"parent" : 28
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 270,
+				"parent" : 29
+			},
+			{
+				"file" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 12,
+				"line" : 142,
+				"parent" : 31
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 270,
+				"parent" : 32
+			},
+			{
+				"file" : 13
+			},
+			{
+				"command" : 3,
+				"file" : 13,
+				"line" : 213,
+				"parent" : 34
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 270,
+				"parent" : 35
+			},
+			{
+				"file" : 14
+			},
+			{
+				"command" : 3,
+				"file" : 14,
+				"line" : 140,
+				"parent" : 37
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 270,
+				"parent" : 38
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "prepare_docs_qtbase::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "generate_repo_docs_Core::@e8138540d8b2daa0b357"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "generate_repo_docs_Concurrent::@e039ee0229fd7540ae63"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "generate_repo_docs_Sql::@3cdb5acf1c1f11493d2c"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "generate_repo_docs_Network::@311edf953348ef8fadde"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "generate_repo_docs_Xml::@92fc915ce26cc64eab9d"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "generate_repo_docs_DBus::@7679c349088050c077d2"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "generate_repo_docs_Gui::@7675e61a69a6135e3026"
+		},
+		{
+			"backtrace" : 27,
+			"id" : "generate_repo_docs_OpenGL::@557a2e62dd030bddd73f"
+		},
+		{
+			"backtrace" : 30,
+			"id" : "generate_repo_docs_Widgets::@01ca4e8faf65486cb322"
+		},
+		{
+			"backtrace" : 33,
+			"id" : "generate_repo_docs_Test::@6d64fd40ee034a68d3ce"
+		},
+		{
+			"backtrace" : 36,
+			"id" : "generate_repo_docs_PrintSupport::@f385d124e6f9e38987e2"
+		},
+		{
+			"backtrace" : 39,
+			"id" : "generate_repo_docs_qmake::@63f2f4db298c7a29a9ac"
+		}
+	],
+	"id" : "generate_docs_qtbase::@6890427a1f51a3e7e1df",
+	"name" : "generate_docs_qtbase",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

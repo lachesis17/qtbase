@@ -1,0 +1,129 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_repo_begin",
+			"add_dependencies",
+			"qt_internal_add_plugin"
+		],
+		"files" : 
+		[
+			"cmake/QtBuildRepoHelpers.cmake",
+			"CMakeLists.txt",
+			"cmake/QtPluginHelpers.cmake",
+			"src/plugins/platforms/minimal/CMakeLists.txt",
+			"src/plugins/platforms/windows/CMakeLists.txt",
+			"src/plugins/platforms/offscreen/CMakeLists.txt",
+			"src/plugins/platforms/direct2d/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 143,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 233,
+				"parent" : 1
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 10,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 257,
+				"parent" : 4
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 8,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 257,
+				"parent" : 7
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 8,
+				"parent" : 9
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 257,
+				"parent" : 10
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 8,
+				"parent" : 12
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 257,
+				"parent" : 13
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "QMinimalIntegrationPlugin::@a6fb5d20e6cdb1db36a1"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "QWindowsIntegrationPlugin::@5f31441e043f26c22ebb"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "QOffscreenIntegrationPlugin::@205c3e43ec6b99b35745"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "QWindowsDirect2DIntegrationPlugin::@c7c26e17e5629e502a58"
+		}
+	],
+	"id" : "qpa_plugins::@6890427a1f51a3e7e1df",
+	"name" : "qpa_plugins",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

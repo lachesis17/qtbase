@@ -1,0 +1,7 @@
+rcc_autogen/timestamp: \
+	C:/Qt/qtbase-6.8/cmake/QtFileConfigure.txt.in \
+	C:/Qt/qtbase-6.8/src/tools/rcc/CMakeLists.txt \
+	C:/Qt/qtbase-6.8/src/tools/rcc/main.cpp \
+	C:/Qt/qtbase-6.8/src/tools/rcc/rcc.cpp \
+	C:/Qt/qtbase-6.8/src/tools/rcc/rcc.h \
+	C:/Program\ Files/CMake/bin/cmake.exe

@@ -1,0 +1,30 @@
+{
+    "classes": [
+        {
+            "className": "QGraphicsItemAnimation",
+            "object": true,
+            "qualifiedClassName": "QGraphicsItemAnimation",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "x",
+                            "type": "qreal"
+                        }
+                    ],
+                    "name": "setStep",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qgraphicsitemanimation.h",
+    "outputRevision": 68
+}

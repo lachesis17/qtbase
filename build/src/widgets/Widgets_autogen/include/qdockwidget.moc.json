@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QDockWidgetTitleButton",
+            "object": true,
+            "qualifiedClassName": "QDockWidgetTitleButton",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractButton"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdockwidget.cpp",
+    "outputRevision": 68
+}

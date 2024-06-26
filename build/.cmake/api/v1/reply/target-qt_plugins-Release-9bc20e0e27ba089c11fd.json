@@ -1,0 +1,329 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_repo_begin",
+			"add_dependencies",
+			"qt_internal_add_plugin"
+		],
+		"files" : 
+		[
+			"cmake/QtBuildRepoHelpers.cmake",
+			"CMakeLists.txt",
+			"cmake/QtPluginHelpers.cmake",
+			"src/plugins/sqldrivers/sqlite/CMakeLists.txt",
+			"src/plugins/sqldrivers/odbc/CMakeLists.txt",
+			"src/plugins/platforms/minimal/CMakeLists.txt",
+			"src/plugins/platforms/windows/CMakeLists.txt",
+			"src/plugins/platforms/offscreen/CMakeLists.txt",
+			"src/plugins/platforms/direct2d/CMakeLists.txt",
+			"src/plugins/imageformats/ico/CMakeLists.txt",
+			"src/plugins/imageformats/jpeg/CMakeLists.txt",
+			"src/plugins/imageformats/gif/CMakeLists.txt",
+			"src/plugins/generic/tuiotouch/CMakeLists.txt",
+			"src/plugins/styles/modernwindows/CMakeLists.txt",
+			"src/plugins/networkinformation/networklistmanager/CMakeLists.txt",
+			"src/plugins/tls/schannel/CMakeLists.txt",
+			"src/plugins/tls/certonly/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 143,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 232,
+				"parent" : 1
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 8,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 247,
+				"parent" : 4
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 10,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 247,
+				"parent" : 7
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 10,
+				"parent" : 9
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 247,
+				"parent" : 10
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 8,
+				"parent" : 12
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 247,
+				"parent" : 13
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 8,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 247,
+				"parent" : 16
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 8,
+				"parent" : 18
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 247,
+				"parent" : 19
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 8,
+				"parent" : 21
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 247,
+				"parent" : 22
+			},
+			{
+				"file" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 10,
+				"line" : 10,
+				"parent" : 24
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 247,
+				"parent" : 25
+			},
+			{
+				"file" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 11,
+				"line" : 8,
+				"parent" : 27
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 247,
+				"parent" : 28
+			},
+			{
+				"file" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 12,
+				"line" : 8,
+				"parent" : 30
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 247,
+				"parent" : 31
+			},
+			{
+				"file" : 13
+			},
+			{
+				"command" : 3,
+				"file" : 13,
+				"line" : 8,
+				"parent" : 33
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 247,
+				"parent" : 34
+			},
+			{
+				"file" : 14
+			},
+			{
+				"command" : 3,
+				"file" : 14,
+				"line" : 4,
+				"parent" : 36
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 247,
+				"parent" : 37
+			},
+			{
+				"file" : 15
+			},
+			{
+				"command" : 3,
+				"file" : 15,
+				"line" : 4,
+				"parent" : 39
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 247,
+				"parent" : 40
+			},
+			{
+				"file" : 16
+			},
+			{
+				"command" : 3,
+				"file" : 16,
+				"line" : 4,
+				"parent" : 42
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 247,
+				"parent" : 43
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "QSQLiteDriverPlugin::@e2bfa9afaa3bfdf10953"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "QODBCDriverPlugin::@4e04d8770e22af219169"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "QMinimalIntegrationPlugin::@a6fb5d20e6cdb1db36a1"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "QWindowsIntegrationPlugin::@5f31441e043f26c22ebb"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "QOffscreenIntegrationPlugin::@205c3e43ec6b99b35745"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "QWindowsDirect2DIntegrationPlugin::@c7c26e17e5629e502a58"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "QICOPlugin::@5b6564d291c671947203"
+		},
+		{
+			"backtrace" : 26,
+			"id" : "QJpegPlugin::@20cd662f235a8fec124f"
+		},
+		{
+			"backtrace" : 29,
+			"id" : "QGifPlugin::@db481f4670a9b0759ac4"
+		},
+		{
+			"backtrace" : 32,
+			"id" : "QTuioTouchPlugin::@1c690fe35aa61c0d8deb"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "QModernWindowsStylePlugin::@1325d0d638e4cb86c9fc"
+		},
+		{
+			"backtrace" : 38,
+			"id" : "QNLMNIPlugin::@f58ed192ffd43d9d8a4b"
+		},
+		{
+			"backtrace" : 41,
+			"id" : "QSchannelBackendPlugin::@12b9be290db92c69e3d5"
+		},
+		{
+			"backtrace" : 44,
+			"id" : "QTlsBackendCertOnlyPlugin::@e576dade91c8331b5fe7"
+		}
+	],
+	"id" : "qt_plugins::@6890427a1f51a3e7e1df",
+	"name" : "qt_plugins",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

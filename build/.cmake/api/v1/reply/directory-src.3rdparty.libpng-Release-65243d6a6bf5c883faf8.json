@@ -1,0 +1,434 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt_install",
+			"qt_internal_add_3rdparty_library",
+			"qt_internal_export_modern_cmake_config_targets_file",
+			"qt_internal_add_module",
+			"qt_internal_add_3rdparty_header_module",
+			"qt_describe_module",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_internal_install_module_headers",
+			"qt_finalize_module",
+			"qt_generate_module_pri_file"
+		],
+		"files" : 
+		[
+			"cmake/QtInstallHelpers.cmake",
+			"cmake/Qt3rdPartyLibraryHelpers.cmake",
+			"src/3rdparty/libpng/CMakeLists.txt",
+			"cmake/QtTargetHelpers.cmake",
+			"cmake/QtModuleHelpers.cmake",
+			"cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"cmake/QtPriHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 268,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 294,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 302,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 309,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 320,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1124,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 431,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 793,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 15
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 829,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 17
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 840,
+				"parent" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1124,
+				"parent" : 19
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 20
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 918,
+				"parent" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 1253,
+				"parent" : 22
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 23
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 25
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 806,
+				"parent" : 26
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1081,
+				"parent" : 27
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 28
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 806,
+				"parent" : 26
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1081,
+				"parent" : 30
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 31
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 25
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 1003,
+				"parent" : 33
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 1318,
+				"parent" : 34
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 35
+			},
+			{
+				"command" : 11,
+				"file" : 4,
+				"line" : 1013,
+				"parent" : 33
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 559,
+				"parent" : 37
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 38
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"build/mkspecs/modules/qt_ext_libpng.pri"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6BundledLibpng",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6BundledLibpng/Qt6BundledLibpngConfig.cmake",
+				"build/lib/cmake/Qt6BundledLibpng/Qt6BundledLibpngConfigVersion.cmake",
+				"build/lib/cmake/Qt6BundledLibpng/Qt6BundledLibpngConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libQt6BundledLibpng.a"
+			],
+			"targetId" : "BundledLibpng::@f0d8789028037e8800e8",
+			"targetIndex" : 9,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6BundledLibpng",
+			"exportName" : "Qt6BundledLibpngTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "BundledLibpng::@f0d8789028037e8800e8",
+					"index" : 9
+				}
+			],
+			"paths" : 
+			[
+				"src/3rdparty/libpng/CMakeFiles/Export/81ed26a8a1669a2b7f56359c60752eae/Qt6BundledLibpngTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6BundledLibpng",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6BundledLibpng/Qt6BundledLibpngVersionlessAliasTargets.cmake",
+				"build/lib/cmake/Qt6BundledLibpng/Qt6BundledLibpngVersionlessTargets.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6PngPrivate",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6PngPrivate/Qt6PngPrivateConfig.cmake",
+				"build/lib/cmake/Qt6PngPrivate/Qt6PngPrivateConfigVersion.cmake",
+				"build/lib/cmake/Qt6PngPrivate/Qt6PngPrivateConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6PngPrivate",
+			"exportName" : "Qt6PngPrivateTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "PngPrivate::@f0d8789028037e8800e8",
+					"index" : 100
+				}
+			],
+			"paths" : 
+			[
+				"src/3rdparty/libpng/CMakeFiles/Export/06764a7d44387c10dfddd83b95e502b3/Qt6PngPrivateTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6PngPrivate",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6PngPrivate/Qt6PngPrivateVersionlessAliasTargets.cmake",
+				"build/lib/cmake/Qt6PngPrivate/Qt6PngPrivateVersionlessTargets.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "modules",
+			"paths" : 
+			[
+				"build/modules/PngPrivate.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6BundledLibpng",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6BundledLibpng/Qt6BundledLibpngAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6PngPrivate",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6PngPrivate/Qt6PngPrivateAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "Unspecified",
+			"destination" : "include/QtPng",
+			"paths" : 
+			[
+				"src/3rdparty/libpng/png.h",
+				"src/3rdparty/libpng/pngconf.h",
+				"src/3rdparty/libpng/pnglibconf.h",
+				"build/include/QtPng/QtPngDepends"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 39,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"build/mkspecs/modules/qt_lib_png_private.pri"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/3rdparty/libpng",
+		"source" : "src/3rdparty/libpng"
+	}
+}

@@ -1,0 +1,64 @@
+{
+    "classes": [
+        {
+            "className": "QStandardItemModel",
+            "object": true,
+            "properties": [
+                {
+                    "bindable": "bindableSortRole",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "sortRole",
+                    "read": "sortRole",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setSortRole"
+                }
+            ],
+            "qualifiedClassName": "QStandardItemModel",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "QStandardItem*"
+                        }
+                    ],
+                    "name": "itemChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "topLeft",
+                            "type": "QModelIndex"
+                        },
+                        {
+                            "name": "bottomRight",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "_q_emitItemChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractItemModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qstandarditemmodel.h",
+    "outputRevision": 68
+}

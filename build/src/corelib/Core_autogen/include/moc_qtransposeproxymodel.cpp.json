@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QTransposeProxyModel",
+            "object": true,
+            "qualifiedClassName": "QTransposeProxyModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractProxyModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtransposeproxymodel.h",
+    "outputRevision": 68
+}

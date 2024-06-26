@@ -1,0 +1,879 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt6_extract_metatypes",
+			"qt_internal_add_module",
+			"qt_install",
+			"qt_internal_export_modern_cmake_config_targets_file",
+			"qt_describe_module",
+			"qt_internal_add_resource",
+			"qt_internal_add_docs",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"qt_internal_install_module_headers",
+			"qt_generate_module_pri_file"
+		],
+		"files" : 
+		[
+			"src/corelib/Qt6CoreMacros.cmake",
+			"cmake/QtModuleHelpers.cmake",
+			"src/gui/CMakeLists.txt",
+			"cmake/QtInstallHelpers.cmake",
+			"cmake/QtTargetHelpers.cmake",
+			"cmake/QtResourceHelpers.cmake",
+			"cmake/QtDocsHelpers.cmake",
+			"cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"cmake/QtSyncQtHelpers.cmake",
+			"cmake/QtPriHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 766,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1531,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 793,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 809,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 829,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 840,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1124,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 918,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1253,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 323,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 39,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 17
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 337,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 39,
+				"parent" : 19
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 20
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 1074,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 230,
+				"parent" : 22
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 243,
+				"parent" : 22
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 25
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 806,
+				"parent" : 26
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1081,
+				"parent" : 27
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 28
+			},
+			{
+				"command" : 11,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 25
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 30
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 242,
+				"parent" : 31
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 32
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 1003,
+				"parent" : 30
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1318,
+				"parent" : 34
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 35
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1322,
+				"parent" : 34
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 37
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1326,
+				"parent" : 34
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 39
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1329,
+				"parent" : 34
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 41
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 1013,
+				"parent" : 30
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 559,
+				"parent" : 43
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 44
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "./metatypes",
+			"paths" : 
+			[
+				"build/src/gui/meta_types/qt6gui_release_metatypes.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6Gui",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
+				"build/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake",
+				"build/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libQt6Gui.a"
+			],
+			"targetId" : "Gui::@7675e61a69a6135e3026",
+			"targetIndex" : 64,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Gui",
+			"exportName" : "Qt6GuiTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Gui::@7675e61a69a6135e3026",
+					"index" : 64
+				},
+				{
+					"id" : "GuiPrivate::@7675e61a69a6135e3026",
+					"index" : 0
+				},
+				{
+					"id" : "Gui_resources_1::@7675e61a69a6135e3026",
+					"index" : 69
+				},
+				{
+					"id" : "Gui_resources_2::@7675e61a69a6135e3026",
+					"index" : 70
+				}
+			],
+			"paths" : 
+			[
+				"src/gui/CMakeFiles/Export/186cdab8ebd5e47f6ef8450c9fc81ba1/Qt6GuiTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6Gui",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake",
+				"build/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "modules",
+			"paths" : 
+			[
+				"build/modules/Gui.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				{
+					"from" : "src/gui/CMakeFiles/Gui_resources_1.dir/.//.qt/rcc/qrc_qpdf_init.cpp.obj",
+					"to" : "objects-Release/Gui_resources_1/.qt/rcc/qrc_qpdf_init.cpp.obj"
+				}
+			],
+			"targetId" : "Gui_resources_1::@7675e61a69a6135e3026",
+			"targetIndex" : 69,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "Gui_resources_1::@7675e61a69a6135e3026",
+				"index" : 69
+			},
+			"destination" : "lib",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				{
+					"from" : "src/gui/CMakeFiles/Gui_resources_2.dir/.//.qt/rcc/qrc_gui_shaders_init.cpp.obj",
+					"to" : "objects-Release/Gui_resources_2/.qt/rcc/qrc_gui_shaders_init.cpp.obj"
+				}
+			],
+			"targetId" : "Gui_resources_2::@7675e61a69a6135e3026",
+			"targetIndex" : 70,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "Gui_resources_2::@7675e61a69a6135e3026",
+				"index" : 70
+			},
+			"destination" : "lib",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "_install_html_docs_Gui",
+			"destination" : "doc/qtgui",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				{
+					"from" : "build/doc/qtgui",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "_install_qch_docs_Gui",
+			"destination" : "doc",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"build/doc/qtgui.qch"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6Gui",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "Unspecified",
+			"destination" : "include/QtGui",
+			"paths" : 
+			[
+				{
+					"from" : "build/include/QtGui/.syncqt_staging",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "Unspecified",
+			"destination" : "include/QtGui",
+			"paths" : 
+			[
+				"build/include/QtGui/qtguiexports.h",
+				"src/gui/image/qabstractfileiconprovider.h",
+				"src/gui/image/qbitmap.h",
+				"src/gui/image/qicon.h",
+				"src/gui/image/qiconengine.h",
+				"src/gui/image/qiconengineplugin.h",
+				"src/gui/image/qimage.h",
+				"src/gui/image/qimageiohandler.h",
+				"src/gui/image/qimagereader.h",
+				"src/gui/image/qimagewriter.h",
+				"src/gui/image/qpicture.h",
+				"src/gui/image/qpixmap.h",
+				"src/gui/image/qpixmapcache.h",
+				"src/gui/kernel/qclipboard.h",
+				"src/gui/kernel/qcursor.h",
+				"src/gui/kernel/qeventpoint.h",
+				"src/gui/kernel/qevent.h",
+				"src/gui/kernel/qgenericplugin.h",
+				"src/gui/kernel/qgenericpluginfactory.h",
+				"src/gui/kernel/qguiapplication.h",
+				"src/gui/kernel/qguiapplication_platform.h",
+				"src/gui/kernel/qinputdevice.h",
+				"src/gui/kernel/qinputmethod.h",
+				"src/gui/kernel/qoffscreensurface.h",
+				"src/gui/kernel/qoffscreensurface_platform.h",
+				"src/gui/kernel/qopenglcontext.h",
+				"src/gui/kernel/qpaintdevicewindow.h",
+				"src/gui/kernel/qpalette.h",
+				"src/gui/kernel/qpixelformat.h",
+				"src/gui/kernel/qpointingdevice.h",
+				"src/gui/kernel/qrasterwindow.h",
+				"src/gui/kernel/qscreen.h",
+				"src/gui/kernel/qscreen_platform.h",
+				"src/gui/kernel/qsessionmanager.h",
+				"src/gui/kernel/qstylehints.h",
+				"src/gui/kernel/qsurface.h",
+				"src/gui/kernel/qsurfaceformat.h",
+				"src/gui/kernel/qtestsupport_gui.h",
+				"src/gui/kernel/qtguiglobal.h",
+				"src/gui/kernel/qwindow.h",
+				"src/gui/kernel/qwindowdefs.h",
+				"src/gui/math3d/qgenericmatrix.h",
+				"src/gui/math3d/qmatrix4x4.h",
+				"src/gui/math3d/qquaternion.h",
+				"src/gui/math3d/qvector2d.h",
+				"src/gui/math3d/qvector3d.h",
+				"src/gui/math3d/qvector4d.h",
+				"src/gui/math3d/qvectornd.h",
+				"src/gui/opengl/qopengl.h",
+				"src/gui/opengl/qopenglext.h",
+				"src/gui/opengl/qopenglfunctions.h",
+				"src/gui/opengl/qopenglextrafunctions.h",
+				"src/gui/painting/qbackingstore.h",
+				"src/gui/painting/qbrush.h",
+				"src/gui/painting/qcolor.h",
+				"src/gui/painting/qcolorspace.h",
+				"src/gui/painting/qcolortransform.h",
+				"src/gui/painting/qpagedpaintdevice.h",
+				"src/gui/painting/qpagelayout.h",
+				"src/gui/painting/qpageranges.h",
+				"src/gui/painting/qpagesize.h",
+				"src/gui/painting/qpaintdevice.h",
+				"src/gui/painting/qpaintengine.h",
+				"src/gui/painting/qpainter.h",
+				"src/gui/painting/qpainterpath.h",
+				"src/gui/painting/qpdfwriter.h",
+				"src/gui/painting/qpen.h",
+				"src/gui/painting/qpolygon.h",
+				"src/gui/painting/qregion.h",
+				"src/gui/painting/qrgb.h",
+				"src/gui/painting/qrgba64.h",
+				"src/gui/painting/qrgbafloat.h",
+				"src/gui/painting/qtransform.h",
+				"src/gui/text/qabstracttextdocumentlayout.h",
+				"src/gui/text/qfont.h",
+				"src/gui/text/qfontdatabase.h",
+				"src/gui/text/qfontinfo.h",
+				"src/gui/text/qfontmetrics.h",
+				"src/gui/text/qglyphrun.h",
+				"src/gui/text/qrawfont.h",
+				"src/gui/text/qstatictext.h",
+				"src/gui/text/qsyntaxhighlighter.h",
+				"src/gui/text/qtextcursor.h",
+				"src/gui/text/qtextdocument.h",
+				"src/gui/text/qtextdocumentfragment.h",
+				"src/gui/text/qtextdocumentwriter.h",
+				"src/gui/text/qtextformat.h",
+				"src/gui/text/qtextlayout.h",
+				"src/gui/text/qtextlist.h",
+				"src/gui/text/qtextobject.h",
+				"src/gui/text/qtextoption.h",
+				"src/gui/text/qtexttable.h",
+				"src/gui/util/qdesktopservices.h",
+				"src/gui/util/qvalidator.h",
+				"build/src/gui/qtgui-config.h",
+				"src/gui/itemmodels/qstandarditemmodel.h",
+				"src/gui/kernel/qopenglcontext_platform.h",
+				"src/gui/kernel/qwindowdefs_win.h",
+				"src/gui/platform/windows/qwindowsmimeconverter.h",
+				"src/gui/accessible/qaccessible.h",
+				"src/gui/accessible/qaccessible_base.h",
+				"src/gui/accessible/qaccessiblebridge.h",
+				"src/gui/accessible/qaccessibleobject.h",
+				"src/gui/accessible/qaccessibleplugin.h",
+				"src/gui/kernel/qaction.h",
+				"src/gui/kernel/qactiongroup.h",
+				"src/gui/kernel/qdrag.h",
+				"src/gui/kernel/qkeysequence.h",
+				"src/gui/kernel/qshortcut.h",
+				"src/gui/image/qmovie.h",
+				"src/gui/util/qundostack.h",
+				"src/gui/util/qundogroup.h",
+				"src/gui/itemmodels/qstandarditemmodel.h",
+				"src/gui/itemmodels/qfilesystemmodel.h",
+				"build/include/QtGui/QtGuiDepends"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "Unspecified",
+			"destination" : "include/QtGui/6.8.0/QtGui/private",
+			"paths" : 
+			[
+				"src/gui/image/qabstractfileiconengine_p.h",
+				"src/gui/image/qabstractfileiconprovider_p.h",
+				"src/gui/image/qbmphandler_p.h",
+				"src/gui/image/qicon_p.h",
+				"src/gui/image/qiconengine_p.h",
+				"src/gui/image/qiconloader_p.h",
+				"src/gui/image/qimage_p.h",
+				"src/gui/image/qimagepixmapcleanuphooks_p.h",
+				"src/gui/image/qimagereaderwriterhelpers_p.h",
+				"src/gui/image/qpaintengine_pic_p.h",
+				"src/gui/image/qpicture_p.h",
+				"src/gui/image/qpixmap_blitter_p.h",
+				"src/gui/image/qpixmap_raster_p.h",
+				"src/gui/image/qpixmapcache_p.h",
+				"src/gui/image/qppmhandler_p.h",
+				"src/gui/image/qxbmhandler_p.h",
+				"src/gui/image/qxpmhandler_p.h",
+				"src/gui/kernel/qcursor_p.h",
+				"src/gui/kernel/qeventpoint_p.h",
+				"src/gui/kernel/qevent_p.h",
+				"src/gui/kernel/qguiapplication_p.h",
+				"src/gui/kernel/qhighdpiscaling_p.h",
+				"src/gui/kernel/qinputdevice_p.h",
+				"src/gui/kernel/qinputdevicemanager_p.h",
+				"src/gui/kernel/qinputdevicemanager_p_p.h",
+				"src/gui/kernel/qinputmethod_p.h",
+				"src/gui/kernel/qinternalmimedata_p.h",
+				"src/gui/kernel/qkeymapper_p.h",
+				"src/gui/kernel/qoffscreensurface_p.h",
+				"src/gui/kernel/qpaintdevicewindow_p.h",
+				"src/gui/kernel/qpalette_p.h",
+				"src/gui/kernel/qpointingdevice_p.h",
+				"src/gui/kernel/qscreen_p.h",
+				"src/gui/kernel/qsessionmanager_p.h",
+				"src/gui/kernel/qstylehints_p.h",
+				"src/gui/kernel/qtguiglobal_p.h",
+				"src/gui/kernel/qwindow_p.h",
+				"src/gui/painting/qbackingstoredefaultcompositor_p.h",
+				"src/gui/painting/qbackingstorerhisupport_p.h",
+				"src/gui/painting/qbezier_p.h",
+				"src/gui/painting/qblendfunctions_p.h",
+				"src/gui/painting/qblittable_p.h",
+				"src/gui/painting/qcolor_p.h",
+				"src/gui/painting/qcolorclut_p.h",
+				"src/gui/painting/qcolormatrix_p.h",
+				"src/gui/painting/qcolorspace_p.h",
+				"src/gui/painting/qcolortransferfunction_p.h",
+				"src/gui/painting/qcolortransfergeneric_p.h",
+				"src/gui/painting/qcolortransfertable_p.h",
+				"src/gui/painting/qcolortransform_p.h",
+				"src/gui/painting/qcolortrc_p.h",
+				"src/gui/painting/qcolortrclut_p.h",
+				"src/gui/painting/qcosmeticstroker_p.h",
+				"src/gui/painting/qcmyk_p.h",
+				"src/gui/painting/qdatabuffer_p.h",
+				"src/gui/painting/qdrawhelper_p.h",
+				"src/gui/painting/qdrawhelper_x86_p.h",
+				"src/gui/painting/qdrawingprimitive_sse2_p.h",
+				"src/gui/painting/qemulationpaintengine_p.h",
+				"src/gui/painting/qfixed_p.h",
+				"src/gui/painting/qgrayraster_p.h",
+				"src/gui/painting/qicc_p.h",
+				"src/gui/painting/qimagescale_p.h",
+				"src/gui/painting/qmath_p.h",
+				"src/gui/painting/qmemrotate_p.h",
+				"src/gui/painting/qoutlinemapper_p.h",
+				"src/gui/painting/qpagedpaintdevice_p.h",
+				"src/gui/painting/qpageranges_p.h",
+				"src/gui/painting/qpaintengine_p.h",
+				"src/gui/painting/qpaintengine_blitter_p.h",
+				"src/gui/painting/qpaintengine_raster_p.h",
+				"src/gui/painting/qpaintengineex_p.h",
+				"src/gui/painting/qpainter_p.h",
+				"src/gui/painting/qpainterpath_p.h",
+				"src/gui/painting/qpathclipper_p.h",
+				"src/gui/painting/qpathsimplifier_p.h",
+				"src/gui/painting/qpdf_p.h",
+				"src/gui/painting/qpen_p.h",
+				"src/gui/painting/qpixellayout_p.h",
+				"src/gui/painting/qrasterdefs_p.h",
+				"src/gui/painting/qrasterizer_p.h",
+				"src/gui/painting/qrbtree_p.h",
+				"src/gui/painting/qrgba64_p.h",
+				"src/gui/painting/qstroker_p.h",
+				"src/gui/painting/qtextureglyphcache_p.h",
+				"src/gui/painting/qtriangulatingstroker_p.h",
+				"src/gui/painting/qtriangulator_p.h",
+				"src/gui/painting/qvectorpath_p.h",
+				"src/gui/rhi/qrhi_p.h",
+				"src/gui/rhi/qrhinull_p.h",
+				"src/gui/rhi/qshader_p.h",
+				"src/gui/rhi/qshaderdescription_p.h",
+				"src/gui/text/qabstracttextdocumentlayout_p.h",
+				"src/gui/text/qdistancefield_p.h",
+				"src/gui/text/qfont_p.h",
+				"src/gui/text/qfontdatabase_p.h",
+				"src/gui/text/qfontengine_p.h",
+				"src/gui/text/qfontengineglyphcache_p.h",
+				"src/gui/text/qfontsubset_p.h",
+				"src/gui/text/qfragmentmap_p.h",
+				"src/gui/text/qglyphrun_p.h",
+				"src/gui/text/qinputcontrol_p.h",
+				"src/gui/text/qrawfont_p.h",
+				"src/gui/text/qstatictext_p.h",
+				"src/gui/text/qtextcursor_p.h",
+				"src/gui/text/qtextdocument_p.h",
+				"src/gui/text/qtextdocumentfragment_p.h",
+				"src/gui/text/qtextdocumentlayout_p.h",
+				"src/gui/text/qtextengine_p.h",
+				"src/gui/text/qtextformat_p.h",
+				"src/gui/text/qtexthtmlparser_p.h",
+				"src/gui/text/qtextimagehandler_p.h",
+				"src/gui/text/qtextobject_p.h",
+				"src/gui/text/qtexttable_p.h",
+				"src/gui/util/qabstractlayoutstyleinfo_p.h",
+				"src/gui/util/qastchandler_p.h",
+				"src/gui/util/qgridlayoutengine_p.h",
+				"src/gui/util/qhexstring_p.h",
+				"src/gui/util/qktxhandler_p.h",
+				"src/gui/util/qlayoutpolicy_p.h",
+				"src/gui/util/qpkmhandler_p.h",
+				"src/gui/util/qtexturefiledata_p.h",
+				"src/gui/util/qtexturefilehandler_p.h",
+				"src/gui/util/qtexturefilereader_p.h",
+				"build/src/gui/qtgui-config_p.h",
+				"src/gui/itemmodels/qstandarditemmodel_p.h",
+				"src/gui/kernel/qopenglcontext_p.h",
+				"src/gui/opengl/qopengl_p.h",
+				"src/gui/opengl/qopenglextensions_p.h",
+				"src/gui/opengl/qopenglprogrambinarycache_p.h",
+				"src/gui/rhi/qrhigles2_p.h",
+				"src/gui/image/qpixmap_win_p.h",
+				"src/gui/platform/windows/qwindowsguieventdispatcher_p.h",
+				"src/gui/platform/windows/qwindowsthemecache_p.h",
+				"src/gui/rhi/qrhid3d11_p.h",
+				"src/gui/rhi/qrhid3dhelpers_p.h",
+				"src/gui/rhi/vs_test_p.h",
+				"src/gui/rhi/qrhid3d12_p.h",
+				"src/gui/rhi/cs_mipmap_p.h",
+				"src/gui/text/windows/qwindowsfontdatabase_p.h",
+				"src/gui/text/windows/qwindowsfontdatabasebase_p.h",
+				"src/gui/text/windows/qwindowsfontengine_p.h",
+				"src/gui/text/windows/qwindowsnativeimage_p.h",
+				"src/gui/accessible/qaccessiblebridgeutils_p.h",
+				"src/gui/accessible/qaccessiblecache_p.h",
+				"src/gui/kernel/qaction_p.h",
+				"src/gui/kernel/qactiongroup_p.h",
+				"src/gui/kernel/qdnd_p.h",
+				"src/gui/kernel/qshapedpixmapdndwindow_p.h",
+				"src/gui/kernel/qsimpledrag_p.h",
+				"src/gui/kernel/qkeysequence_p.h",
+				"src/gui/kernel/qshortcut_p.h",
+				"src/gui/kernel/qshortcutmap_p.h",
+				"src/gui/image/qpnghandler_p.h",
+				"src/gui/text/qharfbuzzng_p.h",
+				"src/gui/text/qtextodfwriter_p.h",
+				"src/gui/text/qtextmarkdownimporter_p.h",
+				"src/gui/text/qtextmarkdownwriter_p.h",
+				"src/gui/painting/qcssutil_p.h",
+				"src/gui/text/qcssparser_p.h",
+				"src/gui/text/freetype/qfontengine_ft_p.h",
+				"src/gui/text/freetype/qfreetypefontdatabase_p.h",
+				"src/gui/text/windows/qwindowsfontdatabase_ft_p.h",
+				"src/gui/text/windows/qwindowsfontenginedirectwrite_p.h",
+				"src/gui/text/windows/qwindowsdirectwritefontdatabase_p.h",
+				"src/gui/util/qundostack_p.h",
+				"src/gui/itemmodels/qstandarditemmodel_p.h",
+				"src/gui/itemmodels/qfileinfogatherer_p.h",
+				"src/gui/itemmodels/qfilesystemmodel_p.h",
+				"src/gui/painting/qdrawhelper_neon_p.h",
+				"src/gui/util/qedidparser_p.h",
+				"src/gui/util/qedidvendortable_p.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "Unspecified",
+			"destination" : "include/QtGui/6.8.0/QtGui/qpa",
+			"paths" : 
+			[
+				"src/gui/image/qplatformpixmap.h",
+				"src/gui/kernel/qplatformclipboard.h",
+				"src/gui/kernel/qplatformcursor.h",
+				"src/gui/kernel/qplatformdialoghelper.h",
+				"src/gui/kernel/qplatformgraphicsbuffer.h",
+				"src/gui/kernel/qplatformgraphicsbufferhelper.h",
+				"src/gui/kernel/qplatforminputcontext.h",
+				"src/gui/kernel/qplatforminputcontext_p.h",
+				"src/gui/kernel/qplatforminputcontextfactory_p.h",
+				"src/gui/kernel/qplatforminputcontextplugin_p.h",
+				"src/gui/kernel/qplatformintegration.h",
+				"src/gui/kernel/qplatformintegrationfactory_p.h",
+				"src/gui/kernel/qplatformintegrationplugin.h",
+				"src/gui/kernel/qplatformkeymapper.h",
+				"src/gui/kernel/qplatformmenu.h",
+				"src/gui/kernel/qplatformmenu_p.h",
+				"src/gui/kernel/qplatformnativeinterface.h",
+				"src/gui/kernel/qplatformoffscreensurface.h",
+				"src/gui/kernel/qplatformopenglcontext.h",
+				"src/gui/kernel/qplatformscreen.h",
+				"src/gui/kernel/qplatformscreen_p.h",
+				"src/gui/kernel/qplatformservices.h",
+				"src/gui/kernel/qplatformsessionmanager.h",
+				"src/gui/kernel/qplatformsharedgraphicscache.h",
+				"src/gui/kernel/qplatformsurface.h",
+				"src/gui/kernel/qplatformsystemtrayicon.h",
+				"src/gui/kernel/qplatformtheme.h",
+				"src/gui/kernel/qplatformtheme_p.h",
+				"src/gui/kernel/qplatformthemefactory_p.h",
+				"src/gui/kernel/qplatformthemeplugin.h",
+				"src/gui/kernel/qplatformwindow.h",
+				"src/gui/kernel/qplatformwindow_p.h",
+				"src/gui/kernel/qwindowsysteminterface.h",
+				"src/gui/kernel/qwindowsysteminterface_p.h",
+				"src/gui/painting/qplatformbackingstore.h",
+				"src/gui/text/qplatformfontdatabase.h",
+				"src/gui/accessible/qplatformaccessibility.h",
+				"src/gui/kernel/qplatformdrag.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "Unspecified",
+			"destination" : "include/QtGui/6.8.0/QtGui/rhi",
+			"paths" : 
+			[
+				"src/gui/rhi/qrhi.h",
+				"src/gui/rhi/qrhi_platform.h",
+				"src/gui/rhi/qshader.h",
+				"src/gui/rhi/qshaderdescription.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 45,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"build/mkspecs/modules/qt_lib_gui.pri",
+				"build/mkspecs/modules/qt_lib_gui_private.pri"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/gui",
+		"source" : "src/gui"
+	}
+}

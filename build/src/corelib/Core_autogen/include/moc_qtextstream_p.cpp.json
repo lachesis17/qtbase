@@ -1,0 +1,24 @@
+{
+    "classes": [
+        {
+            "className": "QDeviceClosedNotifier",
+            "object": true,
+            "qualifiedClassName": "QDeviceClosedNotifier",
+            "slots": [
+                {
+                    "access": "public",
+                    "name": "flushStream",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtextstream_p.h",
+    "outputRevision": 68
+}

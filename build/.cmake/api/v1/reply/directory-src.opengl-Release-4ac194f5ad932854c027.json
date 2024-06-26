@@ -1,0 +1,470 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"qt6_extract_metatypes",
+			"qt_internal_add_module",
+			"qt_install",
+			"qt_internal_export_modern_cmake_config_targets_file",
+			"qt_describe_module",
+			"qt_internal_add_docs",
+			"qt_internal_export_additional_targets_file_handler",
+			"qt_internal_export_additional_targets_file_finalizer",
+			"qt_internal_target_sync_headers",
+			"qt_finalize_module",
+			"qt_internal_install_module_headers",
+			"qt_generate_module_pri_file"
+		],
+		"files" : 
+		[
+			"src/corelib/Qt6CoreMacros.cmake",
+			"cmake/QtModuleHelpers.cmake",
+			"src/opengl/CMakeLists.txt",
+			"cmake/QtInstallHelpers.cmake",
+			"cmake/QtTargetHelpers.cmake",
+			"cmake/QtDocsHelpers.cmake",
+			"cmake/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"cmake/QtSyncQtHelpers.cmake",
+			"cmake/QtPriHelpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 766,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1531,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 793,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 809,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 829,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 840,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1124,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 918,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1253,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 123,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 230,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 243,
+				"parent" : 16
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 19
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 806,
+				"parent" : 20
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1081,
+				"parent" : 21
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 22
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 19
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 1000,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 242,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 26
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 1003,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1318,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 29
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1322,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 31
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 1013,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 559,
+				"parent" : 33
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 21,
+				"parent" : 34
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "./metatypes",
+			"paths" : 
+			[
+				"build/src/opengl/meta_types/qt6opengl_release_metatypes.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6OpenGL",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6OpenGL/Qt6OpenGLConfig.cmake",
+				"build/lib/cmake/Qt6OpenGL/Qt6OpenGLConfigVersion.cmake",
+				"build/lib/cmake/Qt6OpenGL/Qt6OpenGLConfigVersionImpl.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libQt6OpenGL.a"
+			],
+			"targetId" : "OpenGL::@557a2e62dd030bddd73f",
+			"targetIndex" : 86,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6OpenGL",
+			"exportName" : "Qt6OpenGLTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "OpenGL::@557a2e62dd030bddd73f",
+					"index" : 86
+				},
+				{
+					"id" : "OpenGLPrivate::@557a2e62dd030bddd73f",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"src/opengl/CMakeFiles/Export/8430990577e61c35e6352904ac17f5ae/Qt6OpenGLTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qt6OpenGL",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6OpenGL/Qt6OpenGLVersionlessAliasTargets.cmake",
+				"build/lib/cmake/Qt6OpenGL/Qt6OpenGLVersionlessTargets.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "modules",
+			"paths" : 
+			[
+				"build/modules/OpenGL.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "_install_html_docs_OpenGL",
+			"destination" : "doc/qtopengl",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				{
+					"from" : "build/doc/qtopengl",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "_install_qch_docs_OpenGL",
+			"destination" : "doc",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"build/doc/qtopengl.qch"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qt6OpenGL",
+			"paths" : 
+			[
+				"build/lib/cmake/Qt6OpenGL/Qt6OpenGLAdditionalTargetInfo.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "include/QtOpenGL",
+			"paths" : 
+			[
+				{
+					"from" : "build/include/QtOpenGL/.syncqt_staging",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "include/QtOpenGL",
+			"paths" : 
+			[
+				"build/include/QtOpenGL/qtopenglexports.h",
+				"src/opengl/qopenglbuffer.h",
+				"src/opengl/qopengldebug.h",
+				"src/opengl/qopenglframebufferobject.h",
+				"src/opengl/qopenglpaintdevice.h",
+				"src/opengl/qopenglpixeltransferoptions.h",
+				"src/opengl/qopenglshaderprogram.h",
+				"src/opengl/qopengltexture.h",
+				"src/opengl/qopengltextureblitter.h",
+				"src/opengl/qopengltimerquery.h",
+				"src/opengl/qopenglversionfunctions.h",
+				"src/opengl/qopenglversionfunctionsfactory.h",
+				"src/opengl/qopenglversionprofile.h",
+				"src/opengl/qopenglvertexarrayobject.h",
+				"src/opengl/qopenglwindow.h",
+				"src/opengl/qtopenglglobal.h",
+				"src/opengl/qopenglfunctions_1_0.h",
+				"src/opengl/qopenglfunctions_1_1.h",
+				"src/opengl/qopenglfunctions_1_2.h",
+				"src/opengl/qopenglfunctions_1_3.h",
+				"src/opengl/qopenglfunctions_1_4.h",
+				"src/opengl/qopenglfunctions_1_5.h",
+				"src/opengl/qopenglfunctions_2_0.h",
+				"src/opengl/qopenglfunctions_2_1.h",
+				"src/opengl/qopenglfunctions_3_0.h",
+				"src/opengl/qopenglfunctions_3_1.h",
+				"src/opengl/qopenglfunctions_3_2_compatibility.h",
+				"src/opengl/qopenglfunctions_3_2_core.h",
+				"src/opengl/qopenglfunctions_3_3_compatibility.h",
+				"src/opengl/qopenglfunctions_3_3_core.h",
+				"src/opengl/qopenglfunctions_4_0_compatibility.h",
+				"src/opengl/qopenglfunctions_4_0_core.h",
+				"src/opengl/qopenglfunctions_4_1_compatibility.h",
+				"src/opengl/qopenglfunctions_4_1_core.h",
+				"src/opengl/qopenglfunctions_4_2_compatibility.h",
+				"src/opengl/qopenglfunctions_4_2_core.h",
+				"src/opengl/qopenglfunctions_4_3_compatibility.h",
+				"src/opengl/qopenglfunctions_4_3_core.h",
+				"src/opengl/qopenglfunctions_4_4_compatibility.h",
+				"src/opengl/qopenglfunctions_4_4_core.h",
+				"src/opengl/qopenglfunctions_4_5_compatibility.h",
+				"src/opengl/qopenglfunctions_4_5_core.h",
+				"build/include/QtOpenGL/QtOpenGLDepends"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "include/QtOpenGL/6.8.0/QtOpenGL/private",
+			"paths" : 
+			[
+				"src/opengl/qopengl2pexvertexarray_p.h",
+				"src/opengl/qopenglcustomshaderstage_p.h",
+				"src/opengl/qopenglengineshadermanager_p.h",
+				"src/opengl/qopenglengineshadersource_p.h",
+				"src/opengl/qopenglframebufferobject_p.h",
+				"src/opengl/qopenglgradientcache_p.h",
+				"src/opengl/qopenglpaintdevice_p.h",
+				"src/opengl/qopenglpaintengine_p.h",
+				"src/opengl/qopenglshadercache_p.h",
+				"src/opengl/qopengltexture_p.h",
+				"src/opengl/qopengltexturecache_p.h",
+				"src/opengl/qopengltextureglyphcache_p.h",
+				"src/opengl/qopengltexturehelper_p.h",
+				"src/opengl/qopengltextureuploader_p.h",
+				"src/opengl/qopenglversionfunctions_p.h",
+				"src/opengl/qopenglvertexarrayobject_p.h",
+				"src/opengl/qopenglqueryhelper_p.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "Unspecified",
+			"destination" : "mkspecs/modules",
+			"paths" : 
+			[
+				"build/mkspecs/modules/qt_lib_opengl.pri",
+				"build/mkspecs/modules/qt_lib_opengl_private.pri"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/opengl",
+		"source" : "src/opengl"
+	}
+}
