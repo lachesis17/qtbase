@@ -1,0 +1,14 @@
+-IC:/Qt/qtbase-6.8/build/src/sql/Sql_autogen/include
+-IC:/Qt/qtbase-6.8/build/include
+-IC:/Qt/qtbase-6.8/build/include/QtSql
+-IC:/Qt/qtbase-6.8/src/sql
+-IC:/Qt/qtbase-6.8/build/src/sql
+-IC:/Qt/qtbase-6.8/build/include/QtSql/6.8.0
+-IC:/Qt/qtbase-6.8/build/include/QtSql/6.8.0/QtSql
+-IC:/Qt/qtbase-6.8/build/include
+-IC:/Qt/qtbase-6.8/build/include/QtCore
+-IC:/Qt/qtbase-6.8/mkspecs/win32-g++
+-IC:/Qt/qtbase-6.8/build/include
+-IC:/Qt/qtbase-6.8/build/src/corelib
+-IC:/Qt/qtbase-6.8/build/include/QtCore/6.8.0
+-IC:/Qt/qtbase-6.8/build/include/QtCore/6.8.0/QtCore

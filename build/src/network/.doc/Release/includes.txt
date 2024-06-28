@@ -1,0 +1,17 @@
+-IC:/Qt/qtbase-6.8/build/src/network/Network_autogen/include
+-IC:/Qt/qtbase-6.8/build/include
+-IC:/Qt/qtbase-6.8/build/include/QtNetwork
+-IC:/Qt/qtbase-6.8/src/network
+-IC:/Qt/qtbase-6.8/build/src/network
+-IC:/Qt/qtbase-6.8/src/network/kernel
+-IC:/Qt/qtbase-6.8/build/include/QtNetwork/6.8.0
+-IC:/Qt/qtbase-6.8/build/include/QtNetwork/6.8.0/QtNetwork
+-IC:/Qt/qtbase-6.8/src/network/../3rdparty/zlib/src
+-IC:/Qt/qtbase-6.8/src/network/../3rdparty/libpsl
+-IC:/Qt/qtbase-6.8/build/include
+-IC:/Qt/qtbase-6.8/build/include/QtCore
+-IC:/Qt/qtbase-6.8/mkspecs/win32-g++
+-IC:/Qt/qtbase-6.8/build/include
+-IC:/Qt/qtbase-6.8/build/src/corelib
+-IC:/Qt/qtbase-6.8/build/include/QtCore/6.8.0
+-IC:/Qt/qtbase-6.8/build/include/QtCore/6.8.0/QtCore

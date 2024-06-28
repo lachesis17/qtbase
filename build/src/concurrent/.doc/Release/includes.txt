@@ -1,0 +1,12 @@
+-IC:/Qt/qtbase-6.8/build/src/concurrent/Concurrent_autogen/include
+-IC:/Qt/qtbase-6.8/build/include
+-IC:/Qt/qtbase-6.8/build/include/QtConcurrent
+-IC:/Qt/qtbase-6.8/src/concurrent
+-IC:/Qt/qtbase-6.8/build/src/concurrent
+-IC:/Qt/qtbase-6.8/build/include
+-IC:/Qt/qtbase-6.8/build/include/QtCore
+-IC:/Qt/qtbase-6.8/mkspecs/win32-g++
+-IC:/Qt/qtbase-6.8/build/include
+-IC:/Qt/qtbase-6.8/build/src/corelib
+-IC:/Qt/qtbase-6.8/build/include/QtCore/6.8.0
+-IC:/Qt/qtbase-6.8/build/include/QtCore/6.8.0/QtCore

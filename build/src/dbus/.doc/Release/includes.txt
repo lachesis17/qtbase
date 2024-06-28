@@ -1,0 +1,14 @@
+-IC:/Qt/qtbase-6.8/build/src/dbus/DBus_autogen/include
+-IC:/Qt/qtbase-6.8/build/include
+-IC:/Qt/qtbase-6.8/build/include/QtDBus
+-IC:/Qt/qtbase-6.8/src/dbus
+-IC:/Qt/qtbase-6.8/build/src/dbus
+-IC:/Qt/qtbase-6.8/build/include/QtDBus/6.8.0
+-IC:/Qt/qtbase-6.8/build/include/QtDBus/6.8.0/QtDBus
+-IC:/Qt/qtbase-6.8/build/include
+-IC:/Qt/qtbase-6.8/build/include/QtCore
+-IC:/Qt/qtbase-6.8/mkspecs/win32-g++
+-IC:/Qt/qtbase-6.8/build/include
+-IC:/Qt/qtbase-6.8/build/src/corelib
+-IC:/Qt/qtbase-6.8/build/include/QtCore/6.8.0
+-IC:/Qt/qtbase-6.8/build/include/QtCore/6.8.0/QtCore

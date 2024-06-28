@@ -1,0 +1,16 @@
+-IC:/Qt/qtbase-6.8/qmake
+-IC:/Qt/qtbase-6.8/build/qmake
+-IC:/Qt/qtbase-6.8/qmake/generators
+-IC:/Qt/qtbase-6.8/qmake/generators/mac
+-IC:/Qt/qtbase-6.8/qmake/generators/unix
+-IC:/Qt/qtbase-6.8/qmake/generators/win32
+-IC:/Qt/qtbase-6.8/qmake/library
+-IC:/Qt/qtbase-6.8/qmake
+-IC:/Qt/qtbase-6.8/qmake/library
+-IC:/Qt/qtbase-6.8/mkspecs/win32-g++
+-IC:/Qt/qtbase-6.8/build/include
+-IC:/Qt/qtbase-6.8/build/src/corelib
+-IC:/Qt/qtbase-6.8/build/include/QtCore/6.8.0
+-IC:/Qt/qtbase-6.8/build/include/QtCore/6.8.0/QtCore
+-IC:/Qt/qtbase-6.8/build/include
+-IC:/Qt/qtbase-6.8/build/include/QtCore
